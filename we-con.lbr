@@ -169,8 +169,8 @@
 <smd name="D+" x="-3.45" y="1" dx="4" dy="1" layer="1" roundness="10" rot="R180"/>
 <smd name="GND" x="-3.45" y="3.25" dx="4" dy="1.5" layer="1" roundness="10" rot="R180"/>
 <text x="0" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
-<circle x="0" y="6.5659" radius="1.4" width="0.5" layer="31"/>
-<circle x="0" y="-6.5659" radius="1.4" width="0.5" layer="31"/>
+<wire x1="-1.27" y1="6.6675" x2="1.27" y2="6.6675" width="0.6096" layer="31" curve="-180"/>
+<wire x1="1.27" y1="-6.6675" x2="-1.27" y2="-6.6675" width="0.6096" layer="31" curve="-180"/>
 </package>
 <package name="USB-MB-H">
 <description>USB Series Mini-B Hole Mounted</description>
@@ -3514,8 +3514,8 @@ USB 2.0 - AU-Y1006-2-R&lt;br&gt;</description>
 <wire x1="8.89" y1="-4.445" x2="8.89" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="8.89" y1="-1.27" x2="2.54" y2="-0.635" width="0.127" layer="21"/>
 <text x="0" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
-<circle x="0" y="6.57" radius="1.4" width="0.5" layer="31"/>
-<circle x="0" y="-6.57" radius="1.4" width="0.5" layer="31"/>
+<wire x1="1.27" y1="-6.6675" x2="-1.27" y2="-6.6675" width="0.6096" layer="31" curve="-180"/>
+<wire x1="-1.27" y1="6.6675" x2="1.27" y2="6.6675" width="0.6096" layer="31" curve="-180"/>
 </package>
 <package name="HDMI_10029449">
 <description>FCI 10029449 (HDMI Type A)</description>
@@ -3663,6 +3663,26 @@ USB 2.0 - AU-Y1006-2-R&lt;br&gt;</description>
 <wire x1="-1.6" y1="4.8" x2="-1.1" y2="5.3" width="0" layer="46" curve="-90"/>
 <wire x1="-1.1" y1="5.3" x2="1.1" y2="5.3" width="0" layer="46"/>
 <wire x1="1.1" y1="5.3" x2="1.6" y2="4.8" width="0" layer="46" curve="-90"/>
+</package>
+<package name="JST_PH3-SM4">
+<smd name="1" x="-3.81" y="2" dx="1" dy="3.5" layer="1" roundness="20" rot="R270"/>
+<smd name="2" x="-3.81" y="0" dx="1" dy="3.5" layer="1" roundness="20" rot="R270"/>
+<smd name="3" x="-3.81" y="-2" dx="1" dy="3.5" layer="1" roundness="20" rot="R270"/>
+<smd name="P$4" x="1.69" y="4.35" dx="3.4" dy="1.5" layer="1" roundness="20"/>
+<smd name="P$5" x="1.69" y="-4.35" dx="3.4" dy="1.5" layer="1" roundness="20"/>
+<wire x1="3.69" y1="5.3" x2="-3.81" y2="5.3" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="5.3" x2="-3.81" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="-5.3" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-5.3" x2="3.69" y2="-5.3" width="0.127" layer="21"/>
+<wire x1="3.69" y1="5.3" x2="3.69" y2="-5.3" width="0.127" layer="21"/>
+<text x="5.08" y="0" size="0.8128" layer="21" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="2" x2="0" y2="2" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="-2" x2="0" y2="-2" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="5.08" x2="-1.27" y2="2" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="2" x2="-1.27" y2="0" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-2" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="-2" x2="-1.27" y2="-5.08" width="0.3048" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -6432,6 +6452,23 @@ USB 2.0 - AU-Y1006-2-R&lt;br&gt;</description>
 <connect gate="P7" pin="1" pad="7"/>
 <connect gate="P8" pin="1" pad="8"/>
 <connect gate="P9" pin="1" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST_PH_3" prefix="C">
+<gates>
+<gate name="G$1" symbol="MA03-1" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_PH3-SM4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>

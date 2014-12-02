@@ -146,8 +146,8 @@
 <smd name="4" x="-2.25" y="-2.55" dx="0.7" dy="1.5" layer="1" roundness="10"/>
 <smd name="5" x="0.75" y="-2.55" dx="0.7" dy="1.5" layer="1" roundness="10"/>
 <smd name="6" x="2.25" y="-2.55" dx="0.7" dy="1.5" layer="1" roundness="10"/>
-<hole x="-1.5" y="0" drill="0.9"/>
-<hole x="1.5" y="0" drill="0.9"/>
+<hole x="-1.5" y="0" drill="1"/>
+<hole x="1.5" y="0" drill="1"/>
 <rectangle x1="-4.15" y1="1.4" x2="-3.15" y2="2.2" layer="1"/>
 <rectangle x1="-4.15" y1="-2.2" x2="-3.15" y2="-1.4" layer="1"/>
 <rectangle x1="3.15" y1="1.4" x2="4.15" y2="2.2" layer="1"/>
