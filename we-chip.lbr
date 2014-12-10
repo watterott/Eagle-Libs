@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -3196,6 +3196,38 @@
 <pin name="SUSPEND" x="17.78" y="-20.32" length="middle" rot="R180"/>
 <pin name="VBUS" x="-17.78" y="5.08" length="middle" direction="pwr"/>
 </symbol>
+<symbol name="TCA9535">
+<pin name="GND" x="-15.24" y="-20.32" length="middle"/>
+<pin name="VCC" x="-15.24" y="-15.24" length="middle"/>
+<pin name="A2" x="-15.24" y="-2.54" length="middle"/>
+<pin name="A1" x="-15.24" y="0" length="middle"/>
+<pin name="A0" x="-15.24" y="2.54" length="middle"/>
+<pin name="INT" x="-15.24" y="15.24" length="middle"/>
+<pin name="SDA" x="-15.24" y="17.78" length="middle"/>
+<pin name="SCL" x="-15.24" y="20.32" length="middle"/>
+<pin name="P0" x="15.24" y="20.32" length="middle" rot="R180"/>
+<pin name="P1" x="15.24" y="17.78" length="middle" rot="R180"/>
+<pin name="P2" x="15.24" y="15.24" length="middle" rot="R180"/>
+<pin name="P3" x="15.24" y="12.7" length="middle" rot="R180"/>
+<pin name="P4" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="P5" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="P6" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="P7" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="P10" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="P11" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="P12" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="P13" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="P14" x="15.24" y="-12.7" length="middle" rot="R180"/>
+<pin name="P15" x="15.24" y="-15.24" length="middle" rot="R180"/>
+<pin name="P16" x="15.24" y="-17.78" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="22.86" x2="-10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-22.86" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="22.86" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
+<text x="-10.16" y="25.4" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-10.16" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="P17" x="15.24" y="-20.32" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="74*244" prefix="IC">
@@ -4364,7 +4396,9 @@ HM-13 - BT 4.0 EDR+BLE&lt;br&gt;</description>
 <connect gate="IC" pin="VCC" pad="15"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY" value="ATTINY85-20MURDKR-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4516,6 +4550,45 @@ BT 4.1 Low Energy (BLE)</description>
 <connect gate="IC" pin="VCC" pad="6"/>
 <connect gate="IC" pin="VCCIO" pad="5"/>
 <connect gate="IC" pin="VPP" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TCA9535" prefix="IC">
+<description>TI TCA9535 16-Bit I2C I/O Expander</description>
+<gates>
+<gate name="IC" symbol="TCA9535" x="0" y="0"/>
+</gates>
+<devices>
+<device name="RTWR" package="QFN24-PAD">
+<connects>
+<connect gate="IC" pin="A0" pad="18"/>
+<connect gate="IC" pin="A1" pad="23"/>
+<connect gate="IC" pin="A2" pad="24"/>
+<connect gate="IC" pin="GND" pad="9"/>
+<connect gate="IC" pin="INT" pad="22"/>
+<connect gate="IC" pin="P0" pad="1"/>
+<connect gate="IC" pin="P1" pad="2"/>
+<connect gate="IC" pin="P10" pad="10"/>
+<connect gate="IC" pin="P11" pad="11"/>
+<connect gate="IC" pin="P12" pad="12"/>
+<connect gate="IC" pin="P13" pad="13"/>
+<connect gate="IC" pin="P14" pad="14"/>
+<connect gate="IC" pin="P15" pad="15"/>
+<connect gate="IC" pin="P16" pad="16"/>
+<connect gate="IC" pin="P17" pad="17"/>
+<connect gate="IC" pin="P2" pad="3"/>
+<connect gate="IC" pin="P3" pad="4"/>
+<connect gate="IC" pin="P4" pad="5"/>
+<connect gate="IC" pin="P5" pad="6"/>
+<connect gate="IC" pin="P6" pad="7"/>
+<connect gate="IC" pin="P7" pad="8"/>
+<connect gate="IC" pin="SCL" pad="19"/>
+<connect gate="IC" pin="SDA" pad="20"/>
+<connect gate="IC" pin="VCC" pad="21"/>
 </connects>
 <technologies>
 <technology name=""/>

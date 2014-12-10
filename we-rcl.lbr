@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -557,8 +557,8 @@
 <rectangle x1="-0.3048" y1="-0.2286" x2="0.3048" y2="1.3462" layer="21" rot="R270"/>
 </package>
 <package name="SOD106">
-<wire x1="0.7874" y1="-1.8208" x2="0.7874" y2="1.8208" width="0.1524" layer="21"/>
-<wire x1="-0.7874" y1="-1.8208" x2="-0.7874" y2="1.8208" width="0.1524" layer="21"/>
+<wire x1="0.7874" y1="-1.8208" x2="0.7874" y2="1.8208" width="0.127" layer="21"/>
+<wire x1="-0.7874" y1="-1.8208" x2="-0.7874" y2="1.8208" width="0.127" layer="21"/>
 <wire x1="0.6" y1="-0.28575" x2="0" y2="0.71425" width="0.2032" layer="21"/>
 <wire x1="0" y1="0.71425" x2="-0.6" y2="-0.28575" width="0.2032" layer="21"/>
 <wire x1="-0.6" y1="-0.28575" x2="0.6" y2="-0.28575" width="0.2032" layer="21"/>
@@ -571,10 +571,10 @@
 <rectangle x1="-0.3048" y1="0.11265" x2="0.3048" y2="1.68745" layer="21" rot="R270"/>
 </package>
 <package name="SOD110">
-<wire x1="0.5" y1="1" x2="0.5" y2="-1.05" width="0.1016" layer="21"/>
-<wire x1="0.5" y1="-1.05" x2="-0.5" y2="-1.05" width="0.1016" layer="21"/>
-<wire x1="-0.5" y1="-1.05" x2="-0.5" y2="1" width="0.1016" layer="21"/>
-<wire x1="-0.5" y1="1" x2="0.5" y2="1" width="0.1016" layer="21"/>
+<wire x1="0.5" y1="1" x2="0.5" y2="-1.05" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-1.05" x2="-0.5" y2="-1.05" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-1.05" x2="-0.5" y2="1" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="1" x2="0.5" y2="1" width="0.127" layer="21"/>
 <smd name="C" x="0" y="0.95" dx="0.8" dy="1" layer="1" roundness="20" rot="R270"/>
 <smd name="A" x="0" y="-0.95" dx="0.8" dy="1" layer="1" roundness="20" rot="R270"/>
 <text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
@@ -584,7 +584,7 @@
 <wire x1="0" y1="0.373" x2="-0.44125" y2="-0.3095" width="0.127" layer="21"/>
 <wire x1="-0.44125" y1="-0.3095" x2="0.44125" y2="-0.3095" width="0.127" layer="21"/>
 </package>
-<package name="TSFP3">
+<package name="SOT723">
 <wire x1="0.5" y1="0.6" x2="0.5" y2="-0.6" width="0.127" layer="21"/>
 <wire x1="0.5" y1="-0.6" x2="-0.5" y2="-0.6" width="0.127" layer="21"/>
 <wire x1="-0.5" y1="-0.6" x2="-0.5" y2="0.6" width="0.127" layer="21"/>
@@ -629,6 +629,46 @@
 <package name="PAD-0.80X1.60_NC">
 <smd name="1" x="0" y="0" dx="0.8" dy="1.6" layer="1" roundness="20" cream="no"/>
 <text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+</package>
+<package name="POT_EVM3Y">
+<wire x1="-1.65" y1="-1.992" x2="1.65" y2="-1.992" width="0.127" layer="21"/>
+<wire x1="1.65" y1="-1.992" x2="1.65" y2="1.992" width="0.127" layer="21"/>
+<wire x1="1.65" y1="1.992" x2="-1.65" y2="1.992" width="0.127" layer="21"/>
+<wire x1="-1.65" y1="1.992" x2="-1.65" y2="-1.992" width="0.127" layer="21"/>
+<smd name="1" x="-1" y="-1.6" dx="1.2" dy="1.2" layer="1" roundness="20"/>
+<smd name="2" x="0" y="1.65" dx="1.6" dy="1.5" layer="1" roundness="20"/>
+<smd name="3" x="1" y="-1.6" dx="1.2" dy="1.2" layer="1" roundness="20"/>
+<text x="-2.159" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<text x="2.159" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center">&gt;VALUE</text>
+<wire x1="0" y1="-0.8" x2="0" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="0" x2="0.8" y2="0" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="0.8" width="0.127" layer="21"/>
+</package>
+<package name="PAD-2.54X5.08">
+<description>Pad with cream</description>
+<smd name="1" x="0" y="0" dx="2.54" dy="5.08" layer="1" roundness="20"/>
+<text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+</package>
+<package name="PAD-2.54X5.08_NC">
+<description>Pad without cream</description>
+<smd name="1" x="0" y="0" dx="2.54" dy="5.08" layer="1" roundness="20" cream="no"/>
+<text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+</package>
+<package name="SOD882">
+<wire x1="0.25" y1="0.45" x2="0.25" y2="-0.2" width="0.127" layer="21"/>
+<wire x1="0.25" y1="-0.2" x2="0.25" y2="-0.45" width="0.127" layer="21"/>
+<wire x1="0.25" y1="-0.45" x2="-0.25" y2="-0.45" width="0.127" layer="21"/>
+<wire x1="-0.25" y1="-0.45" x2="-0.25" y2="-0.2" width="0.127" layer="21"/>
+<wire x1="-0.25" y1="-0.2" x2="-0.25" y2="0.45" width="0.127" layer="21"/>
+<wire x1="-0.25" y1="0.45" x2="0.25" y2="0.45" width="0.127" layer="21"/>
+<smd name="C" x="0" y="0.35" dx="0.65" dy="0.4" layer="1" roundness="20"/>
+<smd name="A" x="0" y="-0.35" dx="0.65" dy="0.4" layer="1" roundness="20"/>
+<text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<text x="1.27" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<rectangle x1="-0.079375" y1="0.020625" x2="0.079375" y2="0.620625" layer="21" rot="R270"/>
+<wire x1="0.25" y1="-0.2" x2="0" y2="0.3" width="0.127" layer="21"/>
+<wire x1="0" y1="0.3" x2="-0.25" y2="-0.2" width="0.127" layer="21"/>
+<wire x1="-0.25" y1="-0.2" x2="0.25" y2="-0.2" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -998,7 +1038,7 @@
 </deviceset>
 <deviceset name="RESISTOR" prefix="R" uservalue="yes">
 <description>Resistors&lt;br&gt;
-all kinds in 0603</description>
+all kinds in 0603 and 0402</description>
 <gates>
 <gate name="R" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -1043,9 +1083,9 @@ all kinds in 0603</description>
 </deviceset>
 <deviceset name="CAPACITOR" prefix="C" uservalue="yes">
 <description>Capacitors&lt;br&gt;
-...2.2uF -&gt; 0603&lt;br&gt;
-...4.7uF -&gt; 0805&lt;br&gt;
-...10uF -&gt; 1206&lt;br&gt;</description>
+...4.7uF @ 6.3V -&gt; 0402&lt;br&gt;
+...10uF @ 16V -&gt; 0603&lt;br&gt;
+...22uF @ 25V -&gt; 0805&lt;br&gt;</description>
 <gates>
 <gate name="C" symbol="CAPACITOR" x="0" y="0"/>
 </gates>
@@ -1212,6 +1252,19 @@ all kinds in 0603</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="-2.54X5.08" package="PAD-2.54X5.08">
+<connects>
+<connect gate="X" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2.54X5.08_NC" package="PAD-2.54X5.08_NC">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="D_BAS70" prefix="D">
@@ -1270,6 +1323,15 @@ all kinds in 0603</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="-SOD882" package="SOD882">
+<connects>
+<connect gate="D" pin="A" pad="A"/>
+<connect gate="D" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="FUSE" prefix="F" uservalue="yes">
@@ -1309,12 +1371,12 @@ all kinds in 0603</description>
 </deviceset>
 <deviceset name="D_ESD5V3U2U" prefix="D">
 <description>TVS Diode - Uni-directional Ultra Low ESD / Transient Protection Diode
-(0.4pF@1MHz)</description>
+(0.4pF@1MHz, 5V)</description>
 <gates>
 <gate name="D" symbol="DIODE_ACCA_CA_2X" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-03F" package="TSFP3">
+<device name="-03F" package="SOT723">
 <connects>
 <connect gate="D" pin="A" pad="3"/>
 <connect gate="D" pin="C1" pad="1"/>
@@ -1370,6 +1432,16 @@ all kinds in 0603</description>
 </gates>
 <devices>
 <device name="" package="POT_SMD">
+<connects>
+<connect gate="R" pin="A" pad="1"/>
+<connect gate="R" pin="E" pad="3"/>
+<connect gate="R" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="EVM3Y" package="POT_EVM3Y">
 <connects>
 <connect gate="R" pin="A" pad="1"/>
 <connect gate="R" pin="E" pad="3"/>
