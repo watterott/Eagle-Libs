@@ -7851,7 +7851,7 @@
 <deviceset name="LOGO" prefix="LOGO">
 <description>Watterott electronic Logo</description>
 <gates>
-<gate name="G$1" symbol="LOGO" x="0" y="0"/>
+<gate name="L" symbol="LOGO" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-PLACE" package="LOGO_TPLACE">
@@ -7894,7 +7894,7 @@
 <deviceset name="OSHW_LOGO" prefix="LOGO">
 <description>Open-Source-Hardware Logo</description>
 <gates>
-<gate name="G$1" symbol="OSHW_LOGO" x="0" y="0"/>
+<gate name="L" symbol="OSHW_LOGO" x="0" y="0"/>
 </gates>
 <devices>
 <device name="X0100" package="OSHW_6X100">
@@ -7922,7 +7922,7 @@
 <deviceset name="WEEE_LOGO" prefix="LOGO">
 <description>WEEE Logo</description>
 <gates>
-<gate name="G$1" symbol="WEEE_LOGO" x="0" y="0"/>
+<gate name="L" symbol="WEEE_LOGO" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-M" package="WEEE_TPLAC_M">
@@ -7937,10 +7937,10 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="FRAME-A3L" prefix="FRAME" uservalue="yes">
+<deviceset name="FRAME-A3L" prefix="FRAME">
 <description>Frame: DIN A3 Landscape</description>
 <gates>
-<gate name="G$1" symbol="A3L-LOC" x="0" y="0"/>
+<gate name="F" symbol="A3L-LOC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -7950,10 +7950,10 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="FRAME-A3P" prefix="FRAME" uservalue="yes">
+<deviceset name="FRAME-A3P" prefix="FRAME">
 <description>Frame: DIN A3 Portrait</description>
 <gates>
-<gate name="G$1" symbol="A3P-LOC" x="0" y="0"/>
+<gate name="F" symbol="A3P-LOC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -7963,10 +7963,10 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="FRAME-A4L" prefix="FRAME" uservalue="yes">
+<deviceset name="FRAME-A4L" prefix="FRAME">
 <description>Frame: DIN A4 Landscape</description>
 <gates>
-<gate name="G$1" symbol="A4L-LOC" x="0" y="0"/>
+<gate name="F" symbol="A4L-LOC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -7976,10 +7976,10 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="FRAME-A4P" prefix="FRAME" uservalue="yes">
+<deviceset name="FRAME-A4P" prefix="FRAME">
 <description>Frame: DIN A4 Portrait</description>
 <gates>
-<gate name="G$1" symbol="A4P-LOC" x="0" y="0"/>
+<gate name="F" symbol="A4P-LOC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -7989,10 +7989,10 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="FRAME-A5L" prefix="FRAME" uservalue="yes">
+<deviceset name="FRAME-A5L" prefix="FRAME">
 <description>Frame: DIN A5 Landscape</description>
 <gates>
-<gate name="G$1" symbol="A5L-LOC" x="0" y="0"/>
+<gate name="F" symbol="A5L-LOC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -8002,10 +8002,10 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="FRAME-A5P" prefix="FRAME" uservalue="yes">
+<deviceset name="FRAME-A5P" prefix="FRAME">
 <description>Frame: DIN A5 Portrait</description>
 <gates>
-<gate name="G$1" symbol="A5P-LOC" x="0" y="0"/>
+<gate name="F" symbol="A5P-LOC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
