@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -3867,6 +3867,44 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <pad name="SH@1" x="-7.745" y="-3.05" drill="1.6"/>
 <pad name="SH@2" x="7.745" y="-3.05" drill="1.6"/>
 </package>
+<package name="MA04-2_SMD">
+<wire x1="2.54" y1="4.445" x2="2.54" y2="3.175" width="0.127" layer="21"/>
+<wire x1="2.54" y1="3.175" x2="1.905" y2="2.54" width="0.127" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="2.54" y2="1.905" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="0.635" width="0.127" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="1.905" y2="0" width="0.127" layer="21"/>
+<wire x1="2.54" y1="4.445" x2="1.905" y2="5.08" width="0.127" layer="21"/>
+<wire x1="1.905" y1="0" x2="2.54" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="2.54" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="1.905" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-3.175" x2="1.905" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-2.54" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="0" x2="-2.54" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-1.905" y2="2.54" width="0.127" layer="21"/>
+<wire x1="1.905" y1="5.08" x2="-1.905" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="5.08" x2="-2.54" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="3.175" x2="-2.54" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-2.54" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-2.54" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-3.175" x2="2.54" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-4.445" x2="-2.54" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-5.08" x2="-1.905" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-4.445" x2="1.905" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-5.08" x2="-2.54" y2="-4.445" width="0.127" layer="21"/>
+<smd name="1" x="-3.175" y="3.81" dx="2.54" dy="1.27" layer="1" roundness="20"/>
+<smd name="2" x="3.175" y="3.81" dx="2.54" dy="1.27" layer="1" roundness="20"/>
+<smd name="3" x="-3.175" y="1.27" dx="2.54" dy="1.27" layer="1" roundness="20"/>
+<smd name="4" x="3.175" y="1.27" dx="2.54" dy="1.27" layer="1" roundness="20"/>
+<smd name="5" x="-3.175" y="-1.27" dx="2.54" dy="1.27" layer="1" roundness="20"/>
+<smd name="6" x="3.175" y="-1.27" dx="2.54" dy="1.27" layer="1" roundness="20"/>
+<smd name="7" x="-3.175" y="-3.81" dx="2.54" dy="1.27" layer="1" roundness="20"/>
+<smd name="8" x="3.175" y="-3.81" dx="2.54" dy="1.27" layer="1" roundness="20"/>
+<wire x1="-1.905" y1="2.54" x2="-1.905" y2="5.08" width="0.127" layer="21"/>
+<text x="0" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="USB">
@@ -5253,6 +5291,114 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <wire x1="6.0325" y1="-2.8575" x2="6.0325" y2="-4.1275" width="0.1524" layer="94"/>
 <wire x1="6.0325" y1="-4.1275" x2="6.985" y2="-4.1275" width="0.1524" layer="94"/>
 </symbol>
+<symbol name="MA25-2">
+<wire x1="3.81" y1="-33.02" x2="-3.81" y2="-33.02" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-25.4" x2="2.54" y2="-25.4" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-27.94" x2="2.54" y2="-27.94" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-30.48" x2="2.54" y2="-30.48" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-25.4" x2="-1.27" y2="-25.4" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-27.94" x2="-1.27" y2="-27.94" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-30.48" x2="-1.27" y2="-30.48" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-20.32" x2="2.54" y2="-20.32" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-22.86" x2="2.54" y2="-22.86" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-20.32" x2="-1.27" y2="-20.32" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-22.86" x2="-1.27" y2="-22.86" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-12.7" x2="2.54" y2="-12.7" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-15.24" x2="2.54" y2="-15.24" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-17.78" x2="2.54" y2="-17.78" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-1.27" y2="-12.7" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-15.24" x2="-1.27" y2="-15.24" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="-1.27" y2="-17.78" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-7.62" x2="2.54" y2="-7.62" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-10.16" x2="2.54" y2="-10.16" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-1.27" y2="-7.62" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-1.27" y2="-10.16" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-1.27" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-1.27" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="10.16" x2="2.54" y2="10.16" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="7.62" x2="2.54" y2="7.62" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-1.27" y2="10.16" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-1.27" y2="7.62" width="0.6096" layer="94"/>
+<wire x1="-3.81" y1="33.02" x2="-3.81" y2="-33.02" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-33.02" x2="3.81" y2="33.02" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="33.02" x2="3.81" y2="33.02" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-1.27" y2="12.7" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="15.24" x2="-1.27" y2="15.24" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="-1.27" y2="17.78" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="12.7" x2="2.54" y2="12.7" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="15.24" x2="2.54" y2="15.24" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="17.78" x2="2.54" y2="17.78" width="0.6096" layer="94"/>
+<text x="-3.81" y="-35.56" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-3.81" y="33.782" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="7.62" y="-30.48" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="7.62" y="-27.94" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="5" x="7.62" y="-25.4" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="-7.62" y="-30.48" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="4" x="-7.62" y="-27.94" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="6" x="-7.62" y="-25.4" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="7" x="7.62" y="-22.86" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="9" x="7.62" y="-20.32" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="8" x="-7.62" y="-22.86" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="10" x="-7.62" y="-20.32" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="11" x="7.62" y="-17.78" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="13" x="7.62" y="-15.24" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="15" x="7.62" y="-12.7" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="12" x="-7.62" y="-17.78" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="14" x="-7.62" y="-15.24" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="16" x="-7.62" y="-12.7" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="17" x="7.62" y="-10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="19" x="7.62" y="-7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="18" x="-7.62" y="-10.16" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="20" x="-7.62" y="-7.62" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="21" x="7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="23" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="25" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="22" x="-7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="24" x="-7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="26" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="27" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="29" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="28" x="-7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="30" x="-7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="31" x="7.62" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="33" x="7.62" y="10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="32" x="-7.62" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="34" x="-7.62" y="10.16" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="36" x="-7.62" y="12.7" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="38" x="-7.62" y="15.24" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="40" x="-7.62" y="17.78" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="35" x="7.62" y="12.7" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="37" x="7.62" y="15.24" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="39" x="7.62" y="17.78" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="1.27" y1="25.4" x2="2.54" y2="25.4" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="22.86" x2="2.54" y2="22.86" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="20.32" x2="2.54" y2="20.32" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="25.4" x2="-1.27" y2="25.4" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="22.86" x2="-1.27" y2="22.86" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="20.32" x2="-1.27" y2="20.32" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="30.48" x2="2.54" y2="30.48" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="27.94" x2="2.54" y2="27.94" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="30.48" x2="-1.27" y2="30.48" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="27.94" x2="-1.27" y2="27.94" width="0.6096" layer="94"/>
+<pin name="41" x="7.62" y="20.32" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="43" x="7.62" y="22.86" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="45" x="7.62" y="25.4" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="42" x="-7.62" y="20.32" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="44" x="-7.62" y="22.86" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="46" x="-7.62" y="25.4" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="47" x="7.62" y="27.94" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="49" x="7.62" y="30.48" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="48" x="-7.62" y="27.94" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="50" x="-7.62" y="30.48" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="USB" prefix="J">
@@ -5438,7 +5584,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="MA03-1" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA03-1" x="0" y="0"/>
 </gates>
@@ -5450,18 +5596,13 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="3" pad="3"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA03-2" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA03-2" x="0" y="0"/>
 </gates>
@@ -5477,17 +5618,13 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA04-1" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA04-1" x="0" y="0"/>
 </gates>
@@ -5501,17 +5638,13 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA04-2" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA04-2" x="0" y="0"/>
 </gates>
@@ -5529,17 +5662,28 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="S" package="MA04-2_SMD">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="3" pad="3"/>
+<connect gate="J" pin="4" pad="4"/>
+<connect gate="J" pin="5" pad="5"/>
+<connect gate="J" pin="6" pad="6"/>
+<connect gate="J" pin="7" pad="7"/>
+<connect gate="J" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA05-1" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA05-1" x="0" y="0"/>
 </gates>
@@ -5554,17 +5698,13 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA05-2" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA05-2" x="0" y="0"/>
 </gates>
@@ -5584,17 +5724,13 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA06-1" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA06-1" x="0" y="0"/>
 </gates>
@@ -5610,17 +5746,13 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA06-2" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA06-2" x="0" y="0"/>
 </gates>
@@ -5642,17 +5774,13 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA07-1" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA07-1" x="0" y="0"/>
 </gates>
@@ -5669,17 +5797,13 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA07-2" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA07-2" x="0" y="0"/>
 </gates>
@@ -5703,17 +5827,13 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA08-1" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA08-1" x="0" y="0"/>
 </gates>
@@ -5731,17 +5851,13 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA08-2" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA08-2" x="0" y="0"/>
 </gates>
@@ -5767,17 +5883,36 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="S" package="MA08-2_SMD">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="10" pad="10"/>
+<connect gate="J" pin="11" pad="11"/>
+<connect gate="J" pin="12" pad="12"/>
+<connect gate="J" pin="13" pad="13"/>
+<connect gate="J" pin="14" pad="14"/>
+<connect gate="J" pin="15" pad="15"/>
+<connect gate="J" pin="16" pad="16"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="3" pad="3"/>
+<connect gate="J" pin="4" pad="4"/>
+<connect gate="J" pin="5" pad="5"/>
+<connect gate="J" pin="6" pad="6"/>
+<connect gate="J" pin="7" pad="7"/>
+<connect gate="J" pin="8" pad="8"/>
+<connect gate="J" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA09-1" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA09-1" x="0" y="0"/>
 </gates>
@@ -5796,17 +5931,13 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA09-2" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA09-2" x="0" y="0"/>
 </gates>
@@ -5834,17 +5965,13 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA10-1" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA10-1" x="0" y="0"/>
 </gates>
@@ -5864,17 +5991,13 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA10-2" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA10-2" x="0" y="0"/>
 </gates>
@@ -5904,17 +6027,40 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="S" package="MA10-2_SMD">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="10" pad="10"/>
+<connect gate="J" pin="11" pad="11"/>
+<connect gate="J" pin="12" pad="12"/>
+<connect gate="J" pin="13" pad="13"/>
+<connect gate="J" pin="14" pad="14"/>
+<connect gate="J" pin="15" pad="15"/>
+<connect gate="J" pin="16" pad="16"/>
+<connect gate="J" pin="17" pad="17"/>
+<connect gate="J" pin="18" pad="18"/>
+<connect gate="J" pin="19" pad="19"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="20" pad="20"/>
+<connect gate="J" pin="3" pad="3"/>
+<connect gate="J" pin="4" pad="4"/>
+<connect gate="J" pin="5" pad="5"/>
+<connect gate="J" pin="6" pad="6"/>
+<connect gate="J" pin="7" pad="7"/>
+<connect gate="J" pin="8" pad="8"/>
+<connect gate="J" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA12-1" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA12-1" x="0" y="0"/>
 </gates>
@@ -5936,17 +6082,13 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA12-2" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA12-2" x="0" y="0"/>
 </gates>
@@ -5980,17 +6122,13 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA13-1" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA13-1" x="0" y="0"/>
 </gates>
@@ -6013,17 +6151,13 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA13-2" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA13-2" x="0" y="0"/>
 </gates>
@@ -6059,17 +6193,13 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA17-2" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA17-2" x="0" y="0"/>
 </gates>
@@ -6113,17 +6243,54 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="A" package="MA17-2_SMD">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="10" pad="10"/>
+<connect gate="J" pin="11" pad="11"/>
+<connect gate="J" pin="12" pad="12"/>
+<connect gate="J" pin="13" pad="13"/>
+<connect gate="J" pin="14" pad="14"/>
+<connect gate="J" pin="15" pad="15"/>
+<connect gate="J" pin="16" pad="16"/>
+<connect gate="J" pin="17" pad="17"/>
+<connect gate="J" pin="18" pad="18"/>
+<connect gate="J" pin="19" pad="19"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="20" pad="20"/>
+<connect gate="J" pin="21" pad="21"/>
+<connect gate="J" pin="22" pad="22"/>
+<connect gate="J" pin="23" pad="23"/>
+<connect gate="J" pin="24" pad="24"/>
+<connect gate="J" pin="25" pad="25"/>
+<connect gate="J" pin="26" pad="26"/>
+<connect gate="J" pin="27" pad="27"/>
+<connect gate="J" pin="28" pad="28"/>
+<connect gate="J" pin="29" pad="29"/>
+<connect gate="J" pin="3" pad="3"/>
+<connect gate="J" pin="30" pad="30"/>
+<connect gate="J" pin="31" pad="31"/>
+<connect gate="J" pin="32" pad="32"/>
+<connect gate="J" pin="33" pad="33"/>
+<connect gate="J" pin="34" pad="34"/>
+<connect gate="J" pin="4" pad="4"/>
+<connect gate="J" pin="5" pad="5"/>
+<connect gate="J" pin="6" pad="6"/>
+<connect gate="J" pin="7" pad="7"/>
+<connect gate="J" pin="8" pad="8"/>
+<connect gate="J" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA18-2" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA18-2" x="0" y="0"/>
 </gates>
@@ -6168,18 +6335,56 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
+<technology name=""/>
+</technologies>
+</device>
+<device name="S" package="MA18-2_SMD">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="10" pad="10"/>
+<connect gate="J" pin="11" pad="11"/>
+<connect gate="J" pin="12" pad="12"/>
+<connect gate="J" pin="13" pad="13"/>
+<connect gate="J" pin="14" pad="14"/>
+<connect gate="J" pin="15" pad="15"/>
+<connect gate="J" pin="16" pad="16"/>
+<connect gate="J" pin="17" pad="17"/>
+<connect gate="J" pin="18" pad="18"/>
+<connect gate="J" pin="19" pad="19"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="20" pad="20"/>
+<connect gate="J" pin="21" pad="21"/>
+<connect gate="J" pin="22" pad="22"/>
+<connect gate="J" pin="23" pad="23"/>
+<connect gate="J" pin="24" pad="24"/>
+<connect gate="J" pin="25" pad="25"/>
+<connect gate="J" pin="26" pad="26"/>
+<connect gate="J" pin="27" pad="27"/>
+<connect gate="J" pin="28" pad="28"/>
+<connect gate="J" pin="29" pad="29"/>
+<connect gate="J" pin="3" pad="3"/>
+<connect gate="J" pin="30" pad="30"/>
+<connect gate="J" pin="31" pad="31"/>
+<connect gate="J" pin="32" pad="32"/>
+<connect gate="J" pin="33" pad="33"/>
+<connect gate="J" pin="34" pad="34"/>
+<connect gate="J" pin="35" pad="35"/>
+<connect gate="J" pin="36" pad="36"/>
+<connect gate="J" pin="4" pad="4"/>
+<connect gate="J" pin="5" pad="5"/>
+<connect gate="J" pin="6" pad="6"/>
+<connect gate="J" pin="7" pad="7"/>
+<connect gate="J" pin="8" pad="8"/>
+<connect gate="J" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA20-1" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA20-1" x="0" y="0"/>
 </gates>
@@ -6209,17 +6414,13 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MA20-2" prefix="J">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA20-2" x="0" y="0"/>
 </gates>
@@ -6269,17 +6470,60 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="S" package="MA20-2_SMD">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="10" pad="10"/>
+<connect gate="J" pin="11" pad="11"/>
+<connect gate="J" pin="12" pad="12"/>
+<connect gate="J" pin="13" pad="13"/>
+<connect gate="J" pin="14" pad="14"/>
+<connect gate="J" pin="15" pad="15"/>
+<connect gate="J" pin="16" pad="16"/>
+<connect gate="J" pin="17" pad="17"/>
+<connect gate="J" pin="18" pad="18"/>
+<connect gate="J" pin="19" pad="19"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="20" pad="20"/>
+<connect gate="J" pin="21" pad="21"/>
+<connect gate="J" pin="22" pad="22"/>
+<connect gate="J" pin="23" pad="23"/>
+<connect gate="J" pin="24" pad="24"/>
+<connect gate="J" pin="25" pad="25"/>
+<connect gate="J" pin="26" pad="26"/>
+<connect gate="J" pin="27" pad="27"/>
+<connect gate="J" pin="28" pad="28"/>
+<connect gate="J" pin="29" pad="29"/>
+<connect gate="J" pin="3" pad="3"/>
+<connect gate="J" pin="30" pad="30"/>
+<connect gate="J" pin="31" pad="31"/>
+<connect gate="J" pin="32" pad="32"/>
+<connect gate="J" pin="33" pad="33"/>
+<connect gate="J" pin="34" pad="34"/>
+<connect gate="J" pin="35" pad="35"/>
+<connect gate="J" pin="36" pad="36"/>
+<connect gate="J" pin="37" pad="37"/>
+<connect gate="J" pin="38" pad="38"/>
+<connect gate="J" pin="39" pad="39"/>
+<connect gate="J" pin="4" pad="4"/>
+<connect gate="J" pin="40" pad="40"/>
+<connect gate="J" pin="5" pad="5"/>
+<connect gate="J" pin="6" pad="6"/>
+<connect gate="J" pin="7" pad="7"/>
+<connect gate="J" pin="8" pad="8"/>
+<connect gate="J" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="FE06-1" prefix="J">
-<description>&lt;b&gt;FEMALE HEADER&lt;/b&gt;</description>
+<description>Female Header</description>
 <gates>
 <gate name="J" symbol="FE06-1" x="0" y="0"/>
 </gates>
@@ -6294,12 +6538,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="6" pad="6"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6553,7 +6792,7 @@ FCI 62684-401100AHLF -&gt; 40 Pins 0.5mm bottom contact&lt;br&gt;</description>
 <gate name="J" symbol="DC-JACK" x="0" y="0"/>
 </gates>
 <devices>
-<device name="&quot;&quot;" package="DC-JACK">
+<device name="" package="DC-JACK">
 <connects>
 <connect gate="J" pin="1" pad="1"/>
 <connect gate="J" pin="2" pad="2"/>
@@ -6916,7 +7155,7 @@ FCI HFW4R-2STE1LF -&gt; 4 Pin 1mm top contact&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="MA18-1" prefix="J">
-<description>Pin header</description>
+<description>Pin Header</description>
 <gates>
 <gate name="G$1" symbol="MA18-1" x="0" y="0"/>
 </gates>
@@ -6968,6 +7207,70 @@ FCI HFW4R-2STE1LF -&gt; 4 Pin 1mm top contact&lt;br&gt;</description>
 <connect gate="RJ" pin="8" pad="8"/>
 <connect gate="RJ" pin="9" pad="9"/>
 <connect gate="RJ" pin="S" pad="SH@1 SH@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MA25-2" prefix="J">
+<gates>
+<gate name="J" symbol="MA25-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MA25-2">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="10" pad="10"/>
+<connect gate="J" pin="11" pad="11"/>
+<connect gate="J" pin="12" pad="12"/>
+<connect gate="J" pin="13" pad="13"/>
+<connect gate="J" pin="14" pad="14"/>
+<connect gate="J" pin="15" pad="15"/>
+<connect gate="J" pin="16" pad="16"/>
+<connect gate="J" pin="17" pad="17"/>
+<connect gate="J" pin="18" pad="18"/>
+<connect gate="J" pin="19" pad="19"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="20" pad="20"/>
+<connect gate="J" pin="21" pad="21"/>
+<connect gate="J" pin="22" pad="22"/>
+<connect gate="J" pin="23" pad="23"/>
+<connect gate="J" pin="24" pad="24"/>
+<connect gate="J" pin="25" pad="25"/>
+<connect gate="J" pin="26" pad="26"/>
+<connect gate="J" pin="27" pad="27"/>
+<connect gate="J" pin="28" pad="28"/>
+<connect gate="J" pin="29" pad="29"/>
+<connect gate="J" pin="3" pad="3"/>
+<connect gate="J" pin="30" pad="30"/>
+<connect gate="J" pin="31" pad="31"/>
+<connect gate="J" pin="32" pad="32"/>
+<connect gate="J" pin="33" pad="33"/>
+<connect gate="J" pin="34" pad="34"/>
+<connect gate="J" pin="35" pad="35"/>
+<connect gate="J" pin="36" pad="36"/>
+<connect gate="J" pin="37" pad="37"/>
+<connect gate="J" pin="38" pad="38"/>
+<connect gate="J" pin="39" pad="39"/>
+<connect gate="J" pin="4" pad="4"/>
+<connect gate="J" pin="40" pad="40"/>
+<connect gate="J" pin="41" pad="41"/>
+<connect gate="J" pin="42" pad="42"/>
+<connect gate="J" pin="43" pad="43"/>
+<connect gate="J" pin="44" pad="44"/>
+<connect gate="J" pin="45" pad="45"/>
+<connect gate="J" pin="46" pad="46"/>
+<connect gate="J" pin="47" pad="47"/>
+<connect gate="J" pin="48" pad="48"/>
+<connect gate="J" pin="49" pad="49"/>
+<connect gate="J" pin="5" pad="5"/>
+<connect gate="J" pin="50" pad="50"/>
+<connect gate="J" pin="6" pad="6"/>
+<connect gate="J" pin="7" pad="7"/>
+<connect gate="J" pin="8" pad="8"/>
+<connect gate="J" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
