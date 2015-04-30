@@ -111,12 +111,12 @@
 <wire x1="2.54" y1="-5.08" x2="8.89" y2="-4.445" width="0.127" layer="21"/>
 <wire x1="8.89" y1="-4.445" x2="8.89" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="8.89" y1="-1.27" x2="2.54" y2="-0.635" width="0.127" layer="21"/>
-<pad name="VBUS" x="-2.7178" y="-3.4925" drill="0.9144" rot="R90"/>
-<pad name="D-" x="-2.7178" y="-1.0033" drill="0.9144" rot="R90"/>
-<pad name="D+" x="-2.7178" y="1.0033" drill="0.9144" rot="R90"/>
-<pad name="GND" x="-2.7178" y="3.4925" drill="0.9144" rot="R90"/>
-<pad name="SHLD1" x="0" y="6.5659" drill="2.3114" rot="R90"/>
-<pad name="SHLD2" x="0" y="-6.5659" drill="2.3114" rot="R90"/>
+<pad name="VBUS" x="-2.7178" y="-3.4925" drill="0.9" diameter="1.45" rot="R90"/>
+<pad name="D-" x="-2.7178" y="-1.0033" drill="0.9" diameter="1.45" rot="R90"/>
+<pad name="D+" x="-2.7178" y="1.0033" drill="0.9" diameter="1.45" rot="R90"/>
+<pad name="GND" x="-2.7178" y="3.4925" drill="0.9" diameter="1.45" rot="R90"/>
+<pad name="SHLD1" x="0" y="6.5659" drill="2.3" rot="R90"/>
+<pad name="SHLD2" x="0" y="-6.5659" drill="2.3" rot="R90"/>
 <text x="0" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 </package>
 <package name="USB-B-H">
@@ -131,12 +131,12 @@
 <wire x1="5.08" y1="5.08" x2="11.43" y2="4.445" width="0.127" layer="21"/>
 <wire x1="11.43" y1="4.445" x2="11.43" y2="1.27" width="0.127" layer="21"/>
 <wire x1="11.43" y1="1.27" x2="5.08" y2="0.635" width="0.127" layer="21"/>
-<pad name="VBUS" x="-1.9812" y="1.25" drill="0.9144" rot="R270"/>
-<pad name="D-" x="-1.9812" y="-1.25" drill="0.9144" rot="R270"/>
-<pad name="D+" x="0" y="-1.25" drill="0.9144" rot="R90"/>
-<pad name="GND" x="0" y="1.25" drill="0.9144" rot="R90"/>
-<pad name="SHLD1" x="2.7178" y="6.0198" drill="2.286" rot="R180"/>
-<pad name="SHLD2" x="2.7178" y="-6.0198" drill="2.286" rot="R180"/>
+<pad name="VBUS" x="-1.9812" y="1.25" drill="0.9" diameter="1.45" rot="R270"/>
+<pad name="D-" x="-1.9812" y="-1.25" drill="0.9" diameter="1.45" rot="R270"/>
+<pad name="D+" x="0" y="-1.25" drill="0.9" diameter="1.45" rot="R90"/>
+<pad name="GND" x="0" y="1.25" drill="0.9" diameter="1.45" rot="R90"/>
+<pad name="SHLD1" x="2.7178" y="6.0198" drill="2.3" rot="R180"/>
+<pad name="SHLD2" x="2.7178" y="-6.0198" drill="2.3" rot="R180"/>
 <text x="2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 </package>
 <package name="USB-A-S">
@@ -152,7 +152,7 @@
 <wire x1="8.89" y1="-4.445" x2="8.89" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="8.89" y1="-1.27" x2="2.54" y2="-0.635" width="0.127" layer="21"/>
 <pad name="SHLD1" x="0" y="6.5659" drill="2.3" rot="R90"/>
-<pad name="SHLD2" x="0" y="-6.5659" drill="2.3114" rot="R90"/>
+<pad name="SHLD2" x="0" y="-6.5659" drill="2.3" rot="R90"/>
 <smd name="D-" x="-3.45" y="-1" dx="4" dy="1" layer="1" roundness="10" rot="R180"/>
 <smd name="VBUS" x="-3.45" y="-3.25" dx="4" dy="1.5" layer="1" roundness="10" rot="R180"/>
 <smd name="D+" x="-3.45" y="1" dx="4" dy="1" layer="1" roundness="10" rot="R180"/>
@@ -176,11 +176,11 @@
 <wire x1="3.25" y1="-1.25" x2="-1.75" y2="-0.75" width="0.127" layer="21"/>
 <wire x1="-1.75" y1="-0.75" x2="-1.75" y2="0.75" width="0.127" layer="21"/>
 <wire x1="-1.75" y1="0.75" x2="3.25" y2="1.25" width="0.127" layer="21"/>
-<pad name="VBUS" x="-5.1" y="-1.6" drill="0.8" rot="R180"/>
-<pad name="D+" x="-5.1" y="0" drill="0.8" rot="R180"/>
-<pad name="GND" x="-5.1" y="1.6" drill="0.8" rot="R180"/>
-<pad name="D-" x="-3.9" y="-0.8" drill="0.8" rot="R180"/>
-<pad name="ID" x="-3.9" y="0.8" drill="0.8" rot="R180"/>
+<pad name="VBUS" x="-5.1" y="-1.6" drill="0.8" diameter="1.25" rot="R180"/>
+<pad name="D+" x="-5.1" y="0" drill="0.8" diameter="1.25" rot="R180"/>
+<pad name="GND" x="-5.1" y="1.6" drill="0.8" diameter="1.25" rot="R180"/>
+<pad name="D-" x="-3.9" y="-0.8" drill="0.8" diameter="1.25" rot="R180"/>
+<pad name="ID" x="-3.9" y="0.8" drill="0.8" diameter="1.25" rot="R180"/>
 <pad name="SHLD2" x="0" y="3.65" drill="1.9" rot="R180"/>
 <pad name="SHLD1" x="0" y="-3.65" drill="1.9" rot="R180"/>
 <text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
@@ -191,10 +191,10 @@
 <wire x1="-7.7" y1="-2.6" x2="-7.7" y2="2.6" width="0.127" layer="21"/>
 <wire x1="11.6" y1="-2.6" x2="-7.7" y2="-2.6" width="0.127" layer="21"/>
 <wire x1="11.6" y1="2.6" x2="-7.7" y2="2.6" width="0.127" layer="21"/>
-<pad name="GND" x="-0.73" y="0" drill="0.9" rot="R180"/>
-<pad name="D+" x="-2.73" y="0" drill="0.9" rot="R180"/>
-<pad name="D-" x="-4.73" y="0" drill="0.9" rot="R180"/>
-<pad name="VBUS" x="-6.73" y="0" drill="0.9" rot="R180"/>
+<pad name="GND" x="-0.73" y="0" drill="0.9" diameter="1.45" rot="R180"/>
+<pad name="D+" x="-2.73" y="0" drill="0.9" diameter="1.45" rot="R180"/>
+<pad name="D-" x="-4.73" y="0" drill="0.9" diameter="1.45" rot="R180"/>
+<pad name="VBUS" x="-6.73" y="0" drill="0.9" diameter="1.45" rot="R180"/>
 <pad name="SHLD3" x="0" y="-2.72" drill="1.5" rot="R180"/>
 <pad name="SHLD4" x="0" y="2.72" drill="1.5" rot="R180"/>
 <pad name="SHLD2" x="-7" y="-2.72" drill="1.5" rot="R180"/>
@@ -3476,14 +3476,14 @@ FCI 62684-401100AHLF -&gt; bottom contact&lt;br&gt;</description>
 <vertex x="-1" y="-3.475"/>
 </polygon>
 <rectangle x1="-1.75" y1="-1.8" x2="-1.2" y2="1.8" layer="41"/>
-<circle x="0.01" y="2.725" radius="0.6" width="0.001" layer="44"/>
-<circle x="-3" y="2.425" radius="0.4" width="0.001" layer="44"/>
-<circle x="-3" y="-2.425" radius="0.4" width="0.001" layer="44"/>
-<circle x="0.01" y="-2.725" radius="0.6" width="0.001" layer="44"/>
 <circle x="0.01" y="2.725" radius="0.6" width="0.001" layer="46"/>
 <circle x="-3" y="2.425" radius="0.4" width="0.001" layer="46"/>
 <circle x="-3" y="-2.425" radius="0.4" width="0.001" layer="46"/>
 <circle x="0.01" y="-2.725" radius="0.6" width="0.001" layer="46"/>
+<hole x="-3" y="2.425" drill="0.8"/>
+<hole x="0.01" y="2.725" drill="1.2"/>
+<hole x="-3" y="-2.425" drill="0.8"/>
+<hole x="0.01" y="-2.725" drill="1.2"/>
 </package>
 <package name="USB-AU-Y1006-R">
 <description>USB Series A Surface Mounted
@@ -3535,10 +3535,10 @@ USB 2.0 - AU-Y1006-2-R&lt;br&gt;</description>
 <smd name="17" x="-0.95" y="-3.25" dx="1.9" dy="0.3" layer="1" roundness="10"/>
 <smd name="18" x="-0.95" y="-3.75" dx="1.9" dy="0.3" layer="1" roundness="10"/>
 <smd name="19" x="-0.95" y="-4.25" dx="1.9" dy="0.3" layer="1" roundness="10"/>
-<pad name="SHLD1" x="0" y="-7.25" drill="1.2" shape="square"/>
-<pad name="SHLD2" x="4.9" y="-7.85" drill="1.2" shape="square"/>
-<pad name="SHLD3" x="4.9" y="7.85" drill="1.2" shape="square"/>
-<pad name="SHLD4" x="0" y="7.25" drill="1.2" shape="square"/>
+<pad name="SHLD1" x="0" y="-7.25" drill="1.2" diameter="1.8" shape="square"/>
+<pad name="SHLD2" x="4.9" y="-7.85" drill="1.2" diameter="1.8" shape="square"/>
+<pad name="SHLD3" x="4.9" y="7.85" drill="1.2" diameter="1.8" shape="square"/>
+<pad name="SHLD4" x="0" y="7.25" drill="1.2" diameter="1.8" shape="square"/>
 <text x="3.81" y="1.905" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="3.81" y="-1.905" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <rectangle x1="-0.9" y1="7.2" x2="0.9" y2="8.15" layer="31"/>
@@ -3576,11 +3576,11 @@ USB 2.0 - AU-Y1006-2-R&lt;br&gt;</description>
 <wire x1="3.5" y1="-6" x2="-7.5" y2="-6" width="0.127" layer="21"/>
 <wire x1="3.5" y1="-6" x2="3.5" y2="6" width="0.127" layer="21"/>
 <wire x1="3.5" y1="6" x2="-7.5" y2="6" width="0.127" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.2" rot="R180"/>
-<pad name="4" x="-5" y="-2.5" drill="1.2" rot="R180"/>
-<pad name="5" x="-5" y="-5" drill="1.2" rot="R180"/>
-<pad name="3" x="-5" y="2.5" drill="1.2" rot="R180"/>
-<pad name="2" x="-5" y="5" drill="1.2" rot="R180"/>
+<pad name="1" x="0" y="0" drill="1.2" diameter="1.8" rot="R180"/>
+<pad name="4" x="-5" y="-2.5" drill="1.2" diameter="1.8" rot="R180"/>
+<pad name="5" x="-5" y="-5" drill="1.2" diameter="1.8" rot="R180"/>
+<pad name="3" x="-5" y="2.5" drill="1.2" diameter="1.8" rot="R180"/>
+<pad name="2" x="-5" y="5" drill="1.2" diameter="1.8" rot="R180"/>
 <text x="0" y="-2.54" size="0.8128" layer="25" font="vector" rot="R180" align="center">&gt;NAME</text>
 <text x="0" y="2.54" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="center">&gt;VALUE</text>
 <hole x="0" y="-5" drill="1"/>
@@ -3590,74 +3590,77 @@ USB 2.0 - AU-Y1006-2-R&lt;br&gt;</description>
 <hole x="-5" y="0" drill="1"/>
 </package>
 <package name="DC-JACK">
-<wire x1="6.94" y1="4.5" x2="6.94" y2="3.2" width="0.127" layer="21"/>
-<wire x1="6.94" y1="3.2" x2="6.94" y2="-3.2" width="0.127" layer="21"/>
-<wire x1="6.94" y1="-3.2" x2="6.94" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="7.25" y1="4.5" x2="7.25" y2="-4" width="0.127" layer="21"/>
-<wire x1="7.25" y1="-4" x2="7.25" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="7.25" y1="4" x2="-1.25" y2="4" width="0.127" layer="21"/>
-<wire x1="7.25" y1="-4" x2="-1.25" y2="-4" width="0.127" layer="21"/>
+<wire x1="7" y1="4.5" x2="7" y2="4" width="0.127" layer="21"/>
+<wire x1="7" y1="4" x2="7" y2="3.2" width="0.127" layer="21"/>
+<wire x1="7" y1="3.2" x2="7" y2="-3.2" width="0.127" layer="21"/>
+<wire x1="7" y1="-3.2" x2="7" y2="-4" width="0.127" layer="21"/>
+<wire x1="7" y1="-4" x2="7" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="7" y1="4" x2="-1.25" y2="4" width="0.127" layer="21"/>
+<wire x1="7" y1="-4" x2="-1.25" y2="-4" width="0.127" layer="21"/>
 <wire x1="-1.25" y1="4" x2="-1.25" y2="-4" width="0.127" layer="21"/>
 <wire x1="-1.25" y1="4.5" x2="-1.25" y2="4" width="0.127" layer="21"/>
 <wire x1="-1.25" y1="-4" x2="-1.25" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="6.94" y1="-4.5" x2="-1.25" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="6.94" y1="4.5" x2="-1.25" y2="4.5" width="0.127" layer="21"/>
+<wire x1="7" y1="-4.5" x2="-1.25" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="7" y1="4.5" x2="-1.25" y2="4.5" width="0.127" layer="21"/>
 <wire x1="-1.25" y1="4" x2="-2.75" y2="4" width="0.127" layer="21"/>
 <wire x1="-2.75" y1="4" x2="-3.25" y2="4" width="0.127" layer="21"/>
 <wire x1="-1.25" y1="-4" x2="-2.75" y2="-4" width="0.127" layer="21"/>
 <wire x1="-2.75" y1="-4" x2="-3.25" y2="-4" width="0.127" layer="21"/>
 <wire x1="-3.25" y1="4" x2="-3.25" y2="-4" width="0.127" layer="21"/>
 <wire x1="-2.75" y1="4" x2="-2.75" y2="-4" width="0.127" layer="21"/>
-<wire x1="6.94" y1="-3.2" x2="1.75" y2="-3.2" width="0.127" layer="21" style="shortdash"/>
-<wire x1="6.94" y1="3.2" x2="1.75" y2="3.2" width="0.127" layer="21" style="shortdash"/>
+<wire x1="7" y1="-3.2" x2="1.75" y2="-3.2" width="0.127" layer="21" style="shortdash"/>
+<wire x1="7" y1="3.2" x2="1.75" y2="3.2" width="0.127" layer="21" style="shortdash"/>
 <wire x1="1.75" y1="3.2" x2="1.75" y2="1" width="0.127" layer="21" style="shortdash"/>
 <wire x1="1.75" y1="1" x2="1.75" y2="-1" width="0.127" layer="21" style="shortdash"/>
 <wire x1="1.75" y1="-1" x2="1.75" y2="-3.2" width="0.127" layer="21" style="shortdash"/>
 <wire x1="6.21" y1="1" x2="1.75" y2="1" width="0.127" layer="21" style="shortdash"/>
 <wire x1="6.21" y1="-1" x2="1.75" y2="-1" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-3" y1="1.75" x2="-2.5" y2="1.25" width="0" layer="44" curve="-90"/>
-<wire x1="-2.5" y1="1.25" x2="-2.5" y2="-1.25" width="0" layer="44"/>
-<wire x1="-2.5" y1="-1.25" x2="-3" y2="-1.75" width="0" layer="44" curve="-90"/>
-<wire x1="-3" y1="-1.75" x2="-3.5" y2="-1.25" width="0" layer="44" curve="-90"/>
-<wire x1="-3.5" y1="-1.25" x2="-3.5" y2="1.25" width="0" layer="44"/>
-<wire x1="-3.5" y1="1.25" x2="-3" y2="1.75" width="0" layer="44" curve="-90"/>
-<wire x1="3" y1="1.6" x2="3.5" y2="1.1" width="0" layer="44" curve="-90"/>
-<wire x1="3.5" y1="1.1" x2="3.5" y2="-1.1" width="0" layer="44"/>
-<wire x1="3.5" y1="-1.1" x2="3" y2="-1.6" width="0" layer="44" curve="-90"/>
-<wire x1="3" y1="-1.6" x2="2.5" y2="-1.1" width="0" layer="44" curve="-90"/>
-<wire x1="2.5" y1="-1.1" x2="2.5" y2="1.1" width="0" layer="44"/>
-<wire x1="2.5" y1="1.1" x2="3" y2="1.6" width="0" layer="44" curve="-90"/>
-<wire x1="1.6" y1="4.8" x2="1.1" y2="4.3" width="0" layer="44" curve="-90"/>
-<wire x1="1.1" y1="4.3" x2="-1.1" y2="4.3" width="0" layer="44"/>
-<wire x1="-1.1" y1="4.3" x2="-1.6" y2="4.8" width="0" layer="44" curve="-90"/>
-<wire x1="-1.6" y1="4.8" x2="-1.1" y2="5.3" width="0" layer="44" curve="-90"/>
-<wire x1="-1.1" y1="5.3" x2="1.1" y2="5.3" width="0" layer="44"/>
-<wire x1="1.1" y1="5.3" x2="1.6" y2="4.8" width="0" layer="44" curve="-90"/>
-<pad name="2" x="0" y="4.8" drill="1" diameter="2.1844" shape="long" rot="R180"/>
-<pad name="1" x="3" y="0" drill="1" diameter="2.1844" shape="long" rot="R270"/>
-<pad name="3" x="-3" y="0" drill="1" diameter="2.1844" shape="long" rot="R270"/>
+<wire x1="-3" y1="1.65" x2="-2.5" y2="1.15" width="0" layer="44" curve="-90"/>
+<wire x1="-2.5" y1="1.15" x2="-2.5" y2="-1.15" width="0" layer="44"/>
+<wire x1="-2.5" y1="-1.15" x2="-3" y2="-1.65" width="0" layer="44" curve="-90"/>
+<wire x1="-3" y1="-1.65" x2="-3.5" y2="-1.15" width="0" layer="44" curve="-90"/>
+<wire x1="-3.5" y1="-1.15" x2="-3.5" y2="1.15" width="0" layer="44"/>
+<wire x1="-3.5" y1="1.15" x2="-3" y2="1.65" width="0" layer="44" curve="-90"/>
+<wire x1="3" y1="1.4" x2="3.5" y2="0.9" width="0" layer="44" curve="-90"/>
+<wire x1="3.5" y1="0.9" x2="3.5" y2="-0.9" width="0" layer="44"/>
+<wire x1="3.5" y1="-0.9" x2="3" y2="-1.4" width="0" layer="44" curve="-90"/>
+<wire x1="3" y1="-1.4" x2="2.5" y2="-0.9" width="0" layer="44" curve="-90"/>
+<wire x1="2.5" y1="-0.9" x2="2.5" y2="0.9" width="0" layer="44"/>
+<wire x1="2.5" y1="0.9" x2="3" y2="1.4" width="0" layer="44" curve="-90"/>
+<wire x1="1.4" y1="4.8" x2="0.9" y2="4.3" width="0" layer="44" curve="-90"/>
+<wire x1="0.9" y1="4.3" x2="-0.9" y2="4.3" width="0" layer="44"/>
+<wire x1="-0.9" y1="4.3" x2="-1.4" y2="4.8" width="0" layer="44" curve="-90"/>
+<wire x1="-1.4" y1="4.8" x2="-0.9" y2="5.3" width="0" layer="44" curve="-90"/>
+<wire x1="-0.9" y1="5.3" x2="0.9" y2="5.3" width="0" layer="44"/>
+<wire x1="0.9" y1="5.3" x2="1.4" y2="4.8" width="0" layer="44" curve="-90"/>
+<pad name="2" x="0" y="4.8" drill="1" diameter="2.1" shape="long" rot="R180"/>
+<pad name="1" x="3" y="0" drill="1" diameter="2.1" shape="long" rot="R270"/>
+<pad name="3" x="-3" y="0" drill="1" diameter="2.1" shape="long" rot="R270"/>
 <text x="5.08" y="5.08" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="center">&gt;NAME</text>
 <text x="5.08" y="-5.08" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="center">&gt;VALUE</text>
-<wire x1="-3" y1="1.75" x2="-2.5" y2="1.25" width="0" layer="46" curve="-90"/>
-<wire x1="-2.5" y1="1.25" x2="-2.5" y2="-1.25" width="0" layer="46"/>
-<wire x1="-2.5" y1="-1.25" x2="-3" y2="-1.75" width="0" layer="46" curve="-90"/>
-<wire x1="-3" y1="-1.75" x2="-3.5" y2="-1.25" width="0" layer="46" curve="-90"/>
-<wire x1="-3.5" y1="-1.25" x2="-3.5" y2="1.25" width="0" layer="46"/>
-<wire x1="-3.5" y1="1.25" x2="-3" y2="1.75" width="0" layer="46" curve="-90"/>
-<wire x1="3" y1="1.6" x2="3.5" y2="1.1" width="0" layer="46" curve="-90"/>
-<wire x1="3.5" y1="1.1" x2="3.5" y2="-1.1" width="0" layer="46"/>
-<wire x1="3.5" y1="-1.1" x2="3" y2="-1.6" width="0" layer="46" curve="-90"/>
-<wire x1="3" y1="-1.6" x2="2.5" y2="-1.1" width="0" layer="46" curve="-90"/>
-<wire x1="2.5" y1="-1.1" x2="2.5" y2="1.1" width="0" layer="46"/>
-<wire x1="2.5" y1="1.1" x2="3" y2="1.6" width="0" layer="46" curve="-90"/>
-<wire x1="1.6" y1="4.8" x2="1.1" y2="4.3" width="0" layer="46" curve="-90"/>
-<wire x1="1.1" y1="4.3" x2="-1.1" y2="4.3" width="0" layer="46"/>
-<wire x1="-1.1" y1="4.3" x2="-1.6" y2="4.8" width="0" layer="46" curve="-90"/>
-<wire x1="-1.6" y1="4.8" x2="-1.1" y2="5.3" width="0" layer="46" curve="-90"/>
-<wire x1="-1.1" y1="5.3" x2="1.1" y2="5.3" width="0" layer="46"/>
-<wire x1="1.1" y1="5.3" x2="1.6" y2="4.8" width="0" layer="46" curve="-90"/>
+<wire x1="-3" y1="1.65" x2="-2.5" y2="1.15" width="0" layer="46" curve="-90"/>
+<wire x1="-2.5" y1="1.15" x2="-2.5" y2="-1.15" width="0" layer="46"/>
+<wire x1="-2.5" y1="-1.15" x2="-3" y2="-1.65" width="0" layer="46" curve="-90"/>
+<wire x1="-3" y1="-1.65" x2="-3.5" y2="-1.15" width="0" layer="46" curve="-90"/>
+<wire x1="-3.5" y1="-1.15" x2="-3.5" y2="1.15" width="0" layer="46"/>
+<wire x1="-3.5" y1="1.15" x2="-3" y2="1.65" width="0" layer="46" curve="-90"/>
+<wire x1="3" y1="1.4" x2="3.5" y2="0.9" width="0" layer="46" curve="-90"/>
+<wire x1="3.5" y1="0.9" x2="3.5" y2="-0.9" width="0" layer="46"/>
+<wire x1="3.5" y1="-0.9" x2="3" y2="-1.4" width="0" layer="46" curve="-90"/>
+<wire x1="3" y1="-1.4" x2="2.5" y2="-0.9" width="0" layer="46" curve="-90"/>
+<wire x1="2.5" y1="-0.9" x2="2.5" y2="0.9" width="0" layer="46"/>
+<wire x1="2.5" y1="0.9" x2="3" y2="1.4" width="0" layer="46" curve="-90"/>
+<wire x1="1.4" y1="4.8" x2="0.9" y2="4.3" width="0" layer="46" curve="-90"/>
+<wire x1="0.9" y1="4.3" x2="-0.9" y2="4.3" width="0" layer="46"/>
+<wire x1="-0.9" y1="4.3" x2="-1.4" y2="4.8" width="0" layer="46" curve="-90"/>
+<wire x1="-1.4" y1="4.8" x2="-0.9" y2="5.3" width="0" layer="46" curve="-90"/>
+<wire x1="-0.9" y1="5.3" x2="0.9" y2="5.3" width="0" layer="46"/>
+<wire x1="0.9" y1="5.3" x2="1.4" y2="4.8" width="0" layer="46" curve="-90"/>
+<wire x1="11.25" y1="4.5" x2="11.25" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="11.25" y1="4.5" x2="7" y2="4.5" width="0.127" layer="21"/>
+<wire x1="11.25" y1="-4.5" x2="7" y2="-4.5" width="0.127" layer="21"/>
 </package>
-<package name="JST_PH3-SM4">
+<package name="JST_S3B-PH-SM4-TB">
 <description>JST Connector</description>
 <smd name="1" x="-3.81" y="2" dx="1" dy="3.5" layer="1" roundness="20" rot="R270"/>
 <smd name="2" x="-3.81" y="0" dx="1" dy="3.5" layer="1" roundness="20" rot="R270"/>
@@ -3669,7 +3672,7 @@ USB 2.0 - AU-Y1006-2-R&lt;br&gt;</description>
 <wire x1="-3.81" y1="-2.54" x2="-3.81" y2="-5.3" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="-5.3" x2="3.69" y2="-5.3" width="0.127" layer="21"/>
 <wire x1="3.69" y1="5.3" x2="3.69" y2="-5.3" width="0.127" layer="21"/>
-<text x="5.08" y="0" size="0.8128" layer="21" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<text x="5.08" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <wire x1="-1.27" y1="0" x2="0" y2="0" width="0.3048" layer="21"/>
 <wire x1="-1.27" y1="2" x2="0" y2="2" width="0.3048" layer="21"/>
 <wire x1="-1.27" y1="-2" x2="0" y2="-2" width="0.3048" layer="21"/>
@@ -3848,24 +3851,24 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <wire x1="7.94" y1="-10.92" x2="7.94" y2="10.89" width="0.127" layer="21"/>
 <wire x1="7.94" y1="10.89" x2="-7.94" y2="10.89" width="0.127" layer="21"/>
 <wire x1="-7.94" y1="10.89" x2="-7.94" y2="-10.92" width="0.127" layer="21"/>
-<pad name="1" x="4.445" y="-6.35" drill="0.9" diameter="1.397"/>
-<pad name="2" x="3.175" y="-8.89" drill="0.9" diameter="1.397"/>
-<pad name="3" x="1.905" y="-6.35" drill="0.9" diameter="1.397"/>
-<pad name="4" x="0.635" y="-8.89" drill="0.9" diameter="1.397"/>
-<pad name="5" x="-0.635" y="-6.35" drill="0.9" diameter="1.397"/>
-<pad name="6" x="-1.905" y="-8.89" drill="0.9" diameter="1.397"/>
-<pad name="7" x="-3.175" y="-6.35" drill="0.9" diameter="1.397"/>
-<pad name="8" x="-4.445" y="-8.89" drill="0.9" diameter="1.397"/>
-<pad name="9" x="6.63" y="4.08" drill="1.02" diameter="1.397"/>
-<pad name="10" x="4.09" y="4.08" drill="1.02" diameter="1.397"/>
-<pad name="11" x="-4.09" y="4.08" drill="1.02" diameter="1.397"/>
-<pad name="12" x="-6.63" y="4.08" drill="1.02" diameter="1.397"/>
+<pad name="1" x="4.445" y="-6.35" drill="0.9" diameter="1.4"/>
+<pad name="2" x="3.175" y="-8.89" drill="0.9" diameter="1.4"/>
+<pad name="3" x="1.905" y="-6.35" drill="0.9" diameter="1.4"/>
+<pad name="4" x="0.635" y="-8.89" drill="0.9" diameter="1.4"/>
+<pad name="5" x="-0.635" y="-6.35" drill="0.9" diameter="1.4"/>
+<pad name="6" x="-1.905" y="-8.89" drill="0.9" diameter="1.4"/>
+<pad name="7" x="-3.175" y="-6.35" drill="0.9" diameter="1.4"/>
+<pad name="8" x="-4.445" y="-8.89" drill="0.9" diameter="1.4"/>
+<pad name="9" x="6.63" y="4.08" drill="1" diameter="1.4"/>
+<pad name="10" x="4.09" y="4.08" drill="1" diameter="1.4"/>
+<pad name="11" x="-4.09" y="4.08" drill="1" diameter="1.4"/>
+<pad name="12" x="-6.63" y="4.08" drill="1" diameter="1.4"/>
 <text x="0" y="2.54" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-2.54" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <hole x="5.715" y="0" drill="3.25"/>
 <hole x="-5.715" y="0" drill="3.25"/>
-<pad name="SH@1" x="-7.745" y="-3.05" drill="1.6"/>
-<pad name="SH@2" x="7.745" y="-3.05" drill="1.6"/>
+<pad name="SH@1" x="-7.745" y="-3.05" drill="1.6" diameter="2.4"/>
+<pad name="SH@2" x="7.745" y="-3.05" drill="1.6" diameter="2.4"/>
 </package>
 <package name="MA04-2_SMD">
 <wire x1="2.54" y1="4.445" x2="2.54" y2="3.175" width="0.127" layer="21"/>
@@ -3904,6 +3907,102 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <smd name="8" x="3.175" y="-3.81" dx="2.54" dy="1.27" layer="1" roundness="20"/>
 <wire x1="-1.905" y1="2.54" x2="-1.905" y2="5.08" width="0.127" layer="21"/>
 <text x="0" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+</package>
+<package name="JST_B3B-PH-SM4-TB">
+<smd name="1" x="0" y="2" dx="1" dy="5.5" layer="1" roundness="20" rot="R270"/>
+<smd name="2" x="0" y="0" dx="1" dy="5.5" layer="1" roundness="20" rot="R270"/>
+<smd name="3" x="0" y="-2" dx="1" dy="5.5" layer="1" roundness="20" rot="R270"/>
+<smd name="SHLD1" x="2.25" y="4.35" dx="3" dy="1.6" layer="1" roundness="20"/>
+<smd name="SHLD2" x="2.25" y="-4.35" dx="3" dy="1.6" layer="1" roundness="20"/>
+<wire x1="4.325" y1="5.3" x2="-1.27" y2="5.3" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="5.3" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="-5.3" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-5.3" x2="4.325" y2="-5.3" width="0.127" layer="21"/>
+<wire x1="4.325" y1="5.3" x2="4.325" y2="-5.3" width="0.127" layer="21"/>
+<text x="5.08" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="2" x2="0" y2="2" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="-2" x2="0" y2="-2" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="5.08" x2="-1.27" y2="2.54" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="2" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="2" x2="-1.27" y2="0" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-2" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="-2" x2="-1.27" y2="-2.54" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="-5.08" width="0.3048" layer="21"/>
+</package>
+<package name="JST_B4B-PH-SM4-TB">
+<smd name="1" x="0" y="3" dx="1" dy="5.5" layer="1" roundness="20" rot="R270"/>
+<smd name="2" x="0" y="1" dx="1" dy="5.5" layer="1" roundness="20" rot="R270"/>
+<smd name="3" x="0" y="-1" dx="1" dy="5.5" layer="1" roundness="20" rot="R270"/>
+<smd name="SHLD1" x="2.25" y="5.35" dx="3" dy="1.6" layer="1" roundness="20"/>
+<smd name="SHLD2" x="2.25" y="-5.35" dx="3" dy="1.6" layer="1" roundness="20"/>
+<wire x1="4.325" y1="5.3" x2="-1.27" y2="5.3" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="5.3" x2="-1.27" y2="3" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-3" x2="-1.27" y2="-5.3" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-5.3" x2="4.325" y2="-5.3" width="0.127" layer="21"/>
+<wire x1="4.325" y1="5.3" x2="4.325" y2="-5.3" width="0.127" layer="21"/>
+<text x="5.08" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<wire x1="-1.27" y1="-1" x2="0" y2="-1" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="1" x2="0" y2="1" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="-3" x2="0" y2="-3" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="5.08" x2="-1.27" y2="3" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="3" x2="-1.27" y2="1" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="1" x2="-1.27" y2="-1" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="-1" x2="-1.27" y2="-3" width="0.3048" layer="21"/>
+<smd name="4" x="0" y="-3" dx="1" dy="5.5" layer="1" roundness="20" rot="R270"/>
+<wire x1="-1.27" y1="-3" x2="-1.27" y2="-5.08" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="3" x2="0" y2="3" width="0.3048" layer="21"/>
+</package>
+<package name="JST_S4B-PH-SM4-TB">
+<smd name="1" x="-1.27" y="3" dx="1" dy="3.5" layer="1" roundness="20" rot="R270"/>
+<smd name="2" x="-1.27" y="1" dx="1" dy="3.5" layer="1" roundness="20" rot="R270"/>
+<smd name="3" x="-1.27" y="-1" dx="1" dy="3.5" layer="1" roundness="20" rot="R270"/>
+<smd name="SHLD1" x="4.23" y="5.35" dx="3.4" dy="1.5" layer="1" roundness="20"/>
+<smd name="SHLD2" x="4.23" y="-5.35" dx="3.4" dy="1.5" layer="1" roundness="20"/>
+<wire x1="6.23" y1="6.3" x2="-1.27" y2="6.3" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="6.3" x2="-1.27" y2="3.54" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-3.54" x2="-1.27" y2="-6.3" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-6.3" x2="6.23" y2="-6.3" width="0.127" layer="21"/>
+<wire x1="6.23" y1="6.3" x2="6.23" y2="-6.3" width="0.127" layer="21"/>
+<text x="7.62" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<wire x1="1.27" y1="1" x2="2.54" y2="1" width="0.3048" layer="21"/>
+<wire x1="1.27" y1="3" x2="2.54" y2="3" width="0.3048" layer="21"/>
+<wire x1="1.27" y1="-3" x2="2.54" y2="-3" width="0.3048" layer="21"/>
+<wire x1="1.27" y1="6.08" x2="1.27" y2="3" width="0.3048" layer="21"/>
+<wire x1="1.27" y1="3" x2="1.27" y2="1" width="0.3048" layer="21"/>
+<wire x1="1.27" y1="1" x2="1.27" y2="-1" width="0.3048" layer="21"/>
+<wire x1="1.27" y1="-1" x2="1.27" y2="-3" width="0.3048" layer="21"/>
+<wire x1="1.27" y1="-3" x2="1.27" y2="-6.08" width="0.3048" layer="21"/>
+<smd name="4" x="-1.27" y="-3" dx="1" dy="3.5" layer="1" roundness="20" rot="R270"/>
+<wire x1="1.27" y1="-1" x2="2.54" y2="-1" width="0.3048" layer="21"/>
+</package>
+<package name="JST_B6B-PH-SM4-TB">
+<smd name="1" x="0" y="5" dx="1" dy="5.5" layer="1" roundness="20" rot="R270"/>
+<smd name="2" x="0" y="3" dx="1" dy="5.5" layer="1" roundness="20" rot="R270"/>
+<smd name="3" x="0" y="1" dx="1" dy="5.5" layer="1" roundness="20" rot="R270"/>
+<smd name="SHLD1" x="2.25" y="7.35" dx="3" dy="1.6" layer="1" roundness="20"/>
+<smd name="SHLD2" x="2.25" y="-7.35" dx="3" dy="1.6" layer="1" roundness="20"/>
+<wire x1="4.325" y1="8.3" x2="-1.27" y2="8.3" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="8.3" x2="-1.27" y2="8.08" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-5.54" x2="-1.27" y2="-8.3" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-8.3" x2="4.325" y2="-8.3" width="0.127" layer="21"/>
+<wire x1="4.325" y1="8.3" x2="4.325" y2="-8.3" width="0.127" layer="21"/>
+<text x="5.08" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<wire x1="-1.27" y1="-3" x2="0" y2="-3" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="-1" x2="0" y2="-1" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="-5" x2="0" y2="-5" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="8.08" x2="-1.27" y2="1" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="1" x2="-1.27" y2="-1" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="-1" x2="-1.27" y2="-3" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="-3" x2="-1.27" y2="-5" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="-5" x2="-1.27" y2="-5.54" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="-5.54" x2="-1.27" y2="-8.08" width="0.3048" layer="21"/>
+<smd name="4" x="0" y="-1" dx="1" dy="5.5" layer="1" roundness="20" rot="R270"/>
+<smd name="5" x="0" y="-3" dx="1" dy="5.5" layer="1" roundness="20" rot="R270"/>
+<smd name="6" x="0" y="-5" dx="1" dy="5.5" layer="1" roundness="20" rot="R270"/>
+<wire x1="-1.27" y1="3" x2="0" y2="3" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="5" x2="0" y2="5" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="1" x2="0" y2="1" width="0.3048" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -5617,8 +5716,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="6" pad="6"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5637,8 +5735,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="4" pad="4"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5661,8 +5758,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="8" pad="8"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="S" package="MA04-2_SMD">
@@ -5697,8 +5793,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="5" pad="5"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5723,8 +5818,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5745,8 +5839,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="6" pad="6"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5773,8 +5866,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5796,8 +5888,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="7" pad="7"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5826,8 +5917,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5850,8 +5940,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="8" pad="8"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5882,8 +5971,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="S" package="MA08-2_SMD">
@@ -5930,8 +6018,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5964,8 +6051,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5990,8 +6076,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6026,8 +6111,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="S" package="MA10-2_SMD">
@@ -6081,8 +6165,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6121,8 +6204,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6150,8 +6232,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6192,8 +6273,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6242,8 +6322,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="A" package="MA17-2_SMD">
@@ -6413,8 +6492,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6469,8 +6547,7 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <connect gate="J" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="S" package="MA20-2_SMD">
@@ -7094,7 +7171,17 @@ FCI 62684-501100AHLF -&gt; 50 Pins 0.5mm bottom contact&lt;br&gt;</description>
 <gate name="J" symbol="MA03-1" x="-2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="JST_PH3-SM4">
+<device name="S3B-PH-SM4-TB" package="JST_S3B-PH-SM4-TB">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B3B-PH-SM4-TB" package="JST_B3B-PH-SM4-TB">
 <connects>
 <connect gate="J" pin="1" pad="1"/>
 <connect gate="J" pin="2" pad="2"/>
@@ -7188,6 +7275,7 @@ FCI HFW4R-2STE1LF -&gt; 4 Pin 1mm top contact&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="MAG-JACK" prefix="RJ">
+<description>RJ45 connector with integrated magnetics</description>
 <gates>
 <gate name="RJ" symbol="MAG-JACK" x="0" y="0"/>
 </gates>
@@ -7215,6 +7303,7 @@ FCI HFW4R-2STE1LF -&gt; 4 Pin 1mm top contact&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="MA25-2" prefix="J">
+<description>Pin Header</description>
 <gates>
 <gate name="J" symbol="MA25-2" x="0" y="0"/>
 </gates>
@@ -7271,6 +7360,57 @@ FCI HFW4R-2STE1LF -&gt; 4 Pin 1mm top contact&lt;br&gt;</description>
 <connect gate="J" pin="7" pad="7"/>
 <connect gate="J" pin="8" pad="8"/>
 <connect gate="J" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST_PH_4" prefix="J">
+<description>JST Connector</description>
+<gates>
+<gate name="J" symbol="MA04-1" x="-2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="B4B-PH-SM4-TB" package="JST_B4B-PH-SM4-TB">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="3" pad="3"/>
+<connect gate="J" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="S4B-PH-SM4-TB" package="JST_S4B-PH-SM4-TB">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="3" pad="3"/>
+<connect gate="J" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST_PH_6" prefix="J">
+<description>JST Connector</description>
+<gates>
+<gate name="J" symbol="MA06-1" x="-2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="B6B-PH-SM4-TB" package="JST_B6B-PH-SM4-TB">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="3" pad="3"/>
+<connect gate="J" pin="4" pad="4"/>
+<connect gate="J" pin="5" pad="5"/>
+<connect gate="J" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -236,8 +236,6 @@
 <text x="0" y="36.83" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 </package>
 <package name="LED_3MM">
-<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-3 mm, round</description>
 <wire x1="1.27" y1="1.5748" x2="-1.27" y2="1.5748" width="0.127" layer="21"/>
 <wire x1="0" y1="-1.524" x2="-0.9756" y2="-1.1708" width="0.0508" layer="21" curve="-39.80361"/>
 <wire x1="0" y1="-1.524" x2="1.0125" y2="-1.1391" width="0.0508" layer="21" curve="41.633208"/>
@@ -257,14 +255,12 @@
 <wire x1="1.0082" y1="-1.7643" x2="2.032" y2="0" width="0.127" layer="21" curve="60.255215"/>
 <wire x1="0" y1="-2.032" x2="-0.9634" y2="-1.7891" width="0.127" layer="21" curve="-28.301701"/>
 <wire x1="0" y1="-2.032" x2="1.065" y2="-1.7306" width="0.127" layer="21" curve="31.60822"/>
-<pad name="A" x="0" y="-1.27" drill="0.8128" shape="octagon" rot="R90"/>
-<pad name="C" x="0" y="1.27" drill="0.8128" shape="square" rot="R90"/>
+<pad name="A" x="0" y="-1.27" drill="0.8" diameter="1.3" shape="octagon" rot="R90"/>
+<pad name="C" x="0" y="1.27" drill="0.8" diameter="1.3" shape="square" rot="R90"/>
 <text x="0" y="2.54" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-2.54" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 </package>
 <package name="LED_5MM">
-<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-5 mm, round</description>
 <wire x1="1.905" y1="2.54" x2="-1.905" y2="2.54" width="0.127" layer="21"/>
 <wire x1="1.905" y1="2.54" x2="-1.905" y2="2.54" width="0.127" layer="21" curve="-286.260205"/>
 <wire x1="0" y1="-1.143" x2="-1.143" y2="0" width="0.0508" layer="21" curve="-90"/>
@@ -274,14 +270,12 @@
 <wire x1="0" y1="-2.159" x2="-2.159" y2="0" width="0.0508" layer="21" curve="-90"/>
 <wire x1="2.159" y1="0" x2="0" y2="2.159" width="0.0508" layer="21" curve="90"/>
 <circle x="0" y="0" radius="2.54" width="0.0508" layer="21"/>
-<pad name="A" x="0" y="-1.27" drill="0.8128" shape="octagon" rot="R90"/>
-<pad name="C" x="0" y="1.27" drill="0.8128" shape="square" rot="R90"/>
+<pad name="A" x="0" y="-1.27" drill="0.8" diameter="1.3" shape="octagon" rot="R90"/>
+<pad name="C" x="0" y="1.27" drill="0.8" diameter="1.3" shape="square" rot="R90"/>
 <text x="0" y="3.175" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-3.81" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 </package>
 <package name="LED_10MM">
-<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-10 mm, round</description>
 <wire x1="2.54" y1="5.08" x2="-2.54" y2="5.08" width="0.127" layer="21" curve="-306.869898"/>
 <wire x1="0" y1="4.445" x2="4.445" y2="0" width="0.0508" layer="21" curve="-90"/>
 <wire x1="0" y1="3.81" x2="3.81" y2="0" width="0.0508" layer="21" curve="-90"/>
@@ -293,13 +287,13 @@
 <wire x1="0" y1="-2.54" x2="-2.54" y2="0" width="0.0508" layer="21" curve="-90"/>
 <wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="5.08" width="0.0508" layer="21"/>
-<pad name="C" x="0" y="1.27" drill="0.8128" diameter="1.6764" shape="square" rot="R90"/>
-<pad name="A" x="0" y="-1.27" drill="0.8128" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="C" x="0" y="1.27" drill="0.8" diameter="1.5" shape="square" rot="R90"/>
+<pad name="A" x="0" y="-1.27" drill="0.8" diameter="1.5" shape="octagon" rot="R90"/>
 <text x="0" y="5.715" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-6.35" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 </package>
-<package name="LED_0603">
-<description>&lt;b&gt;CHIPLED&lt;/b&gt;</description>
+<package name="C0603">
+<description>Chip LED</description>
 <wire x1="-0.3" y1="0.8" x2="0.3" y2="0.8" width="0.1016" layer="21" curve="170.055574"/>
 <wire x1="-0.275" y1="-0.825" x2="0.275" y2="-0.825" width="0.0508" layer="21" curve="-180"/>
 <wire x1="-0.4" y1="0.375" x2="-0.4" y2="-0.35" width="0.1016" layer="21"/>
@@ -321,8 +315,8 @@
 <rectangle x1="0.175" y1="-0.65" x2="0.275" y2="-0.55" layer="21"/>
 <rectangle x1="-0.125" y1="0" x2="0.125" y2="0.25" layer="21"/>
 </package>
-<package name="LED_0805">
-<description>&lt;b&gt;CHIPLED&lt;/b&gt;</description>
+<package name="C0805">
+<description>Chip LED</description>
 <wire x1="-0.35" y1="0.925" x2="0.35" y2="0.925" width="0.1016" layer="21" curve="162.394521"/>
 <wire x1="-0.35" y1="-0.925" x2="0.35" y2="-0.925" width="0.1016" layer="21" curve="-162.394521"/>
 <wire x1="0.575" y1="0.525" x2="0.575" y2="-0.525" width="0.1016" layer="21"/>
@@ -345,8 +339,8 @@
 <rectangle x1="-0.6" y1="0.5" x2="-0.3" y2="0.8" layer="21"/>
 <rectangle x1="-0.625" y1="0.925" x2="-0.3" y2="1" layer="21"/>
 </package>
-<package name="LED_1206">
-<description>&lt;b&gt;CHIPLED&lt;/b&gt;</description>
+<package name="C1206">
+<description>Chip LED</description>
 <wire x1="-0.4" y1="1.6" x2="0.4" y2="1.6" width="0.1016" layer="21" curve="172.619069"/>
 <wire x1="-0.8" y1="-0.95" x2="-0.8" y2="0.95" width="0.1016" layer="21"/>
 <wire x1="0.8" y1="0.95" x2="0.8" y2="-0.95" width="0.1016" layer="21"/>
@@ -614,6 +608,27 @@
 <wire x1="11" y1="-12.1" x2="11" y2="-8.1" width="0.127" layer="21"/>
 <wire x1="11" y1="-8.1" x2="6" y2="-5" width="0.127" layer="21"/>
 <wire x1="6" y1="-5" x2="6" y2="0" width="0.127" layer="21"/>
+</package>
+<package name="SMT_GULLWING_4">
+<smd name="2" x="1.95" y="-0.9" dx="1.1" dy="1" layer="1" roundness="10" rot="R180"/>
+<smd name="3" x="1.95" y="0.9" dx="1.1" dy="1" layer="1" roundness="10" rot="R180"/>
+<smd name="1" x="-1.95" y="-0.9" dx="1.1" dy="1" layer="1" roundness="10" rot="R180"/>
+<smd name="4" x="-1.95" y="0.9" dx="1.1" dy="1" layer="1" roundness="10" rot="R180"/>
+<wire x1="1.45" y1="-1.8" x2="-1.05" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="1.45" y1="1.8" x2="-1.45" y2="1.8" width="0.127" layer="21"/>
+<wire x1="1.45" y1="-1.8" x2="1.45" y2="1.8" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="-1.4" x2="-1.45" y2="1.8" width="0.127" layer="21"/>
+<wire x1="-1.05" y1="-1.8" x2="-1.45" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.4" x2="-1.27" y2="1.4" width="0.127" layer="21"/>
+<wire x1="1.27" y1="0.2" x2="1.27" y2="1.4" width="0.127" layer="21"/>
+<wire x1="1.27" y1="0.2" x2="-1.27" y2="0.2" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0.2" x2="-1.27" y2="1.4" width="0.127" layer="21"/>
+<text x="0" y="2.54" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1110,34 +1125,34 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED" prefix="D">
+<deviceset name="LED" prefix="D" uservalue="yes">
 <description>LEDs</description>
 <gates>
-<gate name="L" symbol="LED" x="0" y="0"/>
+<gate name="D" symbol="LED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-0603" package="LED_0603">
+<device name="-0603" package="C0603">
 <connects>
-<connect gate="L" pin="A" pad="A"/>
-<connect gate="L" pin="C" pad="C"/>
+<connect gate="D" pin="A" pad="A"/>
+<connect gate="D" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-0805" package="LED_0805">
+<device name="-0805" package="C0805">
 <connects>
-<connect gate="L" pin="A" pad="A"/>
-<connect gate="L" pin="C" pad="C"/>
+<connect gate="D" pin="A" pad="A"/>
+<connect gate="D" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-1206" package="LED_1206">
+<device name="-1206" package="C1206">
 <connects>
-<connect gate="L" pin="A" pad="A"/>
-<connect gate="L" pin="C" pad="C"/>
+<connect gate="D" pin="A" pad="A"/>
+<connect gate="D" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1145,8 +1160,8 @@
 </device>
 <device name="-3MM" package="LED_3MM">
 <connects>
-<connect gate="L" pin="A" pad="A"/>
-<connect gate="L" pin="C" pad="C"/>
+<connect gate="D" pin="A" pad="A"/>
+<connect gate="D" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1154,8 +1169,8 @@
 </device>
 <device name="-5MM" package="LED_5MM">
 <connects>
-<connect gate="L" pin="A" pad="A"/>
-<connect gate="L" pin="C" pad="C"/>
+<connect gate="D" pin="A" pad="A"/>
+<connect gate="D" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1163,8 +1178,8 @@
 </device>
 <device name="-10MM" package="LED_10MM">
 <connects>
-<connect gate="L" pin="A" pad="A"/>
-<connect gate="L" pin="C" pad="C"/>
+<connect gate="D" pin="A" pad="A"/>
+<connect gate="D" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1175,15 +1190,15 @@
 <deviceset name="PC" prefix="OC">
 <description>Photocoupler and Photointerrupter</description>
 <gates>
-<gate name="G$1" symbol="PHOTOCOUPLER" x="0" y="0"/>
+<gate name="OC" symbol="PHOTOCOUPLER" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-EESX1108" package="PI_EE-SX1108">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="TC" pad="TC"/>
-<connect gate="G$1" pin="TE" pad="TE"/>
+<connect gate="OC" pin="A" pad="A"/>
+<connect gate="OC" pin="C" pad="C"/>
+<connect gate="OC" pin="TC" pad="TC"/>
+<connect gate="OC" pin="TE" pad="TE"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1191,10 +1206,10 @@
 </device>
 <device name="-GP1S53V" package="PI_GP1S53VJ000F">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="TC" pad="TC"/>
-<connect gate="G$1" pin="TE" pad="TE"/>
+<connect gate="OC" pin="A" pad="A"/>
+<connect gate="OC" pin="C" pad="C"/>
+<connect gate="OC" pin="TC" pad="TC"/>
+<connect gate="OC" pin="TE" pad="TE"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1202,10 +1217,10 @@
 </device>
 <device name="-TLP127" package="MINIFLAT4">
 <connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="TC" pad="6"/>
-<connect gate="G$1" pin="TE" pad="4"/>
+<connect gate="OC" pin="A" pad="1"/>
+<connect gate="OC" pin="C" pad="3"/>
+<connect gate="OC" pin="TC" pad="6"/>
+<connect gate="OC" pin="TE" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1215,10 +1230,10 @@
 </device>
 <device name="-LTV352T" package="MINIFLAT4">
 <connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="TC" pad="6"/>
-<connect gate="G$1" pin="TE" pad="4"/>
+<connect gate="OC" pin="A" pad="1"/>
+<connect gate="OC" pin="C" pad="3"/>
+<connect gate="OC" pin="TC" pad="6"/>
+<connect gate="OC" pin="TE" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1231,16 +1246,16 @@
 <deviceset name="PC-TTL" prefix="OC">
 <description>Photocoupler with TTL Output</description>
 <gates>
-<gate name="G$1" symbol="PHOTOCOUPLER_TTL" x="0" y="0"/>
+<gate name="OC" symbol="PHOTOCOUPLER_TTL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-PC400" package="MINIFLAT5">
 <connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="OUT" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="6"/>
+<connect gate="OC" pin="A" pad="1"/>
+<connect gate="OC" pin="C" pad="3"/>
+<connect gate="OC" pin="GND" pad="5"/>
+<connect gate="OC" pin="OUT" pad="4"/>
+<connect gate="OC" pin="VCC" pad="6"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1485,6 +1500,25 @@ TFT070-4 - 7.0" 800x480 (LED @ 40mA @ 20.4V)&lt;br&gt;</description>
 <connect gate="LCD" pin="VCC" pad="28"/>
 <connect gate="LCD" pin="VCOMH" pad="27"/>
 <connect gate="LCD" pin="VDD" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="QRE1113GR" prefix="OC">
+<description>Fairchild QRE1113GR Reflective Object Sensor</description>
+<gates>
+<gate name="OC" symbol="PHOTOCOUPLER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMT_GULLWING_4">
+<connects>
+<connect gate="OC" pin="A" pad="1"/>
+<connect gate="OC" pin="C" pad="2"/>
+<connect gate="OC" pin="TC" pad="3"/>
+<connect gate="OC" pin="TE" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>

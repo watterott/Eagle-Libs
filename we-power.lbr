@@ -220,10 +220,10 @@
 <text x="7.62" y="-1.905" size="3.81" layer="21" font="vector" ratio="10">-</text>
 </package>
 <package name="RECOM_SIP4_RI">
-<pad name="1" x="-3.81" y="0" drill="1" shape="square" first="yes"/>
-<pad name="2" x="-1.27" y="0" drill="1"/>
-<pad name="3" x="1.27" y="0" drill="1"/>
-<pad name="4" x="3.81" y="0" drill="1"/>
+<pad name="1" x="-3.81" y="0" drill="1" diameter="1.5" shape="square" first="yes"/>
+<pad name="2" x="-1.27" y="0" drill="1" diameter="1.5"/>
+<pad name="3" x="1.27" y="0" drill="1" diameter="1.5"/>
+<pad name="4" x="3.81" y="0" drill="1" diameter="1.5"/>
 <wire x1="-6.0325" y1="-1.27" x2="6.0325" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="6.0325" y1="-1.27" x2="6.0325" y2="6.35" width="0.127" layer="21"/>
 <wire x1="6.0325" y1="6.35" x2="-6.0325" y2="6.35" width="0.127" layer="21"/>
@@ -284,16 +284,16 @@
 <text x="1.27" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 </package>
 <package name="MEANWELL_SIP7_SPU02">
-<pad name="1" x="-7.62" y="0" drill="1" shape="square" first="yes"/>
-<pad name="2" x="-5.08" y="0" drill="1"/>
+<pad name="1" x="-7.62" y="0" drill="1" diameter="1.5" shape="square" first="yes"/>
+<pad name="2" x="-5.08" y="0" drill="1" diameter="1.5"/>
 <wire x1="-9.8425" y1="1.27" x2="9.8425" y2="1.27" width="0.127" layer="21"/>
 <wire x1="9.8425" y1="1.27" x2="9.8425" y2="-6.0325" width="0.127" layer="21"/>
 <wire x1="9.8425" y1="-6.0325" x2="-9.8425" y2="-6.0325" width="0.127" layer="21"/>
 <wire x1="-9.8425" y1="-6.0325" x2="-9.8425" y2="1.27" width="0.127" layer="21"/>
 <text x="0" y="-2.54" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="center">&gt;NAME</text>
 <text x="0" y="-4.445" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="center">&gt;VALUE</text>
-<pad name="5" x="2.54" y="0" drill="1"/>
-<pad name="7" x="7.62" y="0" drill="1"/>
+<pad name="5" x="2.54" y="0" drill="1" diameter="1.5"/>
+<pad name="7" x="7.62" y="0" drill="1" diameter="1.5"/>
 </package>
 <package name="DO3316P">
 <description>&lt;b&gt;COILCRAFT&lt;/b&gt;</description>
@@ -450,6 +450,35 @@
 <rectangle x1="-1.143" y1="-7.874" x2="1.143" y2="-5.842" layer="21"/>
 <rectangle x1="-1.016" y1="3.81" x2="1.016" y2="7.874" layer="21"/>
 </package>
+<package name="DPACK">
+<description>DPACK / TO-252</description>
+<wire x1="3.85" y1="-3.25" x2="-2.2" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-3.25" x2="-2.2" y2="3.25" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="3.25" x2="3.85" y2="3.2766" width="0.127" layer="21"/>
+<wire x1="3.85" y1="3.25" x2="3.85" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="3.937" y1="2.5654" x2="4.6482" y2="2.5654" width="0.2032" layer="21"/>
+<wire x1="4.6482" y1="2.5654" x2="5.1054" y2="2.1082" width="0.2032" layer="21"/>
+<wire x1="5.1054" y1="2.1082" x2="5.1054" y2="-2.1082" width="0.2032" layer="21"/>
+<wire x1="5.1054" y1="-2.1082" x2="4.6482" y2="-2.5654" width="0.2032" layer="21"/>
+<wire x1="4.6482" y1="-2.5654" x2="3.937" y2="-2.5654" width="0.2032" layer="21"/>
+<wire x1="3.937" y1="-2.5654" x2="3.937" y2="2.5654" width="0.2032" layer="21"/>
+<smd name="4" x="2.38" y="0" dx="5.8" dy="6.2" layer="1" roundness="10" rot="R270"/>
+<smd name="1" x="-4.8" y="2.28" dx="1.6" dy="3" layer="1" roundness="10" rot="R270"/>
+<smd name="3" x="-4.8" y="-2.28" dx="1.6" dy="3" layer="1" roundness="10" rot="R270"/>
+<text x="0" y="4.445" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-4.445" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<rectangle x1="-4.1402" y1="0.8382" x2="-3.2766" y2="3.7338" layer="21" rot="R270"/>
+<rectangle x1="-4.1402" y1="-3.7338" x2="-3.2766" y2="-0.8382" layer="21" rot="R270"/>
+<rectangle x1="-3.0734" y1="-0.381" x2="-2.2098" y2="0.381" layer="21" rot="R270"/>
+<polygon width="0.127" layer="21">
+<vertex x="3.937" y="2.5654"/>
+<vertex x="4.6482" y="2.5654"/>
+<vertex x="5.1054" y="2.1082"/>
+<vertex x="5.1054" y="-2.1082"/>
+<vertex x="4.6482" y="-2.5654"/>
+<vertex x="3.937" y="-2.5654"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="78XX">
@@ -535,7 +564,7 @@
 </technology>
 </technologies>
 </device>
-<device name="-TS1117-3V3" package="SOT223">
+<device name="-TS1117CW-3V3" package="SOT223">
 <connects>
 <connect gate="A" pin="GND" pad="1"/>
 <connect gate="A" pin="VI" pad="3"/>
@@ -555,7 +584,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="-TS1117-5V" package="SOT223">
+<device name="-TS1117CW-5V" package="SOT223">
 <connects>
 <connect gate="A" pin="GND" pad="1"/>
 <connect gate="A" pin="VI" pad="3"/>
@@ -592,6 +621,16 @@
 <connect gate="A" pin="GND" pad="1"/>
 <connect gate="A" pin="VI" pad="3"/>
 <connect gate="A" pin="VO" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-TS1117CP-5V" package="DPACK">
+<connects>
+<connect gate="A" pin="GND" pad="1"/>
+<connect gate="A" pin="VI" pad="3"/>
+<connect gate="A" pin="VO" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
