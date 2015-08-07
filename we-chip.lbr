@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2540,6 +2540,52 @@
 <rectangle x1="0.55" y1="0.6" x2="0.95" y2="0.9" layer="21"/>
 <circle x="-0.25" y="0.75" radius="0.15" width="0.127" layer="21"/>
 </package>
+<package name="MLF32-PAD">
+<description>&lt;b&gt;32M1-A&lt;/b&gt; Micro Lead Frame package (MLF)</description>
+<smd name="TP" x="0" y="0" dx="2" dy="2" layer="1" roundness="20"/>
+<wire x1="-2.35" y1="2.05" x2="-2.05" y2="2.35" width="0.127" layer="21"/>
+<wire x1="-2.05" y1="2.35" x2="2.35" y2="2.35" width="0.127" layer="21"/>
+<wire x1="2.35" y1="2.35" x2="2.35" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="2.35" y1="-2.35" x2="-2.35" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="-2.35" y1="-2.35" x2="-2.35" y2="2.05" width="0.127" layer="21"/>
+<smd name="1" x="-2.35" y="1.75" dx="0.7" dy="0.3" layer="1" roundness="20"/>
+<smd name="2" x="-2.35" y="1.25" dx="0.7" dy="0.3" layer="1" roundness="20"/>
+<smd name="3" x="-2.35" y="0.75" dx="0.7" dy="0.3" layer="1" roundness="20"/>
+<smd name="4" x="-2.35" y="0.25" dx="0.7" dy="0.3" layer="1" roundness="20"/>
+<smd name="5" x="-2.35" y="-0.25" dx="0.7" dy="0.3" layer="1" roundness="20"/>
+<smd name="6" x="-2.35" y="-0.75" dx="0.7" dy="0.3" layer="1" roundness="20"/>
+<smd name="7" x="-2.35" y="-1.25" dx="0.7" dy="0.3" layer="1" roundness="20"/>
+<smd name="8" x="-2.35" y="-1.75" dx="0.7" dy="0.3" layer="1" roundness="20"/>
+<smd name="9" x="-1.75" y="-2.35" dx="0.3" dy="0.7" layer="1" roundness="20"/>
+<smd name="10" x="-1.25" y="-2.35" dx="0.3" dy="0.7" layer="1" roundness="20"/>
+<smd name="11" x="-0.75" y="-2.35" dx="0.3" dy="0.7" layer="1" roundness="20"/>
+<smd name="12" x="-0.25" y="-2.35" dx="0.3" dy="0.7" layer="1" roundness="20"/>
+<smd name="13" x="0.25" y="-2.35" dx="0.3" dy="0.7" layer="1" roundness="20"/>
+<smd name="14" x="0.75" y="-2.35" dx="0.3" dy="0.7" layer="1" roundness="20"/>
+<smd name="15" x="1.25" y="-2.35" dx="0.3" dy="0.7" layer="1" roundness="20"/>
+<smd name="16" x="1.75" y="-2.35" dx="0.3" dy="0.7" layer="1" roundness="20"/>
+<smd name="17" x="2.35" y="-1.75" dx="0.7" dy="0.3" layer="1" roundness="20"/>
+<smd name="18" x="2.35" y="-1.25" dx="0.7" dy="0.3" layer="1" roundness="20"/>
+<smd name="19" x="2.35" y="-0.75" dx="0.7" dy="0.3" layer="1" roundness="20"/>
+<smd name="20" x="2.35" y="-0.25" dx="0.7" dy="0.3" layer="1" roundness="20"/>
+<smd name="21" x="2.35" y="0.25" dx="0.7" dy="0.3" layer="1" roundness="20"/>
+<smd name="22" x="2.35" y="0.75" dx="0.7" dy="0.3" layer="1" roundness="20"/>
+<smd name="23" x="2.35" y="1.25" dx="0.7" dy="0.3" layer="1" roundness="20"/>
+<smd name="24" x="2.35" y="1.75" dx="0.7" dy="0.3" layer="1" roundness="20"/>
+<smd name="25" x="1.75" y="2.35" dx="0.3" dy="0.7" layer="1" roundness="20"/>
+<smd name="26" x="1.25" y="2.35" dx="0.3" dy="0.7" layer="1" roundness="20"/>
+<smd name="27" x="0.75" y="2.35" dx="0.3" dy="0.7" layer="1" roundness="20"/>
+<smd name="28" x="0.25" y="2.35" dx="0.3" dy="0.7" layer="1" roundness="20"/>
+<smd name="29" x="-0.25" y="2.35" dx="0.3" dy="0.7" layer="1" roundness="20"/>
+<smd name="30" x="-0.75" y="2.35" dx="0.3" dy="0.7" layer="1" roundness="20"/>
+<smd name="31" x="-1.25" y="2.35" dx="0.3" dy="0.7" layer="1" roundness="20"/>
+<smd name="32" x="-1.75" y="2.35" dx="0.3" dy="0.7" layer="1" roundness="20"/>
+<text x="0" y="0.635" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-0.635" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<circle x="-1.5" y="1.5" radius="0.2" width="0.127" layer="21"/>
+<rectangle x1="-1.75" y1="-1.75" x2="1.75" y2="1.75" layer="1"/>
+<rectangle x1="-1.8" y1="-1.8" x2="1.8" y2="1.8" layer="29"/>
+</package>
 </packages>
 <symbols>
 <symbol name="74244">
@@ -3328,8 +3374,8 @@
 <pin name="CBUS0" x="17.78" y="-7.62" length="middle" rot="R180"/>
 <pin name="VCCIO" x="-17.78" y="-5.08" length="middle" direction="pwr"/>
 <pin name="VCC" x="-17.78" y="-10.16" length="middle" direction="pwr"/>
-<pin name="CBUS1" x="17.78" y="-10.16" length="middle" rot="R180"/>
-<pin name="CBUS2" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="RXLED/CBUS1" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="TXLED/CBUS2" x="17.78" y="-12.7" length="middle" rot="R180"/>
 <pin name="CBUS3" x="17.78" y="-15.24" length="middle" rot="R180"/>
 <text x="-12.7" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
@@ -3782,6 +3828,75 @@
 <text x="0" y="0" size="1.778" layer="94" align="center">=1</text>
 <text x="-5.08" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="ATMEGA64">
+<wire x1="-20.32" y1="68.58" x2="20.32" y2="68.58" width="0.254" layer="94"/>
+<wire x1="20.32" y1="68.58" x2="20.32" y2="-68.58" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-68.58" x2="-20.32" y2="-68.58" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-68.58" x2="-20.32" y2="68.58" width="0.254" layer="94"/>
+<pin name="(ADC0)PF0" x="25.4" y="-48.26" length="middle" rot="R180"/>
+<pin name="(ADC1)PF1" x="25.4" y="-50.8" length="middle" rot="R180"/>
+<pin name="(ADC2)PF2" x="25.4" y="-53.34" length="middle" rot="R180"/>
+<pin name="(ADC3)PF3" x="25.4" y="-55.88" length="middle" rot="R180"/>
+<pin name="(TCK/ADC4)PF4" x="25.4" y="-58.42" length="middle" rot="R180"/>
+<pin name="(TMS/ADC5)PF5" x="25.4" y="-60.96" length="middle" rot="R180"/>
+<pin name="(TDO/ADC6)PF6" x="25.4" y="-63.5" length="middle" rot="R180"/>
+<pin name="(TDI/ADC7)PF7" x="25.4" y="-66.04" length="middle" rot="R180"/>
+<pin name="(RXD/PDI)PE0" x="25.4" y="-25.4" length="middle" rot="R180"/>
+<pin name="(TXD/PDO)PE1" x="25.4" y="-27.94" length="middle" rot="R180"/>
+<pin name="(XCK0/AIN0)PE2" x="25.4" y="-30.48" length="middle" rot="R180"/>
+<pin name="(OC3A/AIN1)PE3" x="25.4" y="-33.02" length="middle" rot="R180"/>
+<pin name="(OC3B/INT4)PE4" x="25.4" y="-35.56" length="middle" rot="R180"/>
+<pin name="(OC3C/INT5)PE5" x="25.4" y="-38.1" length="middle" rot="R180"/>
+<pin name="(T3/INT6)PE6" x="25.4" y="-40.64" length="middle" rot="R180"/>
+<pin name="(IC3/INT7)PE7" x="25.4" y="-43.18" length="middle" rot="R180"/>
+<pin name="(T2)PD7" x="25.4" y="-20.32" length="middle" rot="R180"/>
+<pin name="(T1)PD6" x="25.4" y="-17.78" length="middle" rot="R180"/>
+<pin name="(XCK1)PD5" x="25.4" y="-15.24" length="middle" rot="R180"/>
+<pin name="(IC1)PD4" x="25.4" y="-12.7" length="middle" rot="R180"/>
+<pin name="(TXD1/INT3)PD3" x="25.4" y="-10.16" length="middle" rot="R180"/>
+<pin name="(RXD1/INT2)PD2" x="25.4" y="-7.62" length="middle" rot="R180"/>
+<pin name="(SDA/INT1)PD1" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="(SCL/INT0)PD0" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="(A15)PC7" x="25.4" y="2.54" length="middle" rot="R180"/>
+<pin name="(A14)PC6" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="(A13)PC5" x="25.4" y="7.62" length="middle" rot="R180"/>
+<pin name="(A12)PC4" x="25.4" y="10.16" length="middle" rot="R180"/>
+<pin name="(A11)PC3" x="25.4" y="12.7" length="middle" rot="R180"/>
+<pin name="(A10)PC2" x="25.4" y="15.24" length="middle" rot="R180"/>
+<pin name="(A9)PC1" x="25.4" y="17.78" length="middle" rot="R180"/>
+<pin name="(A8)PC0" x="25.4" y="20.32" length="middle" rot="R180"/>
+<pin name="(OC2/OC1C)PB7" x="25.4" y="25.4" length="middle" rot="R180"/>
+<pin name="(OC1B)PB6" x="25.4" y="27.94" length="middle" rot="R180"/>
+<pin name="(OC1A)PB5" x="25.4" y="30.48" length="middle" rot="R180"/>
+<pin name="(OC0)PB4" x="25.4" y="33.02" length="middle" rot="R180"/>
+<pin name="(MISO)PB3" x="25.4" y="35.56" length="middle" rot="R180"/>
+<pin name="(MOSI)PB2" x="25.4" y="38.1" length="middle" rot="R180"/>
+<pin name="(SCK)PB1" x="25.4" y="40.64" length="middle" rot="R180"/>
+<pin name="(SS)PB0" x="25.4" y="43.18" length="middle" rot="R180"/>
+<pin name="(AD6)PA6" x="25.4" y="50.8" length="middle" rot="R180"/>
+<pin name="(AD7)PA7" x="25.4" y="48.26" length="middle" rot="R180"/>
+<pin name="(AD5)PA5" x="25.4" y="53.34" length="middle" rot="R180"/>
+<pin name="(AD4)PA4" x="25.4" y="55.88" length="middle" rot="R180"/>
+<pin name="(AD3)PA3" x="25.4" y="58.42" length="middle" rot="R180"/>
+<pin name="(AD2)PA2" x="25.4" y="60.96" length="middle" rot="R180"/>
+<pin name="(AD1)PA1" x="25.4" y="63.5" length="middle" rot="R180"/>
+<pin name="(AD0)PA0" x="25.4" y="66.04" length="middle" rot="R180"/>
+<pin name="AVCC" x="-25.4" y="-55.88" length="middle" direction="pwr"/>
+<pin name="AREF" x="-25.4" y="-50.8" length="middle" direction="pas"/>
+<pin name="XTAL1" x="-25.4" y="55.88" length="middle"/>
+<pin name="XTAL2" x="-25.4" y="50.8" length="middle"/>
+<pin name="VCC" x="-25.4" y="-60.96" length="middle" direction="pwr"/>
+<pin name="GND" x="-25.4" y="-66.04" length="middle" direction="pwr"/>
+<pin name="PG3(TOSC2)" x="-25.4" y="40.64" length="middle"/>
+<pin name="PG4(TOSC1)" x="-25.4" y="35.56" length="middle"/>
+<pin name="PG0(WR)" x="-25.4" y="20.32" length="middle"/>
+<pin name="PG1(RD)" x="-25.4" y="25.4" length="middle"/>
+<pin name="PG2(ALE)" x="-25.4" y="30.48" length="middle"/>
+<pin name="!RESET" x="-25.4" y="66.04" length="middle" direction="in"/>
+<pin name="PEN" x="-25.4" y="15.24" length="middle"/>
+<text x="-20.32" y="71.12" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-20.32" y="-71.12" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4827,12 +4942,12 @@
 <connect gate="IC" pin="!RTS" pad="2"/>
 <connect gate="IC" pin="3V3OUT" pad="13"/>
 <connect gate="IC" pin="CBUS0" pad="18"/>
-<connect gate="IC" pin="CBUS1" pad="17"/>
-<connect gate="IC" pin="CBUS2" pad="10"/>
 <connect gate="IC" pin="CBUS3" pad="19"/>
 <connect gate="IC" pin="GND" pad="6 16"/>
 <connect gate="IC" pin="RXD" pad="4"/>
+<connect gate="IC" pin="RXLED/CBUS1" pad="17"/>
 <connect gate="IC" pin="TXD" pad="20"/>
+<connect gate="IC" pin="TXLED/CBUS2" pad="10"/>
 <connect gate="IC" pin="USBDM" pad="12"/>
 <connect gate="IC" pin="USBDP" pad="11"/>
 <connect gate="IC" pin="VCC" pad="15"/>
@@ -4853,12 +4968,12 @@
 <connect gate="IC" pin="!RTS" pad="19"/>
 <connect gate="IC" pin="3V3OUT" pad="10"/>
 <connect gate="IC" pin="CBUS0" pad="15"/>
-<connect gate="IC" pin="CBUS1" pad="14"/>
-<connect gate="IC" pin="CBUS2" pad="7"/>
 <connect gate="IC" pin="CBUS3" pad="16"/>
 <connect gate="IC" pin="GND" pad="3 13 TP"/>
 <connect gate="IC" pin="RXD" pad="1"/>
+<connect gate="IC" pin="RXLED/CBUS1" pad="14"/>
 <connect gate="IC" pin="TXD" pad="17"/>
+<connect gate="IC" pin="TXLED/CBUS2" pad="7"/>
 <connect gate="IC" pin="USBDM" pad="9"/>
 <connect gate="IC" pin="USBDP" pad="8"/>
 <connect gate="IC" pin="VCC" pad="12"/>
@@ -5498,6 +5613,82 @@ BT 4.1 Low Energy (BLE)</description>
 <connect gate="IC" pin="Y" pad="4"/>
 <connect gate="P" pin="GND" pad="3"/>
 <connect gate="P" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ATMEGA64" prefix="IC">
+<description>Atmel ATmega64 AVR Microcontroller</description>
+<gates>
+<gate name="IC" symbol="ATMEGA64" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TQFP64">
+<connects>
+<connect gate="IC" pin="!RESET" pad="20"/>
+<connect gate="IC" pin="(A10)PC2" pad="37"/>
+<connect gate="IC" pin="(A11)PC3" pad="38"/>
+<connect gate="IC" pin="(A12)PC4" pad="39"/>
+<connect gate="IC" pin="(A13)PC5" pad="40"/>
+<connect gate="IC" pin="(A14)PC6" pad="41"/>
+<connect gate="IC" pin="(A15)PC7" pad="42"/>
+<connect gate="IC" pin="(A8)PC0" pad="35"/>
+<connect gate="IC" pin="(A9)PC1" pad="36"/>
+<connect gate="IC" pin="(AD0)PA0" pad="51"/>
+<connect gate="IC" pin="(AD1)PA1" pad="50"/>
+<connect gate="IC" pin="(AD2)PA2" pad="49"/>
+<connect gate="IC" pin="(AD3)PA3" pad="48"/>
+<connect gate="IC" pin="(AD4)PA4" pad="47"/>
+<connect gate="IC" pin="(AD5)PA5" pad="46"/>
+<connect gate="IC" pin="(AD6)PA6" pad="45"/>
+<connect gate="IC" pin="(AD7)PA7" pad="44"/>
+<connect gate="IC" pin="(ADC0)PF0" pad="61"/>
+<connect gate="IC" pin="(ADC1)PF1" pad="60"/>
+<connect gate="IC" pin="(ADC2)PF2" pad="59"/>
+<connect gate="IC" pin="(ADC3)PF3" pad="58"/>
+<connect gate="IC" pin="(IC1)PD4" pad="29"/>
+<connect gate="IC" pin="(IC3/INT7)PE7" pad="9"/>
+<connect gate="IC" pin="(MISO)PB3" pad="13"/>
+<connect gate="IC" pin="(MOSI)PB2" pad="12"/>
+<connect gate="IC" pin="(OC0)PB4" pad="14"/>
+<connect gate="IC" pin="(OC1A)PB5" pad="15"/>
+<connect gate="IC" pin="(OC1B)PB6" pad="16"/>
+<connect gate="IC" pin="(OC2/OC1C)PB7" pad="17"/>
+<connect gate="IC" pin="(OC3A/AIN1)PE3" pad="5"/>
+<connect gate="IC" pin="(OC3B/INT4)PE4" pad="6"/>
+<connect gate="IC" pin="(OC3C/INT5)PE5" pad="7"/>
+<connect gate="IC" pin="(RXD/PDI)PE0" pad="2"/>
+<connect gate="IC" pin="(RXD1/INT2)PD2" pad="27"/>
+<connect gate="IC" pin="(SCK)PB1" pad="11"/>
+<connect gate="IC" pin="(SCL/INT0)PD0" pad="25"/>
+<connect gate="IC" pin="(SDA/INT1)PD1" pad="26"/>
+<connect gate="IC" pin="(SS)PB0" pad="10"/>
+<connect gate="IC" pin="(T1)PD6" pad="31"/>
+<connect gate="IC" pin="(T2)PD7" pad="32"/>
+<connect gate="IC" pin="(T3/INT6)PE6" pad="8"/>
+<connect gate="IC" pin="(TCK/ADC4)PF4" pad="57"/>
+<connect gate="IC" pin="(TDI/ADC7)PF7" pad="54"/>
+<connect gate="IC" pin="(TDO/ADC6)PF6" pad="55"/>
+<connect gate="IC" pin="(TMS/ADC5)PF5" pad="56"/>
+<connect gate="IC" pin="(TXD/PDO)PE1" pad="3"/>
+<connect gate="IC" pin="(TXD1/INT3)PD3" pad="28"/>
+<connect gate="IC" pin="(XCK0/AIN0)PE2" pad="4"/>
+<connect gate="IC" pin="(XCK1)PD5" pad="30"/>
+<connect gate="IC" pin="AREF" pad="62"/>
+<connect gate="IC" pin="AVCC" pad="64"/>
+<connect gate="IC" pin="GND" pad="22 53 63"/>
+<connect gate="IC" pin="PEN" pad="1"/>
+<connect gate="IC" pin="PG0(WR)" pad="33"/>
+<connect gate="IC" pin="PG1(RD)" pad="34"/>
+<connect gate="IC" pin="PG2(ALE)" pad="43"/>
+<connect gate="IC" pin="PG3(TOSC2)" pad="18"/>
+<connect gate="IC" pin="PG4(TOSC1)" pad="19"/>
+<connect gate="IC" pin="VCC" pad="21 52"/>
+<connect gate="IC" pin="XTAL1" pad="24"/>
+<connect gate="IC" pin="XTAL2" pad="23"/>
 </connects>
 <technologies>
 <technology name=""/>

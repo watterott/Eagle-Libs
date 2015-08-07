@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -907,6 +907,7 @@
 <pin name="B5" x="-17.78" y="-34.29" length="middle" direction="in"/>
 <pin name="B6" x="-17.78" y="-36.83" length="middle" direction="in"/>
 <pin name="B7" x="-17.78" y="-39.37" length="middle" direction="in"/>
+<pin name="PWM/NC" x="17.78" y="29.21" length="middle" rot="R180"/>
 </symbol>
 <symbol name="WS2812B">
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
@@ -1299,6 +1300,7 @@ TFT070-4 - 7.0" 800x480 (LED @ 40mA @ 20.4V)&lt;br&gt;</description>
 <connect gate="LCD" pin="G7" pad="20"/>
 <connect gate="LCD" pin="GND" pad="3 29 36"/>
 <connect gate="LCD" pin="HSYNC" pad="32"/>
+<connect gate="LCD" pin="PWM/NC" pad="35"/>
 <connect gate="LCD" pin="R0" pad="5"/>
 <connect gate="LCD" pin="R1" pad="6"/>
 <connect gate="LCD" pin="R2" pad="7"/>
@@ -1343,6 +1345,7 @@ TFT070-4 - 7.0" 800x480 (LED @ 40mA @ 20.4V)&lt;br&gt;</description>
 <connect gate="LCD" pin="G7" pad="20"/>
 <connect gate="LCD" pin="GND" pad="3 29 36"/>
 <connect gate="LCD" pin="HSYNC" pad="32"/>
+<connect gate="LCD" pin="PWM/NC" pad="35"/>
 <connect gate="LCD" pin="R0" pad="5"/>
 <connect gate="LCD" pin="R1" pad="6"/>
 <connect gate="LCD" pin="R2" pad="7"/>
@@ -1387,6 +1390,7 @@ TFT070-4 - 7.0" 800x480 (LED @ 40mA @ 20.4V)&lt;br&gt;</description>
 <connect gate="LCD" pin="G7" pad="20"/>
 <connect gate="LCD" pin="GND" pad="3 29 36"/>
 <connect gate="LCD" pin="HSYNC" pad="32"/>
+<connect gate="LCD" pin="PWM/NC" pad="35"/>
 <connect gate="LCD" pin="R0" pad="5"/>
 <connect gate="LCD" pin="R1" pad="6"/>
 <connect gate="LCD" pin="R2" pad="7"/>
