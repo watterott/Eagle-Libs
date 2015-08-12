@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2185,8 +2185,8 @@ all kinds in 0603 and 0402</description>
 <devices>
 <device name="-SMDB3" package="SOT23">
 <connects>
-<connect gate="D" pin="A1" pad="1 3"/>
-<connect gate="D" pin="A2" pad="2"/>
+<connect gate="D" pin="A1" pad="1 2"/>
+<connect gate="D" pin="A2" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
