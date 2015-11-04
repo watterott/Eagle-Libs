@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -60,6 +60,7 @@
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -300,6 +301,24 @@
 <smd name="2" x="3.8" y="2.25" dx="1.2" dy="1.5" layer="1" roundness="10" rot="R270"/>
 <text x="0" y="3.81" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 </package>
+<package name="DB3C">
+<description>Cherry DB3C with PCB Terminals</description>
+<pad name="C" x="0" y="7.5" drill="1.6" rot="R270"/>
+<pad name="NO" x="0" y="0" drill="1.6" rot="R270"/>
+<pad name="NC" x="0" y="-7.5" drill="1.6" rot="R270"/>
+<wire x1="-3.5" y1="10" x2="-3.5" y2="4.96" width="0.254" layer="21"/>
+<wire x1="-3.5" y1="4.96" x2="-3.5" y2="0.5" width="0.254" layer="21"/>
+<wire x1="-3.5" y1="0.5" x2="-3.5" y2="-10" width="0.254" layer="21"/>
+<wire x1="-3.5" y1="-10" x2="3.5" y2="-10" width="0.254" layer="21"/>
+<wire x1="3.5" y1="-10" x2="3.5" y2="0.5" width="0.254" layer="21"/>
+<wire x1="3.5" y1="0.5" x2="3.5" y2="4.96" width="0.254" layer="21"/>
+<wire x1="3.5" y1="4.96" x2="3.5" y2="10" width="0.254" layer="21"/>
+<wire x1="3.5" y1="10" x2="-3.5" y2="10" width="0.254" layer="21"/>
+<circle x="0" y="2.73" radius="1" width="0.254" layer="21"/>
+<wire x1="3.5" y1="0.5" x2="-3.5" y2="0.5" width="0.127" layer="21"/>
+<text x="0" y="10.795" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<wire x1="3.5" y1="4.96" x2="-3.5" y2="4.96" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TACTILE-4">
@@ -394,6 +413,24 @@
 <pin name="COM_B" x="-12.7" y="-12.7" visible="off" length="middle"/>
 <text x="-7.62" y="-22.86" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SWITCH-1UM">
+<wire x1="-2.667" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.794" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.032" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.921" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.921" y2="0" width="0.254" layer="94"/>
+<pin name="P1" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="S1" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="O1" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<wire x1="1.905" y1="1.905" x2="1.905" y2="0.635" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="1.905" x2="-1.905" y2="0.635" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.905" x2="0" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="1.905" x2="-1.905" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.905" x2="0" y2="0.635" width="0.1524" layer="94"/>
+<text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -516,6 +553,23 @@ black - TSWB-3N-CB222 LFS</description>
 <connect gate="SW" pin="S3" pad="S3"/>
 <connect gate="SW" pin="S4" pad="S4"/>
 <connect gate="SW" pin="S5" pad="S5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SW-1UM" prefix="S">
+<gates>
+<gate name="SW" symbol="SWITCH-1UM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-A1LD" package="DB3C">
+<connects>
+<connect gate="SW" pin="O1" pad="NC"/>
+<connect gate="SW" pin="P1" pad="C"/>
+<connect gate="SW" pin="S1" pad="NO"/>
 </connects>
 <technologies>
 <technology name=""/>

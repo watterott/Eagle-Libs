@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -60,6 +60,7 @@
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -1397,6 +1398,9 @@
 <wire x1="-12.19" y1="-10.9" x2="-12.19" y2="10.18" width="0.127" layer="21"/>
 <wire x1="-12.19" y1="10.18" x2="-4.6" y2="16.71" width="0.127" layer="21"/>
 <wire x1="-4.6" y1="16.71" x2="4.6" y2="16.71" width="0.127" layer="21"/>
+<wire x1="-12.19" y1="-16.23" x2="12.19" y2="-16.23" width="0.127" layer="51"/>
+<wire x1="-12.19" y1="-16.23" x2="-12.19" y2="-10.9" width="0.127" layer="51"/>
+<wire x1="12.19" y1="-16.23" x2="12.19" y2="-10.9" width="0.127" layer="51"/>
 </package>
 <package name="A-UNO-ISP_CON-WITHOUT-HOLES">
 <pad name="RST@1" x="33.02" y="2.54" drill="0.9" diameter="1.5" rot="R90"/>
@@ -1631,12 +1635,12 @@
 <wire x1="66.04" y1="52.07" x2="64.77" y2="53.34" width="0.127" layer="21"/>
 <hole x="66.04" y="35.56" drill="3"/>
 <hole x="66.04" y="7.62" drill="3"/>
-<pad name="MOSI_16U2" x="18.288" y="47.498" drill="1.3" diameter="1.9" rot="R180"/>
-<pad name="MISO_16U2" x="15.748" y="44.958" drill="1.3" diameter="1.9" rot="R180"/>
-<pad name="SCK_16U2" x="18.288" y="44.958" drill="1.3" diameter="1.9" rot="R180"/>
-<pad name="RST_16U2" x="20.828" y="44.958" drill="1.3" diameter="1.9" rot="R180"/>
-<pad name="VCC@2" x="15.748" y="47.498" drill="1.3" diameter="1.9" rot="R180"/>
-<pad name="GND@7" x="20.828" y="47.498" drill="1.3" diameter="1.9" rot="R180"/>
+<pad name="MOSI_16U2" x="18.288" y="44.958" drill="1.3" diameter="1.9" rot="R180"/>
+<pad name="MISO_16U2" x="20.828" y="47.498" drill="1.3" diameter="1.9" rot="R180"/>
+<pad name="SCK_16U2" x="18.288" y="47.498" drill="1.3" diameter="1.9" rot="R180"/>
+<pad name="RST_16U2" x="15.748" y="47.498" drill="1.3" diameter="1.9" rot="R180"/>
+<pad name="VCC@2" x="20.828" y="44.958" drill="1.3" diameter="1.9" rot="R180"/>
+<pad name="GND@7" x="15.748" y="44.958" drill="1.3" diameter="1.9" rot="R180"/>
 <pad name="PWR-@2" x="8.7" y="3.302" drill="1.7" diameter="3"/>
 <pad name="PWR-@1" x="5.71" y="8.3" drill="1.7" diameter="3"/>
 <pad name="PWR+" x="11.68" y="8.3" drill="1.7" diameter="3"/>
