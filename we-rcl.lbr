@@ -1272,7 +1272,9 @@
 </symbols>
 <devicesets>
 <deviceset name="CRYSTAL-RES" prefix="Q" uservalue="yes">
-<description>Crystal Resonators</description>
+<description>Crystal Resonators&lt;br&gt;
+&lt;br&gt;
+8MHz and 16MHz -&gt; 32x13</description>
 <gates>
 <gate name="Q" symbol="CRYSTAL_RES" x="0" y="0"/>
 </gates>
@@ -1490,6 +1492,7 @@ all kinds in 0603 and 0402</description>
 </deviceset>
 <deviceset name="CAPACITOR" prefix="C" uservalue="yes">
 <description>Capacitors&lt;br&gt;
+&lt;br&gt;
 ...4.7uF @ 6.3V -&gt; 0402&lt;br&gt;
 ...10uF @ 16V -&gt; 0603&lt;br&gt;
 ...22uF @ 25V -&gt; 0805&lt;br&gt;</description>
@@ -2017,7 +2020,11 @@ all kinds in 0603 and 0402</description>
 </devices>
 </deviceset>
 <deviceset name="INDUCTOR" prefix="L" uservalue="yes">
-<description>Inductors</description>
+<description>Inductors&lt;br&gt;
+&lt;br&gt;
+Ferrite Bead&lt;br&gt;
+0603 1.4A 220Ohm @ 100MH,  -&gt; Murata BLM18PG221SH1D&lt;br&gt;
+0603 1.0A 20Ohm @ 100MH -&gt; Murata BLM18PG300SN1D&lt;br&gt;</description>
 <gates>
 <gate name="L" symbol="INDUCTOR" x="0" y="0"/>
 </gates>

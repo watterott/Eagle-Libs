@@ -1006,7 +1006,7 @@
 </symbols>
 <devicesets>
 <deviceset name="MI0283QT" prefix="LCD">
-<description>Multi-Inno MIO283QT-9 / -11 2.8" Display (240x320) with Ilitek ILI9341 controller</description>
+<description>Multi-Inno MIO283QT-9/-11 2.8" Display (240x320) with Ilitek ILI9341 controller</description>
 <gates>
 <gate name="LCD" symbol="MI0283QT" x="0" y="0"/>
 </gates>
@@ -1128,7 +1128,9 @@
 </devices>
 </deviceset>
 <deviceset name="LED" prefix="D" uservalue="yes">
-<description>LEDs</description>
+<description>LEDs&lt;br&gt;
+&lt;br&gt;
+red, green, blue -&gt; 0603</description>
 <gates>
 <gate name="D" symbol="LED" x="0" y="0"/>
 </gates>
@@ -1268,7 +1270,8 @@
 </devices>
 </deviceset>
 <deviceset name="ER-TFT" prefix="LCD">
-<description>ER Displays&lt;br&gt;
+<description>ER TFT Displays
+&lt;br&gt;
 TFT043-3 - 4.3" 480x272 (LED 15mA @ 25.0V)&lt;br&gt;
 TFT050-3 - 5.0" 800x480 (LED @ 40mA @ 19.2V)&lt;br&gt;
 TFT070-4 - 7.0" 800x480 (LED @ 40mA @ 20.4V)&lt;br&gt;</description>
