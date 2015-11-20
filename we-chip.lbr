@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -164,14 +164,14 @@
 <wire x1="-1.4" y1="2.4" x2="1.9" y2="2.4" width="0.127" layer="21"/>
 <wire x1="1.9" y1="2.4" x2="1.9" y2="-2.4" width="0.127" layer="21"/>
 <wire x1="-1.4" y1="-2.4" x2="-1.4" y2="2.4" width="0.127" layer="21"/>
-<smd name="2" x="-2.6" y="0.635" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="7" x="2.6" y="0.635" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="1" x="-2.6" y="1.905" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="3" x="-2.6" y="-0.635" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="4" x="-2.6" y="-1.905" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="8" x="2.6" y="1.905" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="6" x="2.6" y="-0.635" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="5" x="2.6" y="-1.905" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
+<smd name="2" x="-2.6" y="0.635" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="7" x="2.6" y="0.635" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="1" x="-2.6" y="1.905" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="3" x="-2.6" y="-0.635" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="4" x="-2.6" y="-1.905" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="8" x="2.6" y="1.905" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="6" x="2.6" y="-0.635" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="5" x="2.6" y="-1.905" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
 <rectangle x1="-2.79515" y1="1.35495" x2="-2.30495" y2="2.45505" layer="51" rot="R270"/>
 <rectangle x1="-2.79515" y1="0.08495" x2="-2.30495" y2="1.18505" layer="51" rot="R270"/>
 <rectangle x1="-2.79515" y1="-1.18505" x2="-2.30495" y2="-0.08495" layer="51" rot="R270"/>
@@ -218,20 +218,20 @@
 <wire x1="1.9" y1="-4.305" x2="-1.4" y2="-4.305" width="0.127" layer="21"/>
 <wire x1="-1.4" y1="-4.305" x2="-1.9" y2="-4.305" width="0.127" layer="21"/>
 <wire x1="1.9" y1="4.305" x2="1.9" y2="-4.305" width="0.127" layer="21"/>
-<smd name="2" x="-2.6" y="2.54" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="13" x="2.6" y="2.54" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="1" x="-2.6" y="3.81" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="3" x="-2.6" y="1.27" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="4" x="-2.6" y="0" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="14" x="2.6" y="3.81" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="12" x="2.6" y="1.27" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="11" x="2.6" y="0" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="6" x="-2.6" y="-2.54" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="9" x="2.6" y="-2.54" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="5" x="-2.6" y="-1.27" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="7" x="-2.6" y="-3.81" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="10" x="2.6" y="-1.27" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="8" x="2.6" y="-3.81" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
+<smd name="2" x="-2.6" y="2.54" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="13" x="2.6" y="2.54" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="1" x="-2.6" y="3.81" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="3" x="-2.6" y="1.27" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="4" x="-2.6" y="0" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="14" x="2.6" y="3.81" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="12" x="2.6" y="1.27" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="11" x="2.6" y="0" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="6" x="-2.6" y="-2.54" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="9" x="2.6" y="-2.54" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="5" x="-2.6" y="-1.27" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="7" x="-2.6" y="-3.81" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="10" x="2.6" y="-1.27" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="8" x="2.6" y="-3.81" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
 <rectangle x1="-2.79515" y1="3.25995" x2="-2.30495" y2="4.36005" layer="51" rot="R270"/>
 <rectangle x1="-2.79515" y1="1.98995" x2="-2.30495" y2="3.09005" layer="51" rot="R270"/>
 <rectangle x1="-2.79515" y1="0.71995" x2="-2.30495" y2="1.82005" layer="51" rot="R270"/>
@@ -298,22 +298,22 @@
 <wire x1="-1.4" y1="-4.94" x2="-1.4" y2="4.94" width="0.127" layer="21"/>
 <wire x1="1.9" y1="-4.94" x2="-1.4" y2="-4.94" width="0.127" layer="21"/>
 <wire x1="-1.4" y1="-4.94" x2="-1.9" y2="-4.94" width="0.127" layer="21"/>
-<smd name="2" x="-2.6" y="3.175" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="13" x="2.6" y="0.635" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="1" x="-2.6" y="4.445" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="3" x="-2.6" y="1.905" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="4" x="-2.6" y="0.635" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="14" x="2.6" y="1.905" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="12" x="2.6" y="-0.635" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="11" x="2.6" y="-1.905" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="6" x="-2.6" y="-1.905" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="9" x="2.6" y="-4.445" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="5" x="-2.6" y="-0.635" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="7" x="-2.6" y="-3.175" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="10" x="2.6" y="-3.175" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="8" x="-2.6" y="-4.445" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="15" x="2.6" y="3.175" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
-<smd name="16" x="2.6" y="4.445" dx="0.6" dy="2.2" layer="1" roundness="20" rot="R270"/>
+<smd name="2" x="-2.6" y="3.175" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="13" x="2.6" y="0.635" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="1" x="-2.6" y="4.445" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="3" x="-2.6" y="1.905" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="4" x="-2.6" y="0.635" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="14" x="2.6" y="1.905" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="12" x="2.6" y="-0.635" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="11" x="2.6" y="-1.905" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="6" x="-2.6" y="-1.905" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="9" x="2.6" y="-4.445" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="5" x="-2.6" y="-0.635" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="7" x="-2.6" y="-3.175" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="10" x="2.6" y="-3.175" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="8" x="-2.6" y="-4.445" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="15" x="2.6" y="3.175" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
+<smd name="16" x="2.6" y="4.445" dx="0.6" dy="2" layer="1" roundness="20" rot="R270"/>
 <rectangle x1="-2.79515" y1="3.89495" x2="-2.30495" y2="4.99505" layer="51" rot="R270"/>
 <rectangle x1="-2.79515" y1="2.62495" x2="-2.30495" y2="3.72505" layer="51" rot="R270"/>
 <rectangle x1="-2.79515" y1="1.35495" x2="-2.30495" y2="2.45505" layer="51" rot="R270"/>
@@ -1491,7 +1491,7 @@
 <smd name="6" x="0.95" y="-0.25" dx="0.5" dy="0.28" layer="1" roundness="20"/>
 <smd name="7" x="0.95" y="0.25" dx="0.5" dy="0.28" layer="1" roundness="20"/>
 <smd name="8" x="0.95" y="0.75" dx="0.5" dy="0.28" layer="1" roundness="20"/>
-<smd name="TP" x="0" y="0" dx="1.6" dy="0.9" layer="1" roundness="10" rot="R90"/>
+<smd name="TP" x="0" y="0" dx="1" dy="0.4" layer="1" roundness="20" rot="R90"/>
 <wire x1="-1" y1="0.5" x2="-1" y2="-1" width="0.127" layer="21"/>
 <wire x1="-1" y1="-1" x2="1" y2="-1" width="0.127" layer="21"/>
 <wire x1="1" y1="-1" x2="1" y2="1" width="0.127" layer="21"/>
@@ -1499,8 +1499,10 @@
 <wire x1="-1" y1="0.5" x2="-0.5" y2="1" width="0.127" layer="21"/>
 <text x="0" y="-1.905" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;Value</text>
 <text x="0" y="1.905" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;Name</text>
+<rectangle x1="-0.45" y1="-0.8" x2="0.45" y2="0.8" layer="1"/>
+<rectangle x1="-0.5" y1="-0.85" x2="0.5" y2="0.85" layer="29"/>
 </package>
-<package name="TSSOP24-PAD">
+<package name="HTSSOP24-PAD">
 <wire x1="-1.996" y1="3.808" x2="-1.496" y2="3.808" width="0.127" layer="21"/>
 <wire x1="-1.496" y1="3.808" x2="1.996" y2="3.808" width="0.127" layer="21"/>
 <wire x1="1.996" y1="3.808" x2="1.996" y2="-3.808" width="0.127" layer="21"/>
@@ -1798,12 +1800,12 @@
 <circle x="-6" y="6" radius="0.2" width="0.127" layer="21"/>
 <text x="0" y="5.08" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-5.08" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<rectangle x1="-2.6" y1="-2.6" x2="2.6" y2="2.6" layer="1"/>
-<rectangle x1="-2.65" y1="-2.65" x2="2.65" y2="2.65" layer="29"/>
-<rectangle x1="-2.5" y1="0.5" x2="-0.5" y2="2.5" layer="31"/>
-<rectangle x1="0.5" y1="0.5" x2="2.5" y2="2.5" layer="31"/>
-<rectangle x1="-2.5" y1="-2.5" x2="-0.5" y2="-0.5" layer="31"/>
-<rectangle x1="0.5" y1="-2.5" x2="2.5" y2="-0.5" layer="31"/>
+<rectangle x1="-2.7" y1="-2.7" x2="2.7" y2="2.7" layer="1"/>
+<rectangle x1="-2.75" y1="-2.75" x2="2.75" y2="2.75" layer="29"/>
+<rectangle x1="-2" y1="0.5" x2="-0.5" y2="2" layer="31"/>
+<rectangle x1="0.5" y1="0.5" x2="2" y2="2" layer="31"/>
+<rectangle x1="-2" y1="-2" x2="-0.5" y2="-0.5" layer="31"/>
+<rectangle x1="0.5" y1="-2" x2="2" y2="-0.5" layer="31"/>
 </package>
 <package name="RS9110-N-11-21">
 <wire x1="-10.5825" y1="-14.5" x2="-11.5" y2="-13.6525" width="0.127" layer="21"/>
@@ -1982,7 +1984,7 @@
 <text x="0" y="-0.635" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <rectangle x1="-1.3" y1="-1.3" x2="1.3" y2="1.3" layer="1"/>
 <rectangle x1="-1.35" y1="-1.35" x2="1.35" y2="1.35" layer="29"/>
-<smd name="TP" x="0" y="0" dx="1.2" dy="1.2" layer="1" roundness="20"/>
+<smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" roundness="20"/>
 </package>
 <package name="HM-XX">
 <wire x1="-6.75" y1="-6.25" x2="6.75" y2="-6.25" width="0.127" layer="21"/>
@@ -2047,7 +2049,7 @@
 <smd name="14" x="2.8" y="0.975" dx="1.55" dy="0.3" layer="1" roundness="20"/>
 <smd name="15" x="2.8" y="1.625" dx="1.55" dy="0.3" layer="1" roundness="20"/>
 <smd name="16" x="2.8" y="2.275" dx="1.55" dy="0.3" layer="1" roundness="20"/>
-<smd name="TP" x="0" y="0" dx="3" dy="3" layer="1" roundness="10"/>
+<smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" roundness="10"/>
 <wire x1="-2.25" y1="2.55" x2="-2.25" y2="-2.55" width="0.127" layer="21"/>
 <wire x1="2.25" y1="2.55" x2="2.25" y2="-2.55" width="0.127" layer="21"/>
 <wire x1="-2.25" y1="2.55" x2="-1.75" y2="2.55" width="0.127" layer="21"/>
@@ -2058,6 +2060,12 @@
 <text x="0" y="-3.175" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="center">&gt;VALUE</text>
 <wire x1="-1.75" y1="-2.55" x2="2.25" y2="-2.55" width="0.127" layer="21"/>
 <wire x1="-1.75" y1="2.55" x2="-1.75" y2="-2.55" width="0.127" layer="21"/>
+<rectangle x1="-1.5" y1="-1.5" x2="1.5" y2="1.5" layer="1"/>
+<rectangle x1="-1.55" y1="-1.55" x2="1.55" y2="1.55" layer="29"/>
+<rectangle x1="-1.3" y1="0.7" x2="-0.7" y2="1.3" layer="31"/>
+<rectangle x1="0.7" y1="0.7" x2="1.3" y2="1.3" layer="31"/>
+<rectangle x1="-1.3" y1="-1.3" x2="-0.7" y2="-0.7" layer="31"/>
+<rectangle x1="0.7" y1="-1.3" x2="1.3" y2="-0.7" layer="31"/>
 </package>
 <package name="RN4020">
 <smd name="1" x="-5.5" y="10.9" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R90"/>
@@ -2197,7 +2205,7 @@
 <wire x1="-1.6" y1="2" x2="-2" y2="1.6" width="0.127" layer="21"/>
 <circle x="-1.1" y="1.1" radius="0.2" width="0.127" layer="21"/>
 <rectangle x1="-1.4" y1="-1.4" x2="1.4" y2="1.4" layer="1"/>
-<smd name="TP" x="0" y="0" dx="1.5" dy="1.5" layer="1" roundness="20"/>
+<smd name="TP" x="0" y="0" dx="1.2" dy="1.2" layer="1" roundness="20"/>
 <rectangle x1="-1.45" y1="-1.45" x2="1.45" y2="1.45" layer="29"/>
 </package>
 <package name="QFN36-PAD">
@@ -2237,7 +2245,7 @@
 <smd name="34" x="-0.75" y="2.9" dx="0.7" dy="0.26" layer="1" roundness="20" rot="R90"/>
 <smd name="35" x="-1.25" y="2.65" dx="1.2" dy="0.26" layer="1" roundness="20" rot="R90"/>
 <smd name="36" x="-1.75" y="2.9" dx="0.7" dy="0.26" layer="1" roundness="20" rot="R90"/>
-<smd name="TP" x="0" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="TP" x="0" y="0" dx="0.8" dy="0.8" layer="1" roundness="20"/>
 <wire x1="-2.5" y1="2.6" x2="-2.5" y2="-3" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="-3" x2="2.5" y2="-3" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-3" x2="2.5" y2="3" width="0.127" layer="21"/>
@@ -2552,7 +2560,7 @@
 </package>
 <package name="MLF32-PAD">
 <description>&lt;b&gt;32M1-A&lt;/b&gt; Micro Lead Frame package (MLF)</description>
-<smd name="TP" x="0" y="0" dx="2" dy="2" layer="1" roundness="20"/>
+<smd name="TP" x="0" y="0" dx="1.6" dy="1.6" layer="1" roundness="20"/>
 <wire x1="-2.35" y1="2.05" x2="-2.05" y2="2.35" width="0.127" layer="21"/>
 <wire x1="-2.05" y1="2.35" x2="2.35" y2="2.35" width="0.127" layer="21"/>
 <wire x1="2.35" y1="2.35" x2="2.35" y2="-2.35" width="0.127" layer="21"/>
@@ -2695,22 +2703,24 @@
 <smd name="18" x="8.6" y="1.9" dx="2" dy="1" layer="1" roundness="20"/>
 </package>
 <package name="UDFN8">
-<smd name="1" x="-1.35" y="0.75" dx="0.5" dy="0.28" layer="1" roundness="20"/>
-<smd name="2" x="-1.35" y="0.25" dx="0.5" dy="0.28" layer="1" roundness="20"/>
-<smd name="3" x="-1.35" y="-0.25" dx="0.5" dy="0.28" layer="1" roundness="20"/>
-<smd name="4" x="-1.35" y="-0.75" dx="0.5" dy="0.28" layer="1" roundness="20"/>
-<smd name="5" x="1.35" y="-0.75" dx="0.5" dy="0.28" layer="1" roundness="20"/>
-<smd name="6" x="1.35" y="-0.25" dx="0.5" dy="0.28" layer="1" roundness="20"/>
-<smd name="7" x="1.35" y="0.25" dx="0.5" dy="0.28" layer="1" roundness="20"/>
-<smd name="8" x="1.35" y="0.75" dx="0.5" dy="0.28" layer="1" roundness="20"/>
-<smd name="TP" x="0" y="0" dx="1.5" dy="1.3" layer="1" roundness="10" rot="R90"/>
+<smd name="1" x="-1.475" y="0.75" dx="0.7" dy="0.28" layer="1" roundness="20"/>
+<smd name="2" x="-1.475" y="0.25" dx="0.7" dy="0.28" layer="1" roundness="20"/>
+<smd name="3" x="-1.475" y="-0.25" dx="0.7" dy="0.28" layer="1" roundness="20"/>
+<smd name="4" x="-1.475" y="-0.75" dx="0.7" dy="0.28" layer="1" roundness="20"/>
+<smd name="5" x="1.475" y="-0.75" dx="0.7" dy="0.28" layer="1" roundness="20"/>
+<smd name="6" x="1.475" y="-0.25" dx="0.7" dy="0.28" layer="1" roundness="20"/>
+<smd name="7" x="1.475" y="0.25" dx="0.7" dy="0.28" layer="1" roundness="20"/>
+<smd name="8" x="1.475" y="0.75" dx="0.7" dy="0.28" layer="1" roundness="20"/>
+<text x="0" y="-1.905" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;Value</text>
+<text x="0" y="1.905" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;Name</text>
+<smd name="TP" x="0" y="0" dx="0.7" dy="0.7" layer="1" roundness="20"/>
+<rectangle x1="-0.75" y1="-0.75" x2="0.75" y2="0.75" layer="1"/>
+<rectangle x1="-0.8" y1="-0.8" x2="0.8" y2="0.8" layer="29"/>
 <wire x1="-1.5" y1="0.5" x2="-1.5" y2="-1" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="-1" x2="1.5" y2="-1" width="0.127" layer="21"/>
 <wire x1="1.5" y1="-1" x2="1.5" y2="1" width="0.127" layer="21"/>
 <wire x1="1.5" y1="1" x2="-1" y2="1" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="0.5" x2="-1" y2="1" width="0.127" layer="21"/>
-<text x="0" y="-1.905" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;Value</text>
-<text x="0" y="1.905" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;Name</text>
 </package>
 <package name="QFN64-PAD">
 <smd name="1" x="-4.375" y="3.75" dx="0.28" dy="0.8" layer="1" roundness="20" rot="R270"/>
@@ -2777,7 +2787,7 @@
 <smd name="62" x="-2.75" y="4.375" dx="0.28" dy="0.8" layer="1" roundness="20" rot="R180"/>
 <smd name="63" x="-3.25" y="4.375" dx="0.28" dy="0.8" layer="1" roundness="20" rot="R180"/>
 <smd name="64" x="-3.75" y="4.375" dx="0.28" dy="0.8" layer="1" roundness="20" rot="R180"/>
-<smd name="TP" x="0" y="0" dx="2" dy="2" layer="1"/>
+<smd name="TP" x="0" y="0" dx="1.2" dy="1.2" layer="1" roundness="20"/>
 <text x="0" y="0.635" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-0.635" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <rectangle x1="-3.65" y1="-3.65" x2="3.65" y2="3.65" layer="1"/>
@@ -2874,6 +2884,68 @@
 <text x="0" y="3.81" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <wire x1="-1.75" y1="-3.25" x2="-1.75" y2="3.25" width="0.127" layer="21"/>
+</package>
+<package name="TSSOP14">
+<wire x1="-2.25" y1="2.5" x2="-2.25" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="2.25" y1="-2.5" x2="-1.75" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-2.5" x2="-2.25" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="2.25" y1="-2.5" x2="2.25" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="2.5" x2="-1.75" y2="2.5" width="0.127" layer="21"/>
+<smd name="1" x="-3" y="1.95" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="2" x="-3" y="1.3" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="3" x="-3" y="0.65" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="4" x="-3" y="0" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="5" x="-3" y="-0.65" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="6" x="-3" y="-1.3" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="7" x="-3" y="-1.95" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="8" x="3" y="-1.95" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="9" x="3" y="-1.3" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="10" x="3" y="-0.65" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="11" x="3" y="0" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="12" x="3" y="0.65" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="13" x="3" y="1.3" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="14" x="3" y="1.95" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<wire x1="-1.75" y1="2.5" x2="2.25" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="2.5" x2="-1.75" y2="-2.5" width="0.127" layer="21"/>
+<circle x="-1.3" y="1.875" radius="0.2" width="0.127" layer="21"/>
+<text x="0" y="2.85" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-0.325" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+</package>
+<package name="TSSOP24">
+<wire x1="-2.8" y1="4" x2="-2.3" y2="4" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="4" x2="2.8" y2="4" width="0.127" layer="21"/>
+<wire x1="2.8" y1="4" x2="2.8" y2="-4" width="0.127" layer="21"/>
+<wire x1="2.8" y1="-4" x2="-2.3" y2="-4" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="-4" x2="-2.8" y2="-4" width="0.127" layer="21"/>
+<wire x1="-2.8" y1="-4" x2="-2.8" y2="4" width="0.127" layer="21"/>
+<smd name="1" x="-3.5" y="3.575" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="2" x="-3.5" y="2.925" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="3" x="-3.5" y="2.275" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="4" x="-3.5" y="1.625" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="5" x="-3.5" y="0.975" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="6" x="-3.5" y="0.325" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="7" x="-3.5" y="-0.325" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="8" x="-3.5" y="-0.975" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="9" x="-3.5" y="-1.625" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="10" x="-3.5" y="-2.275" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="11" x="-3.5" y="-2.925" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="12" x="-3.5" y="-3.575" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="13" x="3.5" y="-3.575" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="14" x="3.5" y="-2.925" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="15" x="3.5" y="-2.275" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="16" x="3.5" y="-1.625" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="17" x="3.5" y="-0.975" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="18" x="3.5" y="-0.325" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="19" x="3.5" y="0.325" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="20" x="3.5" y="0.975" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<circle x="-1.8" y="3.575" radius="0.2" width="0.127" layer="21"/>
+<text x="0" y="4.445" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<wire x1="-2.3" y1="-4" x2="-2.3" y2="4" width="0.127" layer="21"/>
+<smd name="21" x="3.5" y="1.595" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="22" x="3.5" y="2.215" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="23" x="3.5" y="2.835" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="24" x="3.5" y="3.455" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
 </package>
 </packages>
 <symbols>
@@ -4465,6 +4537,105 @@ Upstream</text>
 <pin name="I8" x="-12.7" y="-7.62" length="middle" direction="in"/>
 <pin name="O8" x="12.7" y="-7.62" length="middle" direction="oc" rot="R180"/>
 </symbol>
+<symbol name="TXB0104">
+<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="-3.81" y2="-10.16" width="0.127" layer="97" style="shortdash"/>
+<wire x1="-3.81" y1="-10.16" x2="-3.81" y2="2.54" width="0.127" layer="97" style="shortdash"/>
+<wire x1="-3.81" y1="2.54" x2="-12.7" y2="2.54" width="0.127" layer="97" style="shortdash"/>
+<wire x1="12.7" y1="2.54" x2="3.81" y2="2.54" width="0.127" layer="97" style="shortdash"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-10.16" width="0.127" layer="97" style="shortdash"/>
+<wire x1="3.81" y1="-10.16" x2="12.7" y2="-10.16" width="0.127" layer="97" style="shortdash"/>
+<text x="-12.7" y="15.24" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-12.7" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="-3.81" size="1.016" layer="97" rot="R90" align="center">1.2-3.6V</text>
+<text x="5.08" y="-3.81" size="1.016" layer="97" rot="R90" align="center">1.65-5.5V</text>
+<pin name="VCCA" x="-15.24" y="10.16" length="short" direction="pwr"/>
+<pin name="A1" x="-15.24" y="0" length="short"/>
+<pin name="A2" x="-15.24" y="-2.54" length="short"/>
+<pin name="A3" x="-15.24" y="-5.08" length="short"/>
+<pin name="A4" x="-15.24" y="-7.62" length="short"/>
+<pin name="GND" x="0" y="-15.24" length="short" direction="pwr" rot="R90"/>
+<pin name="VCCB" x="15.24" y="10.16" length="short" direction="pwr" rot="R180"/>
+<pin name="B1" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="B2" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="B3" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="B4" x="15.24" y="-7.62" length="short" rot="R180"/>
+<pin name="OE" x="-15.24" y="5.08" length="short"/>
+<text x="0" y="3.048" size="1.016" layer="97" align="bottom-center">VCCA ≤ VCCB</text>
+</symbol>
+<symbol name="TXB0106">
+<wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="-3.81" y2="-12.7" width="0.127" layer="97" style="shortdash"/>
+<wire x1="-3.81" y1="-12.7" x2="-3.81" y2="5.08" width="0.127" layer="97" style="shortdash"/>
+<wire x1="-3.81" y1="5.08" x2="-12.7" y2="5.08" width="0.127" layer="97" style="shortdash"/>
+<wire x1="12.7" y1="5.08" x2="3.81" y2="5.08" width="0.127" layer="97" style="shortdash"/>
+<wire x1="3.81" y1="5.08" x2="3.81" y2="-12.7" width="0.127" layer="97" style="shortdash"/>
+<wire x1="3.81" y1="-12.7" x2="12.7" y2="-12.7" width="0.127" layer="97" style="shortdash"/>
+<text x="-12.7" y="17.78" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-12.7" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="-3.81" size="1.016" layer="97" rot="R90" align="center">1.2-3.6V</text>
+<text x="5.08" y="-3.81" size="1.016" layer="97" rot="R90" align="center">1.65-5.5V</text>
+<pin name="VCCA" x="-15.24" y="12.7" length="short" direction="pwr"/>
+<pin name="A1" x="-15.24" y="2.54" length="short"/>
+<pin name="A2" x="-15.24" y="0" length="short"/>
+<pin name="A3" x="-15.24" y="-2.54" length="short"/>
+<pin name="A4" x="-15.24" y="-5.08" length="short"/>
+<pin name="GND" x="0" y="-17.78" length="short" direction="pwr" rot="R90"/>
+<pin name="VCCB" x="15.24" y="12.7" length="short" direction="pwr" rot="R180"/>
+<pin name="B1" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="B2" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="B3" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="B4" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="OE" x="-15.24" y="7.62" length="short"/>
+<text x="0" y="5.588" size="1.016" layer="97" align="bottom-center">VCCA ≤ VCCB</text>
+<pin name="A5" x="-15.24" y="-7.62" length="short"/>
+<pin name="A6" x="-15.24" y="-10.16" length="short"/>
+<pin name="B5" x="15.24" y="-7.62" length="short" rot="R180"/>
+<pin name="B6" x="15.24" y="-10.16" length="short" rot="R180"/>
+</symbol>
+<symbol name="TXB0108">
+<wire x1="-12.7" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-17.78" x2="-12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-3.81" y2="-15.24" width="0.127" layer="97" style="shortdash"/>
+<wire x1="-3.81" y1="-15.24" x2="-3.81" y2="7.62" width="0.127" layer="97" style="shortdash"/>
+<wire x1="-3.81" y1="7.62" x2="-12.7" y2="7.62" width="0.127" layer="97" style="shortdash"/>
+<wire x1="12.7" y1="7.62" x2="3.81" y2="7.62" width="0.127" layer="97" style="shortdash"/>
+<wire x1="3.81" y1="7.62" x2="3.81" y2="-15.24" width="0.127" layer="97" style="shortdash"/>
+<wire x1="3.81" y1="-15.24" x2="12.7" y2="-15.24" width="0.127" layer="97" style="shortdash"/>
+<text x="-12.7" y="20.32" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-12.7" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="-3.81" size="1.016" layer="97" rot="R90" align="center">1.2-3.6V</text>
+<text x="5.08" y="-3.81" size="1.016" layer="97" rot="R90" align="center">1.65-5.5V</text>
+<pin name="VCCA" x="-15.24" y="15.24" length="short" direction="pwr"/>
+<pin name="A1" x="-15.24" y="5.08" length="short"/>
+<pin name="A2" x="-15.24" y="2.54" length="short"/>
+<pin name="A3" x="-15.24" y="0" length="short"/>
+<pin name="A4" x="-15.24" y="-2.54" length="short"/>
+<pin name="GND" x="0" y="-20.32" length="short" direction="pwr" rot="R90"/>
+<pin name="VCCB" x="15.24" y="15.24" length="short" direction="pwr" rot="R180"/>
+<pin name="B1" x="15.24" y="5.08" length="short" rot="R180"/>
+<pin name="B2" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="B3" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="B4" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="OE" x="-15.24" y="10.16" length="short"/>
+<text x="0" y="8.128" size="1.016" layer="97" align="bottom-center">VCCA ≤ VCCB</text>
+<pin name="A5" x="-15.24" y="-5.08" length="short"/>
+<pin name="A6" x="-15.24" y="-7.62" length="short"/>
+<pin name="A7" x="-15.24" y="-10.16" length="short"/>
+<pin name="A8" x="-15.24" y="-12.7" length="short"/>
+<pin name="B5" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="B6" x="15.24" y="-7.62" length="short" rot="R180"/>
+<pin name="B7" x="15.24" y="-10.16" length="short" rot="R180"/>
+<pin name="B8" x="15.24" y="-12.7" length="short" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="74*244" prefix="IC">
@@ -4632,7 +4803,7 @@ Upstream</text>
 <gate name="IC" symbol="TB6612FNG" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SSOP24">
+<device name="" package="TSSOP24">
 <connects>
 <connect gate="IC" pin="AIN1" pad="21"/>
 <connect gate="IC" pin="AIN2" pad="22"/>
@@ -4661,7 +4832,7 @@ Upstream</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY" value=" TB6612FNG(OC8EL)DKR-ND" constant="no"/>
+<attribute name="DIGIKEY" value="TB6612FNG(OC8EL)DKR-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4955,7 +5126,7 @@ Upstream</text>
 <gate name="IC" symbol="DAC8760" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TSSOP24-PAD">
+<device name="-PWP" package="HTSSOP24-PAD">
 <connects>
 <connect gate="IC" pin="+VSENSE" pad="22"/>
 <connect gate="IC" pin="-VSENSE" pad="23"/>
@@ -6025,19 +6196,19 @@ BT 4.1 Low Energy (BLE)</description>
 <deviceset name="RV8803" prefix="IC">
 <description>Micro Crystal RV-8803 RTC (Real Time Clock)</description>
 <gates>
-<gate name="G$1" symbol="RV8803" x="0" y="0"/>
+<gate name="IC" symbol="RV8803" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="RTC-C7">
 <connects>
-<connect gate="G$1" pin="!INT" pad="6"/>
-<connect gate="G$1" pin="CLKOE" pad="4"/>
-<connect gate="G$1" pin="CLKOUT" pad="2"/>
-<connect gate="G$1" pin="EVI" pad="7"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="SCL" pad="8"/>
-<connect gate="G$1" pin="SDA" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="3"/>
+<connect gate="IC" pin="!INT" pad="6"/>
+<connect gate="IC" pin="CLKOE" pad="4"/>
+<connect gate="IC" pin="CLKOUT" pad="2"/>
+<connect gate="IC" pin="EVI" pad="7"/>
+<connect gate="IC" pin="GND" pad="5"/>
+<connect gate="IC" pin="SCL" pad="8"/>
+<connect gate="IC" pin="SDA" pad="1"/>
+<connect gate="IC" pin="VCC" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6799,6 +6970,122 @@ TLE7240SL: 3.0Ohm, 210mA, 41V&lt;br&gt;</description>
 <technology name="">
 <attribute name="DIGIKEY" value="TBD62083AFWGELDKR-ND" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TXB0104" prefix="IC" uservalue="yes">
+<description>TI TXB0104 4-Bit Bi-Directional Level Shifter (1.2V-3.6V to 1.65V-5.5V)</description>
+<gates>
+<gate name="IC" symbol="TXB0104" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-D" package="SO14">
+<connects>
+<connect gate="IC" pin="A1" pad="2"/>
+<connect gate="IC" pin="A2" pad="3"/>
+<connect gate="IC" pin="A3" pad="4"/>
+<connect gate="IC" pin="A4" pad="5"/>
+<connect gate="IC" pin="B1" pad="13"/>
+<connect gate="IC" pin="B2" pad="12"/>
+<connect gate="IC" pin="B3" pad="11"/>
+<connect gate="IC" pin="B4" pad="10"/>
+<connect gate="IC" pin="GND" pad="7"/>
+<connect gate="IC" pin="OE" pad="8"/>
+<connect gate="IC" pin="VCCA" pad="1"/>
+<connect gate="IC" pin="VCCB" pad="14"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="296-21928-6-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-PW" package="TSSOP14">
+<connects>
+<connect gate="IC" pin="A1" pad="2"/>
+<connect gate="IC" pin="A2" pad="3"/>
+<connect gate="IC" pin="A3" pad="4"/>
+<connect gate="IC" pin="A4" pad="5"/>
+<connect gate="IC" pin="B1" pad="13"/>
+<connect gate="IC" pin="B2" pad="12"/>
+<connect gate="IC" pin="B3" pad="11"/>
+<connect gate="IC" pin="B4" pad="10"/>
+<connect gate="IC" pin="GND" pad="7"/>
+<connect gate="IC" pin="OE" pad="8"/>
+<connect gate="IC" pin="VCCA" pad="1"/>
+<connect gate="IC" pin="VCCB" pad="14"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="296-21929-6-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TXB0106" prefix="IC">
+<description>TI TXB0106 6-Bit Bi-Directional Level Shifter (1.2V-3.6V to 1.65V-5.5V)</description>
+<gates>
+<gate name="IC" symbol="TXB0106" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-PW" package="TSSOP16">
+<connects>
+<connect gate="IC" pin="A1" pad="1"/>
+<connect gate="IC" pin="A2" pad="3"/>
+<connect gate="IC" pin="A3" pad="4"/>
+<connect gate="IC" pin="A4" pad="5"/>
+<connect gate="IC" pin="A5" pad="6"/>
+<connect gate="IC" pin="A6" pad="7"/>
+<connect gate="IC" pin="B1" pad="16"/>
+<connect gate="IC" pin="B2" pad="14"/>
+<connect gate="IC" pin="B3" pad="13"/>
+<connect gate="IC" pin="B4" pad="12"/>
+<connect gate="IC" pin="B5" pad="11"/>
+<connect gate="IC" pin="B6" pad="10"/>
+<connect gate="IC" pin="GND" pad="9"/>
+<connect gate="IC" pin="OE" pad="8"/>
+<connect gate="IC" pin="VCCA" pad="2"/>
+<connect gate="IC" pin="VCCB" pad="15"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TXB0108" prefix="IC">
+<description>TI TXB0108 8-Bit Bi-Directional Level Shifter (1.2V-3.6V to 1.65V-5.5V)</description>
+<gates>
+<gate name="IC" symbol="TXB0108" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-PW" package="TSSOP20">
+<connects>
+<connect gate="IC" pin="A1" pad="1"/>
+<connect gate="IC" pin="A2" pad="3"/>
+<connect gate="IC" pin="A3" pad="4"/>
+<connect gate="IC" pin="A4" pad="5"/>
+<connect gate="IC" pin="A5" pad="6"/>
+<connect gate="IC" pin="A6" pad="7"/>
+<connect gate="IC" pin="A7" pad="8"/>
+<connect gate="IC" pin="A8" pad="9"/>
+<connect gate="IC" pin="B1" pad="20"/>
+<connect gate="IC" pin="B2" pad="18"/>
+<connect gate="IC" pin="B3" pad="17"/>
+<connect gate="IC" pin="B4" pad="16"/>
+<connect gate="IC" pin="B5" pad="15"/>
+<connect gate="IC" pin="B6" pad="14"/>
+<connect gate="IC" pin="B7" pad="13"/>
+<connect gate="IC" pin="B8" pad="12"/>
+<connect gate="IC" pin="GND" pad="11"/>
+<connect gate="IC" pin="OE" pad="10"/>
+<connect gate="IC" pin="VCCA" pad="2"/>
+<connect gate="IC" pin="VCCB" pad="19"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

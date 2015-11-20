@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -108,77 +108,6 @@
 <text x="-0.635" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="0.635" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 </package>
-<package name="TO252">
-<wire x1="3.8354" y1="-3.2766" x2="-2.159" y2="-3.277" width="0.127" layer="21"/>
-<wire x1="-2.159" y1="-3.277" x2="-2.159" y2="3.277" width="0.127" layer="21"/>
-<wire x1="-2.159" y1="3.277" x2="3.8354" y2="3.2766" width="0.127" layer="21"/>
-<wire x1="3.835" y1="3.277" x2="3.8346" y2="-3.2774" width="0.127" layer="21"/>
-<smd name="3" x="2.5" y="0" dx="5.4" dy="6.2" layer="1" roundness="5" rot="R270"/>
-<smd name="1" x="-4.8" y="2.28" dx="1" dy="1.6" layer="1" roundness="10" rot="R270"/>
-<smd name="2" x="-4.8" y="-2.28" dx="1" dy="1.6" layer="1" roundness="10" rot="R270"/>
-<rectangle x1="-4.1402" y1="0.8382" x2="-3.2766" y2="3.7338" layer="21" rot="R270"/>
-<rectangle x1="-4.1402" y1="-3.7338" x2="-3.2766" y2="-0.8382" layer="21" rot="R270"/>
-<rectangle x1="-3.0226" y1="-0.4318" x2="-2.159" y2="0.4318" layer="21" rot="R270"/>
-<polygon width="0.127" layer="21">
-<vertex x="3.937" y="2.5654"/>
-<vertex x="4.6482" y="2.5654"/>
-<vertex x="5.1054" y="2.1082"/>
-<vertex x="5.1054" y="-2.1082"/>
-<vertex x="4.6482" y="-2.5654"/>
-<vertex x="3.937" y="-2.5654"/>
-</polygon>
-<text x="-3.81" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
-<text x="-1.27" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
-</package>
-<package name="TO263">
-<wire x1="7.165" y1="-4.917" x2="-1.839" y2="-4.917" width="0.127" layer="21"/>
-<wire x1="-1.839" y1="-4.917" x2="-1.839" y2="4.917" width="0.127" layer="21"/>
-<wire x1="-1.839" y1="4.917" x2="7.165" y2="4.917" width="0.127" layer="21"/>
-<wire x1="7.165" y1="4.917" x2="7.165" y2="-4.917" width="0.127" layer="21"/>
-<smd name="1" x="-6.6" y="2.54" dx="1" dy="3.4" layer="1" roundness="10" rot="R270"/>
-<smd name="2" x="-6.6" y="-2.54" dx="1" dy="3.4" layer="1" roundness="10" rot="R270"/>
-<smd name="3" x="3.5" y="0" dx="6.8" dy="9.6" layer="1" roundness="5" rot="R270"/>
-<rectangle x1="-2.6934" y1="-0.381" x2="-1.8298" y2="0.381" layer="21" rot="R270"/>
-<rectangle x1="-3.7901" y1="1.1401" x2="-2.8899" y2="3.9399" layer="21" rot="R270"/>
-<rectangle x1="-3.7901" y1="-3.9399" x2="-2.8899" y2="-1.1401" layer="21" rot="R270"/>
-<rectangle x1="-6.55" y1="1.15" x2="-5.6501" y2="3.9501" layer="51" rot="R270"/>
-<rectangle x1="-6.55" y1="-3.9501" x2="-5.6501" y2="-1.15" layer="51" rot="R270"/>
-<polygon width="0.127" layer="21">
-<vertex x="7.2669" y="2.5654"/>
-<vertex x="7.6782" y="2.5654"/>
-<vertex x="8.1354" y="2.1082"/>
-<vertex x="8.1354" y="-2.1082"/>
-<vertex x="7.6782" y="-2.5654"/>
-<vertex x="7.2669" y="-2.5654"/>
-</polygon>
-<text x="-4.445" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
-<text x="-3.175" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
-</package>
-<package name="TO268">
-<wire x1="7.835" y1="-7.857" x2="-5.549" y2="-7.857" width="0.127" layer="21"/>
-<wire x1="-5.549" y1="-7.857" x2="-5.549" y2="7.857" width="0.127" layer="21"/>
-<wire x1="-5.549" y1="7.857" x2="7.835" y2="7.857" width="0.127" layer="21"/>
-<wire x1="7.835" y1="7.858" x2="7.835" y2="-7.858" width="0.127" layer="21"/>
-<smd name="1" x="-8.2" y="5.45" dx="1.4" dy="3.4" layer="1" roundness="10" rot="R270"/>
-<smd name="2" x="-8.2" y="-5.45" dx="1.4" dy="3.4" layer="1" roundness="10" rot="R270"/>
-<smd name="3" x="3.2" y="0" dx="13" dy="13" layer="1" roundness="5" rot="R270"/>
-<rectangle x1="-8.9" y1="4.1002" x2="-7.5" y2="6.8" layer="21" rot="R270"/>
-<rectangle x1="-6.9201" y1="-0.6501" x2="-5.4799" y2="0.6501" layer="21" rot="R270"/>
-<rectangle x1="-6.9" y1="4.8" x2="-5.5" y2="6.1002" layer="21" rot="R270"/>
-<rectangle x1="-6.9" y1="-6.1002" x2="-5.5" y2="-4.8" layer="21" rot="R270"/>
-<rectangle x1="-8.9" y1="-6.8" x2="-7.5" y2="-4.1002" layer="21" rot="R270"/>
-<rectangle x1="-3.79995" y1="-6.90005" x2="10.20005" y2="6.90005" layer="29" rot="R270"/>
-<polygon width="0.127" layer="21">
-<vertex x="7.937" y="6.5654"/>
-<vertex x="8.9784" y="6.5654"/>
-<vertex x="9.4356" y="6.1082"/>
-<vertex x="9.4356" y="-6.1082"/>
-<vertex x="8.9784" y="-6.5654"/>
-<vertex x="7.937" y="-6.5654"/>
-</polygon>
-<text x="-7.62" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
-<text x="-4.445" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
-</package>
 <package name="SOT363">
 <smd name="1" x="-0.9" y="0.75" dx="0.5" dy="0.6" layer="1" roundness="10" rot="R270"/>
 <text x="-1.905" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
@@ -247,6 +176,50 @@
 <rectangle x1="-0.95" y1="-0.9" x2="-0.55" y2="-0.6" layer="21"/>
 <rectangle x1="0.55" y1="-0.15" x2="0.95" y2="0.15" layer="21"/>
 <circle x="-0.25" y="0.75" radius="0.15" width="0.127" layer="21"/>
+</package>
+<package name="D2PACK_TO263AB">
+<wire x1="5.85" y1="-5" x2="-3" y2="-5" width="0.127" layer="21"/>
+<wire x1="-3" y1="-5" x2="-3" y2="5" width="0.127" layer="21"/>
+<wire x1="-3" y1="5" x2="5.85" y2="5" width="0.127" layer="21"/>
+<wire x1="5.85" y1="5" x2="5.85" y2="-5" width="0.127" layer="21"/>
+<smd name="4" x="3.2" y="0" dx="10" dy="9.4" layer="1" roundness="10" rot="R270"/>
+<smd name="1" x="-6" y="2.54" dx="1.6" dy="4" layer="1" roundness="10" rot="R270"/>
+<smd name="3" x="-6" y="-2.54" dx="1.6" dy="4" layer="1" roundness="10" rot="R270"/>
+<text x="0" y="5.715" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-5.715" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<rectangle x1="-5.7" y1="0.3" x2="-4.8" y2="4.8" layer="21" rot="R270"/>
+<rectangle x1="-3.95" y1="-0.45" x2="-2.95" y2="0.45" layer="21" rot="R270"/>
+<polygon width="0.127" layer="21">
+<vertex x="5.9" y="4.3"/>
+<vertex x="6.9" y="4.3"/>
+<vertex x="7.4" y="3.8"/>
+<vertex x="7.4" y="-3.8"/>
+<vertex x="6.9" y="-4.3"/>
+<vertex x="5.9" y="-4.3"/>
+</polygon>
+<rectangle x1="-5.71405" y1="-4.76405" x2="-4.81405" y2="-0.23595" layer="21" rot="R270"/>
+</package>
+<package name="DPACK_TO252AA">
+<wire x1="3.9" y1="-3.25" x2="-2.3" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="-3.25" x2="-2.3" y2="3.25" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="3.25" x2="3.9" y2="3.25" width="0.127" layer="21"/>
+<wire x1="3.9" y1="3.25" x2="3.9" y2="-3.25" width="0.127" layer="21"/>
+<smd name="4" x="2.5" y="0" dx="6.7" dy="6" layer="1" roundness="10" rot="R270"/>
+<smd name="1" x="-4.2" y="2.28" dx="1.6" dy="3" layer="1" roundness="10" rot="R270"/>
+<smd name="3" x="-4.2" y="-2.28" dx="1.6" dy="3" layer="1" roundness="10" rot="R270"/>
+<text x="0" y="4.445" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-4.445" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<rectangle x1="-4.2" y1="0.8" x2="-3.4" y2="3.8" layer="21" rot="R270"/>
+<rectangle x1="-4.2" y1="-3.8" x2="-3.4" y2="-0.8" layer="21" rot="R270"/>
+<rectangle x1="-3.05" y1="-0.35" x2="-2.25" y2="0.35" layer="21" rot="R270"/>
+<polygon width="0.127" layer="21">
+<vertex x="3.9" y="2.7"/>
+<vertex x="4.6" y="2.7"/>
+<vertex x="5.1" y="2.1"/>
+<vertex x="5.1" y="-2.1"/>
+<vertex x="4.6" y="-2.7"/>
+<vertex x="3.9" y="-2.7"/>
+</polygon>
 </package>
 </packages>
 <symbols>
