@@ -1894,7 +1894,7 @@
 <hole x="23.53" y="30.67" drill="2"/>
 <hole x="2.93" y="1.98" drill="2"/>
 </package>
-<package name="DF40C-70DP-0.4(51)">
+<package name="DF40C-70DP-0.4">
 <description>DF40C-70DP-0.4V(51) Header like on the Edison</description>
 <circle x="7.7" y="1" radius="0.1" width="0.2" layer="22"/>
 <wire x1="-8.4" y1="1.44" x2="8.4" y2="1.44" width="0.127" layer="22"/>
@@ -1976,7 +1976,7 @@
 <smd name="NC1" x="7.2" y="1.32" dx="0.2" dy="1.15" layer="16" roundness="20"/>
 <smd name="NC2" x="7.2" y="-1.32" dx="0.2" dy="1.15" layer="16" roundness="20"/>
 </package>
-<package name="DF40HC(3.0)-70DS-0.4V(51)">
+<package name="DF40HC(3.0)-70DS-0.4V">
 <description>DF40HC(3.0)-70DS-0.4V(51) Socket to connect Edison</description>
 <smd name="69" x="-6.8" y="1.32" dx="0.2" dy="1.15" layer="1" roundness="20"/>
 <smd name="70" x="-6.8" y="-1.32" dx="0.2" dy="1.15" layer="1" roundness="20"/>
@@ -2524,8 +2524,8 @@
 <pin name="DIO6/RTS" x="22.86" y="0" length="middle" rot="R180"/>
 <pin name="AD3/DIO3/SS" x="22.86" y="2.54" length="middle" rot="R180"/>
 <pin name="AD2/DIO2/SCK" x="22.86" y="5.08" length="middle" rot="R180"/>
-<pin name="AD1/DIO1/ATTN" x="22.86" y="7.62" length="middle" rot="R180"/>
-<pin name="AD0/DIO0/CB" x="22.86" y="10.16" length="middle" rot="R180"/>
+<pin name="AD1/DIO1/ATTN/SCL" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="AD0/DIO0/CB/SDA" x="22.86" y="10.16" length="middle" rot="R180"/>
 <wire x1="-17.78" y1="12.7" x2="-17.78" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="-15.24" x2="17.78" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-15.24" x2="17.78" y2="12.7" width="0.254" layer="94"/>
@@ -2688,9 +2688,9 @@
 <pin name="PWR+" x="-20.32" y="-48.26" visible="pin" length="middle" direction="pwr"/>
 </symbol>
 <symbol name="EDISON">
-<pin name="VSYS" x="-25.4" y="-27.94" length="middle" direction="pwr"/>
-<pin name="3.3V" x="-25.4" y="-38.1" length="middle" direction="pwr"/>
-<pin name="1.8V" x="-25.4" y="-43.18" length="middle" direction="pwr"/>
+<pin name="VSYS_3V3-4V5" x="-25.4" y="-27.94" length="middle" direction="pwr"/>
+<pin name="3V3OUT" x="-25.4" y="-38.1" length="middle" direction="pwr"/>
+<pin name="1V8OUT" x="-25.4" y="-43.18" length="middle" direction="pwr"/>
 <pin name="GND" x="-25.4" y="-53.34" length="middle" direction="pwr"/>
 <pin name="MSIC_SLP_CLK" x="-25.4" y="33.02" length="middle"/>
 <pin name="USB_ID" x="-25.4" y="27.94" length="middle"/>
@@ -4170,8 +4170,8 @@
 <devices>
 <device name="-TP" package="XBEE_TP">
 <connects>
-<connect gate="BOARD" pin="AD0/DIO0/CB" pad="20"/>
-<connect gate="BOARD" pin="AD1/DIO1/ATTN" pad="19"/>
+<connect gate="BOARD" pin="AD0/DIO0/CB/SDA" pad="20"/>
+<connect gate="BOARD" pin="AD1/DIO1/ATTN/SCL" pad="19"/>
 <connect gate="BOARD" pin="AD2/DIO2/SCK" pad="18"/>
 <connect gate="BOARD" pin="AD3/DIO3/SS" pad="17"/>
 <connect gate="BOARD" pin="DIN/RX" pad="3"/>
@@ -4197,8 +4197,8 @@
 </device>
 <device name="" package="XBEE">
 <connects>
-<connect gate="BOARD" pin="AD0/DIO0/CB" pad="20"/>
-<connect gate="BOARD" pin="AD1/DIO1/ATTN" pad="19"/>
+<connect gate="BOARD" pin="AD0/DIO0/CB/SDA" pad="20"/>
+<connect gate="BOARD" pin="AD1/DIO1/ATTN/SCL" pad="19"/>
 <connect gate="BOARD" pin="AD2/DIO2/SCK" pad="18"/>
 <connect gate="BOARD" pin="AD3/DIO3/SS" pad="17"/>
 <connect gate="BOARD" pin="DIN/RX" pad="3"/>
@@ -4437,8 +4437,8 @@
 <devices>
 <device name="-DAUGHTER" package="EDISON">
 <connects>
-<connect gate="BOARD" pin="1.8V" pad="12"/>
-<connect gate="BOARD" pin="3.3V" pad="8 10"/>
+<connect gate="BOARD" pin="1V8OUT" pad="12"/>
+<connect gate="BOARD" pin="3V3OUT" pad="8 10"/>
 <connect gate="BOARD" pin="DCIN" pad="14"/>
 <connect gate="BOARD" pin="FAULT" pad="19"/>
 <connect gate="BOARD" pin="FW_RCVR" pad="69"/>
@@ -4493,17 +4493,17 @@
 <connect gate="BOARD" pin="USB_DP" pad="16"/>
 <connect gate="BOARD" pin="USB_ID" pad="3"/>
 <connect gate="BOARD" pin="USB_VBUS" pad="20"/>
-<connect gate="BOARD" pin="VSYS" pad="2 4 6"/>
+<connect gate="BOARD" pin="VSYS_3V3-4V5" pad="2 4 6"/>
 <connect gate="BOARD" pin="V_VAT_BKUP" pad="23"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-HEADER" package="DF40C-70DP-0.4(51)">
+<device name="-HEADER" package="DF40C-70DP-0.4">
 <connects>
-<connect gate="BOARD" pin="1.8V" pad="12"/>
-<connect gate="BOARD" pin="3.3V" pad="8 10"/>
+<connect gate="BOARD" pin="1V8OUT" pad="12"/>
+<connect gate="BOARD" pin="3V3OUT" pad="8 10"/>
 <connect gate="BOARD" pin="DCIN" pad="14"/>
 <connect gate="BOARD" pin="FAULT" pad="19"/>
 <connect gate="BOARD" pin="FW_RCVR" pad="69"/>
@@ -4558,17 +4558,17 @@
 <connect gate="BOARD" pin="USB_DP" pad="16"/>
 <connect gate="BOARD" pin="USB_ID" pad="3"/>
 <connect gate="BOARD" pin="USB_VBUS" pad="20"/>
-<connect gate="BOARD" pin="VSYS" pad="2 4 6"/>
+<connect gate="BOARD" pin="VSYS_3V3-4V5" pad="2 4 6"/>
 <connect gate="BOARD" pin="V_VAT_BKUP" pad="23"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-SOCKET" package="DF40HC(3.0)-70DS-0.4V(51)">
+<device name="-SOCKET" package="DF40HC(3.0)-70DS-0.4V">
 <connects>
-<connect gate="BOARD" pin="1.8V" pad="12"/>
-<connect gate="BOARD" pin="3.3V" pad="8 10"/>
+<connect gate="BOARD" pin="1V8OUT" pad="12"/>
+<connect gate="BOARD" pin="3V3OUT" pad="8 10"/>
 <connect gate="BOARD" pin="DCIN" pad="14"/>
 <connect gate="BOARD" pin="FAULT" pad="19"/>
 <connect gate="BOARD" pin="FW_RCVR" pad="69"/>
@@ -4623,7 +4623,7 @@
 <connect gate="BOARD" pin="USB_DP" pad="16"/>
 <connect gate="BOARD" pin="USB_ID" pad="3"/>
 <connect gate="BOARD" pin="USB_VBUS" pad="20"/>
-<connect gate="BOARD" pin="VSYS" pad="2 4 6"/>
+<connect gate="BOARD" pin="VSYS_3V3-4V5" pad="2 4 6"/>
 <connect gate="BOARD" pin="V_VAT_BKUP" pad="23"/>
 </connects>
 <technologies>
