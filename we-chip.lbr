@@ -1986,32 +1986,6 @@
 <rectangle x1="-1.35" y1="-1.35" x2="1.35" y2="1.35" layer="29"/>
 <smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" roundness="20"/>
 </package>
-<package name="HM-XX">
-<wire x1="-6.75" y1="-6.25" x2="6.75" y2="-6.25" width="0.127" layer="21"/>
-<wire x1="6.75" y1="-6.25" x2="6.75" y2="12.25" width="0.127" layer="21"/>
-<wire x1="6.75" y1="12.25" x2="-6.75" y2="12.25" width="0.127" layer="21"/>
-<wire x1="-6.75" y1="12.25" x2="-6.75" y2="-6.25" width="0.127" layer="21"/>
-<smd name="8" x="-6.35" y="-5.25" dx="1.8" dy="1" layer="1" roundness="20"/>
-<smd name="7" x="-6.35" y="-3.75" dx="1.8" dy="1" layer="1" roundness="20"/>
-<smd name="6" x="-6.35" y="-2.25" dx="1.8" dy="1" layer="1" roundness="20"/>
-<smd name="5" x="-6.35" y="-0.75" dx="1.8" dy="1" layer="1" roundness="20"/>
-<smd name="4" x="-6.35" y="0.75" dx="1.8" dy="1" layer="1" roundness="20"/>
-<smd name="3" x="-6.35" y="2.25" dx="1.8" dy="1" layer="1" roundness="20"/>
-<smd name="2" x="-6.35" y="3.75" dx="1.8" dy="1" layer="1" roundness="20"/>
-<smd name="1" x="-6.35" y="5.25" dx="1.8" dy="1" layer="1" roundness="20"/>
-<smd name="9" x="6.35" y="-5.25" dx="1.8" dy="1" layer="1" roundness="20"/>
-<smd name="10" x="6.35" y="-3.75" dx="1.8" dy="1" layer="1" roundness="20"/>
-<smd name="11" x="6.35" y="-2.25" dx="1.8" dy="1" layer="1" roundness="20"/>
-<smd name="12" x="6.35" y="-0.75" dx="1.8" dy="1" layer="1" roundness="20"/>
-<smd name="13" x="6.35" y="0.75" dx="1.8" dy="1" layer="1" roundness="20"/>
-<smd name="14" x="6.35" y="2.25" dx="1.8" dy="1" layer="1" roundness="20"/>
-<smd name="15" x="6.35" y="3.75" dx="1.8" dy="1" layer="1" roundness="20"/>
-<smd name="16" x="6.35" y="5.25" dx="1.8" dy="1" layer="1" roundness="20"/>
-<text x="0" y="1.27" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="-1.27" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<rectangle x1="-9" y1="5.85" x2="9" y2="13" layer="41"/>
-<rectangle x1="-9" y1="5.85" x2="9" y2="13" layer="42" rot="R180"/>
-</package>
 <package name="RTC-C3">
 <smd name="1" x="-1.2" y="1.6" dx="0.5" dy="0.8" layer="1" roundness="10" rot="R90"/>
 <smd name="2" x="-1.2" y="0.8" dx="0.5" dy="0.8" layer="1" roundness="10" rot="R90"/>
@@ -2245,7 +2219,7 @@
 <smd name="34" x="-0.75" y="2.9" dx="0.7" dy="0.26" layer="1" roundness="20" rot="R90"/>
 <smd name="35" x="-1.25" y="2.65" dx="1.2" dy="0.26" layer="1" roundness="20" rot="R90"/>
 <smd name="36" x="-1.75" y="2.9" dx="0.7" dy="0.26" layer="1" roundness="20" rot="R90"/>
-<smd name="TP" x="0" y="0" dx="0.8" dy="0.8" layer="1" roundness="20"/>
+<smd name="TP" x="0" y="0" dx="0.6" dy="0.6" layer="1" roundness="20"/>
 <wire x1="-2.5" y1="2.6" x2="-2.5" y2="-3" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="-3" x2="2.5" y2="-3" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-3" x2="2.5" y2="3" width="0.127" layer="21"/>
@@ -2387,7 +2361,7 @@
 <text x="-1.905" y="0" size="0.8128" layer="21" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 <text x="1.905" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 </package>
-<package name="ATWINC1500-MR210">
+<package name="ATWINC1500-MX210">
 <smd name="1" x="7.365" y="-8.19" dx="1.9" dy="0.7" layer="1" roundness="20" rot="R180"/>
 <wire x1="-7.365" y1="-10.86" x2="-7.365" y2="10.86" width="0.127" layer="21"/>
 <wire x1="7.365" y1="-10.86" x2="7.365" y2="10.86" width="0.127" layer="21"/>
@@ -2422,8 +2396,8 @@
 <smd name="28" x="4.695" y="-10.86" dx="1.9" dy="0.7" layer="1" roundness="20" rot="R270"/>
 <text x="0" y="1.27" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-1.27" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<rectangle x1="-8.255" y1="5.08" x2="8.255" y2="11.43" layer="41"/>
-<rectangle x1="-8.255" y1="5.08" x2="8.255" y2="11.43" layer="42"/>
+<rectangle x1="-8.89" y1="5.08" x2="8.89" y2="11.43" layer="41"/>
+<rectangle x1="-8.89" y1="5.08" x2="8.89" y2="11.43" layer="42"/>
 </package>
 <package name="POWERSO20">
 <smd name="5" x="-6.82" y="0.635" dx="1.8" dy="0.7" layer="1" roundness="10"/>
@@ -2946,6 +2920,67 @@
 <smd name="22" x="3.5" y="2.215" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
 <smd name="23" x="3.5" y="2.835" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
 <smd name="24" x="3.5" y="3.455" dx="0.35" dy="1.2" layer="1" roundness="20" rot="R270"/>
+</package>
+<package name="ATSAMW25-MRX10">
+<wire x1="-7.5" y1="-13.65" x2="-7.5" y2="20.1" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-13.65" x2="7.5" y2="20.1" width="0.127" layer="21"/>
+<wire x1="-7.5" y1="20.1" x2="7.5" y2="20.1" width="0.127" layer="21"/>
+<wire x1="-7.5" y1="-13.65" x2="7.5" y2="-13.65" width="0.127" layer="21"/>
+<text x="0" y="1.87" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-0.67" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<rectangle x1="-9" y1="12.1" x2="9" y2="20.6" layer="41"/>
+<rectangle x1="-9" y1="12.1" x2="9" y2="20.6" layer="42"/>
+<smd name="1" x="-6.8" y="11.4" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R180"/>
+<smd name="2" x="-6.8" y="10.2" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R180"/>
+<smd name="3" x="-6.8" y="9" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R180"/>
+<smd name="4" x="-6.8" y="7.8" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R180"/>
+<smd name="5" x="-6.8" y="6.6" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R180"/>
+<smd name="6" x="-6.8" y="5.4" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R180"/>
+<smd name="7" x="-6.8" y="4.2" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R180"/>
+<smd name="8" x="-6.8" y="3" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R180"/>
+<smd name="9" x="-6.8" y="1.8" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R180"/>
+<smd name="10" x="-6.8" y="0.6" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R180"/>
+<smd name="11" x="-6.8" y="-0.6" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R180"/>
+<smd name="12" x="-6.8" y="-1.8" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R180"/>
+<smd name="13" x="-6.8" y="-3" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R180"/>
+<smd name="14" x="-6.8" y="-4.2" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R180"/>
+<smd name="15" x="-6.8" y="-5.4" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R180"/>
+<smd name="16" x="-6.8" y="-6.6" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R180"/>
+<smd name="17" x="-6.8" y="-7.8" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R180"/>
+<smd name="18" x="-6.8" y="-9" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R180"/>
+<smd name="19" x="-6.8" y="-10.2" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R180"/>
+<smd name="20" x="-6.8" y="-11.4" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R180"/>
+<smd name="21" x="-6" y="-13" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R270"/>
+<smd name="22" x="-4.8" y="-13" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R270"/>
+<smd name="23" x="-3.6" y="-13" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R270"/>
+<smd name="24" x="-2.4" y="-13" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R270"/>
+<smd name="25" x="-1.2" y="-13" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R270"/>
+<smd name="26" x="0" y="-13" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R270"/>
+<smd name="27" x="1.2" y="-13" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R270"/>
+<smd name="28" x="2.4" y="-13" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R270"/>
+<smd name="29" x="3.6" y="-13" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R270"/>
+<smd name="30" x="4.8" y="-13" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R270"/>
+<smd name="31" x="6" y="-13" dx="1.3" dy="0.6" layer="1" roundness="20" rot="R270"/>
+<smd name="32" x="6.8" y="-11.4" dx="1.3" dy="0.6" layer="1" roundness="20"/>
+<smd name="33" x="6.8" y="-10.2" dx="1.3" dy="0.6" layer="1" roundness="20"/>
+<smd name="34" x="6.8" y="-9" dx="1.3" dy="0.6" layer="1" roundness="20"/>
+<smd name="35" x="6.8" y="-7.8" dx="1.3" dy="0.6" layer="1" roundness="20"/>
+<smd name="36" x="6.8" y="-6.6" dx="1.3" dy="0.6" layer="1" roundness="20"/>
+<smd name="37" x="6.8" y="-5.4" dx="1.3" dy="0.6" layer="1" roundness="20"/>
+<smd name="38" x="6.8" y="-4.2" dx="1.3" dy="0.6" layer="1" roundness="20"/>
+<smd name="39" x="6.8" y="-3" dx="1.3" dy="0.6" layer="1" roundness="20"/>
+<smd name="40" x="6.8" y="-1.8" dx="1.3" dy="0.6" layer="1" roundness="20"/>
+<smd name="41" x="6.8" y="-0.6" dx="1.3" dy="0.6" layer="1" roundness="20"/>
+<smd name="42" x="6.8" y="0.6" dx="1.3" dy="0.6" layer="1" roundness="20"/>
+<smd name="43" x="6.8" y="1.8" dx="1.3" dy="0.6" layer="1" roundness="20"/>
+<smd name="44" x="6.8" y="3" dx="1.3" dy="0.6" layer="1" roundness="20"/>
+<smd name="45" x="6.8" y="4.2" dx="1.3" dy="0.6" layer="1" roundness="20"/>
+<smd name="46" x="6.8" y="5.4" dx="1.3" dy="0.6" layer="1" roundness="20"/>
+<smd name="47" x="6.8" y="6.6" dx="1.3" dy="0.6" layer="1" roundness="20"/>
+<smd name="48" x="6.8" y="7.8" dx="1.3" dy="0.6" layer="1" roundness="20"/>
+<smd name="49" x="6.8" y="9" dx="1.3" dy="0.6" layer="1" roundness="20"/>
+<smd name="50" x="6.8" y="10.2" dx="1.3" dy="0.6" layer="1" roundness="20"/>
+<smd name="51" x="6.8" y="11.4" dx="1.3" dy="0.6" layer="1" roundness="20"/>
 </package>
 </packages>
 <symbols>
@@ -3740,8 +3775,6 @@
 <pin name="CBUS3" x="17.78" y="-15.24" length="middle" rot="R180"/>
 <text x="-12.7" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="BT-HM-XX">
-</symbol>
 <symbol name="RV8523">
 <pin name="INT2" x="15.24" y="2.54" length="middle" rot="R180"/>
 <pin name="INT1" x="15.24" y="5.08" length="middle" rot="R180"/>
@@ -4095,34 +4128,35 @@
 <text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <text x="1.27" y="-2.54" size="1.778" layer="96" rot="MR180">&gt;VALUE</text>
 </symbol>
-<symbol name="ATWINC1500-MR210">
-<pin name="IO18" x="15.24" y="-20.32" length="middle" rot="R180"/>
-<pin name="SCL" x="15.24" y="-7.62" length="middle" rot="R180"/>
-<pin name="SDA" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="!RESET" x="-15.24" y="12.7" length="middle" direction="in"/>
-<pin name="GND" x="-15.24" y="-22.86" length="middle" direction="pwr"/>
-<pin name="SPI_CFG" x="15.24" y="22.86" length="middle" direction="in" rot="R180"/>
-<pin name="WAKE" x="-15.24" y="17.78" length="middle" direction="in"/>
-<pin name="!IRQ" x="15.24" y="20.32" length="middle" direction="out" rot="R180"/>
-<pin name="TXD" x="15.24" y="2.54" length="middle" direction="out" rot="R180"/>
-<pin name="MOSI" x="15.24" y="10.16" length="middle" direction="in" rot="R180"/>
-<pin name="!CS" x="15.24" y="15.24" length="middle" direction="in" rot="R180"/>
-<pin name="MISO" x="15.24" y="7.62" length="middle" direction="out" rot="R180"/>
-<pin name="SCK" x="15.24" y="12.7" length="middle" direction="in" rot="R180"/>
-<pin name="RXD" x="15.24" y="0" length="middle" direction="in" rot="R180"/>
-<pin name="VBAT" x="-15.24" y="-2.54" length="middle" direction="pwr"/>
-<pin name="IO1" x="15.24" y="-12.7" length="middle" direction="in" rot="R180"/>
-<pin name="EN" x="-15.24" y="22.86" length="middle" direction="in"/>
-<pin name="VCCIO" x="-15.24" y="-12.7" length="middle" direction="pwr"/>
-<pin name="1P3V_TP" x="15.24" y="-22.86" length="middle" rot="R180"/>
-<pin name="IO15" x="15.24" y="-15.24" length="middle" rot="R180"/>
-<pin name="IO16" x="15.24" y="-17.78" length="middle" rot="R180"/>
-<wire x1="-10.16" y1="25.4" x2="10.16" y2="25.4" width="0.254" layer="94"/>
-<wire x1="10.16" y1="25.4" x2="10.16" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-25.4" x2="-10.16" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-25.4" x2="-10.16" y2="25.4" width="0.254" layer="94"/>
-<text x="-10.16" y="27.94" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="-10.16" y="-27.94" size="1.778" layer="96" rot="MR180" align="top-left">&gt;VALUE</text>
+<symbol name="ATWINC1500-MRX10">
+<pin name="IO5" x="20.32" y="-20.32" length="middle" rot="R180"/>
+<pin name="SCL" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="SDA" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="!RESET" x="-20.32" y="10.16" length="middle" direction="in"/>
+<pin name="GND" x="-20.32" y="-22.86" length="middle" direction="pwr"/>
+<pin name="!SDIO!/SPI_CFG" x="-20.32" y="5.08" length="middle" direction="in"/>
+<pin name="WAKE" x="-20.32" y="15.24" length="middle" direction="in"/>
+<pin name="!IRQ" x="20.32" y="20.32" length="middle" direction="out" rot="R180"/>
+<pin name="TXD" x="20.32" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="MOSI" x="20.32" y="10.16" length="middle" direction="in" rot="R180"/>
+<pin name="!CS" x="20.32" y="15.24" length="middle" direction="in" rot="R180"/>
+<pin name="MISO" x="20.32" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="SCK" x="20.32" y="12.7" length="middle" direction="in" rot="R180"/>
+<pin name="RXD" x="20.32" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="VBAT" x="-20.32" y="-15.24" length="middle" direction="pwr"/>
+<pin name="RTC/IO1" x="20.32" y="-12.7" length="middle" direction="in" rot="R180"/>
+<pin name="EN" x="-20.32" y="20.32" length="middle" direction="in"/>
+<pin name="VCCIO" x="-20.32" y="-7.62" length="middle" direction="pwr"/>
+<pin name="IO6" x="20.32" y="-22.86" length="middle" rot="R180"/>
+<pin name="IO3" x="20.32" y="-15.24" length="middle" rot="R180"/>
+<pin name="IO4" x="20.32" y="-17.78" length="middle" rot="R180"/>
+<wire x1="-15.24" y1="22.86" x2="15.24" y2="22.86" width="0.254" layer="94"/>
+<wire x1="15.24" y1="22.86" x2="15.24" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-25.4" x2="-15.24" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-25.4" x2="-15.24" y2="22.86" width="0.254" layer="94"/>
+<text x="-15.24" y="25.4" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-15.24" y="-27.94" size="1.778" layer="96" rot="MR180" align="top-left">&gt;VALUE</text>
+<pin name="TP_1P3V" x="-20.32" y="0" length="middle"/>
 </symbol>
 <symbol name="ATTINY841">
 <wire x1="-27.94" y1="17.78" x2="27.94" y2="17.78" width="0.254" layer="94"/>
@@ -4177,7 +4211,7 @@
 <text x="-15.24" y="27.94" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-15.24" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="XNOR">
+<symbol name="GATE_XNOR">
 <wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
@@ -4275,8 +4309,8 @@
 <pin name="CS/IO15" x="17.78" y="-7.62" length="middle" rot="R180"/>
 <pin name="IO2" x="17.78" y="-5.08" length="middle" rot="R180"/>
 <pin name="BL/IO0" x="17.78" y="-2.54" length="middle" rot="R180"/>
-<pin name="IO4" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="IO5" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="SDA/IO4" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="SCL/IO5" x="17.78" y="2.54" length="middle" rot="R180"/>
 <pin name="RXD/IO3" x="17.78" y="5.08" length="middle" rot="R180"/>
 <pin name="TXD/IO1" x="17.78" y="7.62" length="middle" rot="R180"/>
 <text x="-12.7" y="12.7" size="1.778" layer="95" align="top-left">&gt;NAME</text>
@@ -4310,8 +4344,8 @@
 <pin name="CS/IO15" x="17.78" y="-5.08" length="middle" rot="R180"/>
 <pin name="IO2" x="17.78" y="-2.54" length="middle" rot="R180"/>
 <pin name="BL/IO0" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="IO4" x="17.78" y="2.54" length="middle" rot="R180"/>
-<pin name="IO5" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="SDA/IO4" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="SCL/IO5" x="17.78" y="5.08" length="middle" rot="R180"/>
 <pin name="RXD/IO3" x="17.78" y="7.62" length="middle" rot="R180"/>
 <pin name="TXD/IO1" x="17.78" y="10.16" length="middle" rot="R180"/>
 <text x="-12.7" y="15.24" size="1.778" layer="95" align="top-left">&gt;NAME</text>
@@ -4334,31 +4368,6 @@
 <pin name="SDA" x="15.24" y="2.54" length="middle" rot="R180"/>
 <pin name="VCC" x="-15.24" y="2.54" length="middle" direction="pwr"/>
 <pin name="GND" x="-15.24" y="-2.54" length="middle" direction="pwr"/>
-</symbol>
-<symbol name="TLE7244SL">
-<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
-<text x="-10.16" y="15.24" size="1.778" layer="95" align="top-left">&gt;Name</text>
-<text x="-10.16" y="-15.24" size="1.778" layer="96">&gt;Value</text>
-<pin name="!RST" x="-15.24" y="10.16" length="middle" direction="in"/>
-<pin name="!CS" x="-15.24" y="7.62" length="middle" direction="in"/>
-<pin name="LHI" x="-15.24" y="5.08" length="middle" direction="in"/>
-<pin name="CLK" x="-15.24" y="2.54" length="middle" direction="in"/>
-<pin name="SDI" x="-15.24" y="0" length="middle" direction="in"/>
-<pin name="Q1" x="15.24" y="10.16" length="middle" direction="oc" rot="R180"/>
-<pin name="Q2" x="15.24" y="7.62" length="middle" direction="oc" rot="R180"/>
-<pin name="Q3" x="15.24" y="5.08" length="middle" direction="oc" rot="R180"/>
-<pin name="Q4" x="15.24" y="2.54" length="middle" direction="oc" rot="R180"/>
-<pin name="Q5" x="15.24" y="0" length="middle" direction="oc" rot="R180"/>
-<pin name="Q6" x="15.24" y="-2.54" length="middle" direction="oc" rot="R180"/>
-<pin name="Q7" x="15.24" y="-5.08" length="middle" direction="oc" rot="R180"/>
-<pin name="Q8" x="15.24" y="-7.62" length="middle" direction="oc" rot="R180"/>
-<pin name="SDO" x="-15.24" y="-2.54" length="middle" direction="out"/>
-<pin name="VCCA" x="-15.24" y="-7.62" length="middle" direction="pwr"/>
-<pin name="GND" x="-15.24" y="-10.16" length="middle" direction="pwr"/>
-<pin name="VCC" x="-15.24" y="-5.08" length="middle" direction="pwr"/>
 </symbol>
 <symbol name="W5500">
 <pin name="TXN" x="25.4" y="17.78" length="middle" direction="pas" rot="R180"/>
@@ -4635,6 +4644,59 @@ Upstream</text>
 <pin name="B6" x="15.24" y="-7.62" length="short" rot="R180"/>
 <pin name="B7" x="15.24" y="-10.16" length="short" rot="R180"/>
 <pin name="B8" x="15.24" y="-12.7" length="short" rot="R180"/>
+</symbol>
+<symbol name="ATSAMW25-MRX10">
+<pin name="WIFI_IO5/16" x="-25.4" y="-2.54" length="middle"/>
+<pin name="WIFI_SCL" x="-25.4" y="12.7" length="middle"/>
+<pin name="WIFI_SDA" x="-25.4" y="10.16" length="middle"/>
+<pin name="!RESET" x="-25.4" y="38.1" length="middle" direction="in"/>
+<pin name="GND" x="-25.4" y="-35.56" length="middle" direction="pwr"/>
+<pin name="WIFI_TXD" x="-25.4" y="20.32" length="middle" direction="out"/>
+<pin name="WIFI_RXD" x="-25.4" y="17.78" length="middle" direction="in"/>
+<pin name="VBAT" x="-25.4" y="-25.4" length="middle" direction="pwr"/>
+<pin name="WIFI_IO1/RTC" x="-25.4" y="5.08" length="middle"/>
+<pin name="WIFI_EN" x="-25.4" y="27.94" length="middle" direction="in"/>
+<pin name="WIFI_IO6/18" x="-25.4" y="-5.08" length="middle"/>
+<pin name="WIFI_IO4/15" x="-25.4" y="0" length="middle"/>
+<wire x1="-20.32" y1="40.64" x2="20.32" y2="40.64" width="0.254" layer="94"/>
+<wire x1="20.32" y1="40.64" x2="20.32" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-38.1" x2="-20.32" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-38.1" x2="-20.32" y2="40.64" width="0.254" layer="94"/>
+<text x="-20.32" y="-40.64" size="1.778" layer="96" rot="MR180" align="top-left">&gt;VALUE</text>
+<text x="-20.32" y="43.18" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<pin name="WIFI_IO3/NC" x="-25.4" y="2.54" length="middle"/>
+<pin name="SDA/PA16" x="25.4" y="7.62" length="middle" rot="R180"/>
+<pin name="SCL/PA17" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="XOUT32/PA01" x="25.4" y="35.56" length="middle" rot="R180"/>
+<pin name="ADC0/PA02" x="25.4" y="33.02" length="middle" rot="R180"/>
+<pin name="ADC1/PA03" x="25.4" y="30.48" length="middle" rot="R180"/>
+<pin name="ADC4/PA04" x="25.4" y="27.94" length="middle" rot="R180"/>
+<pin name="ADC5/PA05" x="25.4" y="25.4" length="middle" rot="R180"/>
+<pin name="ADC6/PA06" x="25.4" y="22.86" length="middle" rot="R180"/>
+<pin name="ADC7/PA07" x="25.4" y="20.32" length="middle" rot="R180"/>
+<pin name="SDA/ADC16/PA08" x="25.4" y="17.78" length="middle" rot="R180"/>
+<pin name="SCL/ADC17/PA09" x="25.4" y="15.24" length="middle" rot="R180"/>
+<pin name="ADC18/PA10" x="25.4" y="12.7" length="middle" rot="R180"/>
+<pin name="ADC19/PA11" x="25.4" y="10.16" length="middle" rot="R180"/>
+<pin name="PA18" x="25.4" y="2.54" length="middle" rot="R180"/>
+<pin name="PA19" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="PA20" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="PA21" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="SDA/PA22" x="25.4" y="-7.62" length="middle" rot="R180"/>
+<pin name="SCL/PA23" x="25.4" y="-10.16" length="middle" rot="R180"/>
+<pin name="USB_DM/PA24" x="25.4" y="-12.7" length="middle" rot="R180"/>
+<pin name="USB_DP/PA25" x="25.4" y="-15.24" length="middle" rot="R180"/>
+<pin name="PB22" x="25.4" y="-33.02" length="middle" rot="R180"/>
+<pin name="PB23" x="25.4" y="-35.56" length="middle" rot="R180"/>
+<pin name="SWCLK/PA30" x="25.4" y="-17.78" length="middle" rot="R180"/>
+<pin name="SWDIO/PA31" x="25.4" y="-20.32" length="middle" rot="R180"/>
+<pin name="ADC10/PB02" x="25.4" y="-22.86" length="middle" rot="R180"/>
+<pin name="ADC11/PB03" x="25.4" y="-25.4" length="middle" rot="R180"/>
+<pin name="PB10" x="25.4" y="-27.94" length="middle" rot="R180"/>
+<pin name="PB11" x="25.4" y="-30.48" length="middle" rot="R180"/>
+<pin name="WIFI_!RESET" x="-25.4" y="25.4" length="middle" direction="in"/>
+<pin name="VCC" x="-25.4" y="-15.24" length="middle" direction="pwr"/>
+<pin name="XIN32/PA00" x="25.4" y="38.1" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5185,7 +5247,7 @@ Upstream</text>
 </devices>
 </deviceset>
 <deviceset name="ADUM3160" prefix="IC">
-<description>Analog Devices ADuM3160 (pin compatible with ADuM4160) USB port isolator</description>
+<description>Analog ADuM3160 (pin compatible with ADuM4160) USB port isolator</description>
 <gates>
 <gate name="IC" symbol="ADUM3160" x="0" y="0"/>
 </gates>
@@ -5613,7 +5675,7 @@ Upstream</text>
 </devices>
 </deviceset>
 <deviceset name="RS9110-N-11-21" prefix="IC">
-<description>Redpine Signals RS9110-N-11-21 / -22 Connect-io-n WLAN/WiFi-Module</description>
+<description>Redpine Signals RS9110-N-11-21/-22 WLAN/WiFi-Module</description>
 <gates>
 <gate name="IC" symbol="RS9110-N-11-21" x="0" y="0"/>
 </gates>
@@ -5721,22 +5783,6 @@ Upstream</text>
 <technology name="">
 <attribute name="DIGIKEY" value="768-1128-6-ND" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="HM-XX" prefix="IC">
-<description>JNHuaMao Technology HM-xx Bluetooth Modules
-&lt;br&gt;
-HM-07 - BT 2.1 EDR&lt;br&gt;
-HM-11 - BT 4.0 BLE&lt;br&gt;
-HM-13 - BT 4.0 EDR+BLE&lt;br&gt;</description>
-<gates>
-</gates>
-<devices>
-<device name="" package="HM-XX">
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6217,7 +6263,7 @@ BT 4.1 Low Energy (BLE)</description>
 </devices>
 </deviceset>
 <deviceset name="MAX4465" prefix="IC">
-<description>Maxim MAX4465...MAX4469  OP Amp for microphone preamplifiers</description>
+<description>Maxim MAX4465...MAX4469  OP Amp for Micro Preamps</description>
 <gates>
 <gate name="IC" symbol="MAX4465" x="0" y="0"/>
 </gates>
@@ -6237,30 +6283,34 @@ BT 4.1 Low Energy (BLE)</description>
 </devices>
 </deviceset>
 <deviceset name="ATWINC1500" prefix="IC">
-<description>Atmel ATWINC1500-MR210 WiFi/WLAN 802.11 b/g/n</description>
+<description>Atmel ATWINC1500-MR210 WiFi/WLAN 802.11 b/g/n&lt;br&gt;
+&lt;br&gt;
+MR210PB - PCB antenna&lt;br&gt;
+MR210UB - uFL connector&lt;br&gt;</description>
 <gates>
-<gate name="IC" symbol="ATWINC1500-MR210" x="0" y="0"/>
+<gate name="IC" symbol="ATWINC1500-MRX10" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="ATWINC1500-MR210">
+<device name="-MR210PB" package="ATWINC1500-MX210">
 <connects>
 <connect gate="IC" pin="!CS" pad="16"/>
 <connect gate="IC" pin="!IRQ" pad="13"/>
 <connect gate="IC" pin="!RESET" pad="4"/>
-<connect gate="IC" pin="1P3V_TP" pad="24"/>
+<connect gate="IC" pin="!SDIO!/SPI_CFG" pad="10"/>
 <connect gate="IC" pin="EN" pad="22"/>
 <connect gate="IC" pin="GND" pad="9 12 28"/>
-<connect gate="IC" pin="IO1" pad="21"/>
-<connect gate="IC" pin="IO15" pad="26"/>
-<connect gate="IC" pin="IO16" pad="27"/>
-<connect gate="IC" pin="IO18" pad="1"/>
+<connect gate="IC" pin="IO3" pad="25"/>
+<connect gate="IC" pin="IO4" pad="26"/>
+<connect gate="IC" pin="IO5" pad="27"/>
+<connect gate="IC" pin="IO6" pad="1"/>
 <connect gate="IC" pin="MISO" pad="17"/>
 <connect gate="IC" pin="MOSI" pad="15"/>
+<connect gate="IC" pin="RTC/IO1" pad="21"/>
 <connect gate="IC" pin="RXD" pad="19"/>
 <connect gate="IC" pin="SCK" pad="18"/>
 <connect gate="IC" pin="SCL" pad="2"/>
 <connect gate="IC" pin="SDA" pad="3"/>
-<connect gate="IC" pin="SPI_CFG" pad="10"/>
+<connect gate="IC" pin="TP_1P3V" pad="24"/>
 <connect gate="IC" pin="TXD" pad="14"/>
 <connect gate="IC" pin="VBAT" pad="20"/>
 <connect gate="IC" pin="VCCIO" pad="23"/>
@@ -6322,37 +6372,37 @@ BT 4.1 Low Energy (BLE)</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="L298" prefix="IC" uservalue="yes">
+<deviceset name="L298" prefix="IC">
 <description>ST L298 Dual Full Bridge Driver (up to 46V and 4A)</description>
 <gates>
-<gate name="G$1" symbol="L298" x="0" y="0"/>
+<gate name="IC" symbol="L298" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="POWERSO20">
 <connects>
-<connect gate="G$1" pin="ENABLE_A" pad="8"/>
-<connect gate="G$1" pin="ENABLE_B" pad="14"/>
-<connect gate="G$1" pin="GND@1" pad="1"/>
-<connect gate="G$1" pin="GND@2" pad="10"/>
-<connect gate="G$1" pin="GND@3" pad="11"/>
-<connect gate="G$1" pin="GND@4" pad="20"/>
-<connect gate="G$1" pin="GNDPAD@1" pad="GNDPAD@1"/>
-<connect gate="G$1" pin="GNDPAD@2" pad="GNDPAD@2"/>
-<connect gate="G$1" pin="GNDPAD@3" pad="GNDPAD@3"/>
-<connect gate="G$1" pin="INPUT1" pad="7"/>
-<connect gate="G$1" pin="INPUT2" pad="9"/>
-<connect gate="G$1" pin="INPUT3" pad="13"/>
-<connect gate="G$1" pin="INPUT4" pad="15"/>
-<connect gate="G$1" pin="NC@1" pad="3"/>
-<connect gate="G$1" pin="NC@2" pad="18"/>
-<connect gate="G$1" pin="OUT1" pad="4"/>
-<connect gate="G$1" pin="OUT2" pad="5"/>
-<connect gate="G$1" pin="OUT3" pad="16"/>
-<connect gate="G$1" pin="OUT4" pad="17"/>
-<connect gate="G$1" pin="SENSE_A" pad="2"/>
-<connect gate="G$1" pin="SENSE_B" pad="19"/>
-<connect gate="G$1" pin="VCC" pad="12"/>
-<connect gate="G$1" pin="VM" pad="6"/>
+<connect gate="IC" pin="ENABLE_A" pad="8"/>
+<connect gate="IC" pin="ENABLE_B" pad="14"/>
+<connect gate="IC" pin="GND@1" pad="1"/>
+<connect gate="IC" pin="GND@2" pad="10"/>
+<connect gate="IC" pin="GND@3" pad="11"/>
+<connect gate="IC" pin="GND@4" pad="20"/>
+<connect gate="IC" pin="GNDPAD@1" pad="GNDPAD@1"/>
+<connect gate="IC" pin="GNDPAD@2" pad="GNDPAD@2"/>
+<connect gate="IC" pin="GNDPAD@3" pad="GNDPAD@3"/>
+<connect gate="IC" pin="INPUT1" pad="7"/>
+<connect gate="IC" pin="INPUT2" pad="9"/>
+<connect gate="IC" pin="INPUT3" pad="13"/>
+<connect gate="IC" pin="INPUT4" pad="15"/>
+<connect gate="IC" pin="NC@1" pad="3"/>
+<connect gate="IC" pin="NC@2" pad="18"/>
+<connect gate="IC" pin="OUT1" pad="4"/>
+<connect gate="IC" pin="OUT2" pad="5"/>
+<connect gate="IC" pin="OUT3" pad="16"/>
+<connect gate="IC" pin="OUT4" pad="17"/>
+<connect gate="IC" pin="SENSE_A" pad="2"/>
+<connect gate="IC" pin="SENSE_B" pad="19"/>
+<connect gate="IC" pin="VCC" pad="12"/>
+<connect gate="IC" pin="VM" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6363,7 +6413,7 @@ BT 4.1 Low Energy (BLE)</description>
 <deviceset name="SN74AUP1T87" prefix="IC">
 <description>2-Input Positive Exclusive-NOR Gate</description>
 <gates>
-<gate name="IC" symbol="XNOR" x="0" y="0"/>
+<gate name="IC" symbol="GATE_XNOR" x="0" y="0"/>
 <gate name="P" symbol="PWRN" x="25.4" y="0"/>
 </gates>
 <devices>
@@ -6475,10 +6525,10 @@ BT 4.1 Low Energy (BLE)</description>
 <connect gate="IC" pin="IO14/SCK" pad="5"/>
 <connect gate="IC" pin="IO16/WAKE" pad="4"/>
 <connect gate="IC" pin="IO2" pad="11"/>
-<connect gate="IC" pin="IO4" pad="13"/>
-<connect gate="IC" pin="IO5" pad="14"/>
 <connect gate="IC" pin="RESET" pad="1"/>
 <connect gate="IC" pin="RXD/IO3" pad="15"/>
+<connect gate="IC" pin="SCL/IO5" pad="14"/>
+<connect gate="IC" pin="SDA/IO4" pad="13"/>
 <connect gate="IC" pin="TXD/IO1" pad="16"/>
 <connect gate="IC" pin="VCC" pad="8"/>
 </connects>
@@ -6498,10 +6548,10 @@ BT 4.1 Low Energy (BLE)</description>
 <connect gate="IC" pin="IO14/SCK" pad="3"/>
 <connect gate="IC" pin="IO16/WAKE" pad="17"/>
 <connect gate="IC" pin="IO2" pad="7"/>
-<connect gate="IC" pin="IO4" pad="10"/>
-<connect gate="IC" pin="IO5" pad="14"/>
 <connect gate="IC" pin="RESET" pad="15"/>
 <connect gate="IC" pin="RXD/IO3" pad="11"/>
+<connect gate="IC" pin="SCL/IO5" pad="14"/>
+<connect gate="IC" pin="SDA/IO4" pad="10"/>
 <connect gate="IC" pin="TXD/IO1" pad="12"/>
 <connect gate="IC" pin="VCC" pad="1"/>
 </connects>
@@ -6549,14 +6599,14 @@ BT 4.1 Low Energy (BLE)</description>
 <connect gate="IC" pin="IO14/SCK" pad="5"/>
 <connect gate="IC" pin="IO16/WAKE" pad="4"/>
 <connect gate="IC" pin="IO2" pad="11"/>
-<connect gate="IC" pin="IO4" pad="13"/>
-<connect gate="IC" pin="IO5" pad="14"/>
 <connect gate="IC" pin="IO9" pad="19"/>
 <connect gate="IC" pin="MISO" pad="18"/>
 <connect gate="IC" pin="MOSI" pad="21"/>
 <connect gate="IC" pin="RESET" pad="1"/>
 <connect gate="IC" pin="RXD/IO3" pad="15"/>
 <connect gate="IC" pin="SCK" pad="22"/>
+<connect gate="IC" pin="SCL/IO5" pad="14"/>
+<connect gate="IC" pin="SDA/IO4" pad="13"/>
 <connect gate="IC" pin="TXD/IO1" pad="16"/>
 <connect gate="IC" pin="VCC" pad="8"/>
 </connects>
@@ -6578,42 +6628,6 @@ BT 4.1 Low Energy (BLE)</description>
 <connect gate="IC" pin="SCL" pad="6"/>
 <connect gate="IC" pin="SDA" pad="5"/>
 <connect gate="IC" pin="VCC" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TLE7244SL" prefix="IC">
-<description>Infineon TLE7244SL 8-Bit Power Shift Register (Low-Side)
-&lt;br&gt;
-TLE7244SL: 1.7Ohm, 290mA, 41V&lt;br&gt;
-TLE7243SL: 2.1Ohm, 260mA, 41V&lt;br&gt;
-TLE7240SL: 3.0Ohm, 210mA, 41V&lt;br&gt;</description>
-<gates>
-<gate name="IC" symbol="TLE7244SL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SSOP24">
-<connects>
-<connect gate="IC" pin="!CS" pad="23"/>
-<connect gate="IC" pin="!RST" pad="21"/>
-<connect gate="IC" pin="CLK" pad="20"/>
-<connect gate="IC" pin="GND" pad="1 2 11 12"/>
-<connect gate="IC" pin="LHI" pad="18"/>
-<connect gate="IC" pin="Q1" pad="3"/>
-<connect gate="IC" pin="Q2" pad="4"/>
-<connect gate="IC" pin="Q3" pad="5"/>
-<connect gate="IC" pin="Q4" pad="6"/>
-<connect gate="IC" pin="Q5" pad="7"/>
-<connect gate="IC" pin="Q6" pad="8"/>
-<connect gate="IC" pin="Q7" pad="9"/>
-<connect gate="IC" pin="Q8" pad="10"/>
-<connect gate="IC" pin="SDI" pad="22"/>
-<connect gate="IC" pin="SDO" pad="19"/>
-<connect gate="IC" pin="VCC" pad="13"/>
-<connect gate="IC" pin="VCCA" pad="24"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7083,6 +7097,133 @@ TLE7240SL: 3.0Ohm, 210mA, 41V&lt;br&gt;</description>
 <connect gate="IC" pin="OE" pad="10"/>
 <connect gate="IC" pin="VCCA" pad="2"/>
 <connect gate="IC" pin="VCCB" pad="19"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ATSAMD21G18A" prefix="IC">
+<description>Atmel ATSAMD21G18A ARM Cortex-M0</description>
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ATSAMW25" prefix="IC">
+<description>Atmel ATSAMW25-MR510 ARM Cortex-M0 + WiFi/WLAN&lt;br&gt;
+&lt;br&gt;
+MR210PB - ATWINC1500 + SAM D21&lt;br&gt;
+MR510PB - ATWINC1500 + SAM D21 + ATECC508&lt;br&gt;</description>
+<gates>
+<gate name="IC" symbol="ATSAMW25-MRX10" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-MR210PB" package="ATSAMW25-MRX10">
+<connects>
+<connect gate="IC" pin="!RESET" pad="24"/>
+<connect gate="IC" pin="ADC0/PA02" pad="31"/>
+<connect gate="IC" pin="ADC1/PA03" pad="33"/>
+<connect gate="IC" pin="ADC10/PB02" pad="27"/>
+<connect gate="IC" pin="ADC11/PB03" pad="28"/>
+<connect gate="IC" pin="ADC18/PA10" pad="40"/>
+<connect gate="IC" pin="ADC19/PA11" pad="41"/>
+<connect gate="IC" pin="ADC4/PA04" pad="34"/>
+<connect gate="IC" pin="ADC5/PA05" pad="35"/>
+<connect gate="IC" pin="ADC6/PA06" pad="36"/>
+<connect gate="IC" pin="ADC7/PA07" pad="37"/>
+<connect gate="IC" pin="GND" pad="1 10 17 20 32 42 51"/>
+<connect gate="IC" pin="PA18" pad="11"/>
+<connect gate="IC" pin="PA19" pad="12"/>
+<connect gate="IC" pin="PA20" pad="13"/>
+<connect gate="IC" pin="PA21" pad="14"/>
+<connect gate="IC" pin="PB10" pad="43"/>
+<connect gate="IC" pin="PB11" pad="44"/>
+<connect gate="IC" pin="PB22" pad="22"/>
+<connect gate="IC" pin="PB23" pad="23"/>
+<connect gate="IC" pin="SCL/ADC17/PA09" pad="39"/>
+<connect gate="IC" pin="SCL/PA17" pad="9"/>
+<connect gate="IC" pin="SCL/PA23" pad="16"/>
+<connect gate="IC" pin="SDA/ADC16/PA08" pad="38"/>
+<connect gate="IC" pin="SDA/PA16" pad="8"/>
+<connect gate="IC" pin="SDA/PA22" pad="15"/>
+<connect gate="IC" pin="SWCLK/PA30" pad="25"/>
+<connect gate="IC" pin="SWDIO/PA31" pad="26"/>
+<connect gate="IC" pin="USB_DM/PA24" pad="18"/>
+<connect gate="IC" pin="USB_DP/PA25" pad="19"/>
+<connect gate="IC" pin="VBAT" pad="7"/>
+<connect gate="IC" pin="VCC" pad="21"/>
+<connect gate="IC" pin="WIFI_!RESET" pad="50"/>
+<connect gate="IC" pin="WIFI_EN" pad="4"/>
+<connect gate="IC" pin="WIFI_IO1/RTC" pad="5"/>
+<connect gate="IC" pin="WIFI_IO3/NC" pad="6"/>
+<connect gate="IC" pin="WIFI_IO4/15" pad="45"/>
+<connect gate="IC" pin="WIFI_IO5/16" pad="46"/>
+<connect gate="IC" pin="WIFI_IO6/18" pad="47"/>
+<connect gate="IC" pin="WIFI_RXD" pad="3"/>
+<connect gate="IC" pin="WIFI_SCL" pad="48"/>
+<connect gate="IC" pin="WIFI_SDA" pad="49"/>
+<connect gate="IC" pin="WIFI_TXD" pad="2"/>
+<connect gate="IC" pin="XIN32/PA00" pad="29"/>
+<connect gate="IC" pin="XOUT32/PA01" pad="30"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MR510PB" package="ATSAMW25-MRX10">
+<connects>
+<connect gate="IC" pin="!RESET" pad="24"/>
+<connect gate="IC" pin="ADC0/PA02" pad="31"/>
+<connect gate="IC" pin="ADC1/PA03" pad="33"/>
+<connect gate="IC" pin="ADC10/PB02" pad="27"/>
+<connect gate="IC" pin="ADC11/PB03" pad="28"/>
+<connect gate="IC" pin="ADC18/PA10" pad="40"/>
+<connect gate="IC" pin="ADC19/PA11" pad="41"/>
+<connect gate="IC" pin="ADC4/PA04" pad="34"/>
+<connect gate="IC" pin="ADC5/PA05" pad="35"/>
+<connect gate="IC" pin="ADC6/PA06" pad="36"/>
+<connect gate="IC" pin="ADC7/PA07" pad="37"/>
+<connect gate="IC" pin="GND" pad="1 10 17 20 32 42 51"/>
+<connect gate="IC" pin="PA18" pad="11"/>
+<connect gate="IC" pin="PA19" pad="12"/>
+<connect gate="IC" pin="PA20" pad="13"/>
+<connect gate="IC" pin="PA21" pad="14"/>
+<connect gate="IC" pin="PB10" pad="43"/>
+<connect gate="IC" pin="PB11" pad="44"/>
+<connect gate="IC" pin="PB22" pad="22"/>
+<connect gate="IC" pin="PB23" pad="23"/>
+<connect gate="IC" pin="SCL/ADC17/PA09" pad="39"/>
+<connect gate="IC" pin="SCL/PA17" pad="9"/>
+<connect gate="IC" pin="SCL/PA23" pad="16"/>
+<connect gate="IC" pin="SDA/ADC16/PA08" pad="38"/>
+<connect gate="IC" pin="SDA/PA16" pad="8"/>
+<connect gate="IC" pin="SDA/PA22" pad="15"/>
+<connect gate="IC" pin="SWCLK/PA30" pad="25"/>
+<connect gate="IC" pin="SWDIO/PA31" pad="26"/>
+<connect gate="IC" pin="USB_DM/PA24" pad="18"/>
+<connect gate="IC" pin="USB_DP/PA25" pad="19"/>
+<connect gate="IC" pin="VBAT" pad="7"/>
+<connect gate="IC" pin="VCC" pad="21"/>
+<connect gate="IC" pin="WIFI_!RESET" pad="50"/>
+<connect gate="IC" pin="WIFI_EN" pad="4"/>
+<connect gate="IC" pin="WIFI_IO1/RTC" pad="5"/>
+<connect gate="IC" pin="WIFI_IO3/NC" pad="6"/>
+<connect gate="IC" pin="WIFI_IO4/15" pad="45"/>
+<connect gate="IC" pin="WIFI_IO5/16" pad="46"/>
+<connect gate="IC" pin="WIFI_IO6/18" pad="47"/>
+<connect gate="IC" pin="WIFI_RXD" pad="3"/>
+<connect gate="IC" pin="WIFI_SCL" pad="48"/>
+<connect gate="IC" pin="WIFI_SDA" pad="49"/>
+<connect gate="IC" pin="WIFI_TXD" pad="2"/>
+<connect gate="IC" pin="XIN32/PA00" pad="29"/>
+<connect gate="IC" pin="XOUT32/PA01" pad="30"/>
 </connects>
 <technologies>
 <technology name=""/>

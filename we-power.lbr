@@ -1398,7 +1398,7 @@ Rterm:
 </devices>
 </deviceset>
 <deviceset name="LM2594" prefix="IC">
-<description>National/TI LM2594 Step-Down (150kHz, 0.5A, 4.5-45V input)</description>
+<description>TI LM2594 Step-Down (150kHz, 0.5A, 4.5-45V input)</description>
 <gates>
 <gate name="IC" symbol="LM2594" x="0" y="0"/>
 </gates>
@@ -1521,7 +1521,7 @@ MCP16312 -&gt; PWM Operation (lower noise)&lt;br&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM2585">
+<deviceset name="LM2585" prefix="IC">
 <description>TI LM2585 Step-Up (100kHz, 3A, 4-40V input)</description>
 <gates>
 <gate name="IC" symbol="LM2585" x="0" y="0"/>

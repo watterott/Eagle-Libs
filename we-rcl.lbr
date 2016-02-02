@@ -999,6 +999,58 @@
 <wire x1="-0.6" y1="-0.627" x2="0.6" y2="-0.627" width="0.127" layer="21"/>
 <rectangle x1="-0.3048" y1="-0.2286" x2="0.3048" y2="1.3462" layer="21" rot="R270"/>
 </package>
+<package name="R0207/7">
+<description>7.5 mm</description>
+<wire x1="-3" y1="-1" x2="-3" y2="1" width="0.1524" layer="21"/>
+<wire x1="3" y1="1" x2="-3" y2="1" width="0.1524" layer="21"/>
+<wire x1="3" y1="-1" x2="-3" y2="-1" width="0.1524" layer="21"/>
+<wire x1="3" y1="-1" x2="3" y2="1" width="0.1524" layer="21"/>
+<pad name="1" x="-3.75" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="3.75" y="0" drill="0.8128" shape="octagon"/>
+<text x="0" y="1.905" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<rectangle x1="-3.8" y1="-0.2" x2="-3" y2="0.2" layer="21"/>
+<rectangle x1="3.01" y1="-0.2" x2="3.8" y2="0.2" layer="21"/>
+</package>
+<package name="R0207/10">
+<description>10 mm</description>
+<pad name="1" x="-5" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="5" y="0" drill="0.8128" shape="octagon"/>
+<wire x1="-3" y1="-1" x2="-3" y2="1" width="0.1524" layer="21"/>
+<wire x1="3" y1="1" x2="-3" y2="1" width="0.1524" layer="21"/>
+<wire x1="3" y1="-1" x2="-3" y2="-1" width="0.1524" layer="21"/>
+<wire x1="3" y1="-1" x2="3" y2="1" width="0.1524" layer="21"/>
+<text x="0" y="1.905" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<rectangle x1="-5" y1="-0.2" x2="-3" y2="0.2" layer="21"/>
+<rectangle x1="3.01" y1="-0.2" x2="5" y2="0.2" layer="21"/>
+</package>
+<package name="R0207/12">
+<description>12 mm</description>
+<pad name="1" x="-6" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="6" y="0" drill="0.8128" shape="octagon"/>
+<wire x1="-3" y1="-1" x2="-3" y2="1" width="0.1524" layer="21"/>
+<wire x1="3" y1="1" x2="-3" y2="1" width="0.1524" layer="21"/>
+<wire x1="3" y1="-1" x2="-3" y2="-1" width="0.1524" layer="21"/>
+<wire x1="3" y1="-1" x2="3" y2="1" width="0.1524" layer="21"/>
+<text x="0" y="1.905" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<rectangle x1="-6" y1="-0.2" x2="-3" y2="0.2" layer="21"/>
+<rectangle x1="3.01" y1="-0.2" x2="6" y2="0.2" layer="21"/>
+</package>
+<package name="R0207/15">
+<description>15mm</description>
+<pad name="1" x="-7.62" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="7.62" y="0" drill="0.8128" shape="octagon"/>
+<wire x1="-3" y1="-1" x2="-3" y2="1" width="0.1524" layer="21"/>
+<wire x1="3" y1="1" x2="-3" y2="1" width="0.1524" layer="21"/>
+<wire x1="3" y1="-1" x2="-3" y2="-1" width="0.1524" layer="21"/>
+<wire x1="3" y1="-1" x2="3" y2="1" width="0.1524" layer="21"/>
+<text x="0" y="1.905" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<rectangle x1="-7.6" y1="-0.2" x2="-3" y2="0.2" layer="21"/>
+<rectangle x1="3.01" y1="-0.2" x2="7.6" y2="0.2" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CRYSTAL_RES">
@@ -1480,6 +1532,42 @@ all kinds in 0603 and 0402</description>
 </technologies>
 </device>
 <device name="-1825" package="C1825">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-07" package="R0207/7">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-10" package="R0207/10">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-12" package="R0207/12">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-15" package="R0207/15">
 <connects>
 <connect gate="R" pin="1" pad="1"/>
 <connect gate="R" pin="2" pad="2"/>
