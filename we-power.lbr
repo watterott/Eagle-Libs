@@ -315,8 +315,8 @@
 <wire x1="-1.778" y1="3.81" x2="-1.778" y2="-3.81" width="0.127" layer="21" curve="129.966213" cap="flat"/>
 <smd name="1" x="0" y="5.28" dx="2.92" dy="2.79" layer="1" rot="R270"/>
 <smd name="2" x="0" y="-5.28" dx="2.92" dy="2.79" layer="1" rot="R270"/>
-<text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
-<text x="1.27" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<text x="-5.08" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<text x="5.08" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 </package>
 <package name="L_CDRH2D">
 <description>Sumida CDRH2D</description>
@@ -356,8 +356,8 @@
 <wire x1="-0.635" y1="-3.3" x2="0.635" y2="-3.3" width="0.127" layer="21"/>
 <wire x1="0.635" y1="-3.3" x2="2.25" y2="-1.5" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="1.9" width="0.127" layer="21"/>
-<smd name="1" x="0" y="2.8" dx="3.2" dy="1.4" layer="1" roundness="20"/>
-<smd name="2" x="0" y="-2.8" dx="3.2" dy="1.4" layer="1" roundness="20"/>
+<smd name="1" x="0" y="2.75" dx="3.5" dy="1.4" layer="1" roundness="20"/>
+<smd name="2" x="0" y="-2.75" dx="3.5" dy="1.4" layer="1" roundness="20"/>
 <text x="-3.175" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="3.175" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 </package>
@@ -374,7 +374,7 @@
 <wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
 </package>
 <package name="L_WEPD3M">
-<description>Wuerth WE-PD3 M</description>
+<description>Wuerth WE-PD3 M (3mm height)</description>
 <wire x1="5.05" y1="-1.5" x2="5.05" y2="1.5" width="0.127" layer="21"/>
 <wire x1="5.05" y1="1.5" x2="1.5" y2="6.4" width="0.127" layer="21"/>
 <wire x1="1.5" y1="6.4" x2="-1.5" y2="6.4" width="0.127" layer="21"/>
@@ -384,10 +384,10 @@
 <wire x1="-1.5" y1="-6.4" x2="1.5" y2="-6.4" width="0.127" layer="21"/>
 <wire x1="1.5" y1="-6.4" x2="5.05" y2="-1.5" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="3" width="0.127" layer="21"/>
-<smd name="1" x="0" y="5.1" dx="2.8" dy="2.7" layer="1" roundness="20"/>
-<smd name="2" x="0" y="-5.1" dx="2.8" dy="2.7" layer="1" roundness="20"/>
-<text x="0" y="1.27" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="-1.27" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<smd name="1" x="0" y="5.15" dx="2.8" dy="3" layer="1" roundness="20"/>
+<smd name="2" x="0" y="-5.15" dx="2.8" dy="3" layer="1" roundness="20"/>
+<text x="-5.715" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<text x="5.715" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center">&gt;VALUE</text>
 <circle x="0" y="0" radius="5" width="0.127" layer="21"/>
 </package>
 <package name="BAT-SMTU1225LF">
@@ -724,8 +724,9 @@
 <wire x1="1.5" y1="-3" x2="3" y2="-1.5" width="0.127" layer="21"/>
 <smd name="1" x="0" y="2.35" dx="5.7" dy="1.7" layer="1" roundness="20"/>
 <smd name="2" x="0" y="-2.35" dx="5.7" dy="1.7" layer="1" roundness="20"/>
-<text x="0" y="0.635" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="-0.635" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<text x="-3.81" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<text x="3.81" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center">&gt;VALUE</text>
+<circle x="0" y="0" radius="2" width="0.127" layer="21"/>
 </package>
 <package name="D2PACK_TO263AB">
 <wire x1="5.85" y1="-5" x2="-3" y2="-5" width="0.127" layer="21"/>
@@ -788,8 +789,74 @@
 <wire x1="2.5" y1="-4" x2="4" y2="-2.5" width="0.127" layer="21"/>
 <smd name="1" x="0" y="2.8" dx="7.5" dy="1.9" layer="1" roundness="20"/>
 <smd name="2" x="0" y="-2.8" dx="7.5" dy="1.9" layer="1" roundness="20"/>
-<text x="0" y="0.635" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="-0.635" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<text x="-5.08" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<text x="5.08" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center">&gt;VALUE</text>
+<circle x="0" y="0" radius="3" width="0.127" layer="21"/>
+</package>
+<package name="L_WEPD3L">
+<description>Wuerth WE-PD3 L (5mm height)</description>
+<wire x1="5.05" y1="-1.5" x2="5.05" y2="1.5" width="0.127" layer="21"/>
+<wire x1="5.05" y1="1.5" x2="1.5" y2="6.4" width="0.127" layer="21"/>
+<wire x1="1.5" y1="6.4" x2="-1.5" y2="6.4" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="6.4" x2="-5.05" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-5.05" y1="1.5" x2="-5.05" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-5.05" y1="-1.5" x2="-1.5" y2="-6.4" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-6.4" x2="1.5" y2="-6.4" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-6.4" x2="5.05" y2="-1.5" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="21"/>
+<smd name="1" x="0" y="5.15" dx="2.8" dy="3" layer="1" roundness="20"/>
+<smd name="2" x="0" y="-5.15" dx="2.8" dy="3" layer="1" roundness="20"/>
+<text x="-5.715" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<text x="5.715" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center">&gt;VALUE</text>
+<circle x="0" y="0" radius="5" width="0.127" layer="21"/>
+</package>
+<package name="L_WEPD10XX">
+<description>Wuerth WE-PD 10xx</description>
+<wire x1="5" y1="-4" x2="5" y2="4" width="0.127" layer="21"/>
+<wire x1="5" y1="4" x2="4" y2="5" width="0.127" layer="21"/>
+<wire x1="4" y1="5" x2="-4" y2="5" width="0.127" layer="21"/>
+<wire x1="-4" y1="5" x2="-5" y2="4" width="0.127" layer="21"/>
+<wire x1="-5" y1="4" x2="-5" y2="-4" width="0.127" layer="21"/>
+<wire x1="-5" y1="-4" x2="-4" y2="-5" width="0.127" layer="21"/>
+<wire x1="-4" y1="-5" x2="4" y2="-5" width="0.127" layer="21"/>
+<wire x1="4" y1="-5" x2="5" y2="-4" width="0.127" layer="21"/>
+<smd name="1" x="0" y="4.5" dx="3.5" dy="2" layer="1" roundness="20"/>
+<smd name="2" x="0" y="-4.5" dx="3.5" dy="2" layer="1" roundness="20"/>
+<text x="-5.715" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<text x="5.715" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center">&gt;VALUE</text>
+<circle x="0" y="0" radius="4" width="0.127" layer="21"/>
+</package>
+<package name="L_WEPD12XX">
+<description>Wuerth WE-PD 12xx</description>
+<wire x1="6" y1="-5" x2="6" y2="5" width="0.127" layer="21"/>
+<wire x1="6" y1="5" x2="5" y2="6" width="0.127" layer="21"/>
+<wire x1="5" y1="6" x2="-5" y2="6" width="0.127" layer="21"/>
+<wire x1="-5" y1="6" x2="-6" y2="5" width="0.127" layer="21"/>
+<wire x1="-6" y1="5" x2="-6" y2="-5" width="0.127" layer="21"/>
+<wire x1="-6" y1="-5" x2="-5" y2="-6" width="0.127" layer="21"/>
+<wire x1="-5" y1="-6" x2="5" y2="-6" width="0.127" layer="21"/>
+<wire x1="5" y1="-6" x2="6" y2="-5" width="0.127" layer="21"/>
+<smd name="1" x="0" y="4.95" dx="5.4" dy="2.9" layer="1" roundness="20"/>
+<smd name="2" x="0" y="-4.95" dx="5.4" dy="2.9" layer="1" roundness="20"/>
+<text x="-6.985" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<text x="6.985" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center">&gt;VALUE</text>
+<circle x="0" y="0" radius="5" width="0.127" layer="21"/>
+</package>
+<package name="L_NR40XX">
+<description>Taiyo Yuden NR/NRS 4010, 4012, 4018</description>
+<wire x1="2" y1="-1.5" x2="2" y2="1.5" width="0.127" layer="21"/>
+<wire x1="2" y1="1.5" x2="1.5" y2="2" width="0.127" layer="21"/>
+<wire x1="1.5" y1="2" x2="-1.5" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="2" x2="-2" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="1.5" x2="-2" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.5" x2="-1.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-2" x2="1.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-2" x2="2" y2="-1.5" width="0.127" layer="21"/>
+<smd name="1" x="0" y="1.4" dx="3.7" dy="1.2" layer="1" roundness="20"/>
+<smd name="2" x="0" y="-1.4" dx="3.7" dy="1.2" layer="1" roundness="20"/>
+<text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<text x="2.54" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center">&gt;VALUE</text>
+<circle x="0" y="0" radius="1.5" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -852,27 +919,6 @@
 <text x="0" y="-1.27" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
 <rectangle x1="-2.54" y1="-0.889" x2="2.54" y2="0.889" layer="94"/>
 </symbol>
-<symbol name="AS3611">
-<wire x1="-12.7" y1="17.78" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
-<wire x1="12.7" y1="17.78" x2="-12.7" y2="17.78" width="0.254" layer="94"/>
-<text x="-12.7" y="-20.32" size="1.778" layer="95">&gt;VALUE</text>
-<text x="-12.7" y="20.32" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<pin name="VBUS" x="-17.78" y="15.24" length="middle" direction="pwr"/>
-<pin name="GND" x="-17.78" y="-15.24" length="middle" direction="pwr"/>
-<pin name="XEN" x="17.78" y="15.24" length="middle" direction="in" rot="R180"/>
-<pin name="SW" x="-17.78" y="5.08" length="middle" direction="pas"/>
-<pin name="VBAT" x="-17.78" y="10.16" length="middle" direction="pwr"/>
-<pin name="NTC" x="-17.78" y="-2.54" length="middle" direction="pas"/>
-<pin name="I_SET" x="17.78" y="-10.16" length="middle" direction="pas" rot="R180"/>
-<pin name="I_TERM" x="17.78" y="-15.24" length="middle" direction="pas" rot="R180"/>
-<pin name="USB500" x="17.78" y="10.16" length="middle" direction="in" rot="R180"/>
-<pin name="CHG_DET" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="OTG_BOOST" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="STAT" x="17.78" y="-5.08" length="middle" direction="out" rot="R180"/>
-<pin name="VDD_INT" x="-17.78" y="-10.16" length="middle" direction="pwr"/>
-</symbol>
 <symbol name="ACT2813">
 <wire x1="-12.7" y1="20.32" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-20.32" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
@@ -911,21 +957,6 @@
 <pin name="!ON!" x="-12.7" y="-5.08" length="short" direction="in"/>
 <text x="-10.16" y="10.16" size="1.778" layer="95" align="top-left">&gt;VALUE</text>
 <text x="-10.16" y="12.7" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-</symbol>
-<symbol name="MCP16312">
-<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<pin name="SW" x="12.7" y="0" length="short" direction="pas" rot="R180"/>
-<pin name="VIN" x="-12.7" y="5.08" length="short" direction="pwr"/>
-<pin name="GND" x="0" y="-10.16" length="short" direction="pwr" rot="R90"/>
-<pin name="FB" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
-<pin name="EN" x="-12.7" y="0" length="short" direction="in"/>
-<text x="-10.16" y="10.16" size="1.778" layer="95" align="top-left">&gt;VALUE</text>
-<text x="-10.16" y="12.7" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<pin name="VCC" x="-12.7" y="-5.08" length="short" direction="pwr"/>
-<pin name="BOOST" x="12.7" y="5.08" length="short" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="AP65200">
 <wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
@@ -977,8 +1008,13 @@
 &lt;br&gt;
 &lt;u&gt;LDOs&lt;/u&gt;
 &lt;br&gt;
-&lt;b&gt;Taiwan Semi TS1117&lt;/b&gt; 800mA max 15V - compatible &lt;b&gt;On Semi NCP1117&lt;/b&gt; 1A max 20V&lt;br&gt;
-&lt;b&gt;Taiwan Semi TS9011&lt;/b&gt; 250mA max 12V - compatible &lt;b&gt;Diodes AP2210&lt;/b&gt; 300mA max 15V&lt;br&gt;
+&lt;b&gt;Taiwan Semi TS1117&lt;/b&gt; 800mA max 15V&lt;br&gt;
+ - compatible &lt;b&gt;On Semi NCP1117&lt;/b&gt; 1A max 20V&lt;br&gt;
+&lt;b&gt;Taiwan Semi TS9011&lt;/b&gt; 250mA max 12V&lt;br&gt;
+ - compatible &lt;b&gt;Diodes AP2210&lt;/b&gt; 300mA max 15V&lt;br&gt;
+ - compatible &lt;b&gt;Microchip MCP1702&lt;/b&gt; 250mA max 13V&lt;br&gt;
+ - compatible &lt;b&gt;Microchip MCP1703&lt;/b&gt; 250mA max 16V&lt;br&gt;
+ - compatible &lt;b&gt;Microchip MCP1754&lt;/b&gt; 150mA max 16V&lt;br&gt;
 &lt;b&gt;Taiwan Semi TS5204&lt;/b&gt; 150mA max 16V (low noise)&lt;br&gt;
 &lt;br&gt;
 &lt;u&gt;DC/DC Converter Modules&lt;/u&gt;
@@ -1272,18 +1308,34 @@ Output: up to 35V&lt;br&gt;
 <description>Power Inductors&lt;br&gt;
 &lt;br&gt;
 &lt;b&gt;Taiyo Yuden NR6028&lt;/b&gt;&lt;br&gt;
-NR6028T1R5N - 1.5uH, 16mOhm, Ir=5.00A&lt;br&gt;
-NR6028T2R2N - 2.2uH, 20mOhm, Ir=4.20A&lt;br&gt;
-NR6028T3R0N - 3.0uH, 23mOhm, Ir=3.60A&lt;br&gt;
-NR6028T4R7M - 4.7uH, 31mOhm, Ir=2.70A&lt;br&gt;
-NR6028T6R0M - 6.0uH, 40mOhm, Ir=2.50A&lt;br&gt;
-NR6028T100M - 10uH, 65mOhm, Ir=1.90A&lt;br&gt;
-NR6028T150M - 15uH, 95mOhm, Ir=1.60A&lt;br&gt;
-NR6028T220M - 22uH, 135mOhm, Ir=1.30A&lt;br&gt;
-NR6028T330M - 33uH,  220mOhm, Ir=1.10A&lt;br&gt;
-NR6028T470M - 47uH, 300mOhm, Ir=0.95A&lt;br&gt;
-NR6028T680M - 68uH, 420mOhm, Ir=0.76A&lt;br&gt;
-NR6028T101M - 100uH, 600mOhm, Ir=0.62A&lt;br&gt;</description>
+NR6028T0R9N - 0.9uH, Ir=6.6A&lt;br&gt;
+NR6028T1R5N - 1.5uH, Ir=5.0A&lt;br&gt;
+NR6028T2R2N - 2.2uH, Ir=4.2A&lt;br&gt;
+NR6028T3R0N - 3.0uH, Ir=3.6A&lt;br&gt;
+NR6028T4R7M - 4.7uH, Ir=2.7A&lt;br&gt;
+NR6028T6R0M - 6.0uH, Ir=2.5A&lt;br&gt;
+NR6028T100M - 10uH, Ir=1.9A&lt;br&gt;
+NR6028T150M - 15uH, Ir=1.6A&lt;br&gt;
+NR6028T220M - 22uH, Ir=1.3A&lt;br&gt;
+NR6028T330M - 33uH, Ir=1.1A&lt;br&gt;
+NR6028T470M - 47uH, Ir=0.95A&lt;br&gt;
+NR6028T680M - 68uH, Ir=0.76A&lt;br&gt;
+NR6028T101M - 100uH, Ir=0.62A&lt;br&gt;
+&lt;b&gt;Taiyo Yuden NR6045&lt;/b&gt;&lt;br&gt;
+NR6045T1R0N - 1.0uH, Ir=8.5A&lt;br&gt;
+NR6045T1R3N - 1.3uH, Ir=8.0A&lt;br&gt;
+NR6045T1R8N - 1.8uH, Ir=7.0A&lt;br&gt;
+NR6045T2R3N - 2.3uH, Ir=6.0A&lt;br&gt;
+NR6045T3R0N - 3.0uH, Ir=5.0A&lt;br&gt;
+NR6045T4R5M - 4.5uH, Ir=4.0A&lt;br&gt;
+NR6045T6R3M - 6.3uH, Ir=3.8A&lt;br&gt;
+NR6045T100M - 10uH, Ir=3.0A&lt;br&gt;
+NR6045T150M - 15uH, Ir=2.3A&lt;br&gt;
+NR6045T220M - 22uH, Ir=1.9A&lt;br&gt;
+NR6045T330M - 33uH, Ir=1.5A&lt;br&gt;
+NR6045T470M - 47uH, Ir=1.3A&lt;br&gt;
+NR6045T680M - 68uH, Ir=1.0A&lt;br&gt;
+NR6045T101M - 100uH, Ir=0.8A&lt;br&gt;</description>
 <gates>
 <gate name="L" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
@@ -1351,49 +1403,37 @@ NR6028T101M - 100uH, 600mOhm, Ir=0.62A&lt;br&gt;</description>
 <technology name=""/>
 </technologies>
 </device>
-</devices>
-</deviceset>
-<deviceset name="AS3611" prefix="IC">
-<description>AMS AS3611 Charger for Li-Ion/LiPo/LiFePO with Boost Converter
-&lt;br&gt;&lt;br&gt;
-AS3611-A - 100k NTC, Li-Ion/LiPo 4.20V&lt;br&gt;
-AS3611-B - 10k NTC, Li-Ion/LiPo 4.20V&lt;br&gt;
-AS3611-C - 10k NTC, FePO4 3.64V&lt;br&gt;
-&lt;br&gt;
-Rset: 
-39,0k - 550mA,
-33,0k - 650mA,
-28,6k - 750mA,
-25,2k - 850mA,
-22,6k - 950mA,
-20,4k - 1050mA,
-18,7k - 1150mA,
-17,2k - 1250mA
-&lt;br&gt;&lt;br&gt;
-Rterm: 
-24k - 50mA,
-12k - 100mA,
- 8k - 150mA,
- 6k - 200mA</description>
-<gates>
-<gate name="IC" symbol="AS3611" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MLPD14">
+<device name="-WEPD3L" package="L_WEPD3L">
 <connects>
-<connect gate="IC" pin="CHG_DET" pad="14"/>
-<connect gate="IC" pin="GND" pad="8 12"/>
-<connect gate="IC" pin="I_SET" pad="11"/>
-<connect gate="IC" pin="I_TERM" pad="10"/>
-<connect gate="IC" pin="NTC" pad="3"/>
-<connect gate="IC" pin="OTG_BOOST" pad="13"/>
-<connect gate="IC" pin="STAT" pad="9"/>
-<connect gate="IC" pin="SW" pad="6"/>
-<connect gate="IC" pin="USB500" pad="2"/>
-<connect gate="IC" pin="VBAT" pad="4"/>
-<connect gate="IC" pin="VBUS" pad="7"/>
-<connect gate="IC" pin="VDD_INT" pad="5"/>
-<connect gate="IC" pin="XEN" pad="1"/>
+<connect gate="L" pin="1" pad="1"/>
+<connect gate="L" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-WEPD10XX" package="L_WEPD10XX">
+<connects>
+<connect gate="L" pin="1" pad="1"/>
+<connect gate="L" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-WEPD12XX" package="L_WEPD12XX">
+<connects>
+<connect gate="L" pin="1" pad="1"/>
+<connect gate="L" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-NR40XX" package="L_NR40XX">
+<connects>
+<connect gate="L" pin="1" pad="1"/>
+<connect gate="L" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1466,47 +1506,26 @@ Rterm:
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCP16312" prefix="IC">
-<description>Microchip MCP163112 Step-Down (500kHz, 1A, 4.4-30V input)
-&lt;br&gt;
-MCP16311 -&gt; PWM+PFM Operation (higher efficiency on lower loads)&lt;br&gt;
-MCP16312 -&gt; PWM Operation (lower noise)&lt;br&gt;</description>
-<gates>
-<gate name="IC" symbol="MCP16312" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-MNY" package="UDFN8">
-<connects>
-<connect gate="IC" pin="BOOST" pad="7"/>
-<connect gate="IC" pin="EN" pad="3"/>
-<connect gate="IC" pin="FB" pad="1"/>
-<connect gate="IC" pin="GND" pad="5 8"/>
-<connect gate="IC" pin="SW" pad="6"/>
-<connect gate="IC" pin="VCC" pad="2"/>
-<connect gate="IC" pin="VIN" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-MS" package="MSOP8">
-<connects>
-<connect gate="IC" pin="BOOST" pad="7"/>
-<connect gate="IC" pin="EN" pad="3"/>
-<connect gate="IC" pin="FB" pad="1"/>
-<connect gate="IC" pin="GND" pad="5 8"/>
-<connect gate="IC" pin="SW" pad="6"/>
-<connect gate="IC" pin="VCC" pad="2"/>
-<connect gate="IC" pin="VIN" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="AP65200" prefix="IC">
-<description>Diodes AP65200 Step-Down (340kHz, 2A, 4.7-18V input)</description>
+<description>Diodes AP65200 Step-Down (340kHz, 2A, 4.7-18V input)&lt;br&gt;
+&lt;br&gt;
+5.0V - R1=44.2k, R2=10k&lt;br&gt;
+3.3V - R1=26.1k, R2=10k&lt;br&gt;
+2.5V - R1=16.9k, R2=10k&lt;br&gt;
+L=10uH, Cin=22uF, Cout=47uF, Cc=6.8nF, Rc=6.8k&lt;br&gt;
+&lt;br&gt;
+&lt;u&gt;SO08-PAD compatible Switching Converters&lt;/u&gt;&lt;br&gt;
+AP65200 - 340kHz, 2A, 4.7-18V input&lt;br&gt;
+AP6502 - 340kHz, 2A, 4.7-18V input&lt;br&gt;
+AP6502A - 240kHz, 2A, 4.7-23V input&lt;br&gt;
+AP6503 - 340kHz, 3A, 4.7-18V input&lt;br&gt;
+AP6503A - 240kHz, 3A, 4.7-23V input&lt;br&gt;
+AP65400 - 340kHz, 4A, 4.7-18V input&lt;br&gt;
+AP65402 - 500kHz, 4A, 4.7-17V input&lt;br&gt;
+AP65403 - 750kHz, 4A, 4.7-18V input&lt;br&gt;
+AP65500 - 340kHz, 5A, 4.7-18V input&lt;br&gt;
+AP65502 - 500kHz, 5A, 4.7-17V input&lt;br&gt;
+AP65503 - 750kHz, 5A, 4.7-17V input&lt;br&gt;</description>
 <gates>
 <gate name="IC" symbol="AP65200" x="0" y="0"/>
 </gates>
