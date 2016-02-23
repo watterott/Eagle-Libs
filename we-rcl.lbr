@@ -818,8 +818,8 @@
 <wire x1="-0.381" y1="0.7485" x2="-0.254" y2="0.8755" width="0.1" layer="21" curve="-90"/>
 </package>
 <package name="C0201">
-<smd name="1" x="0" y="0.35" dx="0.45" dy="0.45" layer="1" roundness="20"/>
-<smd name="2" x="0" y="-0.33" dx="0.45" dy="0.45" layer="1" roundness="20"/>
+<smd name="1" x="0" y="0.33" dx="0.4" dy="0.4" layer="1" roundness="20"/>
+<smd name="2" x="0" y="-0.33" dx="0.4" dy="0.4" layer="1" roundness="20"/>
 <rectangle x1="-0.3" y1="-0.15" x2="0.3" y2="0.15" layer="21" rot="R270"/>
 <text x="-0.9525" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="0.9525" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>

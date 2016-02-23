@@ -1169,6 +1169,46 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="-TS9011-2V8" package="SOT23">
+<connects>
+<connect gate="IC" pin="GND" pad="1"/>
+<connect gate="IC" pin="VIN" pad="3"/>
+<connect gate="IC" pin="VOUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-TS9011-2V5" package="SOT23">
+<connects>
+<connect gate="IC" pin="GND" pad="1"/>
+<connect gate="IC" pin="VIN" pad="3"/>
+<connect gate="IC" pin="VOUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-TS9011-1V8" package="SOT23">
+<connects>
+<connect gate="IC" pin="GND" pad="1"/>
+<connect gate="IC" pin="VIN" pad="3"/>
+<connect gate="IC" pin="VOUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-TS9011-3V" package="SOT23">
+<connects>
+<connect gate="IC" pin="GND" pad="1"/>
+<connect gate="IC" pin="VIN" pad="3"/>
+<connect gate="IC" pin="VOUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="DC/DC" prefix="IC" uservalue="yes">
