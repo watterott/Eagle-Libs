@@ -1719,7 +1719,7 @@
 </deviceset>
 <deviceset name="RESISTOR" prefix="R" uservalue="yes">
 <description>Resistors&lt;br&gt;
-all kinds in 0603 and 0402</description>
+all kinds in 0402 and 0603</description>
 <gates>
 <gate name="R" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -1846,9 +1846,10 @@ all kinds in 0603 and 0402</description>
 <deviceset name="CAPACITOR" prefix="C" uservalue="yes">
 <description>Capacitors&lt;br&gt;
 &lt;br&gt;
-...4.7uF @ 6.3V -&gt; 0402&lt;br&gt;
-...10uF @ 16V -&gt; 0603&lt;br&gt;
-...22uF @ 25V -&gt; 0805&lt;br&gt;</description>
+...2.2uF @ 6.3V -&gt; 0402&lt;br&gt;
+...4.7uF @ 6.3V -&gt; 0603&lt;br&gt;
+...10uF @ 16V -&gt; 0805&lt;br&gt;
+...22uF @ 25V -&gt; 1206&lt;br&gt;</description>
 <gates>
 <gate name="C" symbol="CAPACITOR" x="0" y="0"/>
 </gates>

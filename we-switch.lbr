@@ -125,6 +125,24 @@
 <hole x="-2" y="-0.8" drill="0.7"/>
 <hole x="2" y="-0.8" drill="0.7"/>
 </package>
+<package name="GF1260159">
+<wire x1="-5.08" y1="-8.255" x2="5.08" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="5.08" y1="-8.255" x2="5.08" y2="8.255" width="0.254" layer="21"/>
+<wire x1="5.08" y1="8.255" x2="-5.08" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="8.255" x2="-5.08" y2="-8.255" width="0.254" layer="21"/>
+<wire x1="-1.905" y1="-5.08" x2="1.905" y2="-5.08" width="0.254" layer="21"/>
+<wire x1="1.905" y1="-5.08" x2="1.905" y2="5.08" width="0.254" layer="21"/>
+<wire x1="1.905" y1="5.08" x2="-1.905" y2="5.08" width="0.254" layer="21"/>
+<wire x1="-1.905" y1="5.08" x2="-1.905" y2="-5.08" width="0.254" layer="21"/>
+<rectangle x1="-1.27" y1="-4.445" x2="1.27" y2="-0.635" layer="21"/>
+<pad name="C1" x="-3.455" y="0" drill="1.8" shape="octagon"/>
+<pad name="C2" x="3.455" y="0" drill="1.8" shape="octagon"/>
+<pad name="NC1" x="-3.455" y="4.6" drill="1.8" shape="octagon"/>
+<pad name="NC2" x="3.455" y="4.6" drill="1.8" shape="octagon"/>
+<pad name="NO1" x="-3.455" y="-4.6" drill="1.8" shape="octagon"/>
+<pad name="NO2" x="3.455" y="-4.6" drill="1.8" shape="octagon"/>
+<text x="0" y="9.525" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+</package>
 <package name="CUS22B">
 <description>Copal Electronics CUS-22B</description>
 <wire x1="3.4" y1="-2.1" x2="3.4" y2="2.1" width="0.127" layer="21"/>
@@ -514,6 +532,19 @@
 <technology name="">
 <attribute name="DIGIKEY" value="563-1105-6-ND" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="-GF1260159" package="GF1260159">
+<connects>
+<connect gate="SW" pin="O1" pad="NC1"/>
+<connect gate="SW" pin="O2" pad="NC2"/>
+<connect gate="SW" pin="P1" pad="C1"/>
+<connect gate="SW" pin="P2" pad="C2"/>
+<connect gate="SW" pin="S1" pad="NO1"/>
+<connect gate="SW" pin="S2" pad="NO2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

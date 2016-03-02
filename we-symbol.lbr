@@ -10139,8 +10139,8 @@
 <wire x1="342.265" y1="13.97" x2="342.265" y2="19.05" width="0.1016" layer="94"/>
 <wire x1="342.265" y1="19.05" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
 <wire x1="342.265" y1="19.05" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
-<text x="344.17" y="15.24" size="2.032" layer="94" font="vector">&gt;DRAWING_NAME</text>
-<text x="344.17" y="10.16" size="2.032" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="344.17" y="15.24" size="1.778" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="344.17" y="10.16" size="1.778" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
 <text x="357.505" y="5.08" size="2.54" layer="94" font="vector">&gt;SHEET</text>
 <text x="344.17" y="5.08" size="2.54" layer="94" font="vector">Sheet:</text>
 <frame x1="0" y1="0" x2="387.35" y2="260.35" columns="8" rows="5" layer="94"/>
@@ -10167,8 +10167,8 @@
 <wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
 <wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
 <frame x1="0" y1="0" x2="260.35" y2="387.35" columns="8" rows="5" layer="94"/>
-<text x="217.17" y="15.24" size="2.032" layer="94" font="vector">&gt;DRAWING_NAME</text>
-<text x="217.17" y="10.16" size="2.032" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="217.17" y="15.24" size="1.778" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="217.17" y="10.16" size="1.778" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
 <text x="230.505" y="5.08" size="2.54" layer="94" font="vector">&gt;SHEET</text>
 <text x="217.17" y="5.08" size="2.54" layer="94" font="vector">Sheet:</text>
 <text x="217.17" y="20.32" size="2.032" layer="94" font="vector">www.watterott.com</text>
@@ -10191,8 +10191,8 @@
 <wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
 <wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
 <frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
-<text x="217.17" y="15.24" size="2.032" layer="94" font="vector">&gt;DRAWING_NAME</text>
-<text x="217.17" y="10.16" size="2.032" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="217.17" y="15.24" size="1.778" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="217.17" y="10.16" size="1.778" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
 <text x="230.505" y="5.08" size="2.54" layer="94" font="vector">&gt;SHEET</text>
 <text x="217.17" y="5.08" size="2.54" layer="94" font="vector">Sheet:</text>
 <text x="217.17" y="20.32" size="2.032" layer="94" font="vector">www.watterott.com</text>
@@ -10211,8 +10211,8 @@
 <wire x1="139.065" y1="19.05" x2="180.34" y2="19.05" width="0.1016" layer="94"/>
 <wire x1="139.065" y1="19.05" x2="139.065" y2="24.13" width="0.1016" layer="94"/>
 <frame x1="0" y1="0" x2="184.15" y2="265.43" columns="4" rows="6" layer="94"/>
-<text x="140.97" y="15.24" size="2.032" layer="94" font="vector">&gt;DRAWING_NAME</text>
-<text x="140.97" y="10.16" size="2.032" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="140.97" y="15.24" size="1.778" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="140.97" y="10.16" size="1.778" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
 <text x="154.305" y="5.08" size="2.54" layer="94" font="vector">&gt;SHEET</text>
 <text x="140.97" y="5.08" size="2.54" layer="94" font="vector">Sheet:</text>
 <text x="140.97" y="20.32" size="2.032" layer="94" font="vector">www.watterott.com</text>
@@ -10231,8 +10231,8 @@
 <wire x1="139.065" y1="19.05" x2="180.34" y2="19.05" width="0.1016" layer="94"/>
 <wire x1="139.065" y1="19.05" x2="139.065" y2="24.13" width="0.1016" layer="94"/>
 <frame x1="0" y1="0" x2="184.15" y2="133.35" columns="4" rows="4" layer="94"/>
-<text x="140.97" y="15.24" size="2.032" layer="94" font="vector">&gt;DRAWING_NAME</text>
-<text x="140.97" y="10.16" size="2.032" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="140.97" y="15.24" size="1.778" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="140.97" y="10.16" size="1.778" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
 <text x="154.305" y="5.08" size="2.54" layer="94" font="vector">&gt;SHEET</text>
 <text x="140.97" y="5.08" size="2.54" layer="94" font="vector">Sheet:</text>
 <text x="140.97" y="20.32" size="2.032" layer="94" font="vector">www.watterott.com</text>
@@ -10255,8 +10255,8 @@
 <wire x1="85.725" y1="19.177" x2="127" y2="19.177" width="0.1016" layer="94"/>
 <wire x1="85.725" y1="19.177" x2="85.725" y2="24.257" width="0.1016" layer="94"/>
 <frame x1="0" y1="0" x2="130.81" y2="179.07" columns="4" rows="4" layer="94"/>
-<text x="87.63" y="15.24" size="2.032" layer="94" font="vector">&gt;DRAWING_NAME</text>
-<text x="87.63" y="10.16" size="2.032" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="87.63" y="15.24" size="1.778" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="87.63" y="10.16" size="1.778" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
 <text x="100.965" y="5.08" size="2.54" layer="94" font="vector">&gt;SHEET</text>
 <text x="87.63" y="5.08" size="2.54" layer="94" font="vector">Sheet:</text>
 <text x="87.63" y="20.32" size="2.032" layer="94" font="vector">www.watterott.com</text>

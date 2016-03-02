@@ -487,7 +487,7 @@
 <smd name="6" x="-1.35" y="-0.8" dx="0.6" dy="0.2" layer="1" roundness="20"/>
 <smd name="7" x="-1.35" y="-1.2" dx="0.6" dy="0.2" layer="1" roundness="20"/>
 <smd name="8" x="1.35" y="-1.2" dx="0.6" dy="0.2" layer="1" roundness="20"/>
-<smd name="TP" x="0" y="0" dx="1.82" dy="0.6" layer="1" roundness="20" rot="R90"/>
+<smd name="TP" x="0" y="0" dx="2.5" dy="1.55" layer="1" roundness="10" rot="R90" cream="no"/>
 <wire x1="-1.5" y1="1" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
 <wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
@@ -501,8 +501,7 @@
 <smd name="12" x="1.35" y="0.4" dx="0.6" dy="0.2" layer="1" roundness="20"/>
 <smd name="13" x="1.35" y="0.8" dx="0.6" dy="0.2" layer="1" roundness="20"/>
 <smd name="14" x="1.35" y="1.2" dx="0.6" dy="0.2" layer="1" roundness="20"/>
-<rectangle x1="-0.775" y1="-1.25" x2="0.775" y2="1.25" layer="1"/>
-<rectangle x1="-0.825" y1="-1.3" x2="0.825" y2="1.3" layer="29"/>
+<rectangle x1="-0.3" y1="-0.9" x2="0.3" y2="0.9" layer="31"/>
 </package>
 <package name="FCQFN20-PAD">
 <wire x1="-2" y1="1.6" x2="-2" y2="-2" width="0.127" layer="21"/>
@@ -533,7 +532,8 @@
 <circle x="-1" y="1" radius="0.2" width="0.127" layer="21"/>
 <text x="0" y="0.635" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-0.635" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<smd name="TP" x="0" y="0" dx="0.8" dy="1" layer="1" roundness="20"/>
+<smd name="TP" x="0" y="0" dx="0.8" dy="1" layer="1" roundness="10" cream="no"/>
+<rectangle x1="-0.3" y1="-0.3" x2="0.3" y2="0.3" layer="31"/>
 </package>
 <package name="RECOM_SIP3">
 <pad name="1" x="-2.54" y="0" drill="1" diameter="1.5" shape="square" first="yes"/>
@@ -627,14 +627,13 @@
 <smd name="8" x="1.475" y="0.75" dx="0.7" dy="0.28" layer="1" roundness="20"/>
 <text x="0" y="-1.905" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;Value</text>
 <text x="0" y="1.905" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;Name</text>
-<smd name="TP" x="0" y="0" dx="0.7" dy="0.7" layer="1" roundness="20"/>
-<rectangle x1="-0.75" y1="-0.75" x2="0.75" y2="0.75" layer="1"/>
-<rectangle x1="-0.8" y1="-0.8" x2="0.8" y2="0.8" layer="29"/>
+<smd name="TP" x="0" y="0" dx="1.5" dy="1.5" layer="1" roundness="10" cream="no"/>
 <wire x1="-1.5" y1="0.5" x2="-1.5" y2="-1" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="-1" x2="1.5" y2="-1" width="0.127" layer="21"/>
 <wire x1="1.5" y1="-1" x2="1.5" y2="1" width="0.127" layer="21"/>
 <wire x1="1.5" y1="1" x2="-1" y2="1" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="0.5" x2="-1" y2="1" width="0.127" layer="21"/>
+<rectangle x1="-0.35" y1="-0.35" x2="0.35" y2="0.35" layer="31"/>
 </package>
 <package name="SO08-PAD">
 <wire x1="1.9" y1="-2.4" x2="-1.4" y2="-2.4" width="0.127" layer="21"/>
@@ -663,9 +662,8 @@
 <text x="0" y="3.175" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-3.175" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <circle x="-0.9" y="1.905" radius="0.2" width="0.127" layer="21"/>
-<smd name="TP" x="0" y="0" dx="1" dy="2.8" layer="1" roundness="20"/>
-<rectangle x1="-1.3" y1="-1.75" x2="1.3" y2="1.75" layer="1"/>
-<rectangle x1="-1.35" y1="-1.8" x2="1.35" y2="1.8" layer="29"/>
+<smd name="TP" x="0" y="0" dx="2.6" dy="3.5" layer="1" roundness="10" cream="no"/>
+<rectangle x1="-0.5" y1="-1.4" x2="0.5" y2="1.4" layer="31"/>
 </package>
 <package name="UDFN10_26X26">
 <smd name="1" x="-1.25" y="1" dx="0.7" dy="0.28" layer="1" roundness="20"/>
@@ -678,9 +676,7 @@
 <smd name="8" x="1.25" y="0" dx="0.7" dy="0.28" layer="1" roundness="20"/>
 <text x="0" y="-1.905" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;Value</text>
 <text x="0" y="1.905" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;Name</text>
-<smd name="TP" x="0" y="0" dx="0.5" dy="1.7" layer="1" roundness="20"/>
-<rectangle x1="-0.653" y1="-1.125" x2="0.653" y2="1.125" layer="1"/>
-<rectangle x1="-0.703" y1="-1.175" x2="0.703" y2="1.175" layer="29"/>
+<smd name="TP" x="0" y="0" dx="1.3" dy="2.25" layer="1" roundness="10" cream="no"/>
 <wire x1="-1.3" y1="0.8" x2="-1.3" y2="-1.3" width="0.127" layer="21"/>
 <wire x1="-1.3" y1="-1.3" x2="1.3" y2="-1.3" width="0.127" layer="21"/>
 <wire x1="1.3" y1="-1.3" x2="1.3" y2="1.3" width="0.127" layer="21"/>
@@ -688,6 +684,7 @@
 <wire x1="-1.3" y1="0.8" x2="-0.8" y2="1.3" width="0.127" layer="21"/>
 <smd name="9" x="1.25" y="0.5" dx="0.7" dy="0.28" layer="1" roundness="20"/>
 <smd name="10" x="1.25" y="1" dx="0.7" dy="0.28" layer="1" roundness="20"/>
+<rectangle x1="-0.25" y1="-0.85" x2="0.25" y2="0.85" layer="31"/>
 </package>
 <package name="MSOP8-PAD">
 <smd name="1" x="-2.15" y="0.975" dx="1.4" dy="0.4" layer="1" roundness="20"/>
@@ -708,12 +705,11 @@
 <wire x1="-1" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
 <circle x="-0.6" y="1" radius="0.2" width="0.127" layer="21"/>
 <wire x1="-1" y1="1.5" x2="-1" y2="-1.5" width="0.127" layer="21"/>
-<smd name="TP" x="0" y="0" dx="0.6" dy="1.5" layer="1" roundness="20"/>
-<rectangle x1="-0.85" y1="-1" x2="0.85" y2="1" layer="1"/>
-<rectangle x1="-0.9" y1="-1.05" x2="0.9" y2="1.05" layer="29"/>
+<smd name="TP" x="0" y="0" dx="1.7" dy="2" layer="1" roundness="10" cream="no"/>
+<rectangle x1="-0.3" y1="-0.75" x2="0.3" y2="0.75" layer="31"/>
 </package>
 <package name="L_NR60XX">
-<description>Taiyo Yuden NR/NRS 6010, 6012, 6014, 6020, 6028, 6045</description>
+<description>Taiyo Yuden NR 6010, 6012, 6014, 6020, 6028, 6045</description>
 <wire x1="3" y1="-1.5" x2="3" y2="1.5" width="0.127" layer="21"/>
 <wire x1="3" y1="1.5" x2="1.5" y2="3" width="0.127" layer="21"/>
 <wire x1="1.5" y1="3" x2="-1.5" y2="3" width="0.127" layer="21"/>
@@ -778,7 +774,7 @@
 <rectangle x1="-5.4" y1="-5.4" x2="-4.6" y2="-1.4" layer="21" rot="R270"/>
 </package>
 <package name="L_NR80XX">
-<description>Taiyo Yuden NR/NRS 8030, 8040</description>
+<description>Taiyo Yuden NR 8030, 8040</description>
 <wire x1="4" y1="-2.5" x2="4" y2="2.5" width="0.127" layer="21"/>
 <wire x1="4" y1="2.5" x2="2.5" y2="4" width="0.127" layer="21"/>
 <wire x1="2.5" y1="4" x2="-2.5" y2="4" width="0.127" layer="21"/>
@@ -843,7 +839,7 @@
 <circle x="0" y="0" radius="5" width="0.127" layer="21"/>
 </package>
 <package name="L_NR40XX">
-<description>Taiyo Yuden NR/NRS 4010, 4012, 4018</description>
+<description>Taiyo Yuden NR 4010, 4012, 4018, 4026</description>
 <wire x1="2" y1="-1.5" x2="2" y2="1.5" width="0.127" layer="21"/>
 <wire x1="2" y1="1.5" x2="1.5" y2="2" width="0.127" layer="21"/>
 <wire x1="1.5" y1="2" x2="-1.5" y2="2" width="0.127" layer="21"/>
