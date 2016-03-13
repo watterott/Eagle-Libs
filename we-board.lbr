@@ -1325,8 +1325,8 @@
 <pad name="1-GND" x="0" y="6.35" drill="0.9" diameter="1.3" shape="long"/>
 <pad name="2-CTS" x="0" y="3.81" drill="0.9" diameter="1.3" shape="long"/>
 <pad name="3-VCC" x="0" y="1.27" drill="0.9" diameter="1.3" shape="long"/>
-<pad name="4-TX" x="0" y="-1.27" drill="0.9" diameter="1.3" shape="long"/>
-<pad name="5-RX" x="0" y="-3.81" drill="0.9" diameter="1.3" shape="long"/>
+<pad name="4-TXO" x="0" y="-1.27" drill="0.9" diameter="1.3" shape="long"/>
+<pad name="5-RXI" x="0" y="-3.81" drill="0.9" diameter="1.3" shape="long"/>
 <pad name="6-DTR" x="0" y="-6.35" drill="0.9" diameter="1.3" shape="long"/>
 <text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
@@ -1336,8 +1336,8 @@
 <smd name="1-GND" x="0" y="6.35" dx="2.54" dy="1.27" layer="1" roundness="20"/>
 <smd name="2-CTS" x="0" y="3.81" dx="2.54" dy="1.27" layer="1" roundness="20"/>
 <smd name="3-VCC" x="0" y="1.27" dx="2.54" dy="1.27" layer="1" roundness="20"/>
-<smd name="4-TX" x="0" y="-1.27" dx="2.54" dy="1.27" layer="1" roundness="20"/>
-<smd name="5-RX" x="0" y="-3.81" dx="2.54" dy="1.27" layer="1" roundness="20"/>
+<smd name="4-TXO" x="0" y="-1.27" dx="2.54" dy="1.27" layer="1" roundness="20"/>
+<smd name="5-RXI" x="0" y="-3.81" dx="2.54" dy="1.27" layer="1" roundness="20"/>
 <smd name="6-DTR" x="0" y="-6.35" dx="2.54" dy="1.27" layer="1" roundness="20"/>
 </package>
 <package name="FTDI_SMDNC">
@@ -1346,8 +1346,8 @@
 <smd name="1-GND" x="0" y="6.35" dx="2.54" dy="1.27" layer="1" roundness="20" cream="no"/>
 <smd name="2-CTS" x="0" y="3.81" dx="2.54" dy="1.27" layer="1" roundness="20" cream="no"/>
 <smd name="3-VCC" x="0" y="1.27" dx="2.54" dy="1.27" layer="1" roundness="20" cream="no"/>
-<smd name="4-TX" x="0" y="-1.27" dx="2.54" dy="1.27" layer="1" roundness="20" cream="no"/>
-<smd name="5-RX" x="0" y="-3.81" dx="2.54" dy="1.27" layer="1" roundness="20" cream="no"/>
+<smd name="4-TXO" x="0" y="-1.27" dx="2.54" dy="1.27" layer="1" roundness="20" cream="no"/>
+<smd name="5-RXI" x="0" y="-3.81" dx="2.54" dy="1.27" layer="1" roundness="20" cream="no"/>
 <smd name="6-DTR" x="0" y="-6.35" dx="2.54" dy="1.27" layer="1" roundness="20" cream="no"/>
 </package>
 <package name="ISP-2X3">
@@ -2094,12 +2094,12 @@
 <wire x1="1.27" y1="6.985" x2="1.27" y2="5.715" width="0.127" layer="21"/>
 <wire x1="1.27" y1="5.715" x2="0.635" y2="5.08" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="7.62" x2="0.635" y2="7.62" width="0.127" layer="21"/>
-<pad name="RST" x="0" y="-6.35" drill="1" shape="octagon" rot="R180"/>
-<pad name="MISO" x="0" y="-3.81" drill="1" shape="octagon" rot="R180"/>
-<pad name="MOSI" x="0" y="-1.27" drill="1" shape="octagon" rot="R180"/>
-<pad name="SCK" x="0" y="1.27" drill="1" shape="octagon" rot="R180"/>
-<pad name="VCC" x="0" y="3.81" drill="1" shape="octagon" rot="R180"/>
-<pad name="GND" x="0" y="6.35" drill="1" shape="square" rot="R180"/>
+<pad name="RST" x="0" y="-6.35" drill="0.9" diameter="1.4" shape="octagon" rot="R180"/>
+<pad name="MISO" x="0" y="-3.81" drill="0.9" diameter="1.4" shape="octagon" rot="R180"/>
+<pad name="MOSI" x="0" y="-1.27" drill="0.9" diameter="1.4" shape="octagon" rot="R180"/>
+<pad name="SCK" x="0" y="1.27" drill="0.9" diameter="1.4" shape="octagon" rot="R180"/>
+<pad name="VCC" x="0" y="3.81" drill="0.9" diameter="1.4" shape="octagon" rot="R180"/>
+<pad name="GND" x="0" y="6.35" drill="0.9" diameter="1.4" shape="square" rot="R180"/>
 <text x="-1.905" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 <wire x1="-0.635" y1="5.08" x2="0.635" y2="5.08" width="0.127" layer="21"/>
 </package>
@@ -2146,70 +2146,56 @@
 <pad name="PE0" x="12.7" y="-5.08" drill="0.9" diameter="1.5"/>
 <pad name="PE1" x="15.24" y="-5.08" drill="0.9" diameter="1.5"/>
 </package>
-<package name="SWD-1X7">
-<wire x1="1.27" y1="8.255" x2="1.27" y2="6.985" width="0.127" layer="21"/>
-<wire x1="1.27" y1="6.985" x2="0.635" y2="6.35" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="6.35" x2="-1.27" y2="6.985" width="0.127" layer="21"/>
-<wire x1="0.635" y1="6.35" x2="1.27" y2="5.715" width="0.127" layer="21"/>
+<package name="SWD-1X5">
+<description>5-pin 2.54mm&lt;br&gt;</description>
 <wire x1="1.27" y1="5.715" x2="1.27" y2="4.445" width="0.127" layer="21"/>
 <wire x1="1.27" y1="4.445" x2="0.635" y2="3.81" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="3.81" x2="-1.27" y2="4.445" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="4.445" x2="-1.27" y2="5.715" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="5.715" x2="-0.635" y2="6.35" width="0.127" layer="21"/>
-<wire x1="0.635" y1="8.89" x2="-0.635" y2="8.89" width="0.127" layer="21"/>
-<wire x1="1.27" y1="8.255" x2="0.635" y2="8.89" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="8.89" x2="-1.27" y2="8.255" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="6.985" x2="-1.27" y2="8.255" width="0.127" layer="21"/>
 <wire x1="0.635" y1="3.81" x2="1.27" y2="3.175" width="0.127" layer="21"/>
 <wire x1="1.27" y1="3.175" x2="1.27" y2="1.905" width="0.127" layer="21"/>
 <wire x1="1.27" y1="1.905" x2="0.635" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="1.27" x2="-1.27" y2="1.905" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="1.905" x2="-1.27" y2="3.175" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="3.175" x2="-0.635" y2="3.81" width="0.127" layer="21"/>
+<wire x1="0.635" y1="6.35" x2="-0.635" y2="6.35" width="0.127" layer="21"/>
+<wire x1="1.27" y1="5.715" x2="0.635" y2="6.35" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="6.35" x2="-1.27" y2="5.715" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="4.445" x2="-1.27" y2="5.715" width="0.127" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.127" layer="21"/>
 <wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="1.27" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-1.905" x2="1.27" y2="-3.175" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-3.175" x2="0.635" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="-3.81" x2="-1.27" y2="-3.175" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-3.175" x2="-1.27" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-1.905" x2="-0.635" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="0.635" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0.635" width="0.127" layer="21"/>
 <wire x1="0.635" y1="-3.81" x2="1.27" y2="-4.445" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-8.255" x2="0.635" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="-8.89" x2="-1.27" y2="-8.255" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-4.445" x2="-0.635" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-8.89" x2="-0.635" y2="-8.89" width="0.127" layer="21"/>
-<pad name="VCC" x="0" y="7.62" drill="1" shape="octagon"/>
-<pad name="GND" x="0" y="5.08" drill="1" shape="square"/>
-<pad name="RST" x="0" y="2.54" drill="1" shape="octagon"/>
-<pad name="SWDIO" x="0" y="0" drill="1" shape="octagon"/>
-<pad name="SWCLK" x="0" y="-2.54" drill="1" shape="octagon"/>
-<pad name="TX" x="0" y="-5.08" drill="1" shape="octagon"/>
-<wire x1="0.635" y1="6.35" x2="-0.635" y2="6.35" width="0.127" layer="21"/>
-<text x="-1.905" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
-<pad name="RX" x="0" y="-7.62" drill="1" shape="octagon"/>
-<wire x1="-1.27" y1="-5.715" x2="-1.27" y2="-4.445" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-4.445" x2="1.27" y2="-5.715" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-5.715" x2="0.635" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-6.35" x2="1.27" y2="-6.985" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-6.985" x2="1.27" y2="-8.255" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-8.255" x2="-1.27" y2="-6.985" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="-6.35" x2="-1.27" y2="-5.715" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-6.985" x2="-0.635" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-5.715" x2="-1.27" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-4.445" x2="-0.635" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="0.635" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-3.175" x2="-1.27" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-6.35" x2="-0.635" y2="-6.35" width="0.127" layer="21"/>
+<pad name="2-VCC" x="0" y="2.54" drill="0.9" diameter="1.4" shape="octagon"/>
+<pad name="1-GND" x="0" y="5.08" drill="0.9" diameter="1.4" shape="square"/>
+<pad name="5-RST" x="0" y="-5.08" drill="0.9" diameter="1.4" shape="octagon"/>
+<pad name="4-SWDIO" x="0" y="-2.54" drill="0.9" diameter="1.4" shape="octagon"/>
+<pad name="3-SWCLK" x="0" y="0" drill="0.9" diameter="1.4" shape="octagon"/>
+<wire x1="0.635" y1="3.81" x2="-0.635" y2="3.81" width="0.127" layer="21"/>
+<text x="-1.905" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 </package>
-<package name="SWD-1X7_SMD">
+<package name="SWD-1X5_SMD">
+<description>5-pin 2.54mm&lt;br&gt;</description>
 <text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
-<smd name="VCC" x="0" y="7.62" dx="2.54" dy="1.27" layer="1" roundness="20"/>
-<smd name="GND" x="0" y="5.08" dx="2.54" dy="1.27" layer="1" roundness="20"/>
-<smd name="RST" x="0" y="2.54" dx="2.54" dy="1.27" layer="1" roundness="20"/>
-<smd name="SWDIO" x="0" y="0" dx="2.54" dy="1.27" layer="1" roundness="20"/>
-<smd name="SWCLK" x="0" y="-2.54" dx="2.54" dy="1.27" layer="1" roundness="20"/>
-<smd name="TX" x="0" y="-5.08" dx="2.54" dy="1.27" layer="1" roundness="20"/>
-<smd name="RX" x="0" y="-7.62" dx="2.54" dy="1.27" layer="1" roundness="20"/>
+<smd name="2-VCC" x="0" y="2.54" dx="2.54" dy="1.27" layer="1" roundness="20"/>
+<smd name="1-GND" x="0" y="5.08" dx="2.54" dy="1.27" layer="1" roundness="20"/>
+<smd name="5-RST" x="0" y="-5.08" dx="2.54" dy="1.27" layer="1" roundness="20"/>
+<smd name="4-SWDIO" x="0" y="-2.54" dx="2.54" dy="1.27" layer="1" roundness="20"/>
+<smd name="3-SWCLK" x="0" y="0" dx="2.54" dy="1.27" layer="1" roundness="20"/>
 </package>
 <package name="A-PRO-MINI-PB_TP">
 <description>21 tPlace</description>
@@ -2247,6 +2233,104 @@
 <pad name="A4" x="15.24" y="-2.54" drill="0.9" diameter="1.5"/>
 <pad name="PE0" x="12.7" y="-5.08" drill="0.9" diameter="1.5"/>
 <pad name="PE1" x="15.24" y="-5.08" drill="0.9" diameter="1.5"/>
+</package>
+<package name="SWD_FTDI-1X6">
+<description>6-pin 2.54mm&lt;br&gt;</description>
+<pad name="1-GND" x="0" y="6.35" drill="0.9" diameter="1.4" shape="square"/>
+<pad name="2-SWCLK" x="0" y="3.81" drill="0.9" diameter="1.4"/>
+<pad name="3-VCC" x="0" y="1.27" drill="0.9" diameter="1.4"/>
+<pad name="4-TXO" x="0" y="-1.27" drill="0.9" diameter="1.4"/>
+<pad name="5-RXI" x="0" y="-3.81" drill="0.9" diameter="1.4"/>
+<pad name="6-SWDIO" x="0" y="-6.35" drill="0.9" diameter="1.4"/>
+<wire x1="-1.27" y1="-6.985" x2="-1.27" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-5.715" x2="-0.635" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-5.08" x2="1.27" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-5.08" x2="-1.27" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-4.445" x2="-1.27" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-3.175" x2="-0.635" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-2.54" x2="1.27" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-3.175" x2="1.27" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-4.445" x2="0.635" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-7.62" x2="0.635" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-6.985" x2="-0.635" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-7.62" x2="1.27" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-5.715" x2="1.27" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="-1.27" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="0" width="0.127" layer="21"/>
+<wire x1="0.635" y1="0" x2="1.27" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="1.27" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="0.635" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="1.905" x2="-0.635" y2="2.54" width="0.127" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="1.27" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="-1.27" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="3.175" x2="-1.27" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="4.445" x2="-0.635" y2="5.08" width="0.127" layer="21"/>
+<wire x1="0.635" y1="5.08" x2="1.27" y2="4.445" width="0.127" layer="21"/>
+<wire x1="1.27" y1="4.445" x2="1.27" y2="3.175" width="0.127" layer="21"/>
+<wire x1="1.27" y1="3.175" x2="0.635" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-0.635" y2="0" width="0.127" layer="21"/>
+<wire x1="0.635" y1="0" x2="1.27" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.905" x2="1.27" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="5.08" x2="-1.27" y2="5.715" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="5.715" x2="-1.27" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="6.985" x2="-0.635" y2="7.62" width="0.127" layer="21"/>
+<wire x1="0.635" y1="7.62" x2="1.27" y2="6.985" width="0.127" layer="21"/>
+<wire x1="1.27" y1="6.985" x2="1.27" y2="5.715" width="0.127" layer="21"/>
+<wire x1="1.27" y1="5.715" x2="0.635" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="7.62" x2="0.635" y2="7.62" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="5.08" x2="0.635" y2="5.08" width="0.127" layer="21"/>
+<text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+</package>
+<package name="SWD-1X5_SMDNC">
+<description>5-pin 2.54mm&lt;br&gt;</description>
+<text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<smd name="2-VCC" x="0" y="2.54" dx="2.54" dy="1.27" layer="1" roundness="20" cream="no"/>
+<smd name="1-GND" x="0" y="5.08" dx="2.54" dy="1.27" layer="1" roundness="20" cream="no"/>
+<smd name="5-RST" x="0" y="-5.08" dx="2.54" dy="1.27" layer="1" roundness="20" cream="no"/>
+<smd name="4-SWDIO" x="0" y="-2.54" dx="2.54" dy="1.27" layer="1" roundness="20" cream="no"/>
+<smd name="3-SWCLK" x="0" y="0" dx="2.54" dy="1.27" layer="1" roundness="20" cream="no"/>
+</package>
+<package name="SWD-2X5">
+<description>10-pin 1.27mm&lt;br&gt;
+DigiKey 609-3712-ND</description>
+<pad name="NC@2" x="0.635" y="-1.27" drill="0.5" diameter="0.9" rot="R270"/>
+<pad name="SWO" x="0.635" y="0" drill="0.5" diameter="0.9" rot="R270"/>
+<pad name="SWCLK" x="0.635" y="1.27" drill="0.5" diameter="0.9" rot="R270"/>
+<pad name="SWDIO" x="0.635" y="2.54" drill="0.5" diameter="0.9" rot="R270"/>
+<pad name="RST" x="0.635" y="-2.54" drill="0.5" diameter="0.9" rot="R270"/>
+<pad name="NC@1" x="-0.635" y="-1.27" drill="0.5" diameter="0.9" rot="R270"/>
+<pad name="GND@2" x="-0.635" y="0" drill="0.5" diameter="0.9" rot="R270"/>
+<pad name="GND@1" x="-0.635" y="1.27" drill="0.5" diameter="0.9" rot="R270"/>
+<pad name="VCC" x="-0.635" y="2.54" drill="0.5" diameter="0.9" rot="R270"/>
+<pad name="GND@3" x="-0.635" y="-2.54" drill="0.5" diameter="0.9" rot="R270"/>
+<wire x1="1.7" y1="-3.175" x2="1.7" y2="3.175" width="0.127" layer="21"/>
+<wire x1="1.7" y1="3.175" x2="-1.27" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="3.175" x2="-1.7" y2="2.745" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="2.745" x2="-1.7" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-3.175" x2="1.7" y2="-3.175" width="0.127" layer="21"/>
+<text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+</package>
+<package name="SWD-2X5_SMD">
+<description>10-pin 1.27mm&lt;br&gt;
+Samtech FTSH-105-01</description>
+<wire x1="1.7145" y1="-3.175" x2="-1.7145" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="-1.7145" y1="-3.175" x2="-1.7145" y2="2.7305" width="0.127" layer="21"/>
+<wire x1="1.7145" y1="3.175" x2="1.7145" y2="-3.175" width="0.127" layer="21"/>
+<smd name="SWO" x="2.413" y="0" dx="0.5334" dy="1.27" layer="1" roundness="10" rot="R270"/>
+<smd name="NC@2" x="2.413" y="-1.27" dx="0.5334" dy="1.27" layer="1" roundness="10" rot="R270"/>
+<smd name="RST" x="2.413" y="-2.54" dx="0.5334" dy="1.27" layer="1" roundness="10" rot="R270"/>
+<smd name="SWCLK" x="2.413" y="1.27" dx="0.5334" dy="1.27" layer="1" roundness="10" rot="R270"/>
+<smd name="SWDIO" x="2.413" y="2.54" dx="0.5334" dy="1.27" layer="1" roundness="10" rot="R270"/>
+<smd name="VCC" x="-2.413" y="2.54" dx="0.5334" dy="1.27" layer="1" roundness="10" rot="R270"/>
+<smd name="GND@1" x="-2.413" y="1.27" dx="0.5334" dy="1.27" layer="1" roundness="10" rot="R270"/>
+<smd name="GND@2" x="-2.413" y="0" dx="0.5334" dy="1.27" layer="1" roundness="10" rot="R270"/>
+<smd name="NC@1" x="-2.413" y="-1.27" dx="0.5334" dy="1.27" layer="1" roundness="10" rot="R270"/>
+<smd name="GND@3" x="-2.413" y="-2.54" dx="0.5334" dy="1.27" layer="1" roundness="10" rot="R270"/>
+<wire x1="-1.7145" y1="2.7305" x2="-1.27" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="3.175" x2="1.7145" y2="3.175" width="0.127" layer="21"/>
+<text x="0" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -2678,12 +2762,12 @@
 <wire x1="5.08" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
 <text x="-5.08" y="12.7" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-5.08" y="-10.16" size="1.778" layer="95">&gt;Value</text>
-<pin name="6-DTR" x="-7.62" y="7.62" visible="pin" length="short"/>
-<pin name="5-RXI" x="-7.62" y="5.08" visible="pin" length="short"/>
-<pin name="4-TXO" x="-7.62" y="2.54" visible="pin" length="short"/>
-<pin name="3-VCC" x="-7.62" y="0" visible="pin" length="short" direction="pwr"/>
-<pin name="2-CTS" x="-7.62" y="-2.54" visible="pin" length="short"/>
-<pin name="1-GND" x="-7.62" y="-5.08" visible="pin" length="short" direction="pwr"/>
+<pin name="DTR" x="-7.62" y="7.62" visible="pin" length="short"/>
+<pin name="RXI" x="-7.62" y="5.08" visible="pin" length="short"/>
+<pin name="TXO" x="-7.62" y="2.54" visible="pin" length="short"/>
+<pin name="VCC" x="-7.62" y="0" visible="pin" length="short" direction="pwr"/>
+<pin name="CTS" x="-7.62" y="-2.54" visible="pin" length="short"/>
+<pin name="GND" x="-7.62" y="-5.08" visible="pin" length="short" direction="pwr"/>
 </symbol>
 <symbol name="ISP">
 <wire x1="-5.08" y1="10.16" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
@@ -2986,19 +3070,17 @@
 <pin name="PE1/SCL1/23" x="22.86" y="-20.32" visible="pin" length="middle" rot="R180"/>
 </symbol>
 <symbol name="SWD">
-<wire x1="-5.08" y1="10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
-<text x="-5.08" y="12.7" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="-5.08" y="-12.7" size="1.778" layer="95">&gt;Value</text>
-<pin name="RST" x="-7.62" y="2.54" visible="pin" length="short"/>
-<pin name="SWCLK" x="-7.62" y="-2.54" visible="pin" length="short"/>
-<pin name="SWDIO" x="-7.62" y="0" visible="pin" length="short"/>
-<pin name="TX" x="-7.62" y="-5.08" visible="pin" length="short"/>
-<pin name="VCC" x="-7.62" y="7.62" visible="pin" length="short" direction="pwr"/>
-<pin name="GND" x="-7.62" y="5.08" visible="pin" length="short" direction="pwr"/>
-<pin name="RX" x="-7.62" y="-7.62" visible="pin" length="short"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="-5.08" y="10.16" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-5.08" y="-10.16" size="1.778" layer="95">&gt;Value</text>
+<pin name="SWCLK" x="-7.62" y="0" visible="pin" length="short"/>
+<pin name="SWDIO" x="-7.62" y="2.54" visible="pin" length="short"/>
+<pin name="VCC" x="-7.62" y="-2.54" visible="pin" length="short" direction="pwr"/>
+<pin name="GND" x="-7.62" y="-5.08" visible="pin" length="short" direction="pwr"/>
+<pin name="RST" x="-7.62" y="5.08" visible="pin" length="short"/>
 </symbol>
 <symbol name="A-PRO-MINI-PB">
 <wire x1="-17.78" y1="20.32" x2="-17.78" y2="-22.86" width="0.254" layer="94"/>
@@ -3035,6 +3117,20 @@
 <pin name="RESET" x="-22.86" y="7.62" visible="pin" length="middle"/>
 <pin name="PE0/SDA1/22" x="22.86" y="-17.78" visible="pin" length="middle" rot="R180"/>
 <pin name="PE1/SCL1/23" x="22.86" y="-20.32" visible="pin" length="middle" rot="R180"/>
+</symbol>
+<symbol name="SWD_FTDI">
+<pin name="TXO" x="-7.62" y="2.54" visible="pin" length="short"/>
+<pin name="RXI" x="-7.62" y="5.08" visible="pin" length="short"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<text x="-5.08" y="12.7" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-5.08" y="-10.16" size="1.778" layer="95">&gt;Value</text>
+<pin name="SWCLK" x="-7.62" y="-2.54" visible="pin" length="short"/>
+<pin name="SWDIO" x="-7.62" y="7.62" visible="pin" length="short"/>
+<pin name="VCC" x="-7.62" y="0" visible="pin" length="short" direction="pwr"/>
+<pin name="GND" x="-7.62" y="-5.08" visible="pin" length="short" direction="pwr"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4041,7 +4137,7 @@
 </devices>
 </deviceset>
 <deviceset name="RPI_B+" prefix="RPI">
-<description>Raspberry Pi B+ or Pi 2 or Pi Zero</description>
+<description>Raspberry Pi 1 B+ or Pi 2 or Pi 3 or Pi Zero</description>
 <gates>
 <gate name="RPI" symbol="RPI_B+" x="0" y="0"/>
 </gates>
@@ -4338,12 +4434,12 @@
 <devices>
 <device name="" package="FTDI">
 <connects>
-<connect gate="J" pin="1-GND" pad="1-GND"/>
-<connect gate="J" pin="2-CTS" pad="2-CTS"/>
-<connect gate="J" pin="3-VCC" pad="3-VCC"/>
-<connect gate="J" pin="4-TXO" pad="4-TX"/>
-<connect gate="J" pin="5-RXI" pad="5-RX"/>
-<connect gate="J" pin="6-DTR" pad="6-DTR"/>
+<connect gate="J" pin="CTS" pad="2-CTS"/>
+<connect gate="J" pin="DTR" pad="6-DTR"/>
+<connect gate="J" pin="GND" pad="1-GND"/>
+<connect gate="J" pin="RXI" pad="5-RXI"/>
+<connect gate="J" pin="TXO" pad="4-TXO"/>
+<connect gate="J" pin="VCC" pad="3-VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4351,12 +4447,12 @@
 </device>
 <device name="-SMD" package="FTDI_SMD">
 <connects>
-<connect gate="J" pin="1-GND" pad="1-GND"/>
-<connect gate="J" pin="2-CTS" pad="2-CTS"/>
-<connect gate="J" pin="3-VCC" pad="3-VCC"/>
-<connect gate="J" pin="4-TXO" pad="4-TX"/>
-<connect gate="J" pin="5-RXI" pad="5-RX"/>
-<connect gate="J" pin="6-DTR" pad="6-DTR"/>
+<connect gate="J" pin="CTS" pad="2-CTS"/>
+<connect gate="J" pin="DTR" pad="6-DTR"/>
+<connect gate="J" pin="GND" pad="1-GND"/>
+<connect gate="J" pin="RXI" pad="5-RXI"/>
+<connect gate="J" pin="TXO" pad="4-TXO"/>
+<connect gate="J" pin="VCC" pad="3-VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4364,12 +4460,12 @@
 </device>
 <device name="-SMDNC" package="FTDI_SMDNC">
 <connects>
-<connect gate="J" pin="1-GND" pad="1-GND"/>
-<connect gate="J" pin="2-CTS" pad="2-CTS"/>
-<connect gate="J" pin="3-VCC" pad="3-VCC"/>
-<connect gate="J" pin="4-TXO" pad="4-TX"/>
-<connect gate="J" pin="5-RXI" pad="5-RX"/>
-<connect gate="J" pin="6-DTR" pad="6-DTR"/>
+<connect gate="J" pin="CTS" pad="2-CTS"/>
+<connect gate="J" pin="DTR" pad="6-DTR"/>
+<connect gate="J" pin="GND" pad="1-GND"/>
+<connect gate="J" pin="RXI" pad="5-RXI"/>
+<connect gate="J" pin="TXO" pad="4-TXO"/>
+<connect gate="J" pin="VCC" pad="3-VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4378,7 +4474,7 @@
 </devices>
 </deviceset>
 <deviceset name="ISP" prefix="J">
-<description>AVR ISP 6pol connector</description>
+<description>AVR ISP connector</description>
 <gates>
 <gate name="J" symbol="ISP" x="0" y="0"/>
 </gates>
@@ -4946,33 +5042,65 @@ TMC2130 - SPI for configuration&lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="SWD" prefix="J">
-<description>SWD connector</description>
+<description>ARM Cortex SWD connector</description>
 <gates>
 <gate name="J" symbol="SWD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-1X7" package="SWD-1X7">
+<device name="-1X5" package="SWD-1X5">
 <connects>
-<connect gate="J" pin="GND" pad="GND"/>
+<connect gate="J" pin="GND" pad="1-GND"/>
+<connect gate="J" pin="RST" pad="5-RST"/>
+<connect gate="J" pin="SWCLK" pad="3-SWCLK"/>
+<connect gate="J" pin="SWDIO" pad="4-SWDIO"/>
+<connect gate="J" pin="VCC" pad="2-VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1X5-SMD" package="SWD-1X5_SMD">
+<connects>
+<connect gate="J" pin="GND" pad="1-GND"/>
+<connect gate="J" pin="RST" pad="5-RST"/>
+<connect gate="J" pin="SWCLK" pad="3-SWCLK"/>
+<connect gate="J" pin="SWDIO" pad="4-SWDIO"/>
+<connect gate="J" pin="VCC" pad="2-VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1X5-SMDNC" package="SWD-1X5_SMDNC">
+<connects>
+<connect gate="J" pin="GND" pad="1-GND"/>
+<connect gate="J" pin="RST" pad="5-RST"/>
+<connect gate="J" pin="SWCLK" pad="3-SWCLK"/>
+<connect gate="J" pin="SWDIO" pad="4-SWDIO"/>
+<connect gate="J" pin="VCC" pad="2-VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2X5" package="SWD-2X5">
+<connects>
+<connect gate="J" pin="GND" pad="GND@1 GND@2 GND@3"/>
 <connect gate="J" pin="RST" pad="RST"/>
-<connect gate="J" pin="RX" pad="RX"/>
 <connect gate="J" pin="SWCLK" pad="SWCLK"/>
 <connect gate="J" pin="SWDIO" pad="SWDIO"/>
-<connect gate="J" pin="TX" pad="TX"/>
 <connect gate="J" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-1X7-SMD" package="SWD-1X7_SMD">
+<device name="-2X5-SMD" package="SWD-2X5_SMD">
 <connects>
-<connect gate="J" pin="GND" pad="GND"/>
+<connect gate="J" pin="GND" pad="GND@1 GND@2 GND@3"/>
 <connect gate="J" pin="RST" pad="RST"/>
-<connect gate="J" pin="RX" pad="RX"/>
 <connect gate="J" pin="SWCLK" pad="SWCLK"/>
 <connect gate="J" pin="SWDIO" pad="SWDIO"/>
-<connect gate="J" pin="TX" pad="TX"/>
 <connect gate="J" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
@@ -5017,6 +5145,27 @@ TMC2130 - SPI for configuration&lt;br&gt;
 <connect gate="BOARD" pin="TX/PWM/1" pad="TXD@1"/>
 <connect gate="BOARD" pin="VCC" pad="VCC@1"/>
 <connect gate="BOARD" pin="VIN" pad="VIN"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SWD_FTDI" prefix="J">
+<description>ARM Cortex SWD connector, compatible with FTDI connector</description>
+<gates>
+<gate name="J" symbol="SWD_FTDI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SWD_FTDI-1X6">
+<connects>
+<connect gate="J" pin="GND" pad="1-GND"/>
+<connect gate="J" pin="RXI" pad="5-RXI"/>
+<connect gate="J" pin="SWCLK" pad="2-SWCLK"/>
+<connect gate="J" pin="SWDIO" pad="6-SWDIO"/>
+<connect gate="J" pin="TXO" pad="4-TXO"/>
+<connect gate="J" pin="VCC" pad="3-VCC"/>
 </connects>
 <technologies>
 <technology name=""/>

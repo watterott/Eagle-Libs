@@ -508,11 +508,9 @@
 <description>Through-Hole Pad</description>
 <pad name="1" x="0" y="0" drill="1" diameter="1.6"/>
 <text x="-1.905" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
-<circle x="0" y="0" radius="0.8" width="0.127" layer="21"/>
 </package>
 <package name="PAD-1.00-2.00">
 <description>Through-Hole Pad</description>
-<circle x="0" y="0" radius="1" width="0.127" layer="51"/>
 <pad name="1" x="0" y="0" drill="1" diameter="2"/>
 <text x="-1.905" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
@@ -1300,6 +1298,11 @@
 <rectangle x1="-0.3175" y1="-1.7145" x2="0.3175" y2="0.5715" layer="21" rot="R270"/>
 <text x="-5.08" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="2.54" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+</package>
+<package name="PAD-0.80-1.40">
+<description>Through-Hole Pad</description>
+<pad name="1" x="0" y="0" drill="0.8" diameter="1.4"/>
+<text x="-1.905" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -2178,6 +2181,14 @@ all kinds in 0402 and 0603</description>
 </technologies>
 </device>
 <device name="-1.0_NC" package="PAD-1.0_NC">
+<connects>
+<connect gate="X" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0.80-1.40" package="PAD-0.80-1.40">
 <connects>
 <connect gate="X" pin="P" pad="1"/>
 </connects>
