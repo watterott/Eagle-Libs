@@ -1545,8 +1545,8 @@ NR6045T101M - 100uH, Ir=0.8A&lt;br&gt;</description>
 <deviceset name="AP65200" prefix="IC">
 <description>Diodes AP65200 Step-Down (340kHz, 2A, 4.7-18V input)&lt;br&gt;
 &lt;br&gt;
-5.0V - R1=44.2k, R2=10k&lt;br&gt;
-3.3V - R1=26.1k, R2=10k&lt;br&gt;
+5.0V - R1=44.2k, R2=10k or R1=62k, R2=14k&lt;br&gt;
+3.3V - R1=26.1k, R2=10k or R1=39k, R2=15k&lt;br&gt;
 2.5V - R1=16.9k, R2=10k&lt;br&gt;
 L=10uH, Cin=22uF, Cout=47uF, Cc=6.8nF, Rc=6.8k&lt;br&gt;
 &lt;br&gt;

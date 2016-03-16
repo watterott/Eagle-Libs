@@ -4231,7 +4231,7 @@
 <text x="1.27" y="-2.54" size="1.778" layer="96" rot="MR180">&gt;VALUE</text>
 </symbol>
 <symbol name="ATWINC1500-MRX10">
-<pin name="IO5" x="20.32" y="-20.32" length="middle" rot="R180"/>
+<pin name="16/IO5" x="20.32" y="-20.32" length="middle" rot="R180"/>
 <pin name="SCL" x="20.32" y="-7.62" length="middle" rot="R180"/>
 <pin name="SDA" x="20.32" y="-5.08" length="middle" rot="R180"/>
 <pin name="!RESET" x="-20.32" y="10.16" length="middle" direction="in"/>
@@ -4249,9 +4249,9 @@
 <pin name="RTC/IO1" x="20.32" y="-12.7" length="middle" direction="in" rot="R180"/>
 <pin name="EN" x="-20.32" y="20.32" length="middle" direction="in"/>
 <pin name="VCCIO" x="-20.32" y="-7.62" length="middle" direction="pwr"/>
-<pin name="IO6" x="20.32" y="-22.86" length="middle" rot="R180"/>
+<pin name="18/IO6" x="20.32" y="-22.86" length="middle" rot="R180"/>
 <pin name="IO3" x="20.32" y="-15.24" length="middle" rot="R180"/>
-<pin name="IO4" x="20.32" y="-17.78" length="middle" rot="R180"/>
+<pin name="15/IO4" x="20.32" y="-17.78" length="middle" rot="R180"/>
 <wire x1="-15.24" y1="22.86" x2="15.24" y2="22.86" width="0.254" layer="94"/>
 <wire x1="15.24" y1="22.86" x2="15.24" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-25.4" x2="-15.24" y2="-25.4" width="0.254" layer="94"/>
@@ -6448,12 +6448,12 @@ MR210UB - uFL connector&lt;br&gt;</description>
 <connect gate="IC" pin="!IRQ" pad="13"/>
 <connect gate="IC" pin="!RESET" pad="4"/>
 <connect gate="IC" pin="!SDIO!/SPI_CFG" pad="10"/>
+<connect gate="IC" pin="15/IO4" pad="26"/>
+<connect gate="IC" pin="16/IO5" pad="27"/>
+<connect gate="IC" pin="18/IO6" pad="1"/>
 <connect gate="IC" pin="EN" pad="22"/>
 <connect gate="IC" pin="GND" pad="9 12 28"/>
 <connect gate="IC" pin="IO3" pad="25"/>
-<connect gate="IC" pin="IO4" pad="26"/>
-<connect gate="IC" pin="IO5" pad="27"/>
-<connect gate="IC" pin="IO6" pad="1"/>
 <connect gate="IC" pin="MISO" pad="17"/>
 <connect gate="IC" pin="MOSI" pad="15"/>
 <connect gate="IC" pin="RTC/IO1" pad="21"/>
