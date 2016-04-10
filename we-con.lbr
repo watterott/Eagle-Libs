@@ -6255,7 +6255,9 @@ Molex 1051330011</description>
 <connect gate="J" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY" value="609-4618-6-ND " constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="-MICROB-UP" package="USB-MICROB-1051330011">
@@ -6267,7 +6269,9 @@ Molex 1051330011</description>
 <connect gate="J" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY" value="WM10134DKR-ND " constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -8227,7 +8231,9 @@ Taimag RJSL-002TC1 (SMD, Low Profile)&lt;br&gt;</description>
 <connect gate="J" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY" value="609-4050-6-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="-MINIB-S" package="USB-MINIB-S">
@@ -8253,7 +8259,9 @@ Taimag RJSL-002TC1 (SMD, Low Profile)&lt;br&gt;</description>
 <connect gate="J" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY" value="609-4618-6-ND " constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="-MICROB-UP" package="USB-MICROB-1051330011">
@@ -8266,7 +8274,9 @@ Taimag RJSL-002TC1 (SMD, Low Profile)&lt;br&gt;</description>
 <connect gate="J" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY" value="WM10134DKR-ND " constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
