@@ -4054,10 +4054,10 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <wire x1="-1" y1="1" x2="-4.75" y2="1" width="0.6096" layer="21"/>
 <wire x1="-1" y1="3" x2="-4.75" y2="3" width="0.6096" layer="21"/>
 <wire x1="-5.75" y1="4" x2="-6.25" y2="4" width="0.127" layer="21"/>
-<pad name="1" x="0" y="3" drill="0.7" diameter="1.2"/>
-<pad name="2" x="0" y="1" drill="0.7" diameter="1.2"/>
-<pad name="3" x="0" y="-1" drill="0.7" diameter="1.2"/>
-<pad name="4" x="0" y="-3" drill="0.7" diameter="1.2"/>
+<pad name="1" x="0" y="3" drill="0.8" diameter="1.3"/>
+<pad name="2" x="0" y="1" drill="0.8" diameter="1.3"/>
+<pad name="3" x="0" y="-1" drill="0.8" diameter="1.3"/>
+<pad name="4" x="0" y="-3" drill="0.8" diameter="1.3"/>
 <text x="2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 </package>
 <package name="JST_S3B-PH-KL">
@@ -4079,9 +4079,9 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <wire x1="-1" y1="0" x2="-4.75" y2="0" width="0.6096" layer="21"/>
 <wire x1="-1" y1="2" x2="-4.75" y2="2" width="0.6096" layer="21"/>
 <wire x1="-5.75" y1="3" x2="-6.25" y2="3" width="0.127" layer="21"/>
-<pad name="1" x="0" y="2" drill="0.7" diameter="1.2"/>
-<pad name="2" x="0" y="0" drill="0.7" diameter="1.2"/>
-<pad name="3" x="0" y="-2" drill="0.7" diameter="1.2"/>
+<pad name="1" x="0" y="2" drill="0.8" diameter="1.3"/>
+<pad name="2" x="0" y="0" drill="0.8" diameter="1.3"/>
+<pad name="3" x="0" y="-2" drill="0.8" diameter="1.3"/>
 <text x="2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 </package>
 <package name="JST_S2B-PH-KL">
@@ -4101,8 +4101,8 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <wire x1="0" y1="-2" x2="-3.75" y2="-2" width="0.6096" layer="21"/>
 <wire x1="0" y1="0" x2="-3.75" y2="0" width="0.6096" layer="21"/>
 <wire x1="-4.75" y1="1" x2="-5.25" y2="1" width="0.127" layer="21"/>
-<pad name="1" x="1" y="0" drill="0.7" diameter="1.2"/>
-<pad name="2" x="1" y="-2" drill="0.7" diameter="1.2"/>
+<pad name="1" x="1" y="0" drill="0.8" diameter="1.3"/>
+<pad name="2" x="1" y="-2" drill="0.8" diameter="1.3"/>
 <text x="3.54" y="-1" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 </package>
 <package name="RJ45_RJSL-002TC1">
@@ -4274,9 +4274,9 @@ Molex 1051330011</description>
 <wire x1="1.7" y1="-1.2" x2="1.7" y2="1.2" width="0.127" layer="21"/>
 <wire x1="1.7" y1="1.2" x2="1.7" y2="4" width="0.127" layer="21"/>
 <wire x1="-2.8" y1="4" x2="-2.8" y2="-4" width="0.127" layer="21"/>
-<pad name="1" x="0" y="2" drill="0.7" diameter="1.2"/>
-<pad name="2" x="0" y="0" drill="0.7" diameter="1.2"/>
-<pad name="3" x="0" y="-2" drill="0.7" diameter="1.2"/>
+<pad name="1" x="0" y="2" drill="0.8" diameter="1.3"/>
+<pad name="2" x="0" y="0" drill="0.8" diameter="1.3"/>
+<pad name="3" x="0" y="-2" drill="0.8" diameter="1.3"/>
 <text x="2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <wire x1="1.2" y1="-1.2" x2="1.2" y2="1.2" width="0.127" layer="21"/>
 <wire x1="1.2" y1="1.2" x2="1.7" y2="1.2" width="0.127" layer="21"/>
@@ -4289,9 +4289,9 @@ Molex 1051330011</description>
 <wire x1="1.7" y1="-1.2" x2="1.7" y2="1.2" width="0.127" layer="21"/>
 <wire x1="1.7" y1="1.2" x2="1.7" y2="5" width="0.127" layer="21"/>
 <wire x1="-2.8" y1="5" x2="-2.8" y2="-5" width="0.127" layer="21"/>
-<pad name="1" x="0" y="2.5" drill="0.7" diameter="1.2"/>
-<pad name="2" x="0" y="0" drill="0.7" diameter="1.2"/>
-<pad name="3" x="0" y="-2.5" drill="0.7" diameter="1.2"/>
+<pad name="1" x="0" y="2.5" drill="0.8" diameter="1.3"/>
+<pad name="2" x="0" y="0" drill="0.8" diameter="1.3"/>
+<pad name="3" x="0" y="-2.5" drill="0.8" diameter="1.3"/>
 <text x="2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <wire x1="1.2" y1="-1.2" x2="1.2" y2="1.2" width="0.127" layer="21"/>
 <wire x1="1.2" y1="1.2" x2="1.7" y2="1.2" width="0.127" layer="21"/>
@@ -4304,8 +4304,8 @@ Molex 1051330011</description>
 <wire x1="1.7" y1="-1.2" x2="1.7" y2="1.2" width="0.127" layer="21"/>
 <wire x1="1.7" y1="1.2" x2="1.7" y2="3.75" width="0.127" layer="21"/>
 <wire x1="-2.8" y1="3.75" x2="-2.8" y2="-3.75" width="0.127" layer="21"/>
-<pad name="1" x="0" y="1.25" drill="0.7" diameter="1.2"/>
-<pad name="2" x="0" y="-1.25" drill="0.7" diameter="1.2"/>
+<pad name="1" x="0" y="1.25" drill="0.8" diameter="1.3"/>
+<pad name="2" x="0" y="-1.25" drill="0.8" diameter="1.3"/>
 <text x="2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <wire x1="1.2" y1="-1.2" x2="1.2" y2="1.2" width="0.127" layer="21"/>
 <wire x1="1.2" y1="1.2" x2="1.7" y2="1.2" width="0.127" layer="21"/>
@@ -4318,8 +4318,8 @@ Molex 1051330011</description>
 <wire x1="1.7" y1="-1.2" x2="1.7" y2="1.2" width="0.127" layer="21"/>
 <wire x1="1.7" y1="1.2" x2="1.7" y2="3" width="0.127" layer="21"/>
 <wire x1="-2.8" y1="3" x2="-2.8" y2="-3" width="0.127" layer="21"/>
-<pad name="1" x="0" y="1" drill="0.7" diameter="1.2"/>
-<pad name="2" x="0" y="-1" drill="0.7" diameter="1.2"/>
+<pad name="1" x="0" y="1" drill="0.8" diameter="1.3"/>
+<pad name="2" x="0" y="-1" drill="0.8" diameter="1.3"/>
 <text x="2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <wire x1="1.2" y1="-1.2" x2="1.2" y2="1.2" width="0.127" layer="21"/>
 <wire x1="1.2" y1="1.2" x2="1.7" y2="1.2" width="0.127" layer="21"/>
@@ -4332,14 +4332,14 @@ Molex 1051330011</description>
 <wire x1="1.7" y1="-1.2" x2="1.7" y2="1.2" width="0.127" layer="21"/>
 <wire x1="1.7" y1="1.2" x2="1.7" y2="5" width="0.127" layer="21"/>
 <wire x1="-2.8" y1="5" x2="-2.8" y2="-5" width="0.127" layer="21"/>
-<pad name="1" x="0" y="3" drill="0.7" diameter="1.2"/>
-<pad name="2" x="0" y="1" drill="0.7" diameter="1.2"/>
-<pad name="3" x="0" y="-1" drill="0.7" diameter="1.2"/>
+<pad name="1" x="0" y="3" drill="0.8" diameter="1.3"/>
+<pad name="2" x="0" y="1" drill="0.8" diameter="1.3"/>
+<pad name="3" x="0" y="-1" drill="0.8" diameter="1.3"/>
 <text x="2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <wire x1="1.2" y1="-1.2" x2="1.2" y2="1.2" width="0.127" layer="21"/>
 <wire x1="1.2" y1="1.2" x2="1.7" y2="1.2" width="0.127" layer="21"/>
 <wire x1="1.2" y1="-1.2" x2="1.7" y2="-1.2" width="0.127" layer="21"/>
-<pad name="4" x="0" y="-2.96" drill="0.7" diameter="1.2"/>
+<pad name="4" x="0" y="-2.96" drill="0.8" diameter="1.3"/>
 </package>
 <package name="AUDIO_SJ-43515TS-SMT">
 <description>CUI SJ-43515TS-SMT</description>
@@ -4434,13 +4434,13 @@ Molex 1051330011</description>
 <wire x1="-1" y1="3" x2="-4.75" y2="3" width="0.6096" layer="21"/>
 <wire x1="-1" y1="5" x2="-4.75" y2="5" width="0.6096" layer="21"/>
 <wire x1="-5.75" y1="6" x2="-6.25" y2="6" width="0.127" layer="21"/>
-<pad name="1" x="0" y="5" drill="0.7" diameter="1.2"/>
-<pad name="2" x="0" y="3" drill="0.7" diameter="1.2"/>
-<pad name="3" x="0" y="1" drill="0.7" diameter="1.2"/>
-<pad name="4" x="0" y="-1" drill="0.7" diameter="1.2"/>
+<pad name="1" x="0" y="5" drill="0.8" diameter="1.3"/>
+<pad name="2" x="0" y="3" drill="0.8" diameter="1.3"/>
+<pad name="3" x="0" y="1" drill="0.8" diameter="1.3"/>
+<pad name="4" x="0" y="-1" drill="0.8" diameter="1.3"/>
 <text x="2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
-<pad name="5" x="0" y="-3" drill="0.7" diameter="1.2"/>
-<pad name="6" x="0" y="-5" drill="0.7" diameter="1.2"/>
+<pad name="5" x="0" y="-3" drill="0.8" diameter="1.3"/>
+<pad name="6" x="0" y="-5" drill="0.8" diameter="1.3"/>
 <wire x1="-1" y1="-3" x2="-4.75" y2="-3" width="0.6096" layer="21"/>
 <wire x1="-1" y1="-5" x2="-4.75" y2="-5" width="0.6096" layer="21"/>
 </package>

@@ -284,14 +284,15 @@
 <rectangle x1="1.1049" y1="0.2159" x2="1.5113" y2="0.8001" layer="21" rot="R270"/>
 </package>
 <package name="CRYSTAL_CTS406">
-<wire x1="1.65" y1="2.475" x2="1.65" y2="-2.475" width="0.127" layer="21"/>
-<wire x1="1.225" y1="-2.9" x2="-1.225" y2="-2.9" width="0.127" layer="21"/>
-<wire x1="-1.65" y1="-2.475" x2="-1.65" y2="2.475" width="0.127" layer="21"/>
-<wire x1="-1.225" y1="2.9" x2="1.225" y2="2.9" width="0.127" layer="21"/>
-<wire x1="1.225" y1="2.9" x2="1.65" y2="2.475" width="0.127" layer="21" curve="89.516721"/>
-<wire x1="1.65" y1="-2.475" x2="1.225" y2="-2.9" width="0.127" layer="21" curve="89.516721"/>
-<wire x1="-1.225" y1="-2.9" x2="-1.65" y2="-2.475" width="0.127" layer="21" curve="89.516721"/>
-<wire x1="-1.65" y1="2.475" x2="-1.225" y2="2.9" width="0.127" layer="21" curve="89.516721"/>
+<description>6.0mm x 3.5mm</description>
+<wire x1="1.75" y1="2.575" x2="1.75" y2="-2.575" width="0.127" layer="21"/>
+<wire x1="1.325" y1="-3" x2="-1.325" y2="-3" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-2.575" x2="-1.75" y2="2.575" width="0.127" layer="21"/>
+<wire x1="-1.325" y1="3" x2="1.325" y2="3" width="0.127" layer="21"/>
+<wire x1="1.325" y1="3" x2="1.75" y2="2.575" width="0.127" layer="21" curve="89.516721"/>
+<wire x1="1.75" y1="-2.575" x2="1.325" y2="-3" width="0.127" layer="21" curve="89.516721"/>
+<wire x1="-1.325" y1="-3" x2="-1.75" y2="-2.575" width="0.127" layer="21" curve="89.516721"/>
+<wire x1="-1.75" y1="2.575" x2="-1.325" y2="3" width="0.127" layer="21" curve="89.516721"/>
 <circle x="-0.2" y="2.05" radius="0.182" width="0" layer="21"/>
 <smd name="1" x="-1.2" y="2.2" dx="1.9" dy="1.4" layer="1" roundness="20" rot="R270"/>
 <smd name="2" x="-1.2" y="-2.2" dx="1.9" dy="1.4" layer="1" roundness="20" rot="R270"/>
@@ -301,10 +302,11 @@
 <text x="2.54" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 </package>
 <package name="CRYSTAL_CS10">
-<wire x1="-1.778" y1="-3.175" x2="-1.778" y2="3.175" width="0.127" layer="21"/>
-<wire x1="1.778" y1="-3.175" x2="-1.778" y2="-3.175" width="0.127" layer="21"/>
-<wire x1="1.778" y1="3.175" x2="-1.778" y2="3.175" width="0.127" layer="21"/>
-<wire x1="1.778" y1="-3.175" x2="1.778" y2="3.175" width="0.127" layer="21"/>
+<description>6.0mm x 3.5mm</description>
+<wire x1="-1.75" y1="-3" x2="-1.75" y2="3" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-3" x2="-1.75" y2="-3" width="0.127" layer="21"/>
+<wire x1="1.75" y1="3" x2="-1.75" y2="3" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-3" x2="1.75" y2="3" width="0.127" layer="21"/>
 <wire x1="0.635" y1="0.254" x2="-0.635" y2="0.254" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="0.254" x2="-0.635" y2="-0.254" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="-0.254" x2="0.635" y2="-0.254" width="0.127" layer="21"/>
@@ -321,14 +323,7 @@
 <text x="2.54" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 </package>
 <package name="CRYSTAL_ZM315">
-<wire x1="-0.9842" y1="-1.651" x2="-0.9842" y2="1.651" width="0.127" layer="21"/>
-<wire x1="-0.9842" y1="-1.651" x2="-0.7302" y2="-1.905" width="0.127" layer="21" curve="90"/>
-<wire x1="-0.7302" y1="-1.905" x2="0.7302" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="-0.7302" y1="1.905" x2="0.7302" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-0.7302" y1="1.905" x2="-0.9842" y2="1.651" width="0.127" layer="21" curve="90"/>
-<wire x1="0.9842" y1="-1.651" x2="0.9842" y2="1.651" width="0.127" layer="21"/>
-<wire x1="0.9842" y1="-1.651" x2="0.7302" y2="-1.905" width="0.127" layer="21" curve="-90"/>
-<wire x1="0.7302" y1="1.905" x2="0.9842" y2="1.651" width="0.127" layer="21" curve="-90"/>
+<description>3.2mm x 1.5mm</description>
 <wire x1="0.381" y1="0.2223" x2="-0.381" y2="0.2223" width="0.127" layer="21"/>
 <wire x1="-0.381" y1="0.2223" x2="-0.381" y2="-0.2223" width="0.127" layer="21"/>
 <wire x1="-0.381" y1="-0.2223" x2="0.381" y2="-0.2223" width="0.127" layer="21"/>
@@ -339,10 +334,14 @@
 <wire x1="0.381" y1="-0.5398" x2="0" y2="-0.5398" width="0.127" layer="21"/>
 <wire x1="0" y1="-0.5398" x2="-0.381" y2="-0.5398" width="0.127" layer="21"/>
 <wire x1="0" y1="-0.5398" x2="0" y2="-1.016" width="0.0762" layer="21"/>
-<smd name="1" x="0" y="1.3335" dx="1.2" dy="1.9" layer="1" roundness="20" rot="R270"/>
-<smd name="2" x="0" y="-1.3335" dx="1.2" dy="1.9" layer="1" roundness="20" rot="R270"/>
+<smd name="1" x="0" y="1.25" dx="1.1" dy="1.8" layer="1" roundness="20" rot="R270"/>
+<smd name="2" x="0" y="-1.25" dx="1.1" dy="1.8" layer="1" roundness="20" rot="R270"/>
 <text x="-1.905" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="1.905" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<wire x1="-0.75" y1="-1.6" x2="-0.75" y2="1.6" width="0.127" layer="21"/>
+<wire x1="0.75" y1="-1.6" x2="-0.75" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="0.75" y1="1.6" x2="-0.75" y2="1.6" width="0.127" layer="21"/>
+<wire x1="0.75" y1="-1.6" x2="0.75" y2="1.6" width="0.127" layer="21"/>
 </package>
 <package name="C0603">
 <wire x1="0.45" y1="0.9" x2="0.45" y2="0.5" width="0.127" layer="21"/>
@@ -1304,6 +1303,24 @@
 <pad name="1" x="0" y="0" drill="0.8" diameter="1.4"/>
 <text x="-1.905" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
+<package name="CRYSTAL_MT">
+<description>3.2mm x 2.5mm</description>
+<wire x1="1.25" y1="1.175" x2="1.25" y2="-1.175" width="0.127" layer="21"/>
+<wire x1="0.825" y1="-1.6" x2="-0.825" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="-1.175" x2="-1.25" y2="1.175" width="0.127" layer="21"/>
+<wire x1="-0.825" y1="1.6" x2="0.825" y2="1.6" width="0.127" layer="21"/>
+<wire x1="0.825" y1="1.6" x2="1.25" y2="1.175" width="0.127" layer="21" curve="89.516721"/>
+<wire x1="1.25" y1="-1.175" x2="0.825" y2="-1.6" width="0.127" layer="21" curve="89.516721"/>
+<wire x1="-0.825" y1="-1.6" x2="-1.25" y2="-1.175" width="0.127" layer="21" curve="89.516721"/>
+<wire x1="-1.25" y1="1.175" x2="-0.825" y2="1.6" width="0.127" layer="21" curve="89.516721"/>
+<circle x="-0.15" y="1.1" radius="0.182" width="0" layer="21"/>
+<smd name="1" x="-0.9" y="1.1" dx="1.4" dy="1" layer="1" roundness="20" rot="R270"/>
+<smd name="2" x="-0.9" y="-1.1" dx="1.4" dy="1" layer="1" roundness="20" rot="R270"/>
+<smd name="3" x="0.9" y="-1.1" dx="1.4" dy="1" layer="1" roundness="20" rot="R270"/>
+<smd name="4" x="0.9" y="1.1" dx="1.4" dy="1" layer="1" roundness="20" rot="R270"/>
+<text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<text x="2.54" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CRYSTAL_RES">
@@ -1713,6 +1730,15 @@
 <connects>
 <connect gate="Q" pin="1" pad="1"/>
 <connect gate="Q" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MT" package="CRYSTAL_MT">
+<connects>
+<connect gate="Q" pin="1" pad="1"/>
+<connect gate="Q" pin="2" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
