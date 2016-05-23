@@ -185,23 +185,15 @@
 <wire x1="6.35" y1="-10.16" x2="-3.81" y2="-10.16" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="-10.16" x2="-10.16" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="-10.16" y1="-3.81" x2="-10.16" y2="3.81" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="1.27" x2="-7.62" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-6.35" y1="0" x2="-8.89" y2="0" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="1.27" x2="-7.62" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-6.35" y1="0" x2="-8.89" y2="0" width="0.127" layer="51"/>
 <smd name="VBAT@1" x="0" y="12.7" dx="5.08" dy="5.08" layer="1" roundness="5" rot="R270"/>
 <smd name="VBAT@2" x="0" y="-12.7" dx="5.08" dy="5.08" layer="1" roundness="5" rot="R270"/>
-<smd name="GND" x="0" y="0" dx="6.35" dy="6.35" layer="1" roundness="50" rot="R270" cream="no"/>
+<smd name="GND" x="0" y="0" dx="7.62" dy="7.62" layer="1" roundness="100" rot="R270" cream="no"/>
 <rectangle x1="-3.81" y1="8.89" x2="3.81" y2="16.51" layer="41" rot="R270"/>
 <rectangle x1="-3.81" y1="-16.51" x2="3.81" y2="-8.89" layer="41" rot="R270"/>
-<polygon width="0.127" layer="41">
-<vertex x="6.35" y="10.16"/>
-<vertex x="9.525" y="6.985"/>
-<vertex x="9.525" y="-6.985"/>
-<vertex x="6.35" y="-10.16"/>
-<vertex x="-3.81" y="-10.16"/>
-<vertex x="-10.16" y="-3.81"/>
-<vertex x="-10.16" y="3.81"/>
-<vertex x="-3.81" y="10.16"/>
-</polygon>
+<circle x="0" y="0" radius="4.572" width="1.524" layer="29"/>
+<circle x="0" y="0" radius="6.604" width="5.334" layer="41"/>
 </package>
 <package name="BAT-AAA">
 <wire x1="-13.97" y1="5.715" x2="-13.97" y2="-5.715" width="0.127" layer="21"/>
