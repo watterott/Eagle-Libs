@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -241,7 +241,7 @@
 <pad name="SDA" x="21.336" y="50.8" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="SCL" x="18.796" y="50.8" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="IOREF" x="30.48" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
-<pad name="NC" x="27.94" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
+<pad name="ATN" x="27.94" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <hole x="90.17" y="50.8" drill="3"/>
 <hole x="96.52" y="2.54" drill="3"/>
 <hole x="15.24" y="50.8" drill="3"/>
@@ -346,7 +346,7 @@
 <pad name="SDA" x="21.336" y="50.8" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="SCL" x="18.796" y="50.8" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="IOREF" x="30.48" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
-<pad name="NC" x="27.94" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
+<pad name="ATN" x="27.94" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <circle x="15.24" y="50.8" radius="1.5" width="0.1524" layer="51"/>
 <circle x="90.17" y="50.8" radius="1.5" width="0.1524" layer="51"/>
 <circle x="96.52" y="2.54" radius="1.5" width="0.1524" layer="51"/>
@@ -450,7 +450,7 @@
 <pad name="SDA" x="21.336" y="50.8" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="SCL" x="18.796" y="50.8" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="IOREF" x="30.48" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
-<pad name="NC" x="27.94" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
+<pad name="ATN" x="27.94" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="MISO" x="63.627" y="30.48" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="SCK" x="63.627" y="27.94" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="RST@2" x="63.627" y="25.4" drill="0.9" diameter="1.5" rot="R90"/>
@@ -506,7 +506,7 @@
 <pad name="SDA" x="21.336" y="50.8" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="SCL" x="18.796" y="50.8" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="IOREF" x="30.48" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
-<pad name="NC" x="27.94" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
+<pad name="ATN" x="27.94" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <hole x="66.04" y="35.56" drill="3"/>
 <hole x="66.04" y="7.62" drill="3"/>
 <hole x="15.24" y="50.8" drill="3"/>
@@ -549,7 +549,7 @@
 <pad name="SDA" x="21.336" y="50.8" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="SCL" x="18.796" y="50.8" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="IOREF" x="30.48" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
-<pad name="NC" x="27.94" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
+<pad name="ATN" x="27.94" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <hole x="66.04" y="35.56" drill="3"/>
 <hole x="66.04" y="7.62" drill="3"/>
 <hole x="15.24" y="50.8" drill="3"/>
@@ -604,7 +604,7 @@
 <pad name="SDA" x="21.336" y="50.8" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="SCL" x="18.796" y="50.8" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="IOREF" x="30.48" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
-<pad name="NC" x="27.94" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
+<pad name="ATN" x="27.94" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 </package>
 <package name="A-UNO_CON">
 <pad name="RST" x="33.02" y="2.54" drill="0.9" diameter="1.5" rot="R90"/>
@@ -638,7 +638,7 @@
 <pad name="SDA" x="21.336" y="50.8" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="SCL" x="18.796" y="50.8" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="IOREF" x="30.48" y="2.54" drill="0.9" diameter="1.5" rot="R90"/>
-<pad name="NC" x="27.94" y="2.54" drill="0.9" diameter="1.5" rot="R90"/>
+<pad name="ATN" x="27.94" y="2.54" drill="0.9" diameter="1.5" rot="R90"/>
 <hole x="66.04" y="35.56" drill="3"/>
 <hole x="66.04" y="7.62" drill="3"/>
 <hole x="15.24" y="50.8" drill="3"/>
@@ -688,7 +688,7 @@
 <pad name="SDA" x="21.336" y="50.8" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="SCL" x="18.796" y="50.8" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="IOREF" x="30.48" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
-<pad name="NC" x="27.94" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
+<pad name="ATN" x="27.94" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="MISO" x="63.627" y="30.48" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="SCK" x="63.627" y="27.94" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="RST@2" x="63.627" y="25.4" drill="0.9" diameter="1.5" rot="R90"/>
@@ -737,7 +737,7 @@
 <pad name="SDA" x="21.336" y="50.8" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="SCL" x="18.796" y="50.8" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="IOREF" x="30.48" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
-<pad name="NC" x="27.94" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
+<pad name="ATN" x="27.94" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="MISO" x="63.627" y="30.48" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="SCK" x="63.627" y="27.94" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="RST@2" x="63.627" y="25.4" drill="0.9" diameter="1.5" rot="R90"/>
@@ -798,7 +798,7 @@
 <pad name="SDA" x="21.336" y="50.8" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="SCL" x="18.796" y="50.8" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="IOREF" x="30.48" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
-<pad name="NC" x="27.94" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
+<pad name="ATN" x="27.94" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="MISO" x="63.627" y="30.48" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="SCK" x="63.627" y="27.94" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="RST@2" x="63.627" y="25.4" drill="0.9" diameter="1.5" rot="R90"/>
@@ -839,7 +839,7 @@
 <pad name="SDA" x="21.336" y="50.8" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="SCL" x="18.796" y="50.8" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="IOREF" x="30.48" y="2.54" drill="0.9" diameter="1.5" rot="R90"/>
-<pad name="NC" x="27.94" y="2.54" drill="0.9" diameter="1.5" rot="R90"/>
+<pad name="ATN" x="27.94" y="2.54" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="MISO" x="63.627" y="30.48" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="SCK" x="63.627" y="27.94" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="RST@2" x="63.627" y="25.4" drill="0.9" diameter="1.5" rot="R90"/>
@@ -1131,7 +1131,7 @@
 <pad name="SDA" x="21.336" y="50.8" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="SCL" x="18.796" y="50.8" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="IOREF" x="30.48" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
-<pad name="NC" x="27.94" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
+<pad name="ATN" x="27.94" y="2.54" drill="0.9" diameter="1.2" shape="long" rot="R90"/>
 <pad name="MISO" x="63.627" y="30.48" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="SCK" x="63.627" y="27.94" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="RST@2" x="63.627" y="25.4" drill="0.9" diameter="1.5" rot="R90"/>
@@ -1433,7 +1433,7 @@
 <pad name="SDA" x="21.336" y="50.8" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="SCL" x="18.796" y="50.8" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="IOREF" x="30.48" y="2.54" drill="0.9" diameter="1.5" rot="R90"/>
-<pad name="NC" x="27.94" y="2.54" drill="0.9" diameter="1.5" rot="R90"/>
+<pad name="ATN" x="27.94" y="2.54" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="MISO" x="63.627" y="30.48" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="SCK" x="63.627" y="27.94" drill="0.9" diameter="1.5" rot="R90"/>
 <pad name="RST@2" x="63.627" y="25.4" drill="0.9" diameter="1.5" rot="R90"/>
@@ -1529,98 +1529,98 @@
 <wire x1="96.52" y1="53.34" x2="0.635" y2="53.34" width="0.1524" layer="21"/>
 <wire x1="0.635" y1="53.34" x2="0" y2="52.705" width="0.1524" layer="21"/>
 <wire x1="0" y1="52.705" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<pad name="RST@1" x="33.02" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="3V3" x="35.56" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="5V@1" x="38.1" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="GND@1" x="40.64" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="GND@2" x="43.18" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="VIN" x="45.72" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="A0" x="50.8" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="A1" x="53.34" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="A2" x="55.88" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="A3" x="58.42" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="A4" x="60.96" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="A5" x="63.5" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="AREF" x="23.876" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="GND@3" x="26.416" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="13" x="28.956" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="12" x="31.496" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="11" x="34.036" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="10" x="36.576" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="9" x="39.116" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="8" x="41.656" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="7" x="45.72" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="6" x="48.26" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="5" x="50.8" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="4" x="53.34" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="3" x="55.88" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="2" x="58.42" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="1" x="60.96" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="0" x="63.5" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="A6" x="66.04" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="A7" x="68.58" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="A8" x="73.66" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="A9" x="76.2" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="A10" x="78.74" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="A11" x="81.28" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="A12" x="83.82" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="A13" x="86.36" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="A14" x="88.9" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="A15" x="91.44" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="14" x="68.58" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="15" x="71.12" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="16" x="73.66" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="17" x="76.2" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="18" x="78.74" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="19" x="81.28" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="20" x="83.82" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="21" x="86.36" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="22" x="93.98" y="48.26" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="23" x="96.52" y="48.26" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="24" x="93.98" y="45.72" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="25" x="96.52" y="45.72" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="26" x="93.98" y="43.18" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="27" x="96.52" y="43.18" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="28" x="93.98" y="40.64" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="29" x="96.52" y="40.64" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="30" x="93.98" y="38.1" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="31" x="96.52" y="38.1" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="32" x="93.98" y="35.56" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="33" x="96.52" y="35.56" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="34" x="93.98" y="33.02" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="35" x="96.52" y="33.02" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="36" x="93.98" y="30.48" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="37" x="96.52" y="30.48" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="38" x="93.98" y="27.94" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="39" x="96.52" y="27.94" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="40" x="93.98" y="25.4" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="41" x="96.52" y="25.4" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="42" x="93.98" y="22.86" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="43" x="96.52" y="22.86" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="44" x="93.98" y="20.32" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="45" x="96.52" y="20.32" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="46" x="93.98" y="17.78" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="47" x="96.52" y="17.78" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="48" x="93.98" y="15.24" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="49" x="96.52" y="15.24" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="50" x="93.98" y="12.7" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="51" x="96.52" y="12.7" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="52" x="93.98" y="10.16" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="53" x="96.52" y="10.16" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="GND@4" x="93.98" y="7.62" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="GND@5" x="96.52" y="7.62" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="5V@2" x="93.98" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="5V@3" x="96.52" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="SDA" x="21.336" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="SCL" x="18.796" y="50.8" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="IOREF" x="30.48" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="NC" x="27.94" y="2.54" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="MOSI" x="66.167" y="27.94" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="MISO" x="63.627" y="30.48" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="SCK" x="63.627" y="27.94" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="RST@2" x="63.627" y="25.4" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="VCC@1" x="66.167" y="30.48" drill="1.3" diameter="1.9" rot="R90"/>
-<pad name="GND@6" x="66.167" y="25.4" drill="1.3" diameter="1.9" rot="R90"/>
+<pad name="RST@1" x="33.02" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="3V3" x="35.56" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="5V@1" x="38.1" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="GND@1" x="40.64" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="GND@2" x="43.18" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="VIN" x="45.72" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="A0" x="50.8" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="A1" x="53.34" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="A2" x="55.88" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="A3" x="58.42" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="A4" x="60.96" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="A5" x="63.5" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="AREF" x="23.876" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="GND@3" x="26.416" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="13" x="28.956" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="12" x="31.496" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="11" x="34.036" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="10" x="36.576" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="9" x="39.116" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="8" x="41.656" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="7" x="45.72" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="6" x="48.26" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="5" x="50.8" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="4" x="53.34" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="3" x="55.88" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="2" x="58.42" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="1" x="60.96" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="0" x="63.5" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="A6" x="66.04" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="A7" x="68.58" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="A8" x="73.66" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="A9" x="76.2" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="A10" x="78.74" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="A11" x="81.28" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="A12" x="83.82" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="A13" x="86.36" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="A14" x="88.9" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="A15" x="91.44" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="14" x="68.58" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="15" x="71.12" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="16" x="73.66" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="17" x="76.2" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="18" x="78.74" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="19" x="81.28" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="20" x="83.82" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="21" x="86.36" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="22" x="93.98" y="48.26" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="23" x="96.52" y="48.26" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="24" x="93.98" y="45.72" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="25" x="96.52" y="45.72" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="26" x="93.98" y="43.18" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="27" x="96.52" y="43.18" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="28" x="93.98" y="40.64" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="29" x="96.52" y="40.64" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="30" x="93.98" y="38.1" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="31" x="96.52" y="38.1" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="32" x="93.98" y="35.56" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="33" x="96.52" y="35.56" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="34" x="93.98" y="33.02" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="35" x="96.52" y="33.02" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="36" x="93.98" y="30.48" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="37" x="96.52" y="30.48" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="38" x="93.98" y="27.94" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="39" x="96.52" y="27.94" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="40" x="93.98" y="25.4" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="41" x="96.52" y="25.4" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="42" x="93.98" y="22.86" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="43" x="96.52" y="22.86" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="44" x="93.98" y="20.32" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="45" x="96.52" y="20.32" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="46" x="93.98" y="17.78" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="47" x="96.52" y="17.78" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="48" x="93.98" y="15.24" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="49" x="96.52" y="15.24" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="50" x="93.98" y="12.7" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="51" x="96.52" y="12.7" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="52" x="93.98" y="10.16" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="53" x="96.52" y="10.16" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="GND@4" x="93.98" y="7.62" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="GND@5" x="96.52" y="7.62" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="5V@2" x="93.98" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="5V@3" x="96.52" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="SDA" x="21.336" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="SCL" x="18.796" y="50.8" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="IOREF" x="30.48" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="ATN" x="27.94" y="2.54" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="MOSI" x="66.167" y="27.94" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="MISO" x="63.627" y="30.48" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="SCK" x="63.627" y="27.94" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="RST@2" x="63.627" y="25.4" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="VCC@1" x="66.167" y="30.48" drill="1.7" diameter="2.1844" rot="R90"/>
+<pad name="GND@6" x="66.167" y="25.4" drill="1.7" diameter="2.1844" rot="R90"/>
 <hole x="90.17" y="50.8" drill="3"/>
 <hole x="96.52" y="2.54" drill="3"/>
 <hole x="15.24" y="50.8" drill="3"/>
@@ -1634,19 +1634,19 @@
 <wire x1="66.04" y1="52.07" x2="64.77" y2="53.34" width="0.127" layer="21"/>
 <hole x="66.04" y="35.56" drill="3"/>
 <hole x="66.04" y="7.62" drill="3"/>
-<pad name="MOSI_16U2" x="18.288" y="44.958" drill="1.3" diameter="1.9" rot="R180"/>
-<pad name="MISO_16U2" x="20.828" y="47.498" drill="1.3" diameter="1.9" rot="R180"/>
-<pad name="SCK_16U2" x="18.288" y="47.498" drill="1.3" diameter="1.9" rot="R180"/>
-<pad name="RST_16U2" x="15.748" y="47.498" drill="1.3" diameter="1.9" rot="R180"/>
-<pad name="VCC@2" x="20.828" y="44.958" drill="1.3" diameter="1.9" rot="R180"/>
-<pad name="GND@7" x="15.748" y="44.958" drill="1.3" diameter="1.9" rot="R180"/>
-<pad name="PWR-@2" x="8.7" y="3.302" drill="1.7" diameter="3"/>
-<pad name="PWR-@1" x="5.71" y="8.3" drill="1.7" diameter="3"/>
-<pad name="PWR+" x="11.68" y="8.3" drill="1.7" diameter="3"/>
-<pad name="USB-" x="6.52" y="36.83" drill="1.3" diameter="1.7"/>
-<pad name="USBD+" x="6.52" y="39.35" drill="1.3" diameter="1.7"/>
-<pad name="USBD-" x="8.52" y="39.35" drill="1.3" diameter="1.7"/>
-<pad name="USB+" x="8.52" y="36.83" drill="1.3" diameter="1.7"/>
+<pad name="MOSI_16U2" x="18.288" y="44.958" drill="1.7" diameter="2.1844" rot="R180"/>
+<pad name="MISO_16U2" x="20.828" y="47.498" drill="1.7" diameter="2.1844" rot="R180"/>
+<pad name="SCK_16U2" x="18.288" y="47.498" drill="1.7" diameter="2.1844" rot="R180"/>
+<pad name="RST_16U2" x="15.748" y="47.498" drill="1.7" diameter="2.1844" rot="R180"/>
+<pad name="VCC@2" x="20.828" y="44.958" drill="1.7" diameter="2.1844" rot="R180"/>
+<pad name="GND@7" x="15.748" y="44.958" drill="1.7" diameter="2.1844" rot="R180"/>
+<pad name="PWR-@2" x="8.7" y="3.302" drill="1.7" diameter="2.1844"/>
+<pad name="PWR-@1" x="5.71" y="8.3" drill="1.7" diameter="2.1844"/>
+<pad name="PWR+" x="11.68" y="8.3" drill="1.7" diameter="2.1844"/>
+<pad name="USB-" x="6.52" y="36.83" drill="1.3" diameter="1.6764"/>
+<pad name="USBD+" x="6.52" y="39.35" drill="1.3" diameter="1.6764"/>
+<pad name="USBD-" x="8.52" y="39.35" drill="1.3" diameter="1.6764"/>
+<pad name="USB+" x="8.52" y="36.83" drill="1.3" diameter="1.6764"/>
 </package>
 <package name="RPI-B+_TEST">
 <description>Test Pins</description>
@@ -2378,7 +2378,7 @@ Samtech FTSH-105-01</description>
 <pin name="RX/0" x="20.32" y="76.2" visible="pin" length="middle" rot="R180"/>
 <pin name="TX/1" x="20.32" y="73.66" visible="pin" length="middle" rot="R180"/>
 <pin name="PWM/2" x="20.32" y="71.12" visible="pin" length="middle" rot="R180"/>
-<pin name="A0/54" x="-20.32" y="25.4" visible="pin" length="middle"/>
+<pin name="A0/54" x="-20.32" y="20.32" visible="pin" length="middle"/>
 <pin name="PWM/3" x="20.32" y="68.58" visible="pin" length="middle" rot="R180"/>
 <pin name="PWM/4" x="20.32" y="66.04" visible="pin" length="middle" rot="R180"/>
 <pin name="PWM/5" x="20.32" y="63.5" visible="pin" length="middle" rot="R180"/>
@@ -2390,29 +2390,29 @@ Samtech FTSH-105-01</description>
 <pin name="PWM/11" x="20.32" y="48.26" visible="pin" length="middle" rot="R180"/>
 <pin name="PWM/12" x="20.32" y="45.72" visible="pin" length="middle" rot="R180"/>
 <pin name="PWM/13" x="20.32" y="43.18" visible="pin" length="middle" rot="R180"/>
-<pin name="A1/55" x="-20.32" y="22.86" visible="pin" length="middle"/>
-<pin name="A2/56" x="-20.32" y="20.32" visible="pin" length="middle"/>
-<pin name="A3/57" x="-20.32" y="17.78" visible="pin" length="middle"/>
-<pin name="A4/58" x="-20.32" y="15.24" visible="pin" length="middle"/>
-<pin name="A5/59" x="-20.32" y="12.7" visible="pin" length="middle"/>
+<pin name="A1/55" x="-20.32" y="17.78" visible="pin" length="middle"/>
+<pin name="A2/56" x="-20.32" y="15.24" visible="pin" length="middle"/>
+<pin name="A3/57" x="-20.32" y="12.7" visible="pin" length="middle"/>
+<pin name="A4/58" x="-20.32" y="10.16" visible="pin" length="middle"/>
+<pin name="A5/59" x="-20.32" y="7.62" visible="pin" length="middle"/>
 <pin name="5V@1" x="-20.32" y="71.12" visible="pin" length="middle" direction="pwr"/>
 <pin name="GND@1" x="-20.32" y="55.88" visible="pin" length="middle" direction="pwr"/>
 <pin name="GND@2" x="-20.32" y="53.34" visible="pin" length="middle" direction="pwr"/>
 <pin name="VIN" x="-20.32" y="76.2" visible="pin" length="middle" direction="pwr"/>
 <pin name="3V3" x="-20.32" y="60.96" visible="pin" length="middle" direction="pwr"/>
 <pin name="GND@3" x="-20.32" y="50.8" visible="pin" length="middle" direction="pwr"/>
-<pin name="AREF" x="-20.32" y="30.48" visible="pin" length="middle" direction="pwr"/>
+<pin name="AREF" x="-20.32" y="25.4" visible="pin" length="middle" direction="pwr"/>
 <pin name="RESET" x="-20.32" y="40.64" visible="pin" length="middle"/>
-<pin name="A6/60" x="-20.32" y="10.16" visible="pin" length="middle"/>
-<pin name="A7/61" x="-20.32" y="7.62" visible="pin" length="middle"/>
-<pin name="A8/62" x="-20.32" y="5.08" visible="pin" length="middle"/>
-<pin name="A9/63" x="-20.32" y="2.54" visible="pin" length="middle"/>
-<pin name="A10/64" x="-20.32" y="0" visible="pin" length="middle"/>
-<pin name="A11/65" x="-20.32" y="-2.54" visible="pin" length="middle"/>
-<pin name="A12/66" x="-20.32" y="-5.08" visible="pin" length="middle"/>
-<pin name="A13/67" x="-20.32" y="-7.62" visible="pin" length="middle"/>
-<pin name="A14/68" x="-20.32" y="-10.16" visible="pin" length="middle"/>
-<pin name="A15/69" x="-20.32" y="-12.7" visible="pin" length="middle"/>
+<pin name="A6/60" x="-20.32" y="5.08" visible="pin" length="middle"/>
+<pin name="A7/61" x="-20.32" y="2.54" visible="pin" length="middle"/>
+<pin name="A8/62" x="-20.32" y="0" visible="pin" length="middle"/>
+<pin name="A9/63" x="-20.32" y="-2.54" visible="pin" length="middle"/>
+<pin name="A10/64" x="-20.32" y="-5.08" visible="pin" length="middle"/>
+<pin name="A11/65" x="-20.32" y="-7.62" visible="pin" length="middle"/>
+<pin name="A12/66" x="-20.32" y="-10.16" visible="pin" length="middle"/>
+<pin name="A13/67" x="-20.32" y="-12.7" visible="pin" length="middle"/>
+<pin name="A14/68" x="-20.32" y="-15.24" visible="pin" length="middle"/>
+<pin name="A15/69" x="-20.32" y="-17.78" visible="pin" length="middle"/>
 <pin name="GND@4" x="-20.32" y="48.26" visible="pin" length="middle" direction="pwr"/>
 <pin name="TX3/14" x="20.32" y="40.64" visible="pin" length="middle" rot="R180"/>
 <pin name="RX3/15" x="20.32" y="38.1" visible="pin" length="middle" rot="R180"/>
@@ -2460,6 +2460,7 @@ Samtech FTSH-105-01</description>
 <pin name="IOREF" x="-20.32" y="35.56" visible="pin" length="middle" direction="pwr"/>
 <pin name="SDA" x="20.32" y="-73.66" visible="pin" length="middle" rot="R180"/>
 <pin name="SCL" x="20.32" y="-76.2" visible="pin" length="middle" rot="R180"/>
+<pin name="ATN" x="-20.32" y="30.48" visible="pin" length="middle"/>
 </symbol>
 <symbol name="A-MEGA_ISP">
 <wire x1="-15.24" y1="78.74" x2="-15.24" y2="-78.74" width="0.254" layer="94"/>
@@ -2471,7 +2472,7 @@ Samtech FTSH-105-01</description>
 <pin name="RX/0" x="20.32" y="76.2" visible="pin" length="middle" rot="R180"/>
 <pin name="TX/1" x="20.32" y="73.66" visible="pin" length="middle" rot="R180"/>
 <pin name="PWM/2" x="20.32" y="71.12" visible="pin" length="middle" rot="R180"/>
-<pin name="A0/54" x="-20.32" y="25.4" visible="pin" length="middle"/>
+<pin name="A0/54" x="-20.32" y="20.32" visible="pin" length="middle"/>
 <pin name="PWM/3" x="20.32" y="68.58" visible="pin" length="middle" rot="R180"/>
 <pin name="PWM/4" x="20.32" y="66.04" visible="pin" length="middle" rot="R180"/>
 <pin name="PWM/5" x="20.32" y="63.5" visible="pin" length="middle" rot="R180"/>
@@ -2483,29 +2484,29 @@ Samtech FTSH-105-01</description>
 <pin name="PWM/11" x="20.32" y="48.26" visible="pin" length="middle" rot="R180"/>
 <pin name="PWM/12" x="20.32" y="45.72" visible="pin" length="middle" rot="R180"/>
 <pin name="PWM/13" x="20.32" y="43.18" visible="pin" length="middle" rot="R180"/>
-<pin name="A1/55" x="-20.32" y="22.86" visible="pin" length="middle"/>
-<pin name="A2/56" x="-20.32" y="20.32" visible="pin" length="middle"/>
-<pin name="A3/57" x="-20.32" y="17.78" visible="pin" length="middle"/>
-<pin name="A4/58" x="-20.32" y="15.24" visible="pin" length="middle"/>
-<pin name="A5/59" x="-20.32" y="12.7" visible="pin" length="middle"/>
+<pin name="A1/55" x="-20.32" y="17.78" visible="pin" length="middle"/>
+<pin name="A2/56" x="-20.32" y="15.24" visible="pin" length="middle"/>
+<pin name="A3/57" x="-20.32" y="12.7" visible="pin" length="middle"/>
+<pin name="A4/58" x="-20.32" y="10.16" visible="pin" length="middle"/>
+<pin name="A5/59" x="-20.32" y="7.62" visible="pin" length="middle"/>
 <pin name="5V@1" x="-20.32" y="71.12" visible="pin" length="middle" direction="pwr"/>
 <pin name="GND@1" x="-20.32" y="55.88" visible="pin" length="middle" direction="pwr"/>
 <pin name="GND@2" x="-20.32" y="53.34" visible="pin" length="middle" direction="pwr"/>
 <pin name="VIN" x="-20.32" y="76.2" visible="pin" length="middle" direction="pwr"/>
 <pin name="3V3" x="-20.32" y="60.96" visible="pin" length="middle" direction="pwr"/>
 <pin name="GND@3" x="-20.32" y="50.8" visible="pin" length="middle" direction="pwr"/>
-<pin name="AREF" x="-20.32" y="30.48" visible="pin" length="middle" direction="pwr"/>
+<pin name="AREF" x="-20.32" y="25.4" visible="pin" length="middle" direction="pwr"/>
 <pin name="RESET" x="-20.32" y="40.64" visible="pin" length="middle"/>
-<pin name="A6/60" x="-20.32" y="10.16" visible="pin" length="middle"/>
-<pin name="A7/61" x="-20.32" y="7.62" visible="pin" length="middle"/>
-<pin name="A8/62" x="-20.32" y="5.08" visible="pin" length="middle"/>
-<pin name="A9/63" x="-20.32" y="2.54" visible="pin" length="middle"/>
-<pin name="A10/64" x="-20.32" y="0" visible="pin" length="middle"/>
-<pin name="A11/65" x="-20.32" y="-2.54" visible="pin" length="middle"/>
-<pin name="A12/66" x="-20.32" y="-5.08" visible="pin" length="middle"/>
-<pin name="A13/67" x="-20.32" y="-7.62" visible="pin" length="middle"/>
-<pin name="A14/68" x="-20.32" y="-10.16" visible="pin" length="middle"/>
-<pin name="A15/69" x="-20.32" y="-12.7" visible="pin" length="middle"/>
+<pin name="A6/60" x="-20.32" y="5.08" visible="pin" length="middle"/>
+<pin name="A7/61" x="-20.32" y="2.54" visible="pin" length="middle"/>
+<pin name="A8/62" x="-20.32" y="0" visible="pin" length="middle"/>
+<pin name="A9/63" x="-20.32" y="-2.54" visible="pin" length="middle"/>
+<pin name="A10/64" x="-20.32" y="-5.08" visible="pin" length="middle"/>
+<pin name="A11/65" x="-20.32" y="-7.62" visible="pin" length="middle"/>
+<pin name="A12/66" x="-20.32" y="-10.16" visible="pin" length="middle"/>
+<pin name="A13/67" x="-20.32" y="-12.7" visible="pin" length="middle"/>
+<pin name="A14/68" x="-20.32" y="-15.24" visible="pin" length="middle"/>
+<pin name="A15/69" x="-20.32" y="-17.78" visible="pin" length="middle"/>
 <pin name="GND@4" x="-20.32" y="48.26" visible="pin" length="middle" direction="pwr"/>
 <pin name="TX3/14" x="20.32" y="40.64" visible="pin" length="middle" rot="R180"/>
 <pin name="RX3/15" x="20.32" y="38.1" visible="pin" length="middle" rot="R180"/>
@@ -2556,6 +2557,7 @@ Samtech FTSH-105-01</description>
 <pin name="MOSI" x="20.32" y="-63.5" visible="pin" length="middle" rot="R180"/>
 <pin name="MISO" x="20.32" y="-66.04" visible="pin" length="middle" rot="R180"/>
 <pin name="SCK" x="20.32" y="-68.58" visible="pin" length="middle" rot="R180"/>
+<pin name="ATN" x="-20.32" y="30.48" visible="pin" length="middle"/>
 </symbol>
 <symbol name="A-UNO">
 <wire x1="-15.24" y1="27.94" x2="-15.24" y2="-27.94" width="0.254" layer="94"/>
@@ -2584,17 +2586,18 @@ Samtech FTSH-105-01</description>
 <pin name="A3/17" x="-20.32" y="-20.32" visible="pin" length="middle"/>
 <pin name="A4/18/SDA" x="-20.32" y="-22.86" visible="pin" length="middle"/>
 <pin name="A5/19/SCL" x="-20.32" y="-25.4" visible="pin" length="middle"/>
-<pin name="5V" x="-20.32" y="20.32" visible="pin" length="middle" direction="pwr"/>
+<pin name="5V" x="-20.32" y="22.86" visible="pin" length="middle" direction="pwr"/>
 <pin name="VIN" x="-20.32" y="25.4" visible="pin" length="middle" direction="pwr"/>
-<pin name="3V3" x="-20.32" y="17.78" visible="pin" length="middle" direction="pwr"/>
+<pin name="3V3" x="-20.32" y="20.32" visible="pin" length="middle" direction="pwr"/>
 <pin name="AREF" x="-20.32" y="-7.62" visible="pin" length="middle" direction="pwr"/>
-<pin name="RESET" x="-20.32" y="2.54" visible="pin" length="middle"/>
+<pin name="RESET" x="-20.32" y="7.62" visible="pin" length="middle"/>
 <pin name="SDA" x="20.32" y="-22.86" visible="pin" length="middle" rot="R180"/>
 <pin name="SCL" x="20.32" y="-25.4" visible="pin" length="middle" rot="R180"/>
-<pin name="IOREF" x="-20.32" y="-2.54" visible="pin" length="middle" direction="pwr"/>
-<pin name="GND@1" x="-20.32" y="12.7" visible="pin" length="middle" direction="pwr"/>
-<pin name="GND@2" x="-20.32" y="10.16" visible="pin" length="middle" direction="pwr"/>
-<pin name="GND@3" x="-20.32" y="7.62" visible="pin" length="middle" direction="pwr"/>
+<pin name="IOREF" x="-20.32" y="2.54" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND@1" x="-20.32" y="17.78" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND@2" x="-20.32" y="15.24" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND@3" x="-20.32" y="12.7" visible="pin" length="middle" direction="pwr"/>
+<pin name="ATN" x="-20.32" y="-2.54" visible="pin" length="middle"/>
 </symbol>
 <symbol name="A-UNO_ISP">
 <wire x1="-15.24" y1="27.94" x2="-15.24" y2="-27.94" width="0.254" layer="94"/>
@@ -2623,20 +2626,21 @@ Samtech FTSH-105-01</description>
 <pin name="A3/17" x="-20.32" y="-20.32" visible="pin" length="middle"/>
 <pin name="A4/18/SDA" x="-20.32" y="-22.86" visible="pin" length="middle"/>
 <pin name="A5/19/SCL" x="-20.32" y="-25.4" visible="pin" length="middle"/>
-<pin name="5V" x="-20.32" y="20.32" visible="pin" length="middle" direction="pwr"/>
+<pin name="5V" x="-20.32" y="22.86" visible="pin" length="middle" direction="pwr"/>
 <pin name="VIN" x="-20.32" y="25.4" visible="pin" length="middle" direction="pwr"/>
-<pin name="3V3" x="-20.32" y="17.78" visible="pin" length="middle" direction="pwr"/>
+<pin name="3V3" x="-20.32" y="20.32" visible="pin" length="middle" direction="pwr"/>
 <pin name="AREF" x="-20.32" y="-7.62" visible="pin" length="middle" direction="pwr"/>
-<pin name="RESET" x="-20.32" y="2.54" visible="pin" length="middle"/>
+<pin name="RESET" x="-20.32" y="7.62" visible="pin" length="middle"/>
 <pin name="SDA" x="20.32" y="-22.86" visible="pin" length="middle" rot="R180"/>
 <pin name="SCL" x="20.32" y="-25.4" visible="pin" length="middle" rot="R180"/>
-<pin name="IOREF" x="-20.32" y="-2.54" visible="pin" length="middle" direction="pwr"/>
-<pin name="GND@1" x="-20.32" y="12.7" visible="pin" length="middle" direction="pwr"/>
-<pin name="GND@2" x="-20.32" y="10.16" visible="pin" length="middle" direction="pwr"/>
-<pin name="GND@3" x="-20.32" y="7.62" visible="pin" length="middle" direction="pwr"/>
+<pin name="IOREF" x="-20.32" y="2.54" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND@1" x="-20.32" y="17.78" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND@2" x="-20.32" y="15.24" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND@3" x="-20.32" y="12.7" visible="pin" length="middle" direction="pwr"/>
 <pin name="MOSI" x="20.32" y="-12.7" visible="pin" length="middle" rot="R180"/>
 <pin name="MISO" x="20.32" y="-15.24" visible="pin" length="middle" rot="R180"/>
 <pin name="SCK" x="20.32" y="-17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="ATN" x="-20.32" y="-2.54" visible="pin" length="middle"/>
 </symbol>
 <symbol name="A-PRO-MINI">
 <wire x1="-17.78" y1="20.32" x2="-17.78" y2="-20.32" width="0.254" layer="94"/>
@@ -2873,7 +2877,7 @@ Samtech FTSH-105-01</description>
 <pin name="RX/0" x="20.32" y="76.2" visible="pin" length="middle" rot="R180"/>
 <pin name="TX/1" x="20.32" y="73.66" visible="pin" length="middle" rot="R180"/>
 <pin name="PWM/2" x="20.32" y="71.12" visible="pin" length="middle" rot="R180"/>
-<pin name="A0/54" x="-20.32" y="25.4" visible="pin" length="middle"/>
+<pin name="A0/54" x="-20.32" y="20.32" visible="pin" length="middle"/>
 <pin name="PWM/3" x="20.32" y="68.58" visible="pin" length="middle" rot="R180"/>
 <pin name="PWM/4" x="20.32" y="66.04" visible="pin" length="middle" rot="R180"/>
 <pin name="PWM/5" x="20.32" y="63.5" visible="pin" length="middle" rot="R180"/>
@@ -2885,29 +2889,29 @@ Samtech FTSH-105-01</description>
 <pin name="PWM/11" x="20.32" y="48.26" visible="pin" length="middle" rot="R180"/>
 <pin name="PWM/12" x="20.32" y="45.72" visible="pin" length="middle" rot="R180"/>
 <pin name="PWM/13" x="20.32" y="43.18" visible="pin" length="middle" rot="R180"/>
-<pin name="A1/55" x="-20.32" y="22.86" visible="pin" length="middle"/>
-<pin name="A2/56" x="-20.32" y="20.32" visible="pin" length="middle"/>
-<pin name="A3/57" x="-20.32" y="17.78" visible="pin" length="middle"/>
-<pin name="A4/58" x="-20.32" y="15.24" visible="pin" length="middle"/>
-<pin name="A5/59" x="-20.32" y="12.7" visible="pin" length="middle"/>
+<pin name="A1/55" x="-20.32" y="17.78" visible="pin" length="middle"/>
+<pin name="A2/56" x="-20.32" y="15.24" visible="pin" length="middle"/>
+<pin name="A3/57" x="-20.32" y="12.7" visible="pin" length="middle"/>
+<pin name="A4/58" x="-20.32" y="10.16" visible="pin" length="middle"/>
+<pin name="A5/59" x="-20.32" y="7.62" visible="pin" length="middle"/>
 <pin name="5V@1" x="-20.32" y="71.12" visible="pin" length="middle" direction="pwr"/>
 <pin name="GND@1" x="-20.32" y="55.88" visible="pin" length="middle" direction="pwr"/>
 <pin name="GND@2" x="-20.32" y="53.34" visible="pin" length="middle" direction="pwr"/>
 <pin name="VIN" x="-20.32" y="76.2" visible="pin" length="middle" direction="pwr"/>
 <pin name="3V3" x="-20.32" y="60.96" visible="pin" length="middle" direction="pwr"/>
 <pin name="GND@3" x="-20.32" y="50.8" visible="pin" length="middle" direction="pwr"/>
-<pin name="AREF" x="-20.32" y="30.48" visible="pin" length="middle" direction="pwr"/>
+<pin name="AREF" x="-20.32" y="25.4" visible="pin" length="middle" direction="pwr"/>
 <pin name="RESET" x="-20.32" y="40.64" visible="pin" length="middle"/>
-<pin name="A6/60" x="-20.32" y="10.16" visible="pin" length="middle"/>
-<pin name="A7/61" x="-20.32" y="7.62" visible="pin" length="middle"/>
-<pin name="A8/62" x="-20.32" y="5.08" visible="pin" length="middle"/>
-<pin name="A9/63" x="-20.32" y="2.54" visible="pin" length="middle"/>
-<pin name="A10/64" x="-20.32" y="0" visible="pin" length="middle"/>
-<pin name="A11/65" x="-20.32" y="-2.54" visible="pin" length="middle"/>
-<pin name="A12/66" x="-20.32" y="-5.08" visible="pin" length="middle"/>
-<pin name="A13/67" x="-20.32" y="-7.62" visible="pin" length="middle"/>
-<pin name="A14/68" x="-20.32" y="-10.16" visible="pin" length="middle"/>
-<pin name="A15/69" x="-20.32" y="-12.7" visible="pin" length="middle"/>
+<pin name="A6/60" x="-20.32" y="5.08" visible="pin" length="middle"/>
+<pin name="A7/61" x="-20.32" y="2.54" visible="pin" length="middle"/>
+<pin name="A8/62" x="-20.32" y="0" visible="pin" length="middle"/>
+<pin name="A9/63" x="-20.32" y="-2.54" visible="pin" length="middle"/>
+<pin name="A10/64" x="-20.32" y="-5.08" visible="pin" length="middle"/>
+<pin name="A11/65" x="-20.32" y="-7.62" visible="pin" length="middle"/>
+<pin name="A12/66" x="-20.32" y="-10.16" visible="pin" length="middle"/>
+<pin name="A13/67" x="-20.32" y="-12.7" visible="pin" length="middle"/>
+<pin name="A14/68" x="-20.32" y="-15.24" visible="pin" length="middle"/>
+<pin name="A15/69" x="-20.32" y="-17.78" visible="pin" length="middle"/>
 <pin name="GND@4" x="-20.32" y="48.26" visible="pin" length="middle" direction="pwr"/>
 <pin name="TX3/14" x="20.32" y="40.64" visible="pin" length="middle" rot="R180"/>
 <pin name="RX3/15" x="20.32" y="38.1" visible="pin" length="middle" rot="R180"/>
@@ -2965,6 +2969,7 @@ Samtech FTSH-105-01</description>
 <pin name="USBD+" x="-20.32" y="-73.66" visible="pin" length="middle"/>
 <pin name="USBD-" x="-20.32" y="-76.2" visible="pin" length="middle"/>
 <pin name="PWR+" x="-20.32" y="-48.26" visible="pin" length="middle" direction="pwr"/>
+<pin name="ATN" x="-20.32" y="30.48" visible="pin" length="middle"/>
 </symbol>
 <symbol name="EDISON">
 <pin name="VSYS_3V3-4V5" x="-25.4" y="-27.94" length="middle" direction="pwr"/>
@@ -3262,6 +3267,7 @@ Samtech FTSH-105-01</description>
 <connect gate="BOARD" pin="A8/62" pad="A8"/>
 <connect gate="BOARD" pin="A9/63" pad="A9"/>
 <connect gate="BOARD" pin="AREF" pad="AREF"/>
+<connect gate="BOARD" pin="ATN" pad="ATN"/>
 <connect gate="BOARD" pin="GND@1" pad="GND@1"/>
 <connect gate="BOARD" pin="GND@2" pad="GND@2"/>
 <connect gate="BOARD" pin="GND@3" pad="GND@3"/>
@@ -3354,6 +3360,7 @@ Samtech FTSH-105-01</description>
 <connect gate="BOARD" pin="A8/62" pad="A8"/>
 <connect gate="BOARD" pin="A9/63" pad="A9"/>
 <connect gate="BOARD" pin="AREF" pad="AREF"/>
+<connect gate="BOARD" pin="ATN" pad="ATN"/>
 <connect gate="BOARD" pin="GND@1" pad="GND@1"/>
 <connect gate="BOARD" pin="GND@2" pad="GND@2"/>
 <connect gate="BOARD" pin="GND@3" pad="GND@3"/>
@@ -3454,6 +3461,7 @@ Samtech FTSH-105-01</description>
 <connect gate="BOARD" pin="A8/62" pad="A8"/>
 <connect gate="BOARD" pin="A9/63" pad="A9"/>
 <connect gate="BOARD" pin="AREF" pad="AREF"/>
+<connect gate="BOARD" pin="ATN" pad="ATN"/>
 <connect gate="BOARD" pin="GND@1" pad="GND@1"/>
 <connect gate="BOARD" pin="GND@2" pad="GND@2"/>
 <connect gate="BOARD" pin="GND@3" pad="GND@3"/>
@@ -3549,6 +3557,7 @@ Samtech FTSH-105-01</description>
 <connect gate="BOARD" pin="A8/62" pad="A8"/>
 <connect gate="BOARD" pin="A9/63" pad="A9"/>
 <connect gate="BOARD" pin="AREF" pad="AREF"/>
+<connect gate="BOARD" pin="ATN" pad="ATN"/>
 <connect gate="BOARD" pin="GND@1" pad="GND@1"/>
 <connect gate="BOARD" pin="GND@2" pad="GND@2"/>
 <connect gate="BOARD" pin="GND@3" pad="GND@3"/>
@@ -3619,6 +3628,7 @@ Samtech FTSH-105-01</description>
 <connect gate="BOARD" pin="A4/18/SDA" pad="A4"/>
 <connect gate="BOARD" pin="A5/19/SCL" pad="A5"/>
 <connect gate="BOARD" pin="AREF" pad="AREF"/>
+<connect gate="BOARD" pin="ATN" pad="ATN"/>
 <connect gate="BOARD" pin="GND@1" pad="GND@1"/>
 <connect gate="BOARD" pin="GND@2" pad="GND@2"/>
 <connect gate="BOARD" pin="GND@3" pad="GND@3"/>
@@ -3657,6 +3667,7 @@ Samtech FTSH-105-01</description>
 <connect gate="BOARD" pin="A4/18/SDA" pad="A4"/>
 <connect gate="BOARD" pin="A5/19/SCL" pad="A5"/>
 <connect gate="BOARD" pin="AREF" pad="AREF"/>
+<connect gate="BOARD" pin="ATN" pad="ATN"/>
 <connect gate="BOARD" pin="GND@1" pad="GND@1"/>
 <connect gate="BOARD" pin="GND@2" pad="GND@2"/>
 <connect gate="BOARD" pin="GND@3" pad="GND@3"/>
@@ -3695,6 +3706,7 @@ Samtech FTSH-105-01</description>
 <connect gate="BOARD" pin="A4/18/SDA" pad="A4"/>
 <connect gate="BOARD" pin="A5/19/SCL" pad="A5"/>
 <connect gate="BOARD" pin="AREF" pad="AREF"/>
+<connect gate="BOARD" pin="ATN" pad="ATN"/>
 <connect gate="BOARD" pin="GND@1" pad="GND@1"/>
 <connect gate="BOARD" pin="GND@2" pad="GND@2"/>
 <connect gate="BOARD" pin="GND@3" pad="GND@3"/>
@@ -3733,6 +3745,7 @@ Samtech FTSH-105-01</description>
 <connect gate="BOARD" pin="A4/18/SDA" pad="A4"/>
 <connect gate="BOARD" pin="A5/19/SCL" pad="A5"/>
 <connect gate="BOARD" pin="AREF" pad="AREF"/>
+<connect gate="BOARD" pin="ATN" pad="ATN"/>
 <connect gate="BOARD" pin="GND@1" pad="GND@1"/>
 <connect gate="BOARD" pin="GND@2" pad="GND@2"/>
 <connect gate="BOARD" pin="GND@3" pad="GND@3"/>
@@ -3779,6 +3792,7 @@ Samtech FTSH-105-01</description>
 <connect gate="BOARD" pin="A4/18/SDA" pad="A4"/>
 <connect gate="BOARD" pin="A5/19/SCL" pad="A5"/>
 <connect gate="BOARD" pin="AREF" pad="AREF"/>
+<connect gate="BOARD" pin="ATN" pad="ATN"/>
 <connect gate="BOARD" pin="GND@1" pad="GND@1"/>
 <connect gate="BOARD" pin="GND@2" pad="GND@2"/>
 <connect gate="BOARD" pin="GND@3" pad="GND@3"/>
@@ -3820,6 +3834,7 @@ Samtech FTSH-105-01</description>
 <connect gate="BOARD" pin="A4/18/SDA" pad="A4"/>
 <connect gate="BOARD" pin="A5/19/SCL" pad="A5"/>
 <connect gate="BOARD" pin="AREF" pad="AREF"/>
+<connect gate="BOARD" pin="ATN" pad="ATN"/>
 <connect gate="BOARD" pin="GND@1" pad="GND@1"/>
 <connect gate="BOARD" pin="GND@2" pad="GND@2"/>
 <connect gate="BOARD" pin="GND@3" pad="GND@3"/>
@@ -3861,6 +3876,7 @@ Samtech FTSH-105-01</description>
 <connect gate="BOARD" pin="A4/18/SDA" pad="A4"/>
 <connect gate="BOARD" pin="A5/19/SCL" pad="A5"/>
 <connect gate="BOARD" pin="AREF" pad="AREF"/>
+<connect gate="BOARD" pin="ATN" pad="ATN"/>
 <connect gate="BOARD" pin="GND@1" pad="GND@1"/>
 <connect gate="BOARD" pin="GND@2" pad="GND@2"/>
 <connect gate="BOARD" pin="GND@3" pad="GND@3"/>
@@ -3902,6 +3918,7 @@ Samtech FTSH-105-01</description>
 <connect gate="BOARD" pin="A4/18/SDA" pad="A4"/>
 <connect gate="BOARD" pin="A5/19/SCL" pad="A5"/>
 <connect gate="BOARD" pin="AREF" pad="AREF"/>
+<connect gate="BOARD" pin="ATN" pad="ATN"/>
 <connect gate="BOARD" pin="GND@1" pad="GND@1"/>
 <connect gate="BOARD" pin="GND@2" pad="GND@2"/>
 <connect gate="BOARD" pin="GND@3" pad="GND@3"/>
@@ -3943,6 +3960,7 @@ Samtech FTSH-105-01</description>
 <connect gate="BOARD" pin="A4/18/SDA" pad="A4"/>
 <connect gate="BOARD" pin="A5/19/SCL" pad="A5"/>
 <connect gate="BOARD" pin="AREF" pad="AREF"/>
+<connect gate="BOARD" pin="ATN" pad="ATN"/>
 <connect gate="BOARD" pin="GND@1" pad="GND@1"/>
 <connect gate="BOARD" pin="GND@2" pad="GND@2"/>
 <connect gate="BOARD" pin="GND@3" pad="GND@3"/>
@@ -3984,6 +4002,7 @@ Samtech FTSH-105-01</description>
 <connect gate="BOARD" pin="A4/18/SDA" pad="A4"/>
 <connect gate="BOARD" pin="A5/19/SCL" pad="A5"/>
 <connect gate="BOARD" pin="AREF" pad="AREF"/>
+<connect gate="BOARD" pin="ATN" pad="ATN"/>
 <connect gate="BOARD" pin="GND@1" pad="GND@1"/>
 <connect gate="BOARD" pin="GND@2" pad="GND@2"/>
 <connect gate="BOARD" pin="GND@3" pad="GND@3 GND@4"/>
@@ -4025,6 +4044,7 @@ Samtech FTSH-105-01</description>
 <connect gate="BOARD" pin="A4/18/SDA" pad="A4"/>
 <connect gate="BOARD" pin="A5/19/SCL" pad="A5"/>
 <connect gate="BOARD" pin="AREF" pad="AREF"/>
+<connect gate="BOARD" pin="ATN" pad="ATN"/>
 <connect gate="BOARD" pin="GND@1" pad="GND@1"/>
 <connect gate="BOARD" pin="GND@2" pad="GND@2"/>
 <connect gate="BOARD" pin="GND@3" pad="GND@3 GND@4"/>
@@ -4738,6 +4758,7 @@ TMC2130 - SPI for configuration&lt;br&gt;
 <connect gate="BOARD" pin="A8/62" pad="A8"/>
 <connect gate="BOARD" pin="A9/63" pad="A9"/>
 <connect gate="BOARD" pin="AREF" pad="AREF"/>
+<connect gate="BOARD" pin="ATN" pad="ATN"/>
 <connect gate="BOARD" pin="GND@1" pad="GND@1 GND@6 GND@7 PWR-@1 PWR-@2 USB-"/>
 <connect gate="BOARD" pin="GND@2" pad="GND@2"/>
 <connect gate="BOARD" pin="GND@3" pad="GND@3"/>
