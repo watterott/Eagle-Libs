@@ -6301,7 +6301,9 @@ Molex 1051330011</description>
 </devices>
 </deviceset>
 <deviceset name="SD-CARD" prefix="SD">
-<description>SD-Card Sockets</description>
+<description>SD-Card Sockets&lt;br&gt;
+&lt;br&gt;
+Molex 5031821853 compatible with 5031821852 and 5031821832</description>
 <gates>
 <gate name="SD" symbol="SD-CARD" x="0" y="0"/>
 </gates>

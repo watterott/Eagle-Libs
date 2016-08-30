@@ -71,7 +71,7 @@
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>Arduino, Raspberry Pi...</description>
+<description>Boards: Arduino/Genuino, Raspberry Pi...</description>
 <packages>
 <package name="RPI_CON">
 <wire x1="-16.51" y1="2.54" x2="-16.51" y2="0" width="0.1524" layer="21"/>
