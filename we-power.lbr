@@ -71,7 +71,7 @@
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>V-Reg, Power Inductors...</description>
+<description>Batteries, V-Reg, Power Inductors...</description>
 <packages>
 <package name="SOT23">
 <wire x1="0.65" y1="-1.4" x2="-0.65" y2="-1.4" width="0.127" layer="21"/>

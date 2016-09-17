@@ -4033,7 +4033,9 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <wire x1="-1.27" y1="5" x2="0" y2="5" width="0.3048" layer="21"/>
 <wire x1="-1.27" y1="1" x2="0" y2="1" width="0.3048" layer="21"/>
 </package>
-<package name="JST_S4B-PH-KL">
+<package name="JST_S4B-PH-K">
+<description>S4B-PH-K - normal insertion force&lt;br&gt;
+S4B-PH-KL - low insertion force</description>
 <wire x1="1.75" y1="5" x2="-6.25" y2="5" width="0.127" layer="21"/>
 <wire x1="-6.25" y1="5" x2="-6.25" y2="4" width="0.127" layer="21"/>
 <wire x1="-6.25" y1="4" x2="-6.25" y2="-4" width="0.127" layer="21"/>
@@ -4060,7 +4062,9 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <pad name="4" x="0" y="-3" drill="0.8" diameter="1.3"/>
 <text x="2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 </package>
-<package name="JST_S3B-PH-KL">
+<package name="JST_S3B-PH-K">
+<description>S3B-PH-K - normal insertion force&lt;br&gt;
+S3B-PH-KL - low insertion force</description>
 <wire x1="1.75" y1="4" x2="-6.25" y2="4" width="0.127" layer="21"/>
 <wire x1="-6.25" y1="4" x2="-6.25" y2="3" width="0.127" layer="21"/>
 <wire x1="-6.25" y1="3" x2="-6.25" y2="-3" width="0.127" layer="21"/>
@@ -4084,7 +4088,9 @@ HFW4R-2STE1LF -&gt; top contact&lt;br&gt;</description>
 <pad name="3" x="0" y="-2" drill="0.8" diameter="1.3"/>
 <text x="2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 </package>
-<package name="JST_S2B-PH-KL">
+<package name="JST_S2B-PH-K">
+<description>S2B-PH-K - normal insertion force&lt;br&gt;
+S2B-PH-KL - low insertion force</description>
 <wire x1="2.75" y1="2" x2="-5.25" y2="2" width="0.127" layer="21"/>
 <wire x1="-5.25" y1="2" x2="-5.25" y2="1" width="0.127" layer="21"/>
 <wire x1="-5.25" y1="1" x2="-5.25" y2="-3" width="0.127" layer="21"/>
@@ -4273,7 +4279,9 @@ Molex 1051330011</description>
 <wire x1="-0.55" y1="-4" x2="0.45" y2="-3" width="0.127" layer="21"/>
 <wire x1="-0.55" y1="4" x2="0.45" y2="3" width="0.127" layer="21"/>
 </package>
-<package name="JST_B3B-PH-KS">
+<package name="JST_B3B-PH-K">
+<description>B3B-PH-K - normal insertion force&lt;br&gt;
+B3B-PH-KL - low insertion force</description>
 <wire x1="1.7" y1="4" x2="-2.8" y2="4" width="0.127" layer="21"/>
 <wire x1="-2.8" y1="-4" x2="1.7" y2="-4" width="0.127" layer="21"/>
 <wire x1="1.7" y1="-4" x2="1.7" y2="-1.2" width="0.127" layer="21"/>
@@ -4317,7 +4325,9 @@ Molex 1051330011</description>
 <wire x1="1.2" y1="1.2" x2="1.7" y2="1.2" width="0.127" layer="21"/>
 <wire x1="1.2" y1="-1.2" x2="1.7" y2="-1.2" width="0.127" layer="21"/>
 </package>
-<package name="JST_B2B-PH-KS">
+<package name="JST_B2B-PH-K">
+<description>B2B-PH-K - normal insertion force&lt;br&gt;
+B2B-PH-KL - low insertion force</description>
 <wire x1="1.7" y1="3" x2="-2.8" y2="3" width="0.127" layer="21"/>
 <wire x1="-2.8" y1="-3" x2="1.7" y2="-3" width="0.127" layer="21"/>
 <wire x1="1.7" y1="-3" x2="1.7" y2="-1.2" width="0.127" layer="21"/>
@@ -4331,7 +4341,9 @@ Molex 1051330011</description>
 <wire x1="1.2" y1="1.2" x2="1.7" y2="1.2" width="0.127" layer="21"/>
 <wire x1="1.2" y1="-1.2" x2="1.7" y2="-1.2" width="0.127" layer="21"/>
 </package>
-<package name="JST_B4B-PH-KS">
+<package name="JST_B4B-PH-K">
+<description>B4B-PH-K - normal insertion force&lt;br&gt;
+B4B-PH-KL - low insertion force</description>
 <wire x1="1.7" y1="5" x2="-2.8" y2="5" width="0.127" layer="21"/>
 <wire x1="-2.8" y1="-5" x2="1.7" y2="-5" width="0.127" layer="21"/>
 <wire x1="1.7" y1="-5" x2="1.7" y2="-1.2" width="0.127" layer="21"/>
@@ -4417,7 +4429,9 @@ Molex 1051330011</description>
 <text x="-3.175" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <wire x1="-2.54" y1="1.905" x2="-1.905" y2="2.54" width="0.127" layer="21"/>
 </package>
-<package name="JST_S6B-PH-KL">
+<package name="JST_S6B-PH-K">
+<description>S6B-PH-K - normal insertion force&lt;br&gt;
+S6B-PH-KL - low insertion force</description>
 <wire x1="1.75" y1="7" x2="-6.25" y2="7" width="0.127" layer="21"/>
 <wire x1="-6.25" y1="7" x2="-6.25" y2="6" width="0.127" layer="21"/>
 <wire x1="-6.25" y1="6" x2="-6.25" y2="-6" width="0.127" layer="21"/>
@@ -4475,7 +4489,9 @@ Molex 1051330011</description>
 <wire x1="5" y1="-5.5" x2="5" y2="-6.25" width="0.127" layer="21"/>
 <text x="2.405" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 </package>
-<package name="JST_B6B-PH-KS">
+<package name="JST_B6B-PH-K">
+<description>B6B-PH-K - normal insertion force&lt;br&gt;
+B6B-PH-KL - low insertion force</description>
 <wire x1="1.7" y1="7" x2="-2.8" y2="7" width="0.127" layer="21"/>
 <wire x1="-2.8" y1="-7" x2="1.7" y2="-7" width="0.127" layer="21"/>
 <wire x1="1.7" y1="-7" x2="1.7" y2="-1.2" width="0.127" layer="21"/>
@@ -7882,7 +7898,7 @@ FCI 62684-501100AHLF -&gt; 50 Pins 0.5mm bottom contact&lt;br&gt;</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-S3B-PH-KL" package="JST_S3B-PH-KL">
+<device name="-S3B-PH-K" package="JST_S3B-PH-K">
 <connects>
 <connect gate="J" pin="1" pad="1"/>
 <connect gate="J" pin="2" pad="2"/>
@@ -7892,7 +7908,7 @@ FCI 62684-501100AHLF -&gt; 50 Pins 0.5mm bottom contact&lt;br&gt;</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-B3B-PH-KS" package="JST_B3B-PH-KS">
+<device name="-B3B-PH-K" package="JST_B3B-PH-K">
 <connects>
 <connect gate="J" pin="1" pad="1"/>
 <connect gate="J" pin="2" pad="2"/>
@@ -8101,7 +8117,7 @@ FCI HFW4R-2STE1LF -&gt; 4 Pin 1mm top contact&lt;br&gt;</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-S4B-PH-KL" package="JST_S4B-PH-KL">
+<device name="-S4B-PH-K" package="JST_S4B-PH-K">
 <connects>
 <connect gate="J" pin="1" pad="1"/>
 <connect gate="J" pin="2" pad="2"/>
@@ -8112,7 +8128,7 @@ FCI HFW4R-2STE1LF -&gt; 4 Pin 1mm top contact&lt;br&gt;</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-B4B-PH-KS" package="JST_B4B-PH-KS">
+<device name="-B4B-PH-K" package="JST_B4B-PH-K">
 <connects>
 <connect gate="J" pin="1" pad="1"/>
 <connect gate="J" pin="2" pad="2"/>
@@ -8144,7 +8160,7 @@ FCI HFW4R-2STE1LF -&gt; 4 Pin 1mm top contact&lt;br&gt;</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-S6B-PH-KL" package="JST_S6B-PH-KL">
+<device name="-S6B-PH-K" package="JST_S6B-PH-K">
 <connects>
 <connect gate="J" pin="1" pad="1"/>
 <connect gate="J" pin="2" pad="2"/>
@@ -8157,7 +8173,7 @@ FCI HFW4R-2STE1LF -&gt; 4 Pin 1mm top contact&lt;br&gt;</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-B6B-PH-KS" package="JST_B6B-PH-KS">
+<device name="-B6B-PH-K" package="JST_B6B-PH-K">
 <connects>
 <connect gate="J" pin="1" pad="1"/>
 <connect gate="J" pin="2" pad="2"/>
@@ -8178,7 +8194,7 @@ FCI HFW4R-2STE1LF -&gt; 4 Pin 1mm top contact&lt;br&gt;</description>
 <gate name="J" symbol="MA02-1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-S2B-PH-KL" package="JST_S2B-PH-KL">
+<device name="-S2B-PH-K" package="JST_S2B-PH-K">
 <connects>
 <connect gate="J" pin="1" pad="2"/>
 <connect gate="J" pin="2" pad="1"/>
@@ -8196,7 +8212,7 @@ FCI HFW4R-2STE1LF -&gt; 4 Pin 1mm top contact&lt;br&gt;</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-B2B-PH-KS" package="JST_B2B-PH-KS">
+<device name="-B2B-PH-K" package="JST_B2B-PH-K">
 <connects>
 <connect gate="J" pin="1" pad="2"/>
 <connect gate="J" pin="2" pad="1"/>

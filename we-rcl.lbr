@@ -71,7 +71,7 @@
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>R, C, L, Pot, Jumper, Diodes, Crystals</description>
+<description>R, C, L, Pot, Jumper, Diodes, Crystals...</description>
 <packages>
 <package name="CRYSTAL_72X30">
 <wire x1="-1.5" y1="3.6" x2="-1.5" y2="-3.6" width="0.127" layer="21"/>
@@ -1205,7 +1205,7 @@
 <text x="-5.715" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 <text x="-3.175" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center">&gt;VALUE</text>
 </package>
-<package name="E3,5-10">
+<package name="E3.5-10">
 <description>grid 3.5mm, diameter 10mm</description>
 <wire x1="1.143" y1="3.429" x2="1.143" y2="2.667" width="0.127" layer="21"/>
 <wire x1="0.762" y1="3.048" x2="1.524" y2="3.048" width="0.127" layer="21"/>
@@ -1278,24 +1278,22 @@
 <text x="-5.08" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="2.54" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 </package>
-<package name="E5-8,5">
-<description>grid 5mm, diameter 8.5mm</description>
-<wire x1="0" y1="1.143" x2="0" y2="0.889" width="0.127" layer="21"/>
+<package name="E5-10">
+<description>grid 5mm, diameter 10mm</description>
 <wire x1="0" y1="0.889" x2="-1.143" y2="0.889" width="0.127" layer="21"/>
 <wire x1="-1.143" y1="0.889" x2="-1.143" y2="0.254" width="0.127" layer="21"/>
 <wire x1="-1.143" y1="0.254" x2="1.143" y2="0.254" width="0.127" layer="21"/>
 <wire x1="1.143" y1="0.254" x2="1.143" y2="0.889" width="0.127" layer="21"/>
 <wire x1="1.143" y1="0.889" x2="0" y2="0.889" width="0.127" layer="21"/>
-<wire x1="0" y1="-0.635" x2="0" y2="-1.143" width="0.127" layer="21"/>
 <wire x1="2.032" y1="3.302" x2="1.27" y2="3.302" width="0.127" layer="21"/>
 <wire x1="1.651" y1="3.683" x2="1.651" y2="2.921" width="0.127" layer="21"/>
-<wire x1="0" y1="-1.143" x2="0" y2="-1.651" width="0.127" layer="21"/>
-<wire x1="0" y1="1.651" x2="0" y2="1.143" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="4.25" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.635" x2="0" y2="-1.651" width="0.127" layer="21"/>
+<wire x1="0" y1="1.651" x2="0" y2="0.889" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="5" width="0.127" layer="21"/>
 <pad name="+" x="0" y="2.5" drill="1" diameter="2.5" rot="R270"/>
 <pad name="-" x="0" y="-2.5" drill="1" diameter="2.5" shape="octagon" rot="R270"/>
 <rectangle x1="-0.3175" y1="-1.7145" x2="0.3175" y2="0.5715" layer="21" rot="R270"/>
-<text x="-5.08" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<text x="-6.35" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="2.54" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 </package>
 <package name="PAD-0.80-1.40">
@@ -2635,7 +2633,7 @@ Ferrite Bead&lt;br&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="-E3.5-10" package="E3,5-10">
+<device name="-E3.5-10" package="E3.5-10">
 <connects>
 <connect gate="C" pin="+" pad="+"/>
 <connect gate="C" pin="-" pad="-"/>
@@ -2653,7 +2651,7 @@ Ferrite Bead&lt;br&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="-3.5-8" package="E3.5-8">
+<device name="-E3.5-8" package="E3.5-8">
 <connects>
 <connect gate="C" pin="+" pad="+"/>
 <connect gate="C" pin="-" pad="-"/>
@@ -2662,7 +2660,7 @@ Ferrite Bead&lt;br&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="-E5-8.5" package="E5-8,5">
+<device name="-E5-10" package="E5-10">
 <connects>
 <connect gate="C" pin="+" pad="+"/>
 <connect gate="C" pin="-" pad="-"/>

@@ -71,7 +71,7 @@
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>Symbols, Logos...</description>
+<description>Symbols, Logos, Fiducials...</description>
 <packages>
 <package name="LOGO_TPLACE">
 <rectangle x1="30.8928" y1="0.324" x2="30.9308" y2="0.362" layer="21"/>
