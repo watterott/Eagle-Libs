@@ -4047,7 +4047,7 @@
 <text x="-10.16" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="P17" x="15.24" y="-20.32" length="middle" rot="R180"/>
 </symbol>
-<symbol name="TMC2100">
+<symbol name="TMC21X0">
 <pin name="TST_MODE" x="20.32" y="-35.56" length="middle" rot="R180"/>
 <pin name="CLK" x="-20.32" y="-20.32" length="middle"/>
 <pin name="CSN_CFG3" x="-20.32" y="-7.62" length="middle"/>
@@ -5361,10 +5361,10 @@ Upstream</text>
 </devices>
 </deviceset>
 <deviceset name="24LC*" prefix="IC">
-<description>Microchip I2C EEPROM
+<description>Microchip I2C EEPROM&lt;br&gt;
 &lt;br&gt;
 2 Kbit - 24LC02B - 24LC02BT-I/OTDKR-ND&lt;br&gt;
-32 Kbit- 24LC32A - 24LC32AT-I/OTDKR-ND&lt;br&gt;</description>
+32 Kbit - 24LC32A - 24LC32AT-I/OTDKR-ND&lt;br&gt;</description>
 <gates>
 <gate name="IC" symbol="I2C_EEPROM" x="0" y="0"/>
 </gates>
@@ -6146,10 +6146,13 @@ BT 4.1 Low Energy (BLE)</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TMC2100" prefix="IC">
-<description>Trinamic TMC2100 Stepper Motor Driver (5V...46V, 1.2A RMS, 256 microsteps)</description>
+<deviceset name="TMC21X0" prefix="IC">
+<description>Trinamic TMC21x0 Stepper Motor Driver (5V...46V, 1.2A RMS, 256 microsteps)&lt;br&gt;
+&lt;br&gt;
+TMC2100 - CFG pins for configuration (standalone)&lt;br&gt;
+TMC2130 - SPI for configuration&lt;br&gt;</description>
 <gates>
-<gate name="IC" symbol="TMC2100" x="0" y="0"/>
+<gate name="IC" symbol="TMC21X0" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-LA" package="QFN36-PAD">

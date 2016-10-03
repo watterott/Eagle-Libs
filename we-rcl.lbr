@@ -71,7 +71,7 @@
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>R, C, L, Pot, Jumper, Diodes, Crystals...</description>
+<description>R, C, L, Diodes, Crystals, Pot, Jumper...</description>
 <packages>
 <package name="CRYSTAL_72X30">
 <wire x1="-1.5" y1="3.6" x2="-1.5" y2="-3.6" width="0.127" layer="21"/>
@@ -1319,6 +1319,20 @@
 <text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="2.54" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 </package>
+<package name="SOD123">
+<wire x1="0.85" y1="-1" x2="0.85" y2="1" width="0.127" layer="21"/>
+<wire x1="-0.85" y1="-1" x2="-0.85" y2="1" width="0.127" layer="21"/>
+<wire x1="0.6" y1="-0.627" x2="0" y2="0.373" width="0.127" layer="21"/>
+<wire x1="0" y1="0.373" x2="-0.6" y2="-0.627" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="-0.627" x2="0.6" y2="-0.627" width="0.127" layer="21"/>
+<smd name="C" x="0" y="1.6" dx="1.2" dy="1" layer="1" roundness="20"/>
+<smd name="A" x="0" y="-1.6" dx="1.2" dy="1" layer="1" roundness="20"/>
+<text x="-1.905" y="0" size="0.8128" layer="25" font="vector" rot="R270" align="center">&gt;NAME</text>
+<text x="1.905" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center">&gt;VALUE</text>
+<rectangle x1="-0.2523" y1="0.3477" x2="0.2523" y2="2.1477" layer="21" rot="R270"/>
+<rectangle x1="-0.25" y1="-2.15" x2="0.25" y2="-0.35" layer="21" rot="R270"/>
+<rectangle x1="-0.3048" y1="-0.2286" x2="0.3048" y2="1.3462" layer="21" rot="R270"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CRYSTAL_RES">
@@ -2314,6 +2328,15 @@ all kinds in 0402 and 0603</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="-SOD123" package="SOD123">
+<connects>
+<connect gate="D" pin="A" pad="A"/>
+<connect gate="D" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="FUSE" prefix="F" uservalue="yes">
@@ -2531,7 +2554,7 @@ Ferrite Bead&lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="D_SCHOTTKY" prefix="D" uservalue="yes">
-<description>Schottky Diodes</description>
+<description>Schottky Diodes&lt;br&gt;</description>
 <gates>
 <gate name="D" symbol="SCHOTTKY" x="0" y="0"/>
 </gates>
@@ -2591,6 +2614,15 @@ Ferrite Bead&lt;br&gt;
 </technologies>
 </device>
 <device name="-SMC" package="SMC_DO214AB">
+<connects>
+<connect gate="D" pin="A" pad="A"/>
+<connect gate="D" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SOD123" package="SOD123">
 <connects>
 <connect gate="D" pin="A" pad="A"/>
 <connect gate="D" pin="C" pad="C"/>
