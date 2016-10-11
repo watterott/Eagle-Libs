@@ -550,10 +550,10 @@
 </devices>
 </deviceset>
 <deviceset name="SW_NAV_TSW" prefix="SW">
-<description>C&amp;K TSWB-3N-CB111-LFS central select with jog and 4 directions (dial &amp; direction ring)
-
-white - TSWB-3N-CB111 LFS
-black - TSWB-3N-CB222 LFS</description>
+<description>C&amp;K TSWB-3N-CB111-LFS central select with jog and 4 directions (dial &amp; direction ring)&lt;br&gt;
+&lt;br&gt;
+white - TSWB-3N-CB111 LFS&lt;br&gt;
+black - TSWB-3N-CB222 LFS&lt;br&gt;</description>
 <gates>
 <gate name="SW" symbol="TSWB3NCB111LFS" x="0" y="0"/>
 </gates>
@@ -577,6 +577,7 @@ black - TSWB-3N-CB222 LFS</description>
 </devices>
 </deviceset>
 <deviceset name="SW-1UM" prefix="S">
+<description>Switch</description>
 <gates>
 <gate name="SW" symbol="SWITCH-1UM" x="0" y="0"/>
 </gates>

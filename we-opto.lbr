@@ -1352,7 +1352,7 @@ red, green, blue -&gt; 0603</description>
 </devices>
 </deviceset>
 <deviceset name="ER-TFT" prefix="LCD">
-<description>ER TFT Displays
+<description>ER TFT Displays&lt;br&gt;
 &lt;br&gt;
 TFT043-3 - 4.3" 480x272 (LED 15mA @ 25.0V)&lt;br&gt;
 TFT050-3 - 5.0" 800x480 (LED @ 40mA @ 19.2V)&lt;br&gt;

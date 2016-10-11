@@ -7360,6 +7360,7 @@ Molex 5031821853 compatible with 5031821852 and 5031821832</description>
 </deviceset>
 <deviceset name="FPC50" prefix="J">
 <description>FPC/ZIF Connector&lt;br&gt;
+&lt;br&gt;
 FCI 62684-502100AHLF -&gt; 50 Pins 0.5mm top contact&lt;br&gt;
 FCI 62684-501100AHLF -&gt; 50 Pins 0.5mm bottom contact&lt;br&gt;</description>
 <gates>
@@ -7430,6 +7431,7 @@ FCI 62684-501100AHLF -&gt; 50 Pins 0.5mm bottom contact&lt;br&gt;</description>
 </deviceset>
 <deviceset name="FPC40" prefix="J">
 <description>FPC/ZIF Connector&lt;br&gt;
+&lt;br&gt;
 FCI 62684-402100AHLF -&gt; 40 Pins 0.5mm top contact&lt;br&gt;
 FCI 62684-401100AHLF -&gt; 40 Pins 0.5mm bottom contact&lt;br&gt;</description>
 <gates>
@@ -7656,6 +7658,7 @@ FCI 62684-401100AHLF -&gt; 40 Pins 0.5mm bottom contact&lt;br&gt;</description>
 </deviceset>
 <deviceset name="FPC40_PIN" prefix="J">
 <description>FPC/ZIF Connector&lt;br&gt;
+&lt;br&gt;
 FCI 62684-402100AHLF -&gt; 40 Pins 0.5mm top contact&lt;br&gt;
 FCI 62684-401100AHLF -&gt; 40 Pins 0.5mm bottom contact&lt;br&gt;</description>
 <gates>
@@ -7755,6 +7758,7 @@ FCI 62684-401100AHLF -&gt; 40 Pins 0.5mm bottom contact&lt;br&gt;</description>
 </deviceset>
 <deviceset name="FPC50_PIN" prefix="J">
 <description>FPC/ZIF Connector&lt;br&gt;
+&lt;br&gt;
 FCI 62684-502100AHLF -&gt; 50 Pins 0.5mm top contact&lt;br&gt;
 FCI 62684-501100AHLF -&gt; 50 Pins 0.5mm bottom contact&lt;br&gt;</description>
 <gates>
@@ -7932,6 +7936,7 @@ FCI 62684-501100AHLF -&gt; 50 Pins 0.5mm bottom contact&lt;br&gt;</description>
 </deviceset>
 <deviceset name="FPC06" prefix="J">
 <description>FPC/ZIF Connector&lt;br&gt;
+&lt;br&gt;
 Molex 5034800600 -&gt; 6 Pins 0.5mm top+bottom contact&lt;br&gt;</description>
 <gates>
 <gate name="J" symbol="FPC06" x="0" y="0"/>
@@ -7969,6 +7974,7 @@ Molex 5034800600 -&gt; 6 Pins 0.5mm top+bottom contact&lt;br&gt;</description>
 </deviceset>
 <deviceset name="FPC04" prefix="J">
 <description>FPC/ZIF Connector&lt;br&gt;
+&lt;br&gt;
 FCI HFW4R-1STE1LF -&gt; 4 Pin 1mm bottom contact&lt;br&gt;
 FCI HFW4R-2STE1LF -&gt; 4 Pin 1mm top contact&lt;br&gt;</description>
 <gates>
@@ -8224,7 +8230,7 @@ FCI HFW4R-2STE1LF -&gt; 4 Pin 1mm top contact&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="MAG-JACK" prefix="J">
-<description>RJ45 connector with integrated magnetics
+<description>RJ45 connector with integrated magnetics (MagJack)&lt;br&gt;
 &lt;br&gt;
 Wuerth 7499011222A (THT)&lt;br&gt;
 Taimag RJSL-002TC1 (SMD, Low Profile)&lt;br&gt;</description>
