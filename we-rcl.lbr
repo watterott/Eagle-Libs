@@ -1383,6 +1383,16 @@
 <rectangle x1="0.55" y1="0.6" x2="0.95" y2="0.9" layer="21"/>
 <circle x="-0.25" y="0.75" radius="0.15" width="0.127" layer="21"/>
 </package>
+<package name="PAD-0.7">
+<description>Pad with cream</description>
+<smd name="1" x="0" y="0" dx="0.7" dy="0.7" layer="1" roundness="100"/>
+<text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+</package>
+<package name="PAD-0.7_NC">
+<description>Pad without cream</description>
+<smd name="1" x="0" y="0" dx="0.7" dy="0.7" layer="1" roundness="100" cream="no"/>
+<text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CRYSTAL_RES">
@@ -2185,7 +2195,7 @@ all kinds in 0402 and 0603</description>
 </devices>
 </deviceset>
 <deviceset name="PAD" prefix="X">
-<description>Pads</description>
+<description>Pads and Test-Points</description>
 <gates>
 <gate name="X" symbol="PAD" x="0" y="0"/>
 </gates>
@@ -2303,6 +2313,22 @@ all kinds in 0402 and 0603</description>
 </technologies>
 </device>
 <device name="-0.80-1.40" package="PAD-0.80-1.40">
+<connects>
+<connect gate="X" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0.7" package="PAD-0.7">
+<connects>
+<connect gate="X" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0.7_NC" package="PAD-0.7_NC">
 <connects>
 <connect gate="X" pin="P" pad="1"/>
 </connects>

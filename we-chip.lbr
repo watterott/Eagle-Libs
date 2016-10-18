@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3218,6 +3218,30 @@
 <text x="0" y="1.27" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-1.27" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 </package>
+<package name="MSOP10-PAD">
+<smd name="1" x="-2.3" y="1" dx="1.65" dy="0.28" layer="1" roundness="20"/>
+<smd name="2" x="-2.3" y="0.5" dx="1.65" dy="0.28" layer="1" roundness="20"/>
+<smd name="3" x="-2.3" y="0" dx="1.65" dy="0.28" layer="1" roundness="20"/>
+<smd name="4" x="-2.3" y="-0.5" dx="1.65" dy="0.28" layer="1" roundness="20"/>
+<smd name="5" x="-2.3" y="-1" dx="1.65" dy="0.28" layer="1" roundness="20"/>
+<smd name="6" x="2.3" y="-1" dx="1.65" dy="0.28" layer="1" roundness="20"/>
+<smd name="7" x="2.3" y="-0.5" dx="1.65" dy="0.28" layer="1" roundness="20"/>
+<smd name="8" x="2.3" y="0" dx="1.65" dy="0.28" layer="1"/>
+<smd name="9" x="2.3" y="0.5" dx="1.65" dy="0.28" layer="1" roundness="20"/>
+<smd name="10" x="2.3" y="1" dx="1.65" dy="0.28" layer="1" roundness="20"/>
+<smd name="TP" x="0" y="0" dx="1.73" dy="2" layer="1" roundness="10" cream="no"/>
+<text x="-0.095" y="2.5" size="0.8128" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="0.8128" layer="27" font="vector" align="center">&gt;VALUE</text>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="-1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
+<circle x="-0.6" y="1" radius="0.2" width="0.127" layer="21"/>
+<wire x1="-1" y1="1.5" x2="-1" y2="-1.5" width="0.127" layer="21"/>
+<rectangle x1="-0.3" y1="-0.75" x2="0.3" y2="0.75" layer="31"/>
+</package>
 </packages>
 <symbols>
 <symbol name="74244">
@@ -4881,6 +4905,24 @@ Upstream</text>
 <pin name="VCCIO" x="-27.94" y="-33.02" length="middle" direction="pwr"/>
 <pin name="VCCIN" x="-27.94" y="-27.94" length="middle" direction="pwr"/>
 <pin name="VCCCORE" x="-27.94" y="-38.1" length="middle" direction="pwr"/>
+</symbol>
+<symbol name="A3909">
+<pin name="IN1" x="-15.24" y="7.62" length="middle"/>
+<pin name="IN2" x="-15.24" y="5.08" length="middle"/>
+<pin name="IN3" x="-15.24" y="0" length="middle"/>
+<pin name="IN4" x="-15.24" y="-2.54" length="middle"/>
+<pin name="OUT4" x="15.24" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="OUT3" x="15.24" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="OUT2" x="15.24" y="5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="OUT1" x="15.24" y="7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="GND" x="-15.24" y="-10.16" length="middle" direction="pwr"/>
+<pin name="VBB" x="-15.24" y="-7.62" length="middle" direction="pwr"/>
+<wire x1="-10.16" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<text x="-10.16" y="12.7" size="1.9304" layer="95" align="top-left">&gt;NAME</text>
+<text x="-10.16" y="-15.24" size="1.9304" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -7530,6 +7572,31 @@ MR510PB - ATWINC1500 + SAM D21 + ATECC508&lt;br&gt;</description>
 <connect gate="IC" pin="PB7(XTAL2)" pad="8"/>
 <connect gate="IC" pin="PC6(!RESET!)" pad="29"/>
 <connect gate="IC" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A3909" prefix="IC">
+<description>Allegro A3909 Dual Full Bridge Motor Driver (4-18V)</description>
+<gates>
+<gate name="IC" symbol="A3909" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-LY" package="MSOP10-PAD">
+<connects>
+<connect gate="IC" pin="GND" pad="8 TP"/>
+<connect gate="IC" pin="IN1" pad="1"/>
+<connect gate="IC" pin="IN2" pad="2"/>
+<connect gate="IC" pin="IN3" pad="4"/>
+<connect gate="IC" pin="IN4" pad="5"/>
+<connect gate="IC" pin="OUT1" pad="10"/>
+<connect gate="IC" pin="OUT2" pad="9"/>
+<connect gate="IC" pin="OUT3" pad="7"/>
+<connect gate="IC" pin="OUT4" pad="6"/>
+<connect gate="IC" pin="VBB" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
