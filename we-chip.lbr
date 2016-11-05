@@ -2671,6 +2671,8 @@
 <text x="0" y="-1.27" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <smd name="17" x="8.6" y="0.4" dx="2" dy="1" layer="1" roundness="20"/>
 <smd name="18" x="8.6" y="1.9" dx="2" dy="1" layer="1" roundness="20"/>
+<smd name="TP" x="1.12" y="-4.68" dx="4.3" dy="4.3" layer="1" roundness="10" rot="R90" cream="no"/>
+<rectangle x1="0.32" y1="-5.48" x2="1.92" y2="-3.88" layer="31"/>
 </package>
 <package name="UDFN8">
 <smd name="1" x="-1.475" y="0.75" dx="0.7" dy="0.28" layer="1" roundness="20"/>
@@ -3290,7 +3292,7 @@
 <rectangle x1="1.5" y1="0.8" x2="2.5" y2="1.8" layer="31"/>
 <rectangle x1="-2.5" y1="-3.2" x2="-1.5" y2="-2.2" layer="31"/>
 <rectangle x1="1.5" y1="-3.2" x2="2.5" y2="-2.2" layer="31"/>
-<rectangle x1="-1" y1="-1.7" x2="1" y2="0.3" layer="31"/>
+<rectangle x1="-0.8" y1="-1.5" x2="0.8" y2="0.1" layer="31"/>
 <wire x1="-8" y1="7.6" x2="8" y2="7.6" width="0.127" layer="21"/>
 <wire x1="8" y1="7.6" x2="8" y2="-10" width="0.127" layer="21"/>
 <wire x1="8" y1="-10" x2="-8" y2="-10" width="0.127" layer="21"/>
@@ -4477,13 +4479,13 @@
 <pin name="MOSI/IO13" x="17.78" y="-5.08" length="middle" rot="R180"/>
 <pin name="VCC" x="-17.78" y="-10.16" length="middle" direction="pwr"/>
 <pin name="GND" x="-17.78" y="-15.24" length="middle" direction="pwr"/>
-<pin name="CS/IO15" x="17.78" y="-10.16" length="middle" rot="R180"/>
-<pin name="IO2" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="SCS/IO15" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="TXD2/IO2" x="17.78" y="7.62" length="middle" rot="R180"/>
 <pin name="BL/IO0" x="17.78" y="12.7" length="middle" rot="R180"/>
-<pin name="SDA/IO4" x="17.78" y="2.54" length="middle" rot="R180"/>
-<pin name="SCL/IO5" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="RXD/IO3" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="TXD/IO1" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="IO4" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="IO5" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="RXD0/IO3" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="TXD0/IO1" x="17.78" y="10.16" length="middle" rot="R180"/>
 <text x="-12.7" y="17.78" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-12.7" y="-20.32" size="1.778" layer="95">&gt;Value</text>
 </symbol>
@@ -5009,7 +5011,7 @@ Upstream</text>
 <pin name="TXD2/IO17" x="20.32" y="-7.62" length="middle" rot="R180"/>
 <pin name="RXD2/IO16" x="20.32" y="-5.08" length="middle" rot="R180"/>
 <pin name="HSHD/A2C0/IO4" x="20.32" y="25.4" length="middle" rot="R180"/>
-<pin name="A2C1/IO0" x="20.32" y="35.56" length="middle" rot="R180"/>
+<pin name="BL/A2C1/IO0" x="20.32" y="35.56" length="middle" rot="R180"/>
 <pin name="HSWP/A2C2/IO2" x="20.32" y="30.48" length="middle" rot="R180"/>
 <pin name="HSCS/A2C3/IO15" x="20.32" y="-2.54" length="middle" rot="R180"/>
 <pin name="SDI/IO8" x="20.32" y="15.24" length="middle" rot="R180"/>
@@ -6213,7 +6215,9 @@ BT 4.1 Low Energy (BLE)</description>
 </devices>
 </deviceset>
 <deviceset name="CP2102N" prefix="IC">
-<description>Silabs CP2102N USB to UART Bridge (5V tolerant inputs)</description>
+<description>Silabs CP2102N USB to UART Bridge (5V tolerant inputs)&lt;br&gt;
+&lt;br&gt;
+CP2102N-QFN24 is pin-compatible with CP2104.</description>
 <gates>
 <gate name="IC" symbol="CP2102N" x="0" y="0"/>
 </gates>
@@ -6780,18 +6784,18 @@ MR210UB - uFL connector&lt;br&gt;</description>
 <connects>
 <connect gate="IC" pin="ADC/TOUT" pad="2"/>
 <connect gate="IC" pin="BL/IO0" pad="12"/>
-<connect gate="IC" pin="CS/IO15" pad="10"/>
 <connect gate="IC" pin="EN" pad="3"/>
 <connect gate="IC" pin="GND" pad="9"/>
-<connect gate="IC" pin="IO2" pad="11"/>
+<connect gate="IC" pin="IO4" pad="13"/>
+<connect gate="IC" pin="IO5" pad="14"/>
 <connect gate="IC" pin="MISO/IO12" pad="6"/>
 <connect gate="IC" pin="MOSI/IO13" pad="7"/>
 <connect gate="IC" pin="RESET" pad="1"/>
-<connect gate="IC" pin="RXD/IO3" pad="15"/>
+<connect gate="IC" pin="RXD0/IO3" pad="15"/>
 <connect gate="IC" pin="SCK/IO14" pad="5"/>
-<connect gate="IC" pin="SCL/IO5" pad="14"/>
-<connect gate="IC" pin="SDA/IO4" pad="13"/>
-<connect gate="IC" pin="TXD/IO1" pad="16"/>
+<connect gate="IC" pin="SCS/IO15" pad="10"/>
+<connect gate="IC" pin="TXD0/IO1" pad="16"/>
+<connect gate="IC" pin="TXD2/IO2" pad="11"/>
 <connect gate="IC" pin="VCC" pad="8"/>
 <connect gate="IC" pin="WAKE/IO16" pad="4"/>
 </connects>
@@ -6803,18 +6807,18 @@ MR210UB - uFL connector&lt;br&gt;</description>
 <connects>
 <connect gate="IC" pin="ADC/TOUT" pad="16"/>
 <connect gate="IC" pin="BL/IO0" pad="8"/>
-<connect gate="IC" pin="CS/IO15" pad="6"/>
 <connect gate="IC" pin="EN" pad="2"/>
-<connect gate="IC" pin="GND" pad="9 13 18"/>
-<connect gate="IC" pin="IO2" pad="7"/>
+<connect gate="IC" pin="GND" pad="9 13 18 TP"/>
+<connect gate="IC" pin="IO4" pad="10"/>
+<connect gate="IC" pin="IO5" pad="14"/>
 <connect gate="IC" pin="MISO/IO12" pad="4"/>
 <connect gate="IC" pin="MOSI/IO13" pad="5"/>
 <connect gate="IC" pin="RESET" pad="15"/>
-<connect gate="IC" pin="RXD/IO3" pad="11"/>
+<connect gate="IC" pin="RXD0/IO3" pad="11"/>
 <connect gate="IC" pin="SCK/IO14" pad="3"/>
-<connect gate="IC" pin="SCL/IO5" pad="14"/>
-<connect gate="IC" pin="SDA/IO4" pad="10"/>
-<connect gate="IC" pin="TXD/IO1" pad="12"/>
+<connect gate="IC" pin="SCS/IO15" pad="6"/>
+<connect gate="IC" pin="TXD0/IO1" pad="12"/>
+<connect gate="IC" pin="TXD2/IO2" pad="7"/>
 <connect gate="IC" pin="VCC" pad="1"/>
 <connect gate="IC" pin="WAKE/IO16" pad="17"/>
 </connects>
@@ -7707,7 +7711,9 @@ MR510PB - ATWINC1500 + SAM D21 + ATECC508&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ESP-WROOM32" prefix="IC">
-<description>Espressif ESP-WROOM-32 ESP32 WiFi/WLAN + Bluetooth/BLE Module</description>
+<description>Espressif ESP-WROOM-32 ESP32 WiFi/WLAN + Bluetooth/BLE Module&lt;br&gt;
+&lt;br&gt;
+Compatible with AI-Thinker ESP-32S Module.</description>
 <gates>
 <gate name="IC" symbol="ESP-WROOM32" x="0" y="0"/>
 </gates>
@@ -7716,8 +7722,8 @@ MR510PB - ATWINC1500 + SAM D21 + ATECC508&lt;br&gt;</description>
 <connects>
 <connect gate="IC" pin="A1C6/IO34" pad="6"/>
 <connect gate="IC" pin="A1C7/IO35" pad="7"/>
-<connect gate="IC" pin="A2C1/IO0" pad="25"/>
 <connect gate="IC" pin="A2C7/IO27" pad="12"/>
+<connect gate="IC" pin="BL/A2C1/IO0" pad="25"/>
 <connect gate="IC" pin="DAC1/A2C8/IO25" pad="10"/>
 <connect gate="IC" pin="DAC2/A2C9/IO26" pad="11"/>
 <connect gate="IC" pin="EN" pad="3"/>
