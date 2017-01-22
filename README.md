@@ -20,4 +20,4 @@ Download the complete libraries [here](https://github.com/watterott/Eagle-Libs/a
 
 * [SparkFun Eagle Tutorial](https://learn.sparkfun.com/tutorials/how-to-install-and-setup-eagle/using-the-sparkfun-libraries)
 
-* [Eagle v7 download](ftp://ftp.cadsoft.de/eagle/program/)
+* Eagle v7 download: ftp://ftp.cadsoft.de/eagle/program/
