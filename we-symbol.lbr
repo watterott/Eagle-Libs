@@ -7365,6 +7365,7 @@
 <rectangle x1="-2.4511" y1="1.5494" x2="-2.4003" y2="1.5748" layer="29"/>
 </package>
 <package name="PASSER_07MM">
+<description>0.7mm</description>
 <circle x="0" y="0" radius="0.6" width="0.127" layer="41"/>
 <smd name="X" x="0" y="0" dx="0.7" dy="0.7" layer="1" roundness="100" stop="no" cream="no"/>
 <circle x="0" y="0" radius="0.3" width="0.6" layer="29"/>
@@ -10096,6 +10097,12 @@
 <rectangle x1="-0.8665" y1="1.8035" x2="-0.6025" y2="1.8095" layer="21"/>
 <rectangle x1="2.1935" y1="1.8035" x2="2.4575" y2="1.8095" layer="21"/>
 </package>
+<package name="PASSER_04MM">
+<description>0.4mm</description>
+<circle x="0" y="0" radius="0.4" width="0.127" layer="41"/>
+<smd name="X" x="0" y="0" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="0" y="0" radius="0.1" width="0.6" layer="29"/>
+</package>
 </packages>
 <symbols>
 <symbol name="WE_LOGO">
@@ -10449,6 +10456,11 @@
 </gates>
 <devices>
 <device name="-07" package="PASSER_07MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-04" package="PASSER_04MM">
 <technologies>
 <technology name=""/>
 </technologies>

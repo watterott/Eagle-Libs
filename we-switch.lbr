@@ -87,8 +87,8 @@
 <smd name="2" x="4.9213" y="2.2225" dx="1.4" dy="2.2" layer="1" roundness="5" rot="R270"/>
 <text x="0" y="3.175" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 </package>
-<package name="TL3315N">
-<description>E-Switch TL3315N</description>
+<package name="TL3315">
+<description>E-Switch TL3315</description>
 <wire x1="2.25" y1="-2.25" x2="2.25" y2="2.25" width="0.127" layer="21"/>
 <wire x1="2.25" y1="2.25" x2="-2.25" y2="2.25" width="0.127" layer="21"/>
 <wire x1="-2.25" y1="2.25" x2="-2.25" y2="-2.25" width="0.127" layer="21"/>
@@ -336,6 +336,24 @@
 <text x="0" y="10.795" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <wire x1="3.5" y1="4.96" x2="-3.5" y2="4.96" width="0.127" layer="21"/>
 </package>
+<package name="TL3305">
+<description>E-Switch TL3305&lt;br&gt;
+TL3305A - 3.8mm height&lt;br&gt;
+TL3305B - 5.0mm height&lt;br&gt;
+TL3305C - 7.0mm height&lt;br&gt;</description>
+<wire x1="2.25" y1="-2.25" x2="2.25" y2="2.25" width="0.127" layer="21"/>
+<wire x1="2.25" y1="2.25" x2="-2.25" y2="2.25" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="2.25" x2="-2.25" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="2.25" y1="-2.25" x2="-2.25" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.7463" width="0.127" layer="21"/>
+<smd name="1" x="-3.2" y="1.5" dx="1.2" dy="1.6" layer="1" roundness="10" rot="R270"/>
+<smd name="2" x="-3.2" y="-1.5" dx="1.2" dy="1.6" layer="1" roundness="10" rot="R270"/>
+<smd name="3" x="3.2" y="-1.5" dx="1.2" dy="1.6" layer="1" roundness="10" rot="R270"/>
+<smd name="4" x="3.2" y="1.5" dx="1.2" dy="1.6" layer="1" roundness="10" rot="R270"/>
+<text x="0" y="3.175" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="TACTILE-4">
@@ -462,7 +480,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="-TL3315" package="TL3315N">
+<device name="-TL3315" package="TL3315">
 <connects>
 <connect gate="SW" pin="P1" pad="1 4"/>
 <connect gate="SW" pin="S1" pad="2 3"/>
@@ -506,6 +524,15 @@
 <connects>
 <connect gate="SW" pin="P1" pad="1"/>
 <connect gate="SW" pin="S1" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-TL3305" package="TL3305">
+<connects>
+<connect gate="SW" pin="P1" pad="1 4"/>
+<connect gate="SW" pin="S1" pad="2 3"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -96,14 +96,10 @@
 <smd name="2" x="-3.099" y="0" dx="1.219" dy="2.235" layer="1" roundness="10" rot="R270"/>
 <smd name="3" x="-3.099" y="-2.311" dx="1.219" dy="2.235" layer="1" roundness="10" rot="R270"/>
 <smd name="4" x="3.099" y="0" dx="3.6" dy="2.2" layer="1" roundness="10" rot="R270"/>
-<rectangle x1="1.1303" y1="-0.9271" x2="4.3307" y2="0.9271" layer="51" rot="R270"/>
-<rectangle x1="-3.1623" y1="-0.9271" x2="-2.2987" y2="0.9271" layer="51" rot="R270"/>
-<rectangle x1="-3.1623" y1="1.3843" x2="-2.2987" y2="3.2385" layer="51" rot="R270"/>
-<rectangle x1="-3.1623" y1="-3.2385" x2="-2.2987" y2="-1.3843" layer="51" rot="R270"/>
-<rectangle x1="1.1303" y1="-0.9271" x2="4.3307" y2="0.9271" layer="51" rot="R270"/>
-<rectangle x1="-3.1623" y1="-0.9271" x2="-2.2987" y2="0.9271" layer="51" rot="R270"/>
-<rectangle x1="-3.1623" y1="1.3843" x2="-2.2987" y2="3.2385" layer="51" rot="R270"/>
-<rectangle x1="-3.1623" y1="-3.2385" x2="-2.2987" y2="-1.3843" layer="51" rot="R270"/>
+<rectangle x1="1.1303" y1="-0.9271" x2="4.3307" y2="0.9271" layer="21" rot="R270"/>
+<rectangle x1="-3.1623" y1="-0.9271" x2="-2.2987" y2="0.9271" layer="21" rot="R270"/>
+<rectangle x1="-3.1623" y1="1.3843" x2="-2.2987" y2="3.2385" layer="21" rot="R270"/>
+<rectangle x1="-3.1623" y1="-3.2385" x2="-2.2987" y2="-1.3843" layer="21" rot="R270"/>
 <text x="-0.635" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="0.635" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 </package>
@@ -235,16 +231,13 @@
 <smd name="1" x="-4.242" y="2.311" dx="1.219" dy="2.235" layer="1" roundness="10" rot="R270"/>
 <smd name="3" x="-4.242" y="-2.311" dx="1.219" dy="2.235" layer="1" roundness="10" rot="R270"/>
 <smd name="2" x="4.115" y="0" dx="5.3" dy="2.2" layer="1" roundness="10" rot="R270"/>
-<rectangle x1="2.0193" y1="-0.0381" x2="5.2197" y2="1.8161" layer="51" rot="R270"/>
-<rectangle x1="-4.5593" y1="1.3843" x2="-3.6957" y2="3.2385" layer="51" rot="R270"/>
-<rectangle x1="-4.4323" y1="-3.2385" x2="-3.5687" y2="-1.3843" layer="51" rot="R270"/>
-<rectangle x1="2.0193" y1="-1.8161" x2="5.2197" y2="0.0381" layer="51" rot="R270"/>
-<rectangle x1="-4.4323" y1="1.3843" x2="-3.5687" y2="3.2385" layer="51" rot="R270"/>
-<rectangle x1="-4.5593" y1="-3.2385" x2="-3.6957" y2="-1.3843" layer="51" rot="R270"/>
+<rectangle x1="-4.4323" y1="-3.2385" x2="-3.5687" y2="-1.3843" layer="21" rot="R270"/>
+<rectangle x1="-4.4323" y1="1.3843" x2="-3.5687" y2="3.2385" layer="21" rot="R270"/>
 <text x="-0.635" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="0.635" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <wire x1="2.794" y1="3.2762" x2="2.794" y2="-3.277" width="0.127" layer="21"/>
 <wire x1="2.794" y1="3.2762" x2="-3.048" y2="3.2762" width="0.127" layer="21"/>
+<rectangle x1="2.8575" y1="-2.54" x2="4.7625" y2="2.54" layer="21"/>
 </package>
 <package name="SOT23-5">
 <wire x1="0.8" y1="-1.4" x2="-0.8" y2="-1.4" width="0.127" layer="21"/>
@@ -975,19 +968,18 @@
 <text x="-10.16" y="10.16" size="1.778" layer="95" align="top-left">&gt;VALUE</text>
 <text x="-10.16" y="12.7" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 </symbol>
-<symbol name="REG710">
+<symbol name="MCP73831">
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<pin name="C+" x="12.7" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="PROG" x="12.7" y="0" length="short" direction="pas" rot="R180"/>
 <pin name="VIN" x="-12.7" y="5.08" length="short" direction="pwr"/>
-<pin name="GND" x="0" y="-10.16" length="short" direction="pwr" rot="R90"/>
-<pin name="C-" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
-<pin name="EN" x="-12.7" y="0" length="short" direction="in"/>
-<text x="-10.16" y="10.16" size="1.778" layer="95" align="top-left">&gt;VALUE</text>
-<text x="-10.16" y="12.7" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<pin name="VOUT" x="12.7" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="GND" x="12.7" y="-5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="STAT" x="-12.7" y="-5.08" length="short" direction="out"/>
+<text x="-10.16" y="-10.16" size="1.778" layer="95">&gt;VALUE</text>
+<text x="-10.16" y="10.16" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<pin name="VBAT" x="12.7" y="5.08" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -998,8 +990,11 @@
 &lt;br&gt;
 &lt;b&gt;Taiwan Semi TS1117&lt;/b&gt; 800mA max 15V&lt;br&gt;
  - compatible &lt;b&gt;On Semi NCP1117&lt;/b&gt; 1A max 20V&lt;br&gt;
+ - compatible &lt;b&gt;Diodes AP2111H&lt;/b&gt; 0.6A max 6V (0.25V@0.6A)&lt;br&gt;
+ - compatible &lt;b&gt;Diodes AP2114H&lt;/b&gt; 1A max 6V (0.45V@1A)&lt;br&gt;
 &lt;b&gt;Taiwan Semi TS9011&lt;/b&gt; 250mA max 12V&lt;br&gt;
  - compatible &lt;b&gt;Diodes AP2210&lt;/b&gt; 300mA max 15V&lt;br&gt;
+ - compatible &lt;b&gt;Microchip MCP1700&lt;/b&gt; 250mA max 6.5V&lt;br&gt;
  - compatible &lt;b&gt;Microchip MCP1702&lt;/b&gt; 250mA max 13V&lt;br&gt;
  - compatible &lt;b&gt;Microchip MCP1703&lt;/b&gt; 250mA max 16V&lt;br&gt;
  - compatible &lt;b&gt;Microchip MCP1754&lt;/b&gt; 150mA max 16V&lt;br&gt;
@@ -1008,8 +1003,8 @@
 &lt;u&gt;DC/DC Converter Modules&lt;/u&gt;
 &lt;br&gt;
 &lt;b&gt;Recom R-78Ex.x-1.0-W36&lt;/b&gt; 1A max 28V&lt;br&gt;
-&lt;b&gt;Murata OKI-78SR-x.x/1.5-W36&lt;/b&gt; 1.5A max 36V&lt;br&gt;
-&lt;b&gt;CUI V78xx-2000 &lt;/b&gt; 2A max 18V&lt;br&gt;</description>
+ - compatible &lt;b&gt;CUI V78xx-2000 &lt;/b&gt; 2A max 18V&lt;br&gt;
+&lt;b&gt;Murata OKI-78SR-x.x/1.5-W36&lt;/b&gt; 1.5A max 36V&lt;br&gt;</description>
 <gates>
 <gate name="IC" symbol="VREG" x="0" y="0"/>
 </gates>
@@ -1629,92 +1624,27 @@ AP65503 - 750kHz, 5A, 4.7-17V input&lt;br&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="REG710" prefix="IC">
-<description>TI REG710xx Charge Pump 30mA max 5.5V&lt;br&gt;
+<deviceset name="MCP73831" prefix="IC">
+<description>Microchip MCP73831 Li-Ion/Li-Po Charger&lt;br&gt;
 &lt;br&gt;
-5.5V, Vin min 3.0V - REG71055&lt;br&gt;
-5.0V, Vin min 2.7V - REG710NA-5&lt;br&gt;
-3.3V, Vin min 1.8V - REG710NA-3.3&lt;br&gt;
-3.0V, Vin min 1.8V - REG710NA-3&lt;br&gt;
-2.7V, Vin min 1.8V - REG710NA-2.7&lt;br&gt;
-2.5V, Vin min 1.8V - REG710NA-2.5&lt;br&gt;</description>
+MCP73831 - Tri-State Status Output&lt;br&gt;
+MCP73832 - Open-Drain Status Output&lt;br&gt;
+&lt;br&gt;
+ MCP7383x-2 - 4.20V&lt;br&gt;
+ MCP7383x-3 - 4.35V&lt;br&gt;
+ MCP7383x-4 - 4.40V&lt;br&gt;
+ MCP7383x-5 - 4.50V&lt;br&gt;</description>
 <gates>
-<gate name="IC" symbol="REG710" x="0" y="0"/>
+<gate name="IC" symbol="MCP73831" x="0" y="0"/>
 </gates>
 <devices>
-<device name="55" package="SOT23-6">
+<device name="T-2ACI/OT" package="SOT23-5">
 <connects>
-<connect gate="IC" pin="C+" pad="6"/>
-<connect gate="IC" pin="C-" pad="4"/>
-<connect gate="IC" pin="EN" pad="3"/>
 <connect gate="IC" pin="GND" pad="2"/>
-<connect gate="IC" pin="VIN" pad="5"/>
-<connect gate="IC" pin="VOUT" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="NA-5" package="SOT23-6">
-<connects>
-<connect gate="IC" pin="C+" pad="6"/>
-<connect gate="IC" pin="C-" pad="4"/>
-<connect gate="IC" pin="EN" pad="3"/>
-<connect gate="IC" pin="GND" pad="2"/>
-<connect gate="IC" pin="VIN" pad="5"/>
-<connect gate="IC" pin="VOUT" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="NA-3.3" package="SOT23-6">
-<connects>
-<connect gate="IC" pin="C+" pad="6"/>
-<connect gate="IC" pin="C-" pad="4"/>
-<connect gate="IC" pin="EN" pad="3"/>
-<connect gate="IC" pin="GND" pad="2"/>
-<connect gate="IC" pin="VIN" pad="5"/>
-<connect gate="IC" pin="VOUT" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="NA-3" package="SOT23-6">
-<connects>
-<connect gate="IC" pin="C+" pad="6"/>
-<connect gate="IC" pin="C-" pad="4"/>
-<connect gate="IC" pin="EN" pad="3"/>
-<connect gate="IC" pin="GND" pad="2"/>
-<connect gate="IC" pin="VIN" pad="5"/>
-<connect gate="IC" pin="VOUT" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="NA-2.7" package="SOT23-6">
-<connects>
-<connect gate="IC" pin="C+" pad="6"/>
-<connect gate="IC" pin="C-" pad="4"/>
-<connect gate="IC" pin="EN" pad="3"/>
-<connect gate="IC" pin="GND" pad="2"/>
-<connect gate="IC" pin="VIN" pad="5"/>
-<connect gate="IC" pin="VOUT" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="NA-2.5" package="SOT23-6">
-<connects>
-<connect gate="IC" pin="C+" pad="6"/>
-<connect gate="IC" pin="C-" pad="4"/>
-<connect gate="IC" pin="EN" pad="3"/>
-<connect gate="IC" pin="GND" pad="2"/>
-<connect gate="IC" pin="VIN" pad="5"/>
-<connect gate="IC" pin="VOUT" pad="1"/>
+<connect gate="IC" pin="PROG" pad="5"/>
+<connect gate="IC" pin="STAT" pad="1"/>
+<connect gate="IC" pin="VBAT" pad="3"/>
+<connect gate="IC" pin="VIN" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
