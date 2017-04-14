@@ -1290,7 +1290,9 @@ red, green, blue -&gt; 0603</description>
 </devices>
 </deviceset>
 <deviceset name="PC" prefix="OC">
-<description>Photocoupler and Photointerrupter</description>
+<description>Photocoupler and Photointerrupter&lt;br&gt;
+&lt;br&gt;
+TLP127 compatible with TLP187 and LTV-352T</description>
 <gates>
 <gate name="OC" symbol="PHOTOCOUPLER" x="0" y="0"/>
 </gates>

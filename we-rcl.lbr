@@ -628,6 +628,7 @@
 <text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="POT_EVM3Y">
+<description>Panasonic EVM3Y</description>
 <wire x1="-1.65" y1="-1.992" x2="1.65" y2="-1.992" width="0.127" layer="21"/>
 <wire x1="1.65" y1="-1.992" x2="1.65" y2="1.992" width="0.127" layer="21"/>
 <wire x1="1.65" y1="1.992" x2="-1.65" y2="1.992" width="0.127" layer="21"/>
@@ -835,6 +836,7 @@
 <text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="POT_EVM3R">
+<description>Panasonic EVM3R</description>
 <wire x1="-1.65" y1="-1.992" x2="1.65" y2="-1.992" width="0.127" layer="21"/>
 <wire x1="1.65" y1="-1.992" x2="1.65" y2="1.992" width="0.127" layer="21"/>
 <wire x1="1.65" y1="1.992" x2="-1.65" y2="1.992" width="0.127" layer="21"/>
@@ -1403,8 +1405,8 @@
 <wire x1="-0.35" y1="-0.6" x2="-0.35" y2="-0.2" width="0.127" layer="21"/>
 <wire x1="-0.35" y1="-0.2" x2="-0.35" y2="0.6" width="0.127" layer="21"/>
 <wire x1="-0.35" y1="0.6" x2="0.35" y2="0.6" width="0.127" layer="21"/>
-<smd name="C" x="0" y="0.4" dx="0.8" dy="0.5" layer="1" roundness="20"/>
-<smd name="A" x="0" y="-0.4" dx="0.8" dy="0.5" layer="1" roundness="20"/>
+<smd name="C" x="0" y="0.425" dx="0.8" dy="0.5" layer="1" roundness="20"/>
+<smd name="A" x="0" y="-0.425" dx="0.8" dy="0.5" layer="1" roundness="20"/>
 <text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="1.27" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <rectangle x1="-0.079375" y1="0.020625" x2="0.079375" y2="0.620625" layer="21" rot="R270"/>
@@ -1437,6 +1439,12 @@
 <wire x1="0.44125" y1="-0.3095" x2="0" y2="0.373" width="0.127" layer="21"/>
 <wire x1="0" y1="0.373" x2="-0.44125" y2="-0.3095" width="0.127" layer="21"/>
 <wire x1="-0.44125" y1="-0.3095" x2="0.44125" y2="-0.3095" width="0.127" layer="21"/>
+</package>
+<package name="PAD-WEARABLE">
+<pad name="1" x="0" y="0" drill="2.5" diameter="3.81"/>
+<smd name="2" x="0.5" y="0" dx="5" dy="4" layer="16" roundness="60" cream="no"/>
+<smd name="3" x="0.5" y="0" dx="5" dy="4" layer="1" roundness="60" cream="no"/>
+<text x="-3.175" y="0" size="1.27" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -2407,6 +2415,14 @@ all kinds in 0402 and 0603</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="-WEARABLE" package="PAD-WEARABLE">
+<connects>
+<connect gate="X" pin="P" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="D_BAS70D" prefix="D">
@@ -2540,7 +2556,12 @@ If=50mA, Vf=1.5V, Vr=70V, 2pF@1MHz</description>
 </devices>
 </deviceset>
 <deviceset name="FUSE" prefix="F" uservalue="yes">
-<description>Fuses</description>
+<description>Fuses&lt;br&gt;
+&lt;br&gt;
+&lt;u&gt;Polyfuses&lt;/u&gt;&lt;br&gt;
+0805 - 0.5A or 1A, 6V&lt;br&gt;
+1206 - 2A, 6V&lt;br&gt;
+1812 - 1A or 2A, 16V&lt;br&gt;</description>
 <gates>
 <gate name="F" symbol="FUSE" x="0" y="0"/>
 </gates>
@@ -2731,7 +2752,7 @@ Ferrite Bead&lt;br&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="EVM3Y" package="POT_EVM3Y">
+<device name="-EVM3Y" package="POT_EVM3Y">
 <connects>
 <connect gate="R" pin="A" pad="1"/>
 <connect gate="R" pin="E" pad="3"/>
@@ -2741,7 +2762,7 @@ Ferrite Bead&lt;br&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="EVM3R" package="POT_EVM3R">
+<device name="-EVM3R" package="POT_EVM3R">
 <connects>
 <connect gate="R" pin="A" pad="1"/>
 <connect gate="R" pin="E" pad="3"/>
@@ -2754,7 +2775,10 @@ Ferrite Bead&lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="D_SCHOTTKY" prefix="D" uservalue="yes">
-<description>Schottky Diodes&lt;br&gt;</description>
+<description>Schottky Diodes&lt;br&gt;
+&lt;br&gt;
+1A, 30V - SOD323 (BAS3010 or CUS10S40)&lt;br&gt;
+2A, 30V - SMA/DO214AC&lt;br&gt;</description>
 <gates>
 <gate name="D" symbol="DIODE_SCHOTTKY" x="0" y="0"/>
 </gates>

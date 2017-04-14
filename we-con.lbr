@@ -4079,25 +4079,25 @@ S3B-PH-KL - low insertion force</description>
 <package name="JST_S2B-PH-K">
 <description>S2B-PH-K - normal insertion force&lt;br&gt;
 S2B-PH-KL - low insertion force</description>
-<wire x1="2.75" y1="2" x2="-5.25" y2="2" width="0.127" layer="21"/>
-<wire x1="-5.25" y1="2" x2="-5.25" y2="1" width="0.127" layer="21"/>
-<wire x1="-5.25" y1="1" x2="-5.25" y2="-3" width="0.127" layer="21"/>
-<wire x1="-5.25" y1="-3" x2="-5.25" y2="-4" width="0.127" layer="21"/>
-<wire x1="-5.25" y1="-4" x2="2.75" y2="-4" width="0.127" layer="21"/>
-<wire x1="2.75" y1="-4" x2="2.75" y2="2" width="0.127" layer="21"/>
-<wire x1="0" y1="-3" x2="-4.75" y2="-3" width="0.127" layer="21"/>
-<wire x1="-4.75" y1="-3" x2="-5.25" y2="-3" width="0.127" layer="21"/>
-<wire x1="-4.75" y1="-3" x2="-4.75" y2="1" width="0.127" layer="21"/>
-<wire x1="-4.75" y1="1" x2="0" y2="1" width="0.127" layer="21"/>
-<wire x1="0" y1="1" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-2" width="0.127" layer="21"/>
-<wire x1="0" y1="-2" x2="0" y2="-3" width="0.127" layer="21"/>
-<wire x1="0" y1="-2" x2="-3.75" y2="-2" width="0.6096" layer="21"/>
-<wire x1="0" y1="0" x2="-3.75" y2="0" width="0.6096" layer="21"/>
-<wire x1="-4.75" y1="1" x2="-5.25" y2="1" width="0.127" layer="21"/>
-<pad name="1" x="1" y="0" drill="0.8" diameter="1.3"/>
-<pad name="2" x="1" y="-2" drill="0.8" diameter="1.3"/>
-<text x="3.54" y="-1" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<wire x1="1.75" y1="3" x2="-6.25" y2="3" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="3" x2="-6.25" y2="2" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="2" x2="-6.25" y2="-2" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="-2" x2="-6.25" y2="-3" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="-3" x2="1.75" y2="-3" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-3" x2="1.75" y2="3" width="0.127" layer="21"/>
+<wire x1="-1" y1="-2" x2="-5.75" y2="-2" width="0.127" layer="21"/>
+<wire x1="-5.75" y1="-2" x2="-6.25" y2="-2" width="0.127" layer="21"/>
+<wire x1="-5.75" y1="-2" x2="-5.75" y2="2" width="0.127" layer="21"/>
+<wire x1="-5.75" y1="2" x2="-1" y2="2" width="0.127" layer="21"/>
+<wire x1="-1" y1="2" x2="-1" y2="1" width="0.127" layer="21"/>
+<wire x1="-1" y1="1" x2="-1" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1" x2="-1" y2="-2" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1" x2="-4.75" y2="-1" width="0.6096" layer="21"/>
+<wire x1="-1" y1="1" x2="-4.75" y2="1" width="0.6096" layer="21"/>
+<wire x1="-5.75" y1="2" x2="-6.25" y2="2" width="0.127" layer="21"/>
+<pad name="1" x="0" y="1" drill="0.8" diameter="1.3"/>
+<pad name="2" x="0" y="-1" drill="0.8" diameter="1.3"/>
+<text x="2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 </package>
 <package name="RJ45_RJSL-002TC1">
 <wire x1="-7.85" y1="-10.75" x2="7.85" y2="-10.75" width="0.127" layer="21"/>
@@ -8629,8 +8629,8 @@ FCI HFW4R-2STE1LF -&gt; 4 Pin 1mm top contact&lt;br&gt;</description>
 <devices>
 <device name="-S2B-PH-K" package="JST_S2B-PH-K">
 <connects>
-<connect gate="J" pin="1" pad="2"/>
-<connect gate="J" pin="2" pad="1"/>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8638,8 +8638,8 @@ FCI HFW4R-2STE1LF -&gt; 4 Pin 1mm top contact&lt;br&gt;</description>
 </device>
 <device name="-B2B-EH" package="JST_B2B-EH">
 <connects>
-<connect gate="J" pin="1" pad="2"/>
-<connect gate="J" pin="2" pad="1"/>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8647,8 +8647,8 @@ FCI HFW4R-2STE1LF -&gt; 4 Pin 1mm top contact&lt;br&gt;</description>
 </device>
 <device name="-B2B-PH-K" package="JST_B2B-PH-K">
 <connects>
-<connect gate="J" pin="1" pad="2"/>
-<connect gate="J" pin="2" pad="1"/>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>

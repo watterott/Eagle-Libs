@@ -142,12 +142,13 @@
 <rectangle x1="0.875" y1="0.725" x2="1.475" y2="1.175" layer="21" rot="R180"/>
 </package>
 <package name="BAT-4UC-05581">
-<wire x1="8" y1="-11" x2="3" y2="-11" width="0.127" layer="21"/>
+<wire x1="6" y1="-11" x2="3" y2="-11" width="0.127" layer="21"/>
 <wire x1="3" y1="-11" x2="3" y2="-14.5" width="0.127" layer="21"/>
 <wire x1="3" y1="-14.5" x2="-3" y2="-14.5" width="0.127" layer="21"/>
 <wire x1="-3" y1="-14.5" x2="-3" y2="-11" width="0.127" layer="21"/>
-<wire x1="-3" y1="-11" x2="-8" y2="-11" width="0.127" layer="21"/>
-<wire x1="-8" y1="-11" x2="-8" y2="-1" width="0.127" layer="21"/>
+<wire x1="-3" y1="-11" x2="-6" y2="-11" width="0.127" layer="21"/>
+<wire x1="-6" y1="-11" x2="-8" y2="-9" width="0.127" layer="21"/>
+<wire x1="-8" y1="-9" x2="-8" y2="-1" width="0.127" layer="21"/>
 <wire x1="-8" y1="-1" x2="-8" y2="1" width="0.127" layer="21"/>
 <wire x1="-8" y1="1" x2="-8" y2="9" width="0.127" layer="21"/>
 <wire x1="-8" y1="9" x2="-6" y2="11" width="0.127" layer="21"/>
@@ -155,16 +156,18 @@
 <wire x1="-3" y1="11" x2="-3" y2="14.5" width="0.127" layer="21"/>
 <wire x1="-3" y1="14.5" x2="3" y2="14.5" width="0.127" layer="21"/>
 <wire x1="3" y1="14.5" x2="3" y2="11" width="0.127" layer="21"/>
-<wire x1="3" y1="11" x2="8" y2="11" width="0.127" layer="21"/>
-<wire x1="8" y1="11" x2="8" y2="1" width="0.127" layer="21"/>
+<wire x1="3" y1="11" x2="6" y2="11" width="0.127" layer="21"/>
+<wire x1="6" y1="11" x2="8" y2="9" width="0.127" layer="21"/>
+<wire x1="8" y1="9" x2="8" y2="1" width="0.127" layer="21"/>
 <wire x1="8" y1="1" x2="8" y2="-1" width="0.127" layer="21"/>
-<wire x1="8" y1="-1" x2="8" y2="-11" width="0.127" layer="21"/>
+<wire x1="8" y1="-1" x2="8" y2="-9" width="0.127" layer="21"/>
+<wire x1="8" y1="-9" x2="6" y2="-11" width="0.127" layer="21"/>
 <wire x1="8" y1="1" x2="-8" y2="1" width="0.127" layer="21" curve="180"/>
 <wire x1="-8" y1="-1" x2="8" y2="-1" width="0.127" layer="21" curve="180"/>
 <smd name="GND" x="0" y="-14.65" dx="3" dy="4" layer="1" roundness="5" rot="R90"/>
 <smd name="VBAT" x="0" y="14.65" dx="3" dy="4" layer="1" roundness="5" rot="R90"/>
-<text x="7.1" y="8.2" size="2.1844" layer="21" font="vector" rot="R90">+</text>
-<text x="-4.9" y="-9.8" size="2.1844" layer="21" font="vector" rot="R90">-</text>
+<text x="1" y="10" size="2.1844" layer="21" font="vector" ratio="15" rot="R90">+</text>
+<text x="1" y="-12" size="2.1844" layer="21" font="vector" ratio="15" rot="R90">-</text>
 <text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="1.27" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 </package>
