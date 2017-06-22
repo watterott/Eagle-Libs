@@ -245,11 +245,11 @@
 <text x="0" y="6.35" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 </package>
 <package name="SW6X6">
-<description>Omron B3F-10XX or Diptronics DTS6</description>
+<description>Diptronics DTS6 or Omron B3F-10XX</description>
 <pad name="1" x="-3.25" y="2.25" drill="1" shape="long"/>
-<pad name="3" x="-3.25" y="-2.25" drill="1.016" shape="long"/>
+<pad name="3" x="-3.25" y="-2.25" drill="1" shape="long"/>
 <pad name="2" x="3.25" y="2.25" drill="1" shape="long"/>
-<pad name="4" x="3.25" y="-2.25" drill="1.016" shape="long"/>
+<pad name="4" x="3.25" y="-2.25" drill="1" shape="long"/>
 <wire x1="3" y1="-3" x2="3" y2="3" width="0.127" layer="21"/>
 <wire x1="3" y1="3" x2="-3" y2="3" width="0.127" layer="21"/>
 <wire x1="-3" y1="3" x2="-3" y2="-3" width="0.127" layer="21"/>
@@ -260,7 +260,7 @@
 <text x="0" y="3.81" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="SW6X6_RIGHT">
-<description>Omron B3F-31XX or Diptronics DTSA6</description>
+<description>Diptronics DTSA6 or Omron B3F-31XX</description>
 <wire x1="3.683" y1="2.667" x2="3.683" y2="-3.556" width="0.127" layer="21"/>
 <wire x1="3.683" y1="-3.556" x2="2.54" y2="-3.556" width="0.127" layer="21"/>
 <wire x1="-3.683" y1="2.667" x2="-3.683" y2="-3.556" width="0.127" layer="21"/>
@@ -353,6 +353,21 @@ TL3305C - 7.0mm height&lt;br&gt;</description>
 <smd name="3" x="3.2" y="-1.5" dx="1.2" dy="1.6" layer="1" roundness="10" rot="R270"/>
 <smd name="4" x="3.2" y="1.5" dx="1.2" dy="1.6" layer="1" roundness="10" rot="R270"/>
 <text x="0" y="3.175" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+</package>
+<package name="SW12X12">
+<description>Diptronics DTS2</description>
+<pad name="1" x="-6.25" y="2.5" drill="1.2" shape="long"/>
+<pad name="3" x="-6.25" y="-2.5" drill="1.2" shape="long"/>
+<pad name="2" x="6.25" y="2.5" drill="1.2" shape="long"/>
+<pad name="4" x="6.25" y="-2.5" drill="1.2" shape="long"/>
+<wire x1="6" y1="-6" x2="6" y2="6" width="0.127" layer="21"/>
+<wire x1="6" y1="6" x2="-6" y2="6" width="0.127" layer="21"/>
+<wire x1="-6" y1="6" x2="-6" y2="-6" width="0.127" layer="21"/>
+<wire x1="6" y1="-6" x2="-6" y2="-6" width="0.127" layer="21"/>
+<wire x1="2.54" y1="0" x2="-2.54" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="3.5" width="0.127" layer="21"/>
+<text x="0" y="6.985" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -533,6 +548,15 @@ TL3305C - 7.0mm height&lt;br&gt;</description>
 <connects>
 <connect gate="SW" pin="P1" pad="1 4"/>
 <connect gate="SW" pin="S1" pad="2 3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-12X12" package="SW12X12">
+<connects>
+<connect gate="SW" pin="P1" pad="1 2"/>
+<connect gate="SW" pin="S1" pad="3 4"/>
 </connects>
 <technologies>
 <technology name=""/>

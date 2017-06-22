@@ -6369,15 +6369,47 @@ TMC2130 - SPI for configuration&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATWINC1500" prefix="IC">
-<description>Atmel ATWINC1500-MR210 WiFi/WLAN 802.11 b/g/n&lt;br&gt;
+<description>Atmel ATWINC1500 WiFi/WLAN 802.11 b/g/n&lt;br&gt;
 &lt;br&gt;
 MR210PB - PCB antenna&lt;br&gt;
-MR210UB - uFL connector&lt;br&gt;</description>
+MR210UB - uFL connector&lt;br&gt;
+&lt;br&gt;
+WINC1500 - 4Mb Flash&lt;br&gt;
+WINC1510 - 8Mb Flash&lt;br&gt;</description>
 <gates>
 <gate name="IC" symbol="ATWINC1500-MRX10" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-MR210PB" package="ATWINC1500-MX210">
+<connects>
+<connect gate="IC" pin="!CS" pad="16"/>
+<connect gate="IC" pin="!IRQ" pad="13"/>
+<connect gate="IC" pin="!RESET" pad="4"/>
+<connect gate="IC" pin="!SDIO!/SPI_CFG" pad="10"/>
+<connect gate="IC" pin="15/IO4" pad="26"/>
+<connect gate="IC" pin="16/IO5" pad="27"/>
+<connect gate="IC" pin="18/IO6" pad="1"/>
+<connect gate="IC" pin="EN" pad="22"/>
+<connect gate="IC" pin="GND" pad="9 12 28 GND"/>
+<connect gate="IC" pin="IO3" pad="25"/>
+<connect gate="IC" pin="MISO" pad="17"/>
+<connect gate="IC" pin="MOSI" pad="15"/>
+<connect gate="IC" pin="RTC/IO1" pad="21"/>
+<connect gate="IC" pin="RXD" pad="19"/>
+<connect gate="IC" pin="SCK" pad="18"/>
+<connect gate="IC" pin="SCL" pad="2"/>
+<connect gate="IC" pin="SDA" pad="3"/>
+<connect gate="IC" pin="TP_1P3V" pad="24"/>
+<connect gate="IC" pin="TXD" pad="14"/>
+<connect gate="IC" pin="VBAT" pad="20"/>
+<connect gate="IC" pin="VCCIO" pad="23"/>
+<connect gate="IC" pin="WAKE" pad="11"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MR210UB" package="ATWINC1500-MX210">
 <connects>
 <connect gate="IC" pin="!CS" pad="16"/>
 <connect gate="IC" pin="!IRQ" pad="13"/>
@@ -7306,15 +7338,18 @@ ATSAMD21G15 - 32kb Flash 4kb RAM&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATSAMW25" prefix="IC">
-<description>Atmel ATSAMW25-MR510 ARM Cortex-M0 + WiFi/WLAN&lt;br&gt;
+<description>Atmel ATSAMW25 ARM Cortex-M0 + WiFi/WLAN&lt;br&gt;
 &lt;br&gt;
-MR210PB - ATWINC1500 + SAM D21&lt;br&gt;
-MR510PB - ATWINC1500 + SAM D21 + ATECC508&lt;br&gt;</description>
+MR210PB - WINC1500 + SAM D21 (PCB antenna)&lt;br&gt;
+MR510PB - WINC1500 + SAM D21 + ATECC508 (PCB antenna)&lt;br&gt;
+&lt;br&gt;
+MR210UB - WINC1500 + SAM D21 (uFL connector)&lt;br&gt;
+MR510UB - WINC1500 + SAM D21 + ATECC508 (uFL connector)&lt;br&gt;</description>
 <gates>
 <gate name="IC" symbol="ATSAMW25-MRX10" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-MR210PB" package="ATSAMW25-MRX10">
+<device name="-MR510PB" package="ATSAMW25-MRX10">
 <connects>
 <connect gate="IC" pin="!RESET" pad="24"/>
 <connect gate="IC" pin="(DAC/AIN0)PA02" pad="31"/>
@@ -7366,7 +7401,7 @@ MR510PB - ATWINC1500 + SAM D21 + ATECC508&lt;br&gt;</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MR510PB" package="ATSAMW25-MRX10">
+<device name="-MR510UB" package="ATSAMW25-MRX10">
 <connects>
 <connect gate="IC" pin="!RESET" pad="24"/>
 <connect gate="IC" pin="(DAC/AIN0)PA02" pad="31"/>
