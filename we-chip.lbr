@@ -4247,7 +4247,7 @@
 <pin name="SCK" x="20.32" y="12.7" length="middle" direction="in" rot="R180"/>
 <pin name="RXD" x="20.32" y="0" length="middle" direction="in" rot="R180"/>
 <pin name="VBAT" x="-20.32" y="-15.24" length="middle" direction="pwr"/>
-<pin name="RTC/IO1" x="20.32" y="-12.7" length="middle" direction="in" rot="R180"/>
+<pin name="RTC/IO1" x="20.32" y="-12.7" length="middle" rot="R180"/>
 <pin name="EN" x="-20.32" y="20.32" length="middle" direction="in"/>
 <pin name="VCCIO" x="-20.32" y="-7.62" length="middle" direction="pwr"/>
 <pin name="18/IO6" x="20.32" y="-22.86" length="middle" rot="R180"/>
@@ -4438,10 +4438,10 @@
 <pin name="RESET" x="-17.78" y="12.7" length="middle"/>
 <pin name="TOUT/ADC" x="17.78" y="-15.24" length="middle" rot="R180"/>
 <pin name="EN" x="-17.78" y="7.62" length="middle"/>
-<pin name="IO16/WAKE" x="17.78" y="-12.7" length="middle" rot="R180"/>
-<pin name="IO14/SCK" x="17.78" y="-7.62" length="middle" rot="R180"/>
-<pin name="IO12/MISO" x="17.78" y="-2.54" length="middle" rot="R180"/>
-<pin name="IO13/MOSI" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="WAKE/IO16" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="SCK/IO14" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="MISO/IO12" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="MOSI/IO13" x="17.78" y="-5.08" length="middle" rot="R180"/>
 <pin name="VCC" x="-17.78" y="-10.16" length="middle" direction="pwr"/>
 <pin name="GND" x="-17.78" y="-15.24" length="middle" direction="pwr"/>
 <pin name="CS/IO15" x="17.78" y="-10.16" length="middle" rot="R180"/>
@@ -6711,22 +6711,22 @@ WINC1510 - 8Mb Flash&lt;br&gt;</description>
 <connect gate="IC" pin="EN" pad="3"/>
 <connect gate="IC" pin="GND" pad="9"/>
 <connect gate="IC" pin="IO10" pad="20"/>
-<connect gate="IC" pin="IO12/MISO" pad="6"/>
-<connect gate="IC" pin="IO13/MOSI" pad="7"/>
-<connect gate="IC" pin="IO14/SCK" pad="5"/>
-<connect gate="IC" pin="IO16/WAKE" pad="4"/>
 <connect gate="IC" pin="IO2" pad="11"/>
 <connect gate="IC" pin="IO9" pad="19"/>
 <connect gate="IC" pin="MISO" pad="18"/>
+<connect gate="IC" pin="MISO/IO12" pad="6"/>
 <connect gate="IC" pin="MOSI" pad="21"/>
+<connect gate="IC" pin="MOSI/IO13" pad="7"/>
 <connect gate="IC" pin="RESET" pad="1"/>
 <connect gate="IC" pin="RXD/IO3" pad="15"/>
 <connect gate="IC" pin="SCK" pad="22"/>
+<connect gate="IC" pin="SCK/IO14" pad="5"/>
 <connect gate="IC" pin="SCL/IO5" pad="14"/>
 <connect gate="IC" pin="SDA/IO4" pad="13"/>
 <connect gate="IC" pin="TOUT/ADC" pad="2"/>
 <connect gate="IC" pin="TXD/IO1" pad="16"/>
 <connect gate="IC" pin="VCC" pad="8"/>
+<connect gate="IC" pin="WAKE/IO16" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
