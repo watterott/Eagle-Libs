@@ -338,8 +338,13 @@
 <deviceset name="MOSFET-N" prefix="T" uservalue="yes">
 <description>N-Channel MOSFET&lt;br&gt;
 &lt;br&gt;
+&lt;u&gt;SOT23 N-Chn MOSFET&lt;/u&gt;&lt;br&gt;
 TSM3404, IRLML2502 (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=20V, Id&amp;gt;=3A + Rds&amp;lt;=0.05Ohm @ Vgs=4.5V)&lt;br&gt;
-BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm @ Vgs=4.5V)&lt;br&gt;</description>
+BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm @ Vgs=4.5V)&lt;br&gt;
+&lt;br&gt;
+&lt;u&gt;SOT223 Low Side Switch with Protection (Infineon)&lt;/u&gt;&lt;br&gt;
+BSP76 (Vin=0...10V, Vds&amp;gt;=42V, Id=1.4A + Rds=0.2Ohm @ Vin=5V)&lt;br&gt;
+BSP77 (Vin=0...10V, Vds&amp;gt;=42V, Id=2.2A + Rds=0.1Ohm @ Vin=5V)&lt;br&gt;</description>
 <gates>
 <gate name="T" symbol="MOSFET_N-CHN" x="0" y="0"/>
 </gates>
@@ -354,11 +359,22 @@ BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm
 <technology name=""/>
 </technologies>
 </device>
+<device name="-SOT223" package="SOT223">
+<connects>
+<connect gate="T" pin="D" pad="2 4"/>
+<connect gate="T" pin="G" pad="1"/>
+<connect gate="T" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="MOSFET-P" prefix="T" uservalue="yes">
 <description>P-Channel MOSFET&lt;br&gt;
 &lt;br&gt;
+&lt;u&gt;SOT23 P-Chn MOSFET&lt;/u&gt;&lt;br&gt;
 TSM3401, IRLML6402 (Vds&amp;gt;=20V, Id&amp;gt;=2A + Rds&amp;lt;=0.1Ohm @ Vgs=4.5V)</description>
 <gates>
 <gate name="T" symbol="MOSFET_P-CHN" x="0" y="0"/>

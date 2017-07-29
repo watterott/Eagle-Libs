@@ -356,10 +356,10 @@ TL3305C - 7.0mm height&lt;br&gt;</description>
 </package>
 <package name="SW12X12">
 <description>Diptronics DTS2</description>
-<pad name="1" x="-6.25" y="2.5" drill="1.2" shape="long"/>
-<pad name="3" x="-6.25" y="-2.5" drill="1.2" shape="long"/>
-<pad name="2" x="6.25" y="2.5" drill="1.2" shape="long"/>
-<pad name="4" x="6.25" y="-2.5" drill="1.2" shape="long"/>
+<pad name="1" x="-6.25" y="2.5" drill="1.25" shape="long"/>
+<pad name="3" x="-6.25" y="-2.5" drill="1.25" shape="long"/>
+<pad name="2" x="6.25" y="2.5" drill="1.25" shape="long"/>
+<pad name="4" x="6.25" y="-2.5" drill="1.25" shape="long"/>
 <wire x1="6" y1="-6" x2="6" y2="6" width="0.127" layer="21"/>
 <wire x1="6" y1="6" x2="-6" y2="6" width="0.127" layer="21"/>
 <wire x1="-6" y1="6" x2="-6" y2="-6" width="0.127" layer="21"/>
