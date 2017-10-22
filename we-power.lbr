@@ -380,8 +380,8 @@
 </package>
 <package name="BAT-SMTU1225LF">
 <description>Renata SMTU1225-LF</description>
-<smd name="+" x="0" y="10.55" dx="2.6" dy="3.5" layer="1" rot="R270"/>
-<smd name="-" x="0" y="-10.55" dx="2.6" dy="3.5" layer="1" rot="R270"/>
+<smd name="+" x="0" y="10.55" dx="2.6" dy="3.5" layer="1" roundness="5" rot="R270"/>
+<smd name="-" x="0" y="-10.55" dx="2.6" dy="3.5" layer="1" roundness="5" rot="R270"/>
 <wire x1="1.778" y1="10.414" x2="2.54" y2="10.414" width="0.127" layer="21"/>
 <wire x1="2.54" y1="10.414" x2="2.54" y2="8.382" width="0.127" layer="21"/>
 <wire x1="2.54" y1="8.382" x2="4.318" y2="6.604" width="0.127" layer="21"/>
@@ -1670,7 +1670,7 @@ MCP73832 - Open-Drain Status Output&lt;br&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="REG710XX">
+<deviceset name="REG710XX" prefix="IC">
 <description>TI REG710xx Charge Pump with Regulated Output&lt;br&gt;
 &lt;br&gt;
 &lt;u&gt;TI REG710xx (60mA)&lt;/u&gt;&lt;br&gt;
