@@ -176,12 +176,12 @@
 <rectangle x1="0.55" y1="-0.15" x2="0.95" y2="0.15" layer="21"/>
 <circle x="-0.25" y="0.75" radius="0.15" width="0.127" layer="21"/>
 </package>
-<package name="D2PACK_TO263AB">
+<package name="D2PAK_TO263">
 <wire x1="5.85" y1="-5" x2="-3" y2="-5" width="0.127" layer="21"/>
 <wire x1="-3" y1="-5" x2="-3" y2="5" width="0.127" layer="21"/>
 <wire x1="-3" y1="5" x2="5.85" y2="5" width="0.127" layer="21"/>
 <wire x1="5.85" y1="5" x2="5.85" y2="-5" width="0.127" layer="21"/>
-<smd name="4" x="3.2" y="0" dx="10" dy="9.4" layer="1" roundness="10" rot="R270"/>
+<smd name="2" x="3.2" y="0" dx="10.4" dy="9.4" layer="1" roundness="10" rot="R270"/>
 <smd name="1" x="-6" y="2.54" dx="1.6" dy="4" layer="1" roundness="10" rot="R270"/>
 <smd name="3" x="-6" y="-2.54" dx="1.6" dy="4" layer="1" roundness="10" rot="R270"/>
 <text x="0" y="5.715" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
@@ -198,12 +198,12 @@
 </polygon>
 <rectangle x1="-5.71405" y1="-4.76405" x2="-4.81405" y2="-0.23595" layer="21" rot="R270"/>
 </package>
-<package name="DPACK_TO252AA">
+<package name="DPAK_TO252">
 <wire x1="3.9" y1="-3.25" x2="-2.3" y2="-3.25" width="0.127" layer="21"/>
 <wire x1="-2.3" y1="-3.25" x2="-2.3" y2="3.25" width="0.127" layer="21"/>
 <wire x1="-2.3" y1="3.25" x2="3.9" y2="3.25" width="0.127" layer="21"/>
 <wire x1="3.9" y1="3.25" x2="3.9" y2="-3.25" width="0.127" layer="21"/>
-<smd name="4" x="2.5" y="0" dx="6.7" dy="6" layer="1" roundness="10" rot="R270"/>
+<smd name="2" x="2.5" y="0" dx="6.7" dy="6" layer="1" roundness="10" rot="R270"/>
 <smd name="1" x="-4.2" y="2.28" dx="1.6" dy="3" layer="1" roundness="10" rot="R270"/>
 <smd name="3" x="-4.2" y="-2.28" dx="1.6" dy="3" layer="1" roundness="10" rot="R270"/>
 <text x="0" y="4.445" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
@@ -344,7 +344,13 @@ BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;lt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm
 &lt;br&gt;
 &lt;u&gt;SOT223 Low Side Switch with Protection (Infineon)&lt;/u&gt;&lt;br&gt;
 BSP76 (Vin=0...10V, Vds&amp;lt;=42V, Id=1.4A + Rds=0.2Ohm @ Vin=5V)&lt;br&gt;
-BSP77 (Vin=0...10V, Vds&amp;lt;=42V, Id=2.2A + Rds=0.1Ohm @ Vin=5V)&lt;br&gt;</description>
+BSP77 (Vin=0...10V, Vds&amp;lt;=42V, Id=2.2A + Rds=0.1Ohm @ Vin=5V)&lt;br&gt;
+&lt;br&gt;
+&lt;u&gt;D²Pak Low Side Switch with Protection (Infineon)&lt;/u&gt;&lt;br&gt;
+BTS117TC (Vin=0...10V, Vds&amp;lt;=60V, Id=3.5A + Rds=0.12Ohm @ Vin=5V)&lt;br&gt;
+BTS133TC (Vin=0...10V, Vds&amp;lt;=60V, Id=7A + Rds=0.06Ohm @ Vin=5V)&lt;br&gt;
+BTS141TC (Vin=0...10V, Vds&amp;lt;=60V, Id=12A + Rds=0.03Ohm @ Vin=5V)&lt;br&gt;
+BTS3018TC (Vin=0...10V, Vds&amp;lt;=60V, Id=6A + Rds=0.02Ohm @ Vin=5V)&lt;br&gt;</description>
 <gates>
 <gate name="T" symbol="MOSFET_N-CHN" x="0" y="0"/>
 </gates>
@@ -362,6 +368,26 @@ BSP77 (Vin=0...10V, Vds&amp;lt;=42V, Id=2.2A + Rds=0.1Ohm @ Vin=5V)&lt;br&gt;</d
 <device name="-SOT223" package="SOT223">
 <connects>
 <connect gate="T" pin="D" pad="2 4"/>
+<connect gate="T" pin="G" pad="1"/>
+<connect gate="T" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-D2PAK" package="D2PAK_TO263">
+<connects>
+<connect gate="T" pin="D" pad="2"/>
+<connect gate="T" pin="G" pad="1"/>
+<connect gate="T" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-DPAK" package="DPAK_TO252">
+<connects>
+<connect gate="T" pin="D" pad="2"/>
 <connect gate="T" pin="G" pad="1"/>
 <connect gate="T" pin="S" pad="3"/>
 </connects>
