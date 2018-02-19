@@ -195,6 +195,7 @@
 <circle x="0" y="0" radius="6.604" width="5.334" layer="41"/>
 </package>
 <package name="BAT-AAA">
+<description>Keystone BCL82PC</description>
 <wire x1="-13.97" y1="5.715" x2="-13.97" y2="-5.715" width="0.127" layer="21"/>
 <wire x1="-13.97" y1="-5.715" x2="-23.368" y2="-5.715" width="0.127" layer="21"/>
 <wire x1="-23.368" y1="-5.715" x2="-23.368" y2="5.715" width="0.127" layer="21"/>

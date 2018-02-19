@@ -1805,90 +1805,6 @@
 <rectangle x1="-2" y1="-2" x2="-0.5" y2="-0.5" layer="31"/>
 <rectangle x1="0.5" y1="-2" x2="2" y2="-0.5" layer="31"/>
 </package>
-<package name="RS9110-N-11-21">
-<wire x1="-10.5825" y1="-14.5" x2="-11.5" y2="-13.6525" width="0.127" layer="21"/>
-<wire x1="-11.5" y1="-13.6525" x2="-11.5" y2="14.5" width="0.127" layer="21"/>
-<wire x1="-11.5" y1="14.5" x2="11.5" y2="14.5" width="0.127" layer="21"/>
-<wire x1="11.5" y1="14.5" x2="11.5" y2="-14.5" width="0.127" layer="21"/>
-<wire x1="11.5" y1="-14.5" x2="-10.5825" y2="-14.5" width="0.127" layer="21"/>
-<wire x1="-11.5" y1="-12.7" x2="-9.7" y2="-12.7" width="0" layer="20"/>
-<wire x1="-9.7" y1="-12.7" x2="-9.7" y2="-14.7" width="0" layer="20"/>
-<wire x1="-9.7" y1="-14.7" x2="-11.5" y2="-14.7" width="0" layer="20"/>
-<wire x1="-11.5" y1="-14.7" x2="-11.5" y2="-12.7" width="0" layer="20"/>
-<wire x1="9.7" y1="-12.7" x2="11.5" y2="-12.7" width="0" layer="20"/>
-<wire x1="11.5" y1="-12.7" x2="11.5" y2="-14.7" width="0" layer="20"/>
-<wire x1="11.5" y1="-14.7" x2="9.7" y2="-14.7" width="0" layer="20"/>
-<wire x1="9.7" y1="-14.7" x2="9.7" y2="-12.7" width="0" layer="20"/>
-<wire x1="-11.5" y1="14.7" x2="-9.7" y2="14.7" width="0" layer="20"/>
-<wire x1="-9.7" y1="14.7" x2="-9.7" y2="12.7" width="0" layer="20"/>
-<wire x1="-9.7" y1="12.7" x2="-11.5" y2="12.7" width="0" layer="20"/>
-<wire x1="-11.5" y1="12.7" x2="-11.5" y2="14.7" width="0" layer="20"/>
-<wire x1="9.7" y1="14.7" x2="11.5" y2="14.7" width="0" layer="20"/>
-<wire x1="11.5" y1="14.7" x2="11.5" y2="12.7" width="0" layer="20"/>
-<wire x1="11.5" y1="12.7" x2="9.7" y2="12.7" width="0" layer="20"/>
-<wire x1="9.7" y1="12.7" x2="9.7" y2="14.7" width="0" layer="20"/>
-<smd name="1" x="-8.9" y="-13.932" dx="1.2" dy="1.5" layer="1" roundness="20"/>
-<smd name="2" x="-7.12" y="-13.932" dx="1.2" dy="1.5" layer="1" roundness="40"/>
-<smd name="3" x="-5.34" y="-13.932" dx="1.2" dy="1.5" layer="1" roundness="40"/>
-<smd name="4" x="-3.56" y="-13.932" dx="1.2" dy="1.5" layer="1" roundness="40"/>
-<smd name="5" x="-1.78" y="-13.932" dx="1.2" dy="1.5" layer="1" roundness="40"/>
-<smd name="6" x="0" y="-13.932" dx="1.2" dy="1.5" layer="1" roundness="40"/>
-<smd name="7" x="1.78" y="-13.932" dx="1.2" dy="1.5" layer="1" roundness="40"/>
-<smd name="8" x="3.56" y="-13.932" dx="1.2" dy="1.5" layer="1" roundness="40"/>
-<smd name="9" x="5.34" y="-13.932" dx="1.2" dy="1.5" layer="1" roundness="40"/>
-<smd name="10" x="7.12" y="-13.932" dx="1.2" dy="1.5" layer="1" roundness="40"/>
-<smd name="11" x="8.9" y="-13.932" dx="1.2" dy="1.5" layer="1" roundness="40"/>
-<smd name="12" x="10.9" y="-11.9" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R90"/>
-<smd name="13" x="10.9" y="-10.2" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R90"/>
-<smd name="14" x="10.9" y="-8.5" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R90"/>
-<smd name="15" x="10.9" y="-6.8" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R90"/>
-<smd name="16" x="10.9" y="-5.1" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R90"/>
-<smd name="17" x="10.9" y="-3.4" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R90"/>
-<smd name="18" x="10.9" y="-1.7" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R90"/>
-<smd name="19" x="10.9" y="0" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R90"/>
-<smd name="20" x="10.9" y="1.7" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R90"/>
-<smd name="21" x="10.9" y="3.4" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R90"/>
-<smd name="22" x="10.9" y="5.1" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R90"/>
-<smd name="23" x="10.9" y="6.8" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R90"/>
-<smd name="24" x="10.9" y="8.5" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R90"/>
-<smd name="25" x="10.9" y="10.2" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R90"/>
-<smd name="26" x="10.9" y="11.9" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R90"/>
-<smd name="27" x="8.9" y="13.94" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R180"/>
-<smd name="28" x="7.12" y="13.94" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R180"/>
-<smd name="29" x="5.34" y="13.94" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R180"/>
-<smd name="30" x="3.56" y="13.94" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R180"/>
-<smd name="31" x="1.78" y="13.94" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R180"/>
-<smd name="32" x="0" y="13.94" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R180"/>
-<smd name="33" x="-1.78" y="13.94" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R180"/>
-<smd name="34" x="-3.56" y="13.94" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R180"/>
-<smd name="35" x="-5.34" y="13.94" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R180"/>
-<smd name="36" x="-7.12" y="13.94" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R180"/>
-<smd name="37" x="-8.9" y="13.94" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R180"/>
-<smd name="38" x="-10.9" y="11.9" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R270"/>
-<smd name="39" x="-10.9" y="10.2" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R270"/>
-<smd name="40" x="-10.9" y="8.5" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R270"/>
-<smd name="41" x="-10.9" y="6.8" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R270"/>
-<smd name="42" x="-10.9" y="5.1" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R270"/>
-<smd name="43" x="-10.9" y="3.4" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R270"/>
-<smd name="44" x="-10.9" y="1.7" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R270"/>
-<smd name="45" x="-10.9" y="0" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R270"/>
-<smd name="46" x="-10.9" y="-1.7" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R270"/>
-<smd name="47" x="-10.9" y="-3.4" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R270"/>
-<smd name="48" x="-10.9" y="-5.1" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R270"/>
-<smd name="49" x="-10.9" y="-6.8" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R270"/>
-<smd name="50" x="-10.9" y="-8.5" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R270"/>
-<smd name="51" x="-10.9" y="-10.2" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R270"/>
-<smd name="52" x="-10.9" y="-11.9" dx="1.2" dy="1.5" layer="1" roundness="40" rot="R270"/>
-<smd name="GND" x="2.7" y="-2.5" dx="2.7" dy="2.7" layer="1" roundness="10" cream="no"/>
-<text x="0" y="3.175" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="1.27" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<rectangle x1="-12" y1="5" x2="12" y2="15" layer="41"/>
-<rectangle x1="-12" y1="5" x2="12" y2="15" layer="42"/>
-<rectangle x1="2.1" y1="-3.1" x2="3.3" y2="-1.9" layer="31"/>
-<rectangle x1="-10.16" y1="-12.7" x2="-9.525" y2="5.08" layer="41"/>
-<rectangle x1="9.525" y1="-12.7" x2="10.16" y2="5.08" layer="41"/>
-<rectangle x1="-10.16" y1="-13.1763" x2="10.16" y2="-12.5413" layer="41"/>
-</package>
 <package name="SSOP20">
 <wire x1="-1.9475" y1="4.33" x2="-1.9475" y2="-4.33" width="0.127" layer="21"/>
 <smd name="1" x="-2.7475" y="2.94" dx="1.35" dy="0.4" layer="1" roundness="20"/>
@@ -2036,76 +1952,6 @@
 <rectangle x1="-1.3" y1="-1.3" x2="-0.7" y2="-0.7" layer="31"/>
 <rectangle x1="0.7" y1="-1.3" x2="1.3" y2="-0.7" layer="31"/>
 <rectangle x1="-0.4" y1="-0.4" x2="0.4" y2="0.4" layer="31"/>
-</package>
-<package name="RN4020">
-<smd name="1" x="-5.5" y="10.9" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R90"/>
-<wire x1="-5.75" y1="0" x2="5.75" y2="0" width="0.127" layer="21"/>
-<wire x1="5.75" y1="0" x2="5.75" y2="14.55" width="0.127" layer="21"/>
-<wire x1="5.75" y1="14.55" x2="-5.75" y2="14.55" width="0.127" layer="21"/>
-<wire x1="-5.75" y1="14.55" x2="-5.75" y2="0" width="0.127" layer="21"/>
-<wire x1="-5.75" y1="14.55" x2="-5.75" y2="19.5" width="0.127" layer="21"/>
-<wire x1="-5.75" y1="19.5" x2="5.75" y2="19.5" width="0.127" layer="21"/>
-<wire x1="5.75" y1="19.5" x2="5.75" y2="14.55" width="0.127" layer="21"/>
-<smd name="2" x="-5.5" y="9.7" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R90"/>
-<smd name="3" x="-5.5" y="8.5" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R90"/>
-<smd name="4" x="-5.5" y="7.3" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R90"/>
-<smd name="5" x="-5.5" y="6.1" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R90"/>
-<smd name="6" x="-5.5" y="4.9" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R90"/>
-<smd name="7" x="-5.5" y="3.7" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R90"/>
-<smd name="8" x="-5.5" y="2.5" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R90"/>
-<smd name="23" x="5.5" y="9.7" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R90"/>
-<smd name="22" x="5.5" y="8.5" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R90"/>
-<smd name="21" x="5.5" y="7.3" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R90"/>
-<smd name="20" x="5.5" y="6.1" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R90"/>
-<smd name="18" x="5.5" y="3.7" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R90"/>
-<smd name="19" x="5.5" y="4.9" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R90"/>
-<smd name="17" x="5.5" y="2.5" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R90"/>
-<smd name="24" x="5.5" y="10.9" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R90"/>
-<smd name="10" x="-3" y="0.25" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R180"/>
-<smd name="11" x="-1.8" y="0.25" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R180"/>
-<smd name="12" x="-0.6" y="0.25" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R180"/>
-<smd name="13" x="0.6" y="0.25" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R180"/>
-<smd name="14" x="1.8" y="0.25" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R180"/>
-<smd name="15" x="3" y="0.25" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R180"/>
-<smd name="9" x="-5.75" y="0" dx="1" dy="1" layer="1" roundness="100"/>
-<smd name="16" x="5.75" y="0" dx="1" dy="1" layer="1" roundness="100"/>
-<rectangle x1="-3.9" y1="12.95" x2="-1.7" y2="14.55" layer="41"/>
-<polygon width="0.127" layer="41">
-<vertex x="-4.95" y="0.3" curve="-90"/>
-<vertex x="-5.45" y="0.8"/>
-<vertex x="-5.45" y="1.2" curve="-90"/>
-<vertex x="-4.95" y="1.7" curve="-90"/>
-<vertex x="-4.45" y="1.2"/>
-<vertex x="-4.45" y="0.8" curve="-90"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="4.95" y="0.3" curve="-90"/>
-<vertex x="4.45" y="0.8"/>
-<vertex x="4.45" y="1.2" curve="-90"/>
-<vertex x="4.95" y="1.7" curve="-90"/>
-<vertex x="5.45" y="1.2"/>
-<vertex x="5.45" y="0.8" curve="-90"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="-4.95" y="11.9" curve="-90"/>
-<vertex x="-5.45" y="12.3"/>
-<vertex x="-5.45" y="13.1" curve="-90"/>
-<vertex x="-4.95" y="13.5" curve="-90"/>
-<vertex x="-4.45" y="13.1"/>
-<vertex x="-4.45" y="12.3" curve="-90"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="4.95" y="11.9" curve="-90"/>
-<vertex x="4.45" y="12.3"/>
-<vertex x="4.45" y="13.1" curve="-90"/>
-<vertex x="4.95" y="13.5" curve="-90"/>
-<vertex x="5.45" y="13.1"/>
-<vertex x="5.45" y="12.3" curve="-90"/>
-</polygon>
-<text x="0" y="8.255" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="6.35" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<rectangle x1="-8" y1="14.5" x2="8" y2="20" layer="41"/>
-<rectangle x1="-8" y1="14.5" x2="8" y2="20" layer="42"/>
 </package>
 <package name="QFN24">
 <smd name="1" x="-2" y="1.25" dx="0.8" dy="0.26" layer="1" roundness="20" rot="R180"/>
@@ -3348,22 +3194,22 @@
 <wire x1="8" y1="8" x2="-6" y2="8" width="0.127" layer="21"/>
 <wire x1="-6" y1="8" x2="-8" y2="8" width="0.127" layer="21"/>
 <wire x1="-8" y1="8" x2="-8" y2="6" width="0.127" layer="21"/>
-<smd name="1" x="-8" y="7" dx="2" dy="1" layer="1" roundness="10"/>
-<smd name="2" x="-8" y="5" dx="2" dy="1" layer="1" roundness="10"/>
-<smd name="3" x="-8" y="3" dx="2" dy="1" layer="1" roundness="10"/>
-<smd name="4" x="-8" y="1" dx="2" dy="1" layer="1" roundness="10"/>
-<smd name="5" x="-8" y="-1" dx="2" dy="1" layer="1" roundness="10"/>
-<smd name="6" x="-8" y="-3" dx="2" dy="1" layer="1" roundness="10"/>
-<smd name="7" x="-8" y="-5" dx="2" dy="1" layer="1" roundness="10"/>
-<smd name="8" x="-8" y="-7" dx="2" dy="1" layer="1" roundness="10"/>
-<smd name="9" x="8" y="-7" dx="2" dy="1" layer="1" roundness="10" rot="R180"/>
-<smd name="10" x="8" y="-5" dx="2" dy="1" layer="1" roundness="10" rot="R180"/>
-<smd name="11" x="8" y="-3" dx="2" dy="1" layer="1" roundness="10" rot="R180"/>
-<smd name="12" x="8" y="-1" dx="2" dy="1" layer="1" roundness="10" rot="R180"/>
-<smd name="13" x="8" y="1" dx="2" dy="1" layer="1" roundness="10" rot="R180"/>
-<smd name="14" x="8" y="3" dx="2" dy="1" layer="1" roundness="10" rot="R180"/>
-<smd name="15" x="8" y="5" dx="2" dy="1" layer="1" roundness="10" rot="R180"/>
-<smd name="16" x="8" y="7" dx="2" dy="1" layer="1" roundness="10" rot="R180"/>
+<smd name="1" x="-7.5" y="7" dx="2.5" dy="1" layer="1" roundness="10"/>
+<smd name="2" x="-7.5" y="5" dx="2.5" dy="1" layer="1" roundness="10"/>
+<smd name="3" x="-7.5" y="3" dx="2.5" dy="1" layer="1" roundness="10"/>
+<smd name="4" x="-7.5" y="1" dx="2.5" dy="1" layer="1" roundness="10"/>
+<smd name="5" x="-7.5" y="-1" dx="2.5" dy="1" layer="1" roundness="10"/>
+<smd name="6" x="-7.5" y="-3" dx="2.5" dy="1" layer="1" roundness="10"/>
+<smd name="7" x="-7.5" y="-5" dx="2.5" dy="1" layer="1" roundness="10"/>
+<smd name="8" x="-7.5" y="-7" dx="2.5" dy="1" layer="1" roundness="10"/>
+<smd name="9" x="7.5" y="-7" dx="2.5" dy="1" layer="1" roundness="10" rot="R180"/>
+<smd name="10" x="7.5" y="-5" dx="2.5" dy="1" layer="1" roundness="10" rot="R180"/>
+<smd name="11" x="7.5" y="-3" dx="2.5" dy="1" layer="1" roundness="10" rot="R180"/>
+<smd name="12" x="7.5" y="-1" dx="2.5" dy="1" layer="1" roundness="10" rot="R180"/>
+<smd name="13" x="7.5" y="1" dx="2.5" dy="1" layer="1" roundness="10" rot="R180"/>
+<smd name="14" x="7.5" y="3" dx="2.5" dy="1" layer="1" roundness="10" rot="R180"/>
+<smd name="15" x="7.5" y="5" dx="2.5" dy="1" layer="1" roundness="10" rot="R180"/>
+<smd name="16" x="7.5" y="7" dx="2.5" dy="1" layer="1" roundness="10" rot="R180"/>
 <text x="0" y="2" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="center">&gt;NAME</text>
 <text x="0" y="-2" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="center">&gt;VALUE</text>
 <wire x1="-8" y1="6" x2="-8" y2="-8" width="0.127" layer="21"/>
@@ -3444,7 +3290,7 @@
 <pin name="Y2" x="12.7" y="2.54" length="middle" direction="hiz" rot="R180"/>
 <pin name="Y1" x="12.7" y="5.08" length="middle" direction="hiz" rot="R180"/>
 </symbol>
-<symbol name="PWRN">
+<symbol name="GATE_PWR">
 <text x="0" y="0" size="1.778" layer="95" align="center">&gt;NAME</text>
 <text x="1.905" y="-5.842" size="1.27" layer="95" rot="R90">GND</text>
 <text x="1.905" y="2.54" size="1.27" layer="95" rot="R90">VCC</text>
@@ -3976,50 +3822,6 @@ B7</text>
 <pin name="AGND@3" x="25.4" y="-38.1" length="middle" direction="pwr" rot="R180"/>
 <pin name="AGND@4" x="25.4" y="-40.64" length="middle" direction="pwr" rot="R180"/>
 </symbol>
-<symbol name="RS9110-N-11-21">
-<wire x1="-17.78" y1="-33.02" x2="17.78" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-33.02" x2="17.78" y2="33.02" width="0.254" layer="94"/>
-<wire x1="17.78" y1="33.02" x2="-17.78" y2="33.02" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="33.02" x2="-17.78" y2="-33.02" width="0.254" layer="94"/>
-<text x="-17.78" y="35.56" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="-17.78" y="-35.56" size="1.778" layer="95">&gt;VALUE</text>
-<pin name="GND@1" x="-22.86" y="-17.78" length="middle" direction="pwr"/>
-<pin name="GND@2" x="-22.86" y="-20.32" length="middle" direction="pwr"/>
-<pin name="GND@3" x="-22.86" y="-22.86" length="middle" direction="pwr"/>
-<pin name="GND@4" x="-22.86" y="-25.4" length="middle" direction="pwr"/>
-<pin name="GND@5" x="-22.86" y="-27.94" length="middle" direction="pwr"/>
-<pin name="3V3@1" x="-22.86" y="-10.16" length="middle" direction="pwr"/>
-<pin name="3V3@2" x="-22.86" y="-12.7" length="middle" direction="pwr"/>
-<pin name="SPI_DIN" x="22.86" y="27.94" length="middle" rot="R180"/>
-<pin name="SPI_DOUT" x="22.86" y="25.4" length="middle" rot="R180"/>
-<pin name="SPI_INTR" x="22.86" y="20.32" length="middle" rot="R180"/>
-<pin name="RESET" x="-22.86" y="30.48" length="middle"/>
-<pin name="UART1_OUT" x="22.86" y="5.08" length="middle" rot="R180"/>
-<pin name="SDIO_DAT3" x="22.86" y="17.78" length="middle" rot="R180"/>
-<pin name="UART1_IN" x="22.86" y="7.62" length="middle" rot="R180"/>
-<pin name="UART2_OUT" x="22.86" y="-12.7" length="middle" rot="R180"/>
-<pin name="UART1_CTS" x="22.86" y="0" length="middle" rot="R180"/>
-<pin name="GPIO_0" x="-22.86" y="7.62" length="middle"/>
-<pin name="BT_PRIORITY" x="-22.86" y="12.7" length="middle"/>
-<pin name="WLAN_ACTIVE" x="-22.86" y="17.78" length="middle"/>
-<pin name="UART1_RTS" x="22.86" y="2.54" length="middle" rot="R180"/>
-<pin name="GPIO_2" x="-22.86" y="2.54" length="middle"/>
-<pin name="BT_ACTIVE" x="-22.86" y="15.24" length="middle"/>
-<pin name="UART2_IN" x="22.86" y="-10.16" length="middle" rot="R180"/>
-<pin name="MODE_S0" x="-22.86" y="25.4" length="middle"/>
-<pin name="MODE_S1" x="-22.86" y="22.86" length="middle"/>
-<pin name="GPIO_5" x="-22.86" y="-5.08" length="middle"/>
-<pin name="GPIO_1" x="-22.86" y="5.08" length="middle"/>
-<pin name="GPIO_3" x="-22.86" y="0" length="middle"/>
-<pin name="GPIO_4" x="-22.86" y="-2.54" length="middle"/>
-<pin name="TDI" x="22.86" y="-22.86" length="middle" rot="R180"/>
-<pin name="TDO" x="22.86" y="-25.4" length="middle" rot="R180"/>
-<pin name="TCK" x="22.86" y="-27.94" length="middle" rot="R180"/>
-<pin name="TMS" x="22.86" y="-30.48" length="middle" rot="R180"/>
-<pin name="SPI_CLK" x="22.86" y="22.86" length="middle" rot="R180"/>
-<pin name="SPI_CS" x="22.86" y="30.48" length="middle" rot="R180"/>
-<pin name="GND@6" x="-22.86" y="-30.48" length="middle" direction="pwr"/>
-</symbol>
 <symbol name="FT231X">
 <wire x1="-12.7" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
 <wire x1="12.7" y1="17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
@@ -4094,38 +3896,6 @@ B7</text>
 <pin name="(INT0/T0/ADC1/SCL/SCK)PB2" x="30.48" y="0" length="middle" rot="R180"/>
 <pin name="(OC1A/OC0B/AIN1/DO/MISO)PB1" x="30.48" y="2.54" length="middle" rot="R180"/>
 <pin name="(AREF/!OC1A!/OC0A/AIN0/SDA/DI/MOSI)PB0" x="30.48" y="5.08" length="middle" rot="R180"/>
-</symbol>
-<symbol name="RN4020">
-<wire x1="-15.24" y1="20.32" x2="-15.24" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-22.86" x2="15.24" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-22.86" x2="15.24" y2="20.32" width="0.254" layer="94"/>
-<wire x1="15.24" y1="20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
-<pin name="GND@1" x="20.32" y="-12.7" length="middle" direction="pwr" rot="R180"/>
-<pin name="AIO2" x="20.32" y="12.7" length="middle" rot="R180"/>
-<pin name="AIO1" x="20.32" y="15.24" length="middle" rot="R180"/>
-<pin name="AIO0" x="20.32" y="17.78" length="middle" rot="R180"/>
-<pin name="UART_TX" x="-20.32" y="2.54" length="middle"/>
-<pin name="UART_RX" x="-20.32" y="5.08" length="middle"/>
-<pin name="WAKE_SW" x="-20.32" y="15.24" length="middle"/>
-<pin name="CMD/MLDP" x="-20.32" y="10.16" length="middle"/>
-<pin name="GND@2" x="20.32" y="-15.24" length="middle" direction="pwr" rot="R180"/>
-<pin name="GND@3" x="20.32" y="-17.78" length="middle" direction="pwr" rot="R180"/>
-<pin name="WAKE_HW" x="-20.32" y="17.78" length="middle"/>
-<pin name="PIO5/CTS" x="-20.32" y="-15.24" length="middle"/>
-<pin name="PIO4/MISO" x="-20.32" y="-12.7" length="middle"/>
-<pin name="PIO3/WS/MOSI" x="-20.32" y="-10.16" length="middle"/>
-<pin name="PIO2/MLDP_EV/CS" x="-20.32" y="-7.62" length="middle"/>
-<pin name="PIO1/SCK" x="-20.32" y="-5.08" length="middle"/>
-<pin name="SPI/!PIO!" x="-20.32" y="-2.54" length="middle"/>
-<pin name="PIO6/RTS" x="-20.32" y="-17.78" length="middle"/>
-<pin name="PIO7" x="-20.32" y="-20.32" length="middle"/>
-<pin name="RSVD1" x="20.32" y="7.62" length="middle" rot="R180"/>
-<pin name="RSVD2" x="20.32" y="5.08" length="middle" rot="R180"/>
-<pin name="RSVD3" x="20.32" y="2.54" length="middle" rot="R180"/>
-<pin name="VCC" x="20.32" y="-7.62" length="middle" direction="pwr" rot="R180"/>
-<pin name="GND@4" x="20.32" y="-20.32" length="middle" direction="pwr" rot="R180"/>
-<text x="-15.24" y="-25.4" size="1.778" layer="96">&gt;Value</text>
-<text x="-15.24" y="22.86" size="1.778" layer="95" align="top-left">&gt;Name</text>
 </symbol>
 <symbol name="CP2102N">
 <wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
@@ -4505,17 +4275,6 @@ B7</text>
 <text x="-12.7" y="17.78" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-12.7" y="-20.32" size="1.778" layer="95">&gt;Value</text>
 </symbol>
-<symbol name="ATSHA204">
-<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
-<text x="-10.16" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="-10.16" y="-7.62" size="1.778" layer="95">&gt;VALUE</text>
-<pin name="SDA" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="VCC" x="-15.24" y="2.54" length="middle" direction="pwr"/>
-<pin name="GND" x="-15.24" y="-2.54" length="middle" direction="pwr"/>
-</symbol>
 <symbol name="ESP-12F">
 <wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
 <wire x1="12.7" y1="15.24" x2="12.7" y2="-25.4" width="0.254" layer="94"/>
@@ -4570,7 +4329,7 @@ B7</text>
 <pin name="VBG" x="25.4" y="-17.78" length="middle" direction="pas" rot="R180"/>
 <pin name="TOCAP" x="25.4" y="-27.94" length="middle" direction="pas" rot="R180"/>
 <pin name="1V2O" x="25.4" y="-22.86" length="middle" direction="pas" rot="R180"/>
-<pin name="RSVD23" x="-25.4" y="-5.08" length="middle" direction="in"/>
+<pin name="RSVD23" x="-25.4" y="-5.08" length="middle" direction="nc"/>
 <pin name="SPEED_LED" x="25.4" y="5.08" length="middle" direction="out" rot="R180"/>
 <pin name="LINK_LED" x="25.4" y="10.16" length="middle" direction="out" rot="R180"/>
 <pin name="DUPLEX_LED" x="25.4" y="0" length="middle" direction="out" rot="R180"/>
@@ -4585,11 +4344,11 @@ B7</text>
 <pin name="MOSI" x="-25.4" y="25.4" length="middle" direction="in"/>
 <pin name="!INT" x="-25.4" y="20.32" length="middle" direction="out"/>
 <pin name="!RST" x="-25.4" y="33.02" length="middle"/>
-<pin name="RSVD38" x="-25.4" y="-7.62" length="middle" direction="in"/>
-<pin name="RSVD39" x="-25.4" y="-10.16" length="middle" direction="in"/>
-<pin name="RSVD40" x="-25.4" y="-12.7" length="middle" direction="in"/>
-<pin name="RSVD41" x="-25.4" y="-15.24" length="middle" direction="in"/>
-<pin name="RSVD42" x="-25.4" y="-17.78" length="middle" direction="in"/>
+<pin name="RSVD38" x="-25.4" y="-7.62" length="middle" direction="nc"/>
+<pin name="RSVD39" x="-25.4" y="-10.16" length="middle" direction="nc"/>
+<pin name="RSVD40" x="-25.4" y="-12.7" length="middle" direction="nc"/>
+<pin name="RSVD41" x="-25.4" y="-15.24" length="middle" direction="nc"/>
+<pin name="RSVD42" x="-25.4" y="-17.78" length="middle" direction="nc"/>
 <pin name="PMODE2" x="-25.4" y="0" length="middle" direction="in"/>
 <pin name="PMODE1" x="-25.4" y="2.54" length="middle" direction="in"/>
 <pin name="PMODE0" x="-25.4" y="5.08" length="middle" direction="in"/>
@@ -5268,43 +5027,93 @@ Upstream</text>
 <pin name="(SDA/S5:0/T0:0|1:2)PB30" x="27.94" y="-63.5" length="middle" rot="R180"/>
 <pin name="(SCL/S5:1/T0:1|1:3)PB31" x="27.94" y="-66.04" length="middle" rot="R180"/>
 </symbol>
+<symbol name="GATE_XOR">
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="A" x="-10.16" y="2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
+<pin name="B" x="-10.16" y="-2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
+<pin name="Y" x="10.16" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
+<text x="0" y="0" size="1.778" layer="94" align="center">=1</text>
+<text x="-5.08" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="GATE_AND">
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="A" x="-10.16" y="2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
+<pin name="B" x="-10.16" y="-2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
+<pin name="Y" x="10.16" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
+<text x="0" y="0" size="1.778" layer="94" align="center">&amp;</text>
+<text x="-5.08" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="GATE_OR">
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="A" x="-10.16" y="2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
+<pin name="B" x="-10.16" y="-2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
+<pin name="Y" x="10.16" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
+<text x="0" y="0" size="1.778" layer="94" align="center">≥1</text>
+<text x="-5.08" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="GATE_NAND">
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="A" x="-10.16" y="2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
+<pin name="B" x="-10.16" y="-2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
+<pin name="Y" x="10.16" y="0" visible="pad" length="middle" direction="out" function="dot" rot="R180"/>
+<text x="0" y="0" size="1.778" layer="94" align="center">&amp;</text>
+<text x="-5.08" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="GATE_NOR">
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="A" x="-10.16" y="2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
+<pin name="B" x="-10.16" y="-2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
+<pin name="Y" x="10.16" y="0" visible="pad" length="middle" direction="out" function="dot" rot="R180"/>
+<text x="0" y="0" size="1.778" layer="94" align="center">≥1</text>
+<text x="-5.08" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="GATE_NOT">
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="A" x="-10.16" y="0" visible="pad" length="middle" direction="in" swaplevel="1"/>
+<pin name="Y" x="10.16" y="0" visible="pad" length="middle" direction="out" function="dot" rot="R180"/>
+<text x="0" y="0" size="1.778" layer="94" align="center">1</text>
+<text x="-5.08" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="74*244" prefix="IC">
-<description>74*244 Octal Buffer and Line Driver (3-State)</description>
+<description>74*244 Octal Buffer and Line Driver (3-State)&lt;br&gt;
+&lt;br&gt;
+HC   - VCC: 2-5.5V    - Input: High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
+AHC  - VCC: 2-5.5V    - Input: 5V tolerant, High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
+HCT  - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;
+AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;
+LVC  - VCC: 1.65-3.6V - Input: 5V tolerant, High 2V @ 3V&lt;br&gt;</description>
 <gates>
 <gate name="A" symbol="74244" x="0" y="15.24" swaplevel="1"/>
 <gate name="B" symbol="74244" x="0" y="-12.7" swaplevel="1"/>
-<gate name="P" symbol="PWRN" x="25.4" y="0" addlevel="request"/>
+<gate name="P" symbol="GATE_PWR" x="25.4" y="0" addlevel="request"/>
 </gates>
 <devices>
-<device name="N" package="DIL20">
-<connects>
-<connect gate="A" pin="A1" pad="2"/>
-<connect gate="A" pin="A2" pad="4"/>
-<connect gate="A" pin="A3" pad="6"/>
-<connect gate="A" pin="A4" pad="8"/>
-<connect gate="A" pin="G" pad="1"/>
-<connect gate="A" pin="Y1" pad="18"/>
-<connect gate="A" pin="Y2" pad="16"/>
-<connect gate="A" pin="Y3" pad="14"/>
-<connect gate="A" pin="Y4" pad="12"/>
-<connect gate="B" pin="A1" pad="11"/>
-<connect gate="B" pin="A2" pad="13"/>
-<connect gate="B" pin="A3" pad="15"/>
-<connect gate="B" pin="A4" pad="17"/>
-<connect gate="B" pin="G" pad="19"/>
-<connect gate="B" pin="Y1" pad="9"/>
-<connect gate="B" pin="Y2" pad="7"/>
-<connect gate="B" pin="Y3" pad="5"/>
-<connect gate="B" pin="Y4" pad="3"/>
-<connect gate="P" pin="GND" pad="10"/>
-<connect gate="P" pin="VCC" pad="20"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="DW" package="SO20W">
 <connects>
 <connect gate="A" pin="A1" pad="2"/>
@@ -5329,7 +5138,7 @@ Upstream</text>
 <connect gate="P" pin="VCC" pad="20"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="LVC"/>
 </technologies>
 </device>
 <device name="PW" package="TSSOP20">
@@ -5397,7 +5206,7 @@ Upstream</text>
 </devices>
 </deviceset>
 <deviceset name="ATMEGA328" prefix="IC">
-<description>Atmel ATmega48/88/168/328 AVR Microcontroller</description>
+<description>Microchip ATmega48/88/168/328 AVR Microcontroller (QFN/TQFP)</description>
 <gates>
 <gate name="IC" symbol="ATMEGA328" x="0" y="0"/>
 </gates>
@@ -5477,7 +5286,7 @@ Upstream</text>
 </devices>
 </deviceset>
 <deviceset name="ATMEGA32U4" prefix="IC">
-<description>Atmel ATmega16U4/32U4 AVR Microcontroller</description>
+<description>Microchip ATmega16U4/32U4 AVR Microcontroller</description>
 <gates>
 <gate name="IC" symbol="ATMEGA32U4" x="0" y="-5.08"/>
 </gates>
@@ -6131,57 +5940,6 @@ Upstream</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RS9110-N-11-21" prefix="IC">
-<description>Redpine Signals RS9110-N-11-21/-22 WLAN/WiFi-Module</description>
-<gates>
-<gate name="IC" symbol="RS9110-N-11-21" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RS9110-N-11-21">
-<connects>
-<connect gate="IC" pin="3V3@1" pad="46"/>
-<connect gate="IC" pin="3V3@2" pad="47"/>
-<connect gate="IC" pin="BT_ACTIVE" pad="17"/>
-<connect gate="IC" pin="BT_PRIORITY" pad="12"/>
-<connect gate="IC" pin="GND@1" pad="10"/>
-<connect gate="IC" pin="GND@2" pad="16"/>
-<connect gate="IC" pin="GND@3" pad="20"/>
-<connect gate="IC" pin="GND@4" pad="21"/>
-<connect gate="IC" pin="GND@5" pad="48"/>
-<connect gate="IC" pin="GND@6" pad="GND"/>
-<connect gate="IC" pin="GPIO_0" pad="11"/>
-<connect gate="IC" pin="GPIO_1" pad="24"/>
-<connect gate="IC" pin="GPIO_2" pad="15"/>
-<connect gate="IC" pin="GPIO_3" pad="49"/>
-<connect gate="IC" pin="GPIO_4" pad="50"/>
-<connect gate="IC" pin="GPIO_5" pad="23"/>
-<connect gate="IC" pin="MODE_S0" pad="19"/>
-<connect gate="IC" pin="MODE_S1" pad="22"/>
-<connect gate="IC" pin="RESET" pad="4"/>
-<connect gate="IC" pin="SDIO_DAT3" pad="6"/>
-<connect gate="IC" pin="SPI_CLK" pad="51"/>
-<connect gate="IC" pin="SPI_CS" pad="52"/>
-<connect gate="IC" pin="SPI_DIN" pad="1"/>
-<connect gate="IC" pin="SPI_DOUT" pad="2"/>
-<connect gate="IC" pin="SPI_INTR" pad="3"/>
-<connect gate="IC" pin="TCK" pad="42"/>
-<connect gate="IC" pin="TDI" pad="43"/>
-<connect gate="IC" pin="TDO" pad="45"/>
-<connect gate="IC" pin="TMS" pad="44"/>
-<connect gate="IC" pin="UART1_CTS" pad="9"/>
-<connect gate="IC" pin="UART1_IN" pad="7"/>
-<connect gate="IC" pin="UART1_OUT" pad="5"/>
-<connect gate="IC" pin="UART1_RTS" pad="14"/>
-<connect gate="IC" pin="UART2_IN" pad="18"/>
-<connect gate="IC" pin="UART2_OUT" pad="8"/>
-<connect gate="IC" pin="WLAN_ACTIVE" pad="13"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="FT231X" prefix="IC">
 <description>FTDI FT231X  USB to UART Bridge (5V tolerant inputs)</description>
 <gates>
@@ -6291,7 +6049,7 @@ Upstream</text>
 </devices>
 </deviceset>
 <deviceset name="ATTINY85" prefix="IC">
-<description>Atmel ATtiny25/45/85 AVR Microcontroller</description>
+<description>Microchip ATtiny25/45/85 AVR Microcontroller</description>
 <gates>
 <gate name="IC" symbol="ATTINY85" x="0" y="0"/>
 </gates>
@@ -6311,46 +6069,6 @@ Upstream</text>
 <technology name="">
 <attribute name="DIGIKEY" value="ATTINY85-20MURDKR-ND" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RN4020" prefix="IC">
-<description>Microchip RN4020 Bluetooth Module&lt;br&gt;
-BT 4.1 Low Energy (BLE)</description>
-<gates>
-<gate name="IC" symbol="RN4020" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RN4020">
-<connects>
-<connect gate="IC" pin="AIO0" pad="4"/>
-<connect gate="IC" pin="AIO1" pad="3"/>
-<connect gate="IC" pin="AIO2" pad="2"/>
-<connect gate="IC" pin="CMD/MLDP" pad="8"/>
-<connect gate="IC" pin="GND@1" pad="1"/>
-<connect gate="IC" pin="GND@2" pad="9"/>
-<connect gate="IC" pin="GND@3" pad="16"/>
-<connect gate="IC" pin="GND@4" pad="24"/>
-<connect gate="IC" pin="PIO1/SCK" pad="10"/>
-<connect gate="IC" pin="PIO2/MLDP_EV/CS" pad="11"/>
-<connect gate="IC" pin="PIO3/WS/MOSI" pad="12"/>
-<connect gate="IC" pin="PIO4/MISO" pad="13"/>
-<connect gate="IC" pin="PIO5/CTS" pad="14"/>
-<connect gate="IC" pin="PIO6/RTS" pad="18"/>
-<connect gate="IC" pin="PIO7" pad="19"/>
-<connect gate="IC" pin="RSVD1" pad="20"/>
-<connect gate="IC" pin="RSVD2" pad="21"/>
-<connect gate="IC" pin="RSVD3" pad="22"/>
-<connect gate="IC" pin="SPI/!PIO!" pad="17"/>
-<connect gate="IC" pin="UART_RX" pad="6"/>
-<connect gate="IC" pin="UART_TX" pad="5"/>
-<connect gate="IC" pin="VCC" pad="23"/>
-<connect gate="IC" pin="WAKE_HW" pad="15"/>
-<connect gate="IC" pin="WAKE_SW" pad="7"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6485,7 +6203,7 @@ TMC2130 - SPI for configuration&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATMEGA328-PU" prefix="IC">
-<description>Atmel ATmega48/88/168/328 AVR Microcontroller</description>
+<description>Microchip ATmega48/88/168/328 AVR Microcontroller (DIL)</description>
 <gates>
 <gate name="IC" symbol="ATMEGA328-PU" x="0" y="0"/>
 </gates>
@@ -6530,7 +6248,7 @@ TMC2130 - SPI for configuration&lt;br&gt;</description>
 <description>4094 8-Bit Shift/Store Register (3-State)</description>
 <gates>
 <gate name="A" symbol="4094" x="0" y="0"/>
-<gate name="P" symbol="PWRN" x="22.86" y="0"/>
+<gate name="P" symbol="GATE_PWR" x="22.86" y="0"/>
 </gates>
 <devices>
 <device name="N" package="DIL16">
@@ -6648,7 +6366,7 @@ TMC2130 - SPI for configuration&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATWINC1500" prefix="IC">
-<description>Atmel ATWINC1500 WiFi/WLAN 802.11 b/g/n&lt;br&gt;
+<description>Microchip ATWINC1500 WiFi/WLAN 802.11 b/g/n&lt;br&gt;
 &lt;br&gt;
 MR210PB - PCB antenna&lt;br&gt;
 MR210UB - uFL connector&lt;br&gt;
@@ -6720,7 +6438,7 @@ WINC1510 - 8Mb Flash&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATTINY841" prefix="IC">
-<description>Atmel ATtiny441/841 AVR Microcontroller</description>
+<description>Microchip ATtiny441/841 AVR Microcontroller</description>
 <gates>
 <gate name="IC" symbol="ATTINY841" x="-5.08" y="12.7"/>
 </gates>
@@ -6807,29 +6525,8 @@ WINC1510 - 8Mb Flash&lt;br&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SN74AUP1T87" prefix="IC">
-<description>2-Input Positive Exclusive-NOR Gate</description>
-<gates>
-<gate name="IC" symbol="GATE_XNOR" x="0" y="0"/>
-<gate name="P" symbol="PWRN" x="25.4" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT353">
-<connects>
-<connect gate="IC" pin="A" pad="1"/>
-<connect gate="IC" pin="B" pad="2"/>
-<connect gate="IC" pin="Y" pad="4"/>
-<connect gate="P" pin="GND" pad="3"/>
-<connect gate="P" pin="VCC" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="ATMEGA64" prefix="IC">
-<description>Atmel ATmega64 AVR Microcontroller</description>
+<description>Microchip ATmega64 AVR Microcontroller</description>
 <gates>
 <gate name="IC" symbol="ATMEGA64" x="0" y="0"/>
 </gates>
@@ -6958,24 +6655,6 @@ WINC1510 - 8Mb Flash&lt;br&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATSHA204" prefix="IC">
-<description>Atmel ATSHA204 Security Device (Crypto Element, Random Number Generator, EEPROM)</description>
-<gates>
-<gate name="IC" symbol="ATSHA204" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23">
-<connects>
-<connect gate="IC" pin="GND" pad="3"/>
-<connect gate="IC" pin="SDA" pad="1"/>
-<connect gate="IC" pin="VCC" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="ESP-12F" prefix="IC">
 <description>AI-Thinker ESP-12F ESP8266 WiFi/WLAN Module</description>
 <gates>
@@ -7014,12 +6693,15 @@ WINC1510 - 8Mb Flash&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATECC508A" prefix="IC">
-<description>Atmel ATECC508A Crypto-Authentication Device</description>
+<description>Microchip ATECC508A/ATECC608A Crypto-Authentication Device&lt;br&gt;
+&lt;br&gt;
+ATECC508A - RNG, ECC P256 (ECDH and ECDSA), SHA256&lt;br&gt;
+ATECC608A - RNG, ECC P256 (ECDH and ECDSA), SHA256, AES-CCM&lt;br&gt;</description>
 <gates>
 <gate name="IC" symbol="ATECC508A" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-MAHDA-S" package="UDFN8">
+<device name="-MAHDA" package="UDFN8">
 <connects>
 <connect gate="IC" pin="GND" pad="4"/>
 <connect gate="IC" pin="SCL" pad="6"/>
@@ -7145,35 +6827,17 @@ WINC1510 - 8Mb Flash&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="74*595" prefix="IC">
-<description>74*595 8-Bit Shift/Store Register (3-State)</description>
+<description>74*595 8-Bit Shift/Store Register (3-State)&lt;br&gt;
+&lt;br&gt;
+HC   - VCC: 2-5.5V    - Input: High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
+AHC  - VCC: 2-5.5V    - Input: 5V tolerant, High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
+HCT  - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;
+AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;</description>
 <gates>
 <gate name="IC" symbol="74595" x="0" y="0" swaplevel="1"/>
-<gate name="P" symbol="PWRN" x="22.86" y="0" addlevel="request"/>
+<gate name="P" symbol="GATE_PWR" x="22.86" y="0" addlevel="request"/>
 </gates>
 <devices>
-<device name="N" package="DIL16">
-<connects>
-<connect gate="IC" pin="!OE" pad="13"/>
-<connect gate="IC" pin="!RST" pad="10"/>
-<connect gate="IC" pin="CLK" pad="11"/>
-<connect gate="IC" pin="DIN" pad="14"/>
-<connect gate="IC" pin="Q1" pad="15"/>
-<connect gate="IC" pin="Q2" pad="1"/>
-<connect gate="IC" pin="Q3" pad="2"/>
-<connect gate="IC" pin="Q4" pad="3"/>
-<connect gate="IC" pin="Q5" pad="4"/>
-<connect gate="IC" pin="Q6" pad="5"/>
-<connect gate="IC" pin="Q7" pad="6"/>
-<connect gate="IC" pin="Q8" pad="7"/>
-<connect gate="IC" pin="Q8*" pad="9"/>
-<connect gate="IC" pin="STR" pad="12"/>
-<connect gate="P" pin="GND" pad="8"/>
-<connect gate="P" pin="VCC" pad="16"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="PW" package="TSSOP16">
 <connects>
 <connect gate="IC" pin="!OE" pad="13"/>
@@ -7194,9 +6858,7 @@ WINC1510 - 8Mb Flash&lt;br&gt;</description>
 <connect gate="P" pin="VCC" pad="16"/>
 </connects>
 <technologies>
-<technology name="HC">
-<attribute name="DIGIKEY" value="568-2263-2-ND" constant="no"/>
-</technology>
+<technology name="HC"/>
 </technologies>
 </device>
 </devices>
@@ -7502,7 +7164,7 @@ WINC1510 - 8Mb Flash&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATSAMD21G" prefix="IC">
-<description>Atmel ATSAMD21Gxx ARM Cortex-M0+ (48 pins)&lt;br&gt;
+<description>Microchip ATSAMD21Gxx ARM Cortex-M0+ (48 pin)&lt;br&gt;
 &lt;br&gt;
 ...18 - 256kb Flash 32kb RAM&lt;br&gt;
 ...17 - 128kb Flash 16kb RAM&lt;br&gt;
@@ -7617,7 +7279,7 @@ WINC1510 - 8Mb Flash&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATSAMW25" prefix="IC">
-<description>Atmel ATSAMW25 ARM Cortex-M0 + WiFi/WLAN&lt;br&gt;
+<description>Microchip ATSAMW25 ARM Cortex-M0 + WiFi/WLAN&lt;br&gt;
 &lt;br&gt;
 MR210PB - WINC1500 + SAM D21 (PCB antenna)&lt;br&gt;
 MR510PB - WINC1500 + SAM D21 + ATECC508 (PCB antenna)&lt;br&gt;
@@ -7735,7 +7397,7 @@ MR510UB - WINC1500 + SAM D21 + ATECC508 (uFL connector)&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATMEGA328PB" prefix="IC">
-<description>Atmel ATmeg328PB AVR Microcontroller</description>
+<description>Microchip ATmeg328PB AVR Microcontroller (QFN/TQFP)</description>
 <gates>
 <gate name="IC" symbol="ATMEGA328PB" x="0" y="0"/>
 </gates>
@@ -8004,10 +7666,15 @@ Compatible with AI-Thinker ESP-32S Module.</description>
 </devices>
 </deviceset>
 <deviceset name="74*165" prefix="IC">
-<description>74*165 8-Bit Parallel-Load Shift Register</description>
+<description>74*165 8-Bit Parallel-Load Shift Register&lt;br&gt;
+&lt;br&gt;
+HC   - VCC: 2-5.5V    - Input: High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
+AHC  - VCC: 2-5.5V    - Input: 5V tolerant, High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
+HCT  - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;
+AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;</description>
 <gates>
 <gate name="IC" symbol="74165" x="0" y="0"/>
-<gate name="P" symbol="PWRN" x="25.4" y="0" addlevel="request"/>
+<gate name="P" symbol="GATE_PWR" x="25.4" y="0" addlevel="request"/>
 </gates>
 <devices>
 <device name="PW" package="TSSOP16">
@@ -8074,7 +7741,7 @@ Compatible with AI-Thinker ESP-32S Module.</description>
 </devices>
 </deviceset>
 <deviceset name="ATSAMD21E" prefix="IC">
-<description>Atmel ATSAMD21Exx ARM Cortex-M0+ (32 pins)&lt;br&gt;
+<description>Microchip ATSAMD21Exx ARM Cortex-M0+ (32 pin)&lt;br&gt;
 &lt;br&gt;
 ...18 - 256kb Flash 32kb RAM&lt;br&gt;
 ...17 - 128kb Flash 16kb RAM&lt;br&gt;
@@ -8125,7 +7792,7 @@ Compatible with AI-Thinker ESP-32S Module.</description>
 </devices>
 </deviceset>
 <deviceset name="ATSAMD21J" prefix="IC">
-<description>Atmel ATSAMD21Jxx ARM Cortex-M0+ (64 pins)&lt;br&gt;
+<description>Microchip ATSAMD21Jxx ARM Cortex-M0+ (64 pin)&lt;br&gt;
 &lt;br&gt;
 ...18 - 256kb Flash 32kb RAM&lt;br&gt;
 ...17 - 128kb Flash 16kb RAM&lt;br&gt;
@@ -8198,6 +7865,154 @@ Compatible with AI-Thinker ESP-32S Module.</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74*1G00" prefix="IC">
+<description>2-Input &lt;b&gt;NAND&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+HC   - VCC: 2-5.5V    - Input: High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
+AHC  - VCC: 2-5.5V    - Input: 5V tolerant, High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
+HCT  - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;
+AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;
+LVC  - VCC: 1.65-5.5V - Input: 5V tolerant, High 2V @ 3V / 3.5V @ 5V&lt;br&gt;
+AUC  - VCC: 0.8-2.7V  - Input: High 1.7V @ 2.5V&lt;br&gt;
+AUP  - VCC: 0.8-3.6V  - Input: High 2V @ 3V&lt;br&gt;</description>
+<gates>
+<gate name="IC" symbol="GATE_NAND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="AHC"/>
+<technology name="LVC"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74*1G02" prefix="IC">
+<description>2-Input &lt;b&gt;NOR&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+HC   - VCC: 2-5.5V    - Input: High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
+AHC  - VCC: 2-5.5V    - Input: 5V tolerant, High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
+HCT  - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;
+AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;
+LVC  - VCC: 1.65-5.5V - Input: 5V tolerant, High 2V @ 3V / 3.5V @ 5V&lt;br&gt;
+AUC  - VCC: 0.8-2.7V  - Input: High 1.7V @ 2.5V&lt;br&gt;
+AUP  - VCC: 0.8-3.6V  - Input: High 2V @ 3V&lt;br&gt;</description>
+<gates>
+<gate name="IC" symbol="GATE_NOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74*1G08" prefix="IC">
+<description>2-Input &lt;b&gt;AND&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+HC   - VCC: 2-5.5V    - Input: High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
+AHC  - VCC: 2-5.5V    - Input: 5V tolerant, High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
+HCT  - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;
+AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;
+LVC  - VCC: 1.65-5.5V - Input: 5V tolerant, High 2V @ 3V / 3.5V @ 5V&lt;br&gt;
+AUC  - VCC: 0.8-2.7V  - Input: High 1.7V @ 2.5V&lt;br&gt;
+AUP  - VCC: 0.8-3.6V  - Input: High 2V @ 3V&lt;br&gt;</description>
+<gates>
+<gate name="IC" symbol="GATE_AND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74*1G32" prefix="IC">
+<description>2-Input &lt;b&gt;OR&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+HC   - VCC: 2-5.5V    - Input: High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
+AHC  - VCC: 2-5.5V    - Input: 5V tolerant, High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
+HCT  - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;
+AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;
+LVC  - VCC: 1.65-5.5V - Input: 5V tolerant, High 2V @ 3V / 3.5V @ 5V&lt;br&gt;
+AUC  - VCC: 0.8-2.7V  - Input: High 1.7V @ 2.5V&lt;br&gt;
+AUP  - VCC: 0.8-3.6V  - Input: High 2V @ 3V&lt;br&gt;</description>
+<gates>
+<gate name="IC" symbol="GATE_OR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74*1G86" prefix="IC">
+<description>2-Input &lt;b&gt;XOR&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+HC   - VCC: 2-5.5V    - Input: High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
+AHC  - VCC: 2-5.5V    - Input: 5V tolerant, High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
+HCT  - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;
+AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;
+LVC  - VCC: 1.65-5.5V - Input: 5V tolerant, High 2V @ 3V / 3.5V @ 5V&lt;br&gt;
+AUC  - VCC: 0.8-2.7V  - Input: High 1.7V @ 2.5V&lt;br&gt;
+AUP  - VCC: 0.8-3.6V  - Input: High 2V @ 3V&lt;br&gt;</description>
+<gates>
+<gate name="IC" symbol="GATE_XOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74*1G04" prefix="IC">
+<description>1-Input &lt;b&gt;NOT&lt;/b&gt; (Inverter)&lt;br&gt;
+&lt;br&gt;
+HC   - VCC: 2-5.5V    - Input: High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
+AHC  - VCC: 2-5.5V    - Input: 5V tolerant, High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
+HCT  - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;
+AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;
+LVC  - VCC: 1.65-5.5V - Input: 5V tolerant, High 2V @ 3V / 3.5V @ 5V&lt;br&gt;
+AUC  - VCC: 0.8-2.7V  - Input: High 1.7V @ 2.5V&lt;br&gt;
+AUP  - VCC: 0.8-3.6V  - Input: High 2V @ 3V&lt;br&gt;</description>
+<gates>
+<gate name="IC" symbol="GATE_NOT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74*1T87" prefix="IC">
+<description>2-Input &lt;b&gt;XNOR&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+HC   - VCC: 2-5.5V    - Input: High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
+AHC  - VCC: 2-5.5V    - Input: 5V tolerant, High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
+HCT  - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;
+AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;
+LVC  - VCC: 1.65-5.5V - Input: 5V tolerant, High 2V @ 3V / 3.5V @ 5V&lt;br&gt;
+AUC  - VCC: 0.8-2.7V  - Input: High 1.7V @ 2.5V&lt;br&gt;
+AUP  - VCC: 0.8-3.6V  - Input: High 2V @ 3V&lt;br&gt;</description>
+<gates>
+<gate name="IC" symbol="GATE_XNOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="AUP"/>
 </technologies>
 </device>
 </devices>
