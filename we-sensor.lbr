@@ -1030,7 +1030,7 @@ ACS724 VCC=5V, ACS725 VCC=3.3V&lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="SF2" prefix="H">
-<description>Housing for Sensor (BME680)</description>
+<description>Sensirion SF2 Filter Cab/Housing for Humidity Sensors</description>
 <gates>
 <gate name="H" symbol="SF2" x="0" y="0"/>
 </gates>

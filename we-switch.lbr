@@ -103,7 +103,7 @@
 <text x="0" y="3.175" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="PTS840P">
-<description>C&amp;K Components PTS840 PM SMTR LFS or PTS840 PK SMTR LFS</description>
+<description>C&amp;K PTS840 PM SMTR LFS or PTS840 PK SMTR LFS</description>
 <smd name="4" x="1.9" y="-0.75" dx="1" dy="1.65" layer="1" roundness="10" rot="R90"/>
 <smd name="3" x="-1.9" y="-0.75" dx="1" dy="1.65" layer="1" roundness="10" rot="R90"/>
 <smd name="2" x="1.9" y="0.75" dx="1" dy="1.65" layer="1" roundness="10" rot="R90"/>
@@ -305,6 +305,15 @@
 <text x="0" y="1.27" size="0.8128" layer="21" font="vector" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="SW6X6_SMD">
+<description>C&amp;K PTS645&lt;br&gt;
+&lt;br&gt;
+PTS645S-&lt;br&gt;
+L - 130gr Black&lt;br&gt;
+M - 160gr Blue&lt;br&gt;
+H - 200gr Gray&lt;br&gt;
+K - 260gr Red&lt;br&gt;
+&lt;br&gt;
+4.3-13mm height&lt;br&gt;</description>
 <wire x1="3" y1="-3" x2="3" y2="3" width="0.127" layer="21"/>
 <wire x1="3" y1="3" x2="-3" y2="3" width="0.127" layer="21"/>
 <wire x1="-3" y1="3" x2="-3" y2="-3" width="0.127" layer="21"/>
@@ -312,10 +321,10 @@
 <wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.127" layer="21"/>
 <wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="1.75" width="0.127" layer="21"/>
-<smd name="1" x="-3.8" y="2.25" dx="1.2" dy="1.5" layer="1" roundness="10" rot="R270"/>
-<smd name="3" x="-3.8" y="-2.25" dx="1.4" dy="1.5" layer="1" roundness="10" rot="R270"/>
-<smd name="4" x="3.8" y="-2.25" dx="1.2" dy="1.5" layer="1" roundness="10" rot="R270"/>
-<smd name="2" x="3.8" y="2.25" dx="1.2" dy="1.5" layer="1" roundness="10" rot="R270"/>
+<smd name="1" x="-3.85" y="2.25" dx="1.3" dy="1.6" layer="1" roundness="10" rot="R270"/>
+<smd name="3" x="-3.85" y="-2.25" dx="1.3" dy="1.6" layer="1" roundness="10" rot="R270"/>
+<smd name="4" x="3.85" y="-2.25" dx="1.3" dy="1.6" layer="1" roundness="10" rot="R270"/>
+<smd name="2" x="3.85" y="2.25" dx="1.3" dy="1.6" layer="1" roundness="10" rot="R270"/>
 <text x="0" y="3.81" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="DB3C">

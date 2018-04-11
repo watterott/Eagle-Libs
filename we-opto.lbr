@@ -562,8 +562,8 @@ FCI 62684-401100AHLF -&gt; bottom contact&lt;br&gt;</description>
 <wire x1="-10.872" y1="6.296" x2="-10.872" y2="17.16" width="0.127" layer="21"/>
 <wire x1="12" y1="-2.6" x2="-12" y2="-2.6" width="0.127" layer="51"/>
 <text x="0" y="-2.085" size="0.8128" layer="51" font="vector" ratio="10" align="bottom-center">PCB Edge</text>
-<hole x="-8" y="0" drill="0.4"/>
-<hole x="8" y="0" drill="0.4"/>
+<hole x="-8" y="0" drill="0.6"/>
+<hole x="8" y="0" drill="0.6"/>
 <text x="0" y="13.79" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="11.25" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="12" y1="-4.6" x2="-12" y2="-4.6" width="0.127" layer="51"/>
@@ -609,8 +609,8 @@ FCI 62684-401100AHLF -&gt; bottom contact&lt;br&gt;</description>
 <wire x1="10.872" y1="17.16" x2="10.872" y2="6.296" width="0.127" layer="21"/>
 <wire x1="10.872" y1="6.296" x2="-10.872" y2="6.296" width="0.127" layer="21"/>
 <wire x1="-10.872" y1="6.296" x2="-10.872" y2="17.16" width="0.127" layer="21"/>
-<hole x="-8" y="-7.25" drill="0.4"/>
-<hole x="8" y="-7.25" drill="0.4"/>
+<hole x="-8" y="-7.25" drill="0.6"/>
+<hole x="8" y="-7.25" drill="0.6"/>
 <text x="0" y="13.79" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="11.25" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="-6" y1="0" x2="-6" y2="-5" width="0.127" layer="21"/>
@@ -1104,7 +1104,7 @@ FCI 62684-501100AHLF -&gt; bottom contact&lt;br&gt;</description>
 </symbols>
 <devicesets>
 <deviceset name="MI0283QT" prefix="LCD">
-<description>Multi-Inno MIO283QT-9/-11 2.8" Display (240x320) with Ilitek ILI9341 controller</description>
+<description>Multi-Inno MIO283QT-9/-11 2.8" TFT (240x320) with Ilitek ILI9341</description>
 <gates>
 <gate name="LCD" symbol="MI0283QT" x="0" y="0"/>
 </gates>
@@ -1536,7 +1536,7 @@ TFT070-4 - 7.0" 800x480 (LED @ 40mA @ 20.4V)&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="UG2864HSWEG01" prefix="LCD">
-<description>Univision (WiseChip) UG-2864HSWEG01 OLED-Display</description>
+<description>Univision/WiseChip UG-2864HSWEG01 0.9" OLED (128x64) with SSD1306</description>
 <gates>
 <gate name="LCD" symbol="UG2864HSWEG01" x="0" y="-2.54"/>
 </gates>
