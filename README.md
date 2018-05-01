@@ -18,7 +18,7 @@ we-dru-4-layer.dru - 4 Layer PCB Design Rules
 
 ## Installation
 Download the complete libraries [here](https://github.com/watterott/Eagle-Libs/archive/master.zip) and copy the content of the ZIP-Archive to your Eagle library folder.
-
+Further infos [here](http://learn.watterott.com/kb/eagle-cad/).
 
 ## License
 These libraries are released under the [Creative Commons Attribution Share-Alike (CC BY-SA)](https://creativecommons.org/licenses/by-sa/4.0/) license.
