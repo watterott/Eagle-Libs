@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -5101,7 +5101,7 @@ Upstream</text>
 </symbols>
 <devicesets>
 <deviceset name="74*244" prefix="IC">
-<description>74*244 Octal Buffer and Line Driver (3-State)&lt;br&gt;
+<description>74*244 Octal Buffer / Line Driver (3-State)&lt;br&gt;
 &lt;br&gt;
 HC   - VCC: 2-5.5V    - Input: High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
 AHC  - VCC: 2-5.5V    - Input: 5V tolerant, High 2.1V @ 3V / 3.5V @ 5V&lt;br&gt;
@@ -5173,7 +5173,8 @@ LVC  - VCC: 1.65-3.6V - Input: 5V tolerant, High 2V @ 3V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ADS7846" prefix="IC">
-<description>TI ADS7846 / TSC2046 Touch Screen Controller</description>
+<description>TI ADS7846 / TSC2046
+Touch Screen Controller</description>
 <gates>
 <gate name="IC" symbol="ADS7846" x="0" y="0"/>
 </gates>
@@ -5206,7 +5207,8 @@ LVC  - VCC: 1.65-3.6V - Input: 5V tolerant, High 2V @ 3V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATMEGA328" prefix="IC">
-<description>Microchip ATmega48/88/168/328 AVR Microcontroller (QFN/TQFP)</description>
+<description>Microchip ATmega48/88/168/328
+AVR Microcontroller (QFN/TQFP)</description>
 <gates>
 <gate name="IC" symbol="ATMEGA328" x="0" y="0"/>
 </gates>
@@ -5286,7 +5288,8 @@ LVC  - VCC: 1.65-3.6V - Input: 5V tolerant, High 2V @ 3V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATMEGA32U4" prefix="IC">
-<description>Microchip ATmega16U4/32U4 AVR Microcontroller</description>
+<description>Microchip ATmega16U4/32U4
+AVR Microcontroller</description>
 <gates>
 <gate name="IC" symbol="ATMEGA32U4" x="0" y="-5.08"/>
 </gates>
@@ -5386,7 +5389,8 @@ LVC  - VCC: 1.65-3.6V - Input: 5V tolerant, High 2V @ 3V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="LPC111X" prefix="IC">
-<description>NXP LPC1113/14 ARM Cortex-M0 Microcontroller</description>
+<description>NXP LPC1113/14
+ARM Cortex-M0 Microcontroller</description>
 <gates>
 <gate name="IC" symbol="LPC111X" x="0" y="0"/>
 </gates>
@@ -5449,7 +5453,8 @@ LVC  - VCC: 1.65-3.6V - Input: 5V tolerant, High 2V @ 3V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="DAC8760">
-<description>TI DAC8760 Digital-Analog Converter (0-10V, 0-20mA)</description>
+<description>TI DAC8760
+DAC (0-10V, 0-20mA)</description>
 <gates>
 <gate name="IC" symbol="DAC8760" x="0" y="0"/>
 </gates>
@@ -5513,7 +5518,8 @@ LVC  - VCC: 1.65-3.6V - Input: 5V tolerant, High 2V @ 3V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ADUM3160" prefix="IC">
-<description>Analog ADuM3160 (pin compatible with ADuM4160) USB port isolator</description>
+<description>Analog ADuM3160
+USB port isolator (pin compatible with ADuM4160)</description>
 <gates>
 <gate name="IC" symbol="ADUM3160" x="0" y="0"/>
 </gates>
@@ -5544,7 +5550,8 @@ LVC  - VCC: 1.65-3.6V - Input: 5V tolerant, High 2V @ 3V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ADS1147" prefix="IC">
-<description>TI ADS1147 Analog-to-Digital Converter for Temperature Sensors</description>
+<description>TI ADS1147 ADC
+for Temperature Sensors</description>
 <gates>
 <gate name="IC" symbol="ADS1147" x="-2.54" y="0"/>
 </gates>
@@ -5579,7 +5586,8 @@ LVC  - VCC: 1.65-3.6V - Input: 5V tolerant, High 2V @ 3V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="SN75LVDS83B" prefix="IC">
-<description>TI SN75LVDS83B LVDS Transmitter</description>
+<description>TI SN75LVDS83B
+LVDS Transmitter</description>
 <gates>
 <gate name="IC" symbol="SN75LVDS83B" x="2.54" y="7.62"/>
 </gates>
@@ -5652,7 +5660,8 @@ LVC  - VCC: 1.65-3.6V - Input: 5V tolerant, High 2V @ 3V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="TFP401A" prefix="IC">
-<description>TI TFP401A HDMI/DVI Receiver</description>
+<description>TI TFP401A
+HDMI/DVI Receiver/De-Serializer</description>
 <gates>
 <gate name="IC" symbol="TFP401A" x="2.54" y="10.16"/>
 </gates>
@@ -5878,7 +5887,8 @@ LVC  - VCC: 1.65-3.6V - Input: 5V tolerant, High 2V @ 3V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="VS1053" prefix="IC">
-<description>VLSI VS1053 Ogg Vorbis/MP3/AAC/WMA/FLAC/MIDI Audio Codec</description>
+<description>VLSI VS1053
+Audio Codec - Ogg Vorbis/MP3/AAC/WMA/FLAC/MIDI</description>
 <gates>
 <gate name="IC" symbol="VS1053" x="0" y="0"/>
 </gates>
@@ -5941,7 +5951,8 @@ LVC  - VCC: 1.65-3.6V - Input: 5V tolerant, High 2V @ 3V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="FT231X" prefix="IC">
-<description>FTDI FT231X  USB to UART Bridge (5V tolerant inputs)</description>
+<description>FTDI FT231X
+USB to UART Bridge (5V tolerant inputs)</description>
 <gates>
 <gate name="IC" symbol="FT231X" x="0" y="0"/>
 </gates>
@@ -6003,7 +6014,8 @@ LVC  - VCC: 1.65-3.6V - Input: 5V tolerant, High 2V @ 3V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="RV8523" prefix="IC">
-<description>Micro Crystal RV-8523 RTC (Real Time Clock)</description>
+<description>Micro Crystal RV-8523
+RTC (Real Time Clock)</description>
 <gates>
 <gate name="IC" symbol="RV8523" x="0" y="0"/>
 </gates>
@@ -6026,7 +6038,8 @@ LVC  - VCC: 1.65-3.6V - Input: 5V tolerant, High 2V @ 3V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="DS1307" prefix="IC">
-<description>Maxim DS1307 RTC (Real Time Clock)</description>
+<description>Maxim DS1307
+RTC (Real Time Clock)</description>
 <gates>
 <gate name="IC" symbol="DS1307" x="0" y="0"/>
 </gates>
@@ -6049,7 +6062,8 @@ LVC  - VCC: 1.65-3.6V - Input: 5V tolerant, High 2V @ 3V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATTINY85" prefix="IC">
-<description>Microchip ATtiny25/45/85 AVR Microcontroller</description>
+<description>Microchip ATtiny25/45/85
+AVR Microcontroller</description>
 <gates>
 <gate name="IC" symbol="ATTINY85" x="0" y="0"/>
 </gates>
@@ -6074,7 +6088,8 @@ LVC  - VCC: 1.65-3.6V - Input: 5V tolerant, High 2V @ 3V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="CP2102N" prefix="IC">
-<description>Silabs CP2102N USB to UART Bridge (5V tolerant inputs)&lt;br&gt;
+<description>Silabs CP2102N
+USB to UART Bridge (5V tolerant inputs)&lt;br&gt;
 &lt;br&gt;
 CP2102N-QFN24 is pin-compatible with CP2104.</description>
 <gates>
@@ -6113,7 +6128,8 @@ CP2102N-QFN24 is pin-compatible with CP2104.</description>
 </devices>
 </deviceset>
 <deviceset name="TCA9535" prefix="IC">
-<description>TI TCA9535 16-Bit I2C I/O Expander</description>
+<description>TI TCA9535
+I2C 16-Bit I/O Expander</description>
 <gates>
 <gate name="IC" symbol="TCA9535" x="0" y="0"/>
 </gates>
@@ -6152,7 +6168,8 @@ CP2102N-QFN24 is pin-compatible with CP2104.</description>
 </devices>
 </deviceset>
 <deviceset name="TMC21X0" prefix="IC">
-<description>Trinamic TMC21x0 Stepper Motor Driver (5V...46V, 1.2A RMS, 256 microsteps)&lt;br&gt;
+<description>Trinamic TMC21x0
+Stepper Motor Driver (5V...46V, 1.2A RMS, 256 microsteps)&lt;br&gt;
 &lt;br&gt;
 TMC2100 - CFG pins for configuration (standalone)&lt;br&gt;
 TMC2130 - SPI for configuration&lt;br&gt;</description>
@@ -6203,7 +6220,8 @@ TMC2130 - SPI for configuration&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATMEGA328-PU" prefix="IC">
-<description>Microchip ATmega48/88/168/328 AVR Microcontroller (DIL)</description>
+<description>Microchip ATmega48/88/168/328
+AVR Microcontroller (DIL)</description>
 <gates>
 <gate name="IC" symbol="ATMEGA328-PU" x="0" y="0"/>
 </gates>
@@ -6323,7 +6341,8 @@ TMC2130 - SPI for configuration&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="RV8803" prefix="IC">
-<description>Micro Crystal RV-8803 RTC (Real Time Clock)</description>
+<description>Micro Crystal RV-8803
+RTC (Real Time Clock)</description>
 <gates>
 <gate name="IC" symbol="RV8803" x="0" y="0"/>
 </gates>
@@ -6346,7 +6365,8 @@ TMC2130 - SPI for configuration&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="MAX4465" prefix="IC">
-<description>Maxim MAX4465...MAX4469  OP Amp for Micro Preamps</description>
+<description>Maxim MAX4465...MAX4469
+OP-Amp for Micro Preamps</description>
 <gates>
 <gate name="IC" symbol="MAX4465" x="0" y="0"/>
 </gates>
@@ -6366,7 +6386,8 @@ TMC2130 - SPI for configuration&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATWINC1500" prefix="IC">
-<description>Microchip ATWINC1500 WiFi/WLAN 802.11 b/g/n&lt;br&gt;
+<description>Microchip ATWINC1500
+WiFi/WLAN 802.11 b/g/n&lt;br&gt;
 &lt;br&gt;
 MR210PB - PCB antenna&lt;br&gt;
 MR210UB - uFL connector&lt;br&gt;
@@ -6438,7 +6459,8 @@ WINC1510 - 8Mb Flash&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATTINY841" prefix="IC">
-<description>Microchip ATtiny441/841 AVR Microcontroller</description>
+<description>Microchip ATtiny441/841
+AVR Microcontroller</description>
 <gates>
 <gate name="IC" symbol="ATTINY841" x="-5.08" y="12.7"/>
 </gates>
@@ -6488,7 +6510,8 @@ WINC1510 - 8Mb Flash&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="L298" prefix="IC">
-<description>ST L298 Dual Full Bridge Driver (up to 46V and 4A)</description>
+<description>ST L298
+Dual Full Bridge Driver (up to 46V and 4A)</description>
 <gates>
 <gate name="IC" symbol="L298" x="0" y="0"/>
 </gates>
@@ -6526,7 +6549,8 @@ WINC1510 - 8Mb Flash&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATMEGA64" prefix="IC">
-<description>Microchip ATmega64 AVR Microcontroller</description>
+<description>Microchip ATmega64
+AVR Microcontroller</description>
 <gates>
 <gate name="IC" symbol="ATMEGA64" x="0" y="0"/>
 </gates>
@@ -6602,7 +6626,8 @@ WINC1510 - 8Mb Flash&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ESP-WROOM02" prefix="IC">
-<description>Espressif ESP-WROOM-02  and AI-Thinker ESP-12 ESP8266 WiFi/WLAN Module</description>
+<description>Espressif ESP-WROOM-02 / AI-Thinker ESP-12
+ESP8266 WiFi/WLAN Module</description>
 <gates>
 <gate name="IC" symbol="ESP-WROOM02" x="0" y="0"/>
 </gates>
@@ -6656,7 +6681,8 @@ WINC1510 - 8Mb Flash&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ESP-12F" prefix="IC">
-<description>AI-Thinker ESP-12F ESP8266 WiFi/WLAN Module</description>
+<description>AI-Thinker ESP-12F
+ESP8266 WiFi/WLAN Module</description>
 <gates>
 <gate name="IC" symbol="ESP-12F" x="0" y="0"/>
 </gates>
@@ -6693,7 +6719,8 @@ WINC1510 - 8Mb Flash&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATECC608A" prefix="IC">
-<description>Microchip ATECC508A/ATECC608A Crypto-Authentication Device&lt;br&gt;
+<description>Microchip ATECC508A/ATECC608A
+Crypto-Authentication Device&lt;br&gt;
 &lt;br&gt;
 ATECC508A - RNG, ECC P256 (ECDH and ECDSA), SHA256&lt;br&gt;
 ATECC608A - RNG, ECC P256 (ECDH and ECDSA), SHA256, AES-CCM&lt;br&gt;</description>
@@ -6715,7 +6742,8 @@ ATECC608A - RNG, ECC P256 (ECDH and ECDSA), SHA256, AES-CCM&lt;br&gt;</descripti
 </devices>
 </deviceset>
 <deviceset name="W5500" prefix="IC">
-<description>WIZnet W5500 Ethernet Controller (5V tolerante IOs)</description>
+<description>WIZnet W5500
+Ethernet Controller (5V tolerante IOs)</description>
 <gates>
 <gate name="IC" symbol="W5500" x="-22.86" y="12.7"/>
 </gates>
@@ -6764,7 +6792,8 @@ ATECC608A - RNG, ECC P256 (ECDH and ECDSA), SHA256, AES-CCM&lt;br&gt;</descripti
 </devices>
 </deviceset>
 <deviceset name="LAN9512" prefix="IC">
-<description>Microchip/SMSC LAN9512 USB Hub and Ethernet Controller</description>
+<description>Microchip LAN9512
+USB Hub + Ethernet Controller</description>
 <gates>
 <gate name="IC" symbol="LAN9512" x="0" y="0"/>
 </gates>
@@ -6864,7 +6893,8 @@ AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ULN2003A" prefix="IC">
-<description>ULN2003 7-Bit Transistor Array (Low Side)</description>
+<description>ULN2003
+7-Bit Transistor Array (Low Side)</description>
 <gates>
 <gate name="IC" symbol="ULN2003" x="0" y="0"/>
 </gates>
@@ -6895,7 +6925,8 @@ AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ULN2803A" prefix="IC">
-<description>ULN2803 8-Bit Transistor Array (Low Side)</description>
+<description>ULN2803
+8-Bit Transistor Array (Low Side)</description>
 <gates>
 <gate name="IC" symbol="ULN2803" x="0" y="0"/>
 </gates>
@@ -6928,7 +6959,8 @@ AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="TBD62003A" prefix="IC">
-<description>Toshiba TBD62003 7-Bit DMOS Transistor Array (Low Side)</description>
+<description>Toshiba TBD62003
+7-Bit DMOS Transistor Array (Low Side)</description>
 <gates>
 <gate name="IC" symbol="ULN2003" x="0" y="0"/>
 </gates>
@@ -6986,7 +7018,8 @@ AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="TBD62083A" prefix="IC">
-<description>Toshiba TBD62083 8-Bit DMOS Transistor Array (Low Side)</description>
+<description>Toshiba TBD62083
+8-Bit DMOS Transistor Array (Low Side)</description>
 <gates>
 <gate name="IC" symbol="ULN2803" x="0" y="0"/>
 </gates>
@@ -7048,7 +7081,8 @@ AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="TXB0104" prefix="IC" uservalue="yes">
-<description>TI TXB0104 4-Bit Bi-Directional Level Shifter (1.2V-3.6V to 1.65V-5.5V)</description>
+<description>TI TXB0104
+4-Bit Bi-Directional Level Shifter (1.2V-3.6V to 1.65V-5.5V)</description>
 <gates>
 <gate name="IC" symbol="TXB0104" x="0" y="0"/>
 </gates>
@@ -7098,7 +7132,8 @@ AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="TXB0106" prefix="IC">
-<description>TI TXB0106 6-Bit Bi-Directional Level Shifter (1.2V-3.6V to 1.65V-5.5V)</description>
+<description>TI TXB0106
+6-Bit Bi-Directional Level Shifter (1.2V-3.6V to 1.65V-5.5V)</description>
 <gates>
 <gate name="IC" symbol="TXB0106" x="0" y="0"/>
 </gates>
@@ -7129,7 +7164,8 @@ AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="TXB0108" prefix="IC">
-<description>TI TXB0108 8-Bit Bi-Directional Level Shifter (1.2V-3.6V to 1.65V-5.5V)</description>
+<description>TI TXB0108
+8-Bit Bi-Directional Level Shifter (1.2V-3.6V to 1.65V-5.5V)</description>
 <gates>
 <gate name="IC" symbol="TXB0108" x="0" y="0"/>
 </gates>
@@ -7164,7 +7200,8 @@ AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATSAMD21G" prefix="IC">
-<description>Microchip ATSAMD21Gxx ARM Cortex-M0+ (48 pin)&lt;br&gt;
+<description>Microchip ATSAMD21Gxx
+ARM Cortex-M0+ (48 pin)&lt;br&gt;
 &lt;br&gt;
 ...18 - 256kb Flash 32kb RAM&lt;br&gt;
 ...17 - 128kb Flash 16kb RAM&lt;br&gt;
@@ -7279,7 +7316,8 @@ AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATSAMW25" prefix="IC">
-<description>Microchip ATSAMW25 ARM Cortex-M0 + WiFi/WLAN&lt;br&gt;
+<description>Microchip ATSAMW25
+ARM Cortex-M0 + WiFi/WLAN&lt;br&gt;
 &lt;br&gt;
 MR210PB - WINC1500 + SAM D21 (PCB antenna)&lt;br&gt;
 MR510PB - WINC1500 + SAM D21 + ATECC508 (PCB antenna)&lt;br&gt;
@@ -7397,7 +7435,8 @@ MR510UB - WINC1500 + SAM D21 + ATECC508 (uFL connector)&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATMEGA328PB" prefix="IC">
-<description>Microchip ATmeg328PB AVR Microcontroller (QFN/TQFP)</description>
+<description>Microchip ATmeg328PB
+AVR Microcontroller (QFN/TQFP)</description>
 <gates>
 <gate name="IC" symbol="ATMEGA328PB" x="0" y="0"/>
 </gates>
@@ -7481,7 +7520,8 @@ MR510UB - WINC1500 + SAM D21 + ATECC508 (uFL connector)&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="A3909" prefix="IC">
-<description>Allegro A3909 Dual Full Bridge Motor Driver (4-18V)</description>
+<description>Allegro A3909 
+Dual Full Bridge Motor Driver (4-18V)</description>
 <gates>
 <gate name="IC" symbol="A3909" x="0" y="0"/>
 </gates>
@@ -7506,7 +7546,8 @@ MR510UB - WINC1500 + SAM D21 + ATECC508 (uFL connector)&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ESP-WROOM32" prefix="IC">
-<description>Espressif ESP-WROOM-32 ESP32 WiFi/WLAN + Bluetooth/BLE Module&lt;br&gt;
+<description>Espressif ESP-WROOM-32
+ESP32 WiFi/WLAN + Bluetooth/BLE Module&lt;br&gt;
 &lt;br&gt;
 Compatible with AI-Thinker ESP-32S Module.</description>
 <gates>
@@ -7559,7 +7600,8 @@ Compatible with AI-Thinker ESP-32S Module.</description>
 </devices>
 </deviceset>
 <deviceset name="TMC2208" prefix="IC">
-<description>Trinamic TMC2108 Stepper Motor Driver (5V...36V, 1.2A RMS, 256 microsteps)</description>
+<description>Trinamic TMC2108
+Stepper Motor Driver (5V...36V, 1.2A RMS, 256 microsteps)</description>
 <gates>
 <gate name="IC" symbol="TMC22XX" x="0" y="0"/>
 </gates>
@@ -7597,7 +7639,11 @@ Compatible with AI-Thinker ESP-32S Module.</description>
 </devices>
 </deviceset>
 <deviceset name="RFM9X" prefix="IC">
-<description>Hope RR FM9xW Lora Module</description>
+<description>HopeRF RFM9xW
+LoRa Module&lt;br&gt;
+&lt;br&gt;
+RFM95W 868/915 MHz (SX1276 compatible)&lt;br&gt;
+RFM96W 433/470 MHz (SX1276 compatible)&lt;br&gt;</description>
 <gates>
 <gate name="IC" symbol="RFM9X" x="0" y="0"/>
 </gates>
@@ -7626,7 +7672,8 @@ Compatible with AI-Thinker ESP-32S Module.</description>
 </devices>
 </deviceset>
 <deviceset name="RN2483" prefix="IC">
-<description>Microchip RN2483 LoRa Module (433 MHz and 868 MHz)</description>
+<description>Microchip RN2483
+LoRa Module (433 MHz and 868 MHz)</description>
 <gates>
 <gate name="IC" symbol="RN2483" x="0" y="0"/>
 </gates>
@@ -7703,17 +7750,22 @@ AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="MAX8XX" prefix="IC">
-<description>MAX8xx / STM8xx / TCM8xx Reset Monitor&lt;br&gt;
+<description>MAX8xx / STM8xx / TCM8xx
+Reset Monitor&lt;br&gt;
 &lt;br&gt;
+Reset Time: mind. 140ms, typ. 320ms, max. 560ms&lt;br&gt;
+&lt;br&gt;
+803 - Active-Low, Open-Drain&lt;br&gt;
 809 - Active-Low, Push-Pull&lt;br&gt;
 810 - Active-High, Push-Pull&lt;br&gt;
-803 - Active-Low, Open-Drain&lt;br&gt;
 &lt;br&gt;
-...R - 2.6V, mind. 140ms&lt;br&gt;
-...S - 2.9V, mind. 140ms&lt;br&gt;
-...T - 3.1V, mind. 140ms&lt;br&gt;
-...J - 4.0V, mind. 140ms&lt;br&gt;
-...M - 4.4V, mind. 140ms&lt;br&gt;</description>
+...Z - 2.3V&lt;br&gt;
+...R - 2.6V&lt;br&gt;
+...S - 2.9V&lt;br&gt;
+...T - 3.1V&lt;br&gt;
+...J - 4.0V&lt;br&gt;
+...M - 4.4V&lt;br&gt;
+...L - 4.6V&lt;br&gt;</description>
 <gates>
 <gate name="IC" symbol="MAX8XX" x="0" y="0"/>
 </gates>
@@ -7741,7 +7793,8 @@ AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATSAMD21E" prefix="IC">
-<description>Microchip ATSAMD21Exx ARM Cortex-M0+ (32 pin)&lt;br&gt;
+<description>Microchip ATSAMD21Exx
+ARM Cortex-M0+ (32 pin)&lt;br&gt;
 &lt;br&gt;
 ...18 - 256kb Flash 32kb RAM&lt;br&gt;
 ...17 - 128kb Flash 16kb RAM&lt;br&gt;
@@ -7792,7 +7845,8 @@ AHCT - VCC: 4.5-5.5V  - Input: High 2V @ 5V&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ATSAMD21J" prefix="IC">
-<description>Microchip ATSAMD21Jxx ARM Cortex-M0+ (64 pin)&lt;br&gt;
+<description>Microchip ATSAMD21Jxx
+ARM Cortex-M0+ (64 pin)&lt;br&gt;
 &lt;br&gt;
 ...18 - 256kb Flash 32kb RAM&lt;br&gt;
 ...17 - 128kb Flash 16kb RAM&lt;br&gt;
@@ -8013,6 +8067,19 @@ AUP  - VCC: 0.8-3.6V  - Input: High 2V @ 3V&lt;br&gt;</description>
 <device name="">
 <technologies>
 <technology name="AUP"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RFM69">
+<description>HopeRF RFM69W
+Transceiver Module</description>
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

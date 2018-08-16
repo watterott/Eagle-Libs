@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -522,89 +522,88 @@ FCI 62684-401100AHLF -&gt; bottom contact&lt;br&gt;</description>
 <wire x1="2.5" y1="-2.5" x2="2.5" y2="-1.5" width="0.127" layer="21"/>
 </package>
 <package name="UG2864HSWEG01_BOT">
-<smd name="1" x="-10.15" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="2" x="-9.45" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="3" x="-8.75" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="4" x="-8.05" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="5" x="-7.35" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="6" x="-6.65" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="7" x="-5.95" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="8" x="-5.25" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="9" x="-4.55" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="10" x="-3.85" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="11" x="-3.15" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="12" x="-2.45" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="13" x="-1.75" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="14" x="-1.05" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="15" x="-0.35" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="16" x="0.35" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="17" x="1.05" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="18" x="1.75" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="19" x="2.45" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="20" x="3.15" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="21" x="3.85" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="22" x="4.55" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="23" x="5.25" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="24" x="5.95" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="25" x="6.65" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="26" x="7.35" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="27" x="8.05" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="28" x="8.75" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="29" x="9.45" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<smd name="30" x="10.15" y="3.75" dx="2.2" dy="0.35" layer="16" roundness="20" rot="R270"/>
-<wire x1="-13.35" y1="19.25" x2="13.35" y2="19.25" width="0.127" layer="21"/>
-<wire x1="13.35" y1="19.25" x2="13.35" y2="0" width="0.127" layer="21"/>
+<smd name="1" x="-10.15" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="2" x="-9.45" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="3" x="-8.75" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="4" x="-8.05" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="5" x="-7.35" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="6" x="-6.65" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="7" x="-5.95" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="8" x="-5.25" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="9" x="-4.55" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="10" x="-3.85" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="11" x="-3.15" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="12" x="-2.45" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="13" x="-1.75" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="14" x="-1.05" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="15" x="-0.35" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="16" x="0.35" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="17" x="1.05" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="18" x="1.75" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="19" x="2.45" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="20" x="3.15" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="21" x="3.85" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="22" x="4.55" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="23" x="5.25" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="24" x="5.95" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="25" x="6.65" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="26" x="7.35" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="27" x="8.05" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="28" x="8.75" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="29" x="9.45" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="30" x="10.15" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<wire x1="-13.35" y1="19.26" x2="13.35" y2="19.26" width="0.127" layer="21"/>
+<wire x1="13.35" y1="19.26" x2="13.35" y2="0" width="0.127" layer="21"/>
 <wire x1="13.35" y1="0" x2="-13.35" y2="0" width="0.127" layer="21"/>
-<wire x1="-13.35" y1="0" x2="-13.35" y2="19.25" width="0.127" layer="21"/>
+<wire x1="-13.35" y1="0" x2="-13.35" y2="19.26" width="0.127" layer="21"/>
 <wire x1="-10.872" y1="17.16" x2="10.872" y2="17.16" width="0.127" layer="21"/>
 <wire x1="10.872" y1="17.16" x2="10.872" y2="6.296" width="0.127" layer="21"/>
 <wire x1="10.872" y1="6.296" x2="-10.872" y2="6.296" width="0.127" layer="21"/>
 <wire x1="-10.872" y1="6.296" x2="-10.872" y2="17.16" width="0.127" layer="21"/>
 <wire x1="12" y1="-2.6" x2="-12" y2="-2.6" width="0.127" layer="51"/>
 <text x="0" y="-2.085" size="0.8128" layer="51" font="vector" ratio="10" align="bottom-center">PCB Edge</text>
-<hole x="-8" y="0" drill="0.6"/>
-<hole x="8" y="0" drill="0.6"/>
+<hole x="-8" y="-0.25" drill="0.6"/>
+<hole x="8" y="-0.25" drill="0.6"/>
 <text x="0" y="13.79" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="11.25" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<wire x1="12" y1="-4.6" x2="-12" y2="-4.6" width="0.127" layer="51"/>
 </package>
 <package name="UG2864HSWEG01_TOP">
-<smd name="1" x="-10.15" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="2" x="-9.45" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="3" x="-8.75" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="4" x="-8.05" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="5" x="-7.35" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="6" x="-6.65" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="7" x="-5.95" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="8" x="-5.25" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="9" x="-4.55" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="10" x="-3.85" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="11" x="-3.15" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="12" x="-2.45" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="13" x="-1.75" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="14" x="-1.05" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="15" x="-0.35" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="16" x="0.35" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="17" x="1.05" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="18" x="1.75" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="19" x="2.45" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="20" x="3.15" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="21" x="3.85" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="22" x="4.55" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="23" x="5.25" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="24" x="5.95" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="25" x="6.65" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="26" x="7.35" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="27" x="8.05" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="28" x="8.75" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="29" x="9.45" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<smd name="30" x="10.15" y="-11" dx="2.2" dy="0.35" layer="1" roundness="20" rot="R90"/>
-<wire x1="-13.35" y1="19.25" x2="13.35" y2="19.25" width="0.127" layer="21"/>
-<wire x1="13.35" y1="19.25" x2="13.35" y2="0" width="0.127" layer="21"/>
+<smd name="1" x="-10.15" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="2" x="-9.45" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="3" x="-8.75" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="4" x="-8.05" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="5" x="-7.35" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="6" x="-6.65" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="7" x="-5.95" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="8" x="-5.25" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="9" x="-4.55" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="10" x="-3.85" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="11" x="-3.15" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="12" x="-2.45" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="13" x="-1.75" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="14" x="-1.05" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="15" x="-0.35" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="16" x="0.35" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="17" x="1.05" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="18" x="1.75" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="19" x="2.45" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="20" x="3.15" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="21" x="3.85" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="22" x="4.55" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="23" x="5.25" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="24" x="5.95" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="25" x="6.65" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="26" x="7.35" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="27" x="8.05" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="28" x="8.75" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="29" x="9.45" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<smd name="30" x="10.15" y="-11" dx="2.5" dy="0.35" layer="1" roundness="20" rot="R90"/>
+<wire x1="-13.35" y1="19.26" x2="13.35" y2="19.26" width="0.127" layer="21"/>
+<wire x1="13.35" y1="19.26" x2="13.35" y2="0" width="0.127" layer="21"/>
 <wire x1="13.35" y1="0" x2="6" y2="0" width="0.127" layer="21"/>
 <wire x1="6" y1="0" x2="-6" y2="0" width="0.127" layer="21"/>
 <wire x1="-6" y1="0" x2="-13.35" y2="0" width="0.127" layer="21"/>
-<wire x1="-13.35" y1="0" x2="-13.35" y2="19.25" width="0.127" layer="21"/>
+<wire x1="-13.35" y1="0" x2="-13.35" y2="19.26" width="0.127" layer="21"/>
 <wire x1="-10.872" y1="17.16" x2="10.872" y2="17.16" width="0.127" layer="21"/>
 <wire x1="10.872" y1="17.16" x2="10.872" y2="6.296" width="0.127" layer="21"/>
 <wire x1="10.872" y1="6.296" x2="-10.872" y2="6.296" width="0.127" layer="21"/>
@@ -615,9 +614,9 @@ FCI 62684-401100AHLF -&gt; bottom contact&lt;br&gt;</description>
 <text x="0" y="11.25" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="-6" y1="0" x2="-6" y2="-5" width="0.127" layer="21"/>
 <wire x1="-6" y1="-5" x2="-11" y2="-8.1" width="0.127" layer="21"/>
-<wire x1="-11" y1="-8.1" x2="-11" y2="-12.1" width="0.127" layer="21"/>
-<wire x1="-11" y1="-12.1" x2="11" y2="-12.1" width="0.127" layer="21"/>
-<wire x1="11" y1="-12.1" x2="11" y2="-8.1" width="0.127" layer="21"/>
+<wire x1="-11" y1="-8.1" x2="-11" y2="-12.5" width="0.127" layer="21"/>
+<wire x1="-11" y1="-12.5" x2="11" y2="-12.5" width="0.127" layer="21"/>
+<wire x1="11" y1="-12.5" x2="11" y2="-8.1" width="0.127" layer="21"/>
 <wire x1="11" y1="-8.1" x2="6" y2="-5" width="0.127" layer="21"/>
 <wire x1="6" y1="-5" x2="6" y2="0" width="0.127" layer="21"/>
 </package>
@@ -728,6 +727,52 @@ FCI 62684-501100AHLF -&gt; bottom contact&lt;br&gt;</description>
 <text x="0" y="3.175" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-3.81" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <text x="1.5875" y="-1.27" size="0.8128" layer="27" font="vector" ratio="10" align="center">+</text>
+</package>
+<package name="UG2864KSWLG01_BOT">
+<smd name="1" x="-10.15" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="2" x="-9.45" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="3" x="-8.75" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="4" x="-8.05" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="5" x="-7.35" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="6" x="-6.65" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="7" x="-5.95" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="8" x="-5.25" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="9" x="-4.55" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="10" x="-3.85" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="11" x="-3.15" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="12" x="-2.45" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="13" x="-1.75" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="14" x="-1.05" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="15" x="-0.35" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="16" x="0.35" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="17" x="1.05" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="18" x="1.75" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="19" x="2.45" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="20" x="3.15" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="21" x="3.85" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="22" x="4.55" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="23" x="5.25" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="24" x="5.95" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="25" x="6.65" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="26" x="7.35" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="27" x="8.05" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="28" x="8.75" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="29" x="9.45" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<smd name="30" x="10.15" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>
+<wire x1="-17.25" y1="23" x2="17.25" y2="23" width="0.127" layer="21"/>
+<wire x1="17.25" y1="23" x2="17.25" y2="0" width="0.127" layer="21"/>
+<wire x1="17.25" y1="0" x2="-17.25" y2="0" width="0.127" layer="21"/>
+<wire x1="-17.25" y1="0" x2="-17.25" y2="23" width="0.127" layer="21"/>
+<wire x1="-14.71" y1="20.9" x2="14.71" y2="20.9" width="0.127" layer="21"/>
+<wire x1="14.71" y1="20.9" x2="14.71" y2="6.2" width="0.127" layer="21"/>
+<wire x1="14.71" y1="6.2" x2="-14.71" y2="6.2" width="0.127" layer="21"/>
+<wire x1="-14.71" y1="6.2" x2="-14.71" y2="20.9" width="0.127" layer="21"/>
+<wire x1="12" y1="-2.6" x2="-12" y2="-2.6" width="0.127" layer="51"/>
+<text x="0" y="-2.085" size="0.8128" layer="51" font="vector" ratio="10" align="bottom-center">PCB Edge</text>
+<hole x="-8" y="-0.25" drill="0.6"/>
+<hole x="8" y="-0.25" drill="0.6"/>
+<text x="0" y="13.79" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="11.25" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1054,7 +1099,7 @@ FCI 62684-501100AHLF -&gt; bottom contact&lt;br&gt;</description>
 <text x="7.366" y="-2.54" size="1.524" layer="95" align="center-right">DO</text>
 <text x="7.366" y="2.54" size="1.524" layer="95" align="center-right">DI</text>
 </symbol>
-<symbol name="UG2864HSWEG01">
+<symbol name="UG2864">
 <pin name="C2P" x="20.32" y="15.24" length="middle" direction="pas" rot="R180"/>
 <pin name="C2N" x="20.32" y="10.16" length="middle" direction="pas" rot="R180"/>
 <pin name="C1P" x="20.32" y="25.4" length="middle" direction="pas" rot="R180"/>
@@ -1104,7 +1149,8 @@ FCI 62684-501100AHLF -&gt; bottom contact&lt;br&gt;</description>
 </symbols>
 <devicesets>
 <deviceset name="MI0283QT" prefix="LCD">
-<description>Multi-Inno MIO283QT-9/-11 2.8" TFT (240x320) with Ilitek ILI9341</description>
+<description>Multi-Inno MI0283QT TFT
+2.8" (240x320) with Ilitek ILI9341</description>
 <gates>
 <gate name="LCD" symbol="MI0283QT" x="0" y="0"/>
 </gates>
@@ -1226,7 +1272,7 @@ FCI 62684-501100AHLF -&gt; bottom contact&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="LED" prefix="D" uservalue="yes">
-<description>LEDs&lt;br&gt;
+<description>LED&lt;br&gt;
 &lt;br&gt;
 red, green, blue -&gt; 0603</description>
 <gates>
@@ -1290,7 +1336,7 @@ red, green, blue -&gt; 0603</description>
 </devices>
 </deviceset>
 <deviceset name="PC" prefix="OC">
-<description>Photocoupler and Photointerrupter&lt;br&gt;
+<description>Photocoupler / Photointerrupter&lt;br&gt;
 &lt;br&gt;
 TLP127 compatible with TLP187 and LTV-352T</description>
 <gates>
@@ -1348,7 +1394,8 @@ TLP127 compatible with TLP187 and LTV-352T</description>
 </devices>
 </deviceset>
 <deviceset name="PC-TTL" prefix="OC">
-<description>Photocoupler with TTL Output</description>
+<description>Photocoupler
+with TTL-Output</description>
 <gates>
 <gate name="OC" symbol="PHOTOCOUPLER_TTL" x="0" y="0"/>
 </gates>
@@ -1370,7 +1417,7 @@ TLP127 compatible with TLP187 and LTV-352T</description>
 </devices>
 </deviceset>
 <deviceset name="ER-TFT" prefix="LCD">
-<description>ER TFT Displays&lt;br&gt;
+<description>ER TFT Display&lt;br&gt;
 &lt;br&gt;
 TFT043-3 - 4.3" 480x272 (LED 15mA @ 25.0V)&lt;br&gt;
 TFT050-3 - 5.0" 800x480 (LED @ 40mA @ 19.2V)&lt;br&gt;
@@ -1517,7 +1564,8 @@ TFT070-4 - 7.0" 800x480 (LED @ 40mA @ 20.4V)&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="WS2812B" prefix="D">
-<description>WS2812 Intelligent RGB LED</description>
+<description>WS2812 RGB LED
+(built-in driver)</description>
 <gates>
 <gate name="LED" symbol="WS2812B" x="0" y="0"/>
 </gates>
@@ -1535,13 +1583,17 @@ TFT070-4 - 7.0" 800x480 (LED @ 40mA @ 20.4V)&lt;br&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="UG2864HSWEG01" prefix="LCD">
-<description>Univision/WiseChip UG-2864HSWEG01 0.9" OLED (128x64) with SSD1306</description>
+<deviceset name="UG2864" prefix="LCD">
+<description>WiseChip UG-2864 OLED
+128x64  with SSD1306&lt;br&gt;
+&lt;br&gt;
+0.96" - UG-2864HSWEG01 or ER-OLED0.96-1W&lt;br&gt;
+1.30" - UG-2864KSWLG01 or ER-OLED013-1W&lt;br&gt;</description>
 <gates>
-<gate name="LCD" symbol="UG2864HSWEG01" x="0" y="-2.54"/>
+<gate name="LCD" symbol="UG2864" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="-B" package="UG2864HSWEG01_BOT">
+<device name="HSWEG01-B" package="UG2864HSWEG01_BOT">
 <connects>
 <connect gate="LCD" pin="!CS" pad="13"/>
 <connect gate="LCD" pin="!RESET" pad="14"/>
@@ -1577,7 +1629,43 @@ TFT070-4 - 7.0" 800x480 (LED @ 40mA @ 20.4V)&lt;br&gt;</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-T" package="UG2864HSWEG01_TOP">
+<device name="HSWEG01-T" package="UG2864HSWEG01_TOP">
+<connects>
+<connect gate="LCD" pin="!CS" pad="13"/>
+<connect gate="LCD" pin="!RESET" pad="14"/>
+<connect gate="LCD" pin="AGND" pad="29"/>
+<connect gate="LCD" pin="BS0" pad="10"/>
+<connect gate="LCD" pin="BS1" pad="11"/>
+<connect gate="LCD" pin="BS2" pad="12"/>
+<connect gate="LCD" pin="C1N" pad="5"/>
+<connect gate="LCD" pin="C1P" pad="4"/>
+<connect gate="LCD" pin="C2N" pad="3"/>
+<connect gate="LCD" pin="C2P" pad="2"/>
+<connect gate="LCD" pin="D0/SCK" pad="18"/>
+<connect gate="LCD" pin="D1/DIN/SDA" pad="19"/>
+<connect gate="LCD" pin="D2/SDA" pad="20"/>
+<connect gate="LCD" pin="D3" pad="21"/>
+<connect gate="LCD" pin="D4" pad="22"/>
+<connect gate="LCD" pin="D5" pad="23"/>
+<connect gate="LCD" pin="D6" pad="24"/>
+<connect gate="LCD" pin="D7" pad="25"/>
+<connect gate="LCD" pin="DC/I2C_SA0" pad="15"/>
+<connect gate="LCD" pin="E/!RD" pad="17"/>
+<connect gate="LCD" pin="GND@1" pad="8"/>
+<connect gate="LCD" pin="GND@2" pad="1"/>
+<connect gate="LCD" pin="GND@3" pad="30"/>
+<connect gate="LCD" pin="IREF" pad="26"/>
+<connect gate="LCD" pin="RW" pad="16"/>
+<connect gate="LCD" pin="VBAT" pad="6"/>
+<connect gate="LCD" pin="VCC" pad="28"/>
+<connect gate="LCD" pin="VCOMH" pad="27"/>
+<connect gate="LCD" pin="VDD" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="KSWLG01-B" package="UG2864KSWLG01_BOT">
 <connects>
 <connect gate="LCD" pin="!CS" pad="13"/>
 <connect gate="LCD" pin="!RESET" pad="14"/>
@@ -1616,7 +1704,8 @@ TFT070-4 - 7.0" 800x480 (LED @ 40mA @ 20.4V)&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="QRE1113GR" prefix="OC">
-<description>Fairchild QRE1113GR Reflective Object Sensor</description>
+<description>Fairchild QRE1113GR
+Reflective Object Sensor</description>
 <gates>
 <gate name="OC" symbol="PHOTOCOUPLER" x="0" y="0"/>
 </gates>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -930,18 +930,19 @@
 <pin name="CSP" x="17.78" y="5.08" length="middle" direction="pas" rot="R180"/>
 <pin name="!PG" x="17.78" y="15.24" length="middle" direction="out" rot="R180"/>
 </symbol>
-<symbol name="LM2594">
+<symbol name="RT7294">
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<pin name="SW" x="12.7" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="SW" x="12.7" y="0" length="short" direction="pas" rot="R180"/>
 <pin name="VIN" x="-12.7" y="5.08" length="short" direction="pwr"/>
 <pin name="GND" x="0" y="-10.16" length="short" direction="pwr" rot="R90"/>
 <pin name="FB" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
-<pin name="!ON!" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="EN" x="-12.7" y="-5.08" length="short" direction="in"/>
 <text x="-10.16" y="10.16" size="1.778" layer="95" align="top-left">&gt;VALUE</text>
 <text x="-10.16" y="12.7" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<pin name="BOOST" x="12.7" y="5.08" length="short" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="AP65200">
 <wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
@@ -1002,7 +1003,7 @@
 </symbols>
 <devicesets>
 <deviceset name="VREG" prefix="IC">
-<description>Voltage Regulators (LDOs, Switching Converters...)&lt;br&gt;
+<description>Voltage Regulator&lt;br&gt;
 &lt;br&gt;
 &lt;u&gt;LDOs&lt;/u&gt;
 &lt;br&gt;
@@ -1016,7 +1017,7 @@
  - compatible &lt;b&gt;Microchip MCP1702&lt;/b&gt; 250mA max 13V&lt;br&gt;
  - compatible &lt;b&gt;Microchip MCP1703&lt;/b&gt; 250mA max 16V&lt;br&gt;
  - compatible &lt;b&gt;Microchip MCP1754&lt;/b&gt; 150mA max 16V&lt;br&gt;
-&lt;b&gt;Taiwan Semi TS5204&lt;/b&gt; 150mA max 16V (low noise)&lt;br&gt;
+&lt;b&gt;Taiwan Semi TS5204&lt;/b&gt; 80mA max 16V (low noise)&lt;br&gt;
 &lt;br&gt;
 &lt;u&gt;DC/DC Converter Modules&lt;/u&gt;
 &lt;br&gt;
@@ -1214,7 +1215,8 @@
 </devices>
 </deviceset>
 <deviceset name="DC/DC" prefix="IC" uservalue="yes">
-<description>DC/DC Converter from Meanwell and Recom</description>
+<description>DC/DC Converter
+from Meanwell / Recom</description>
 <gates>
 <gate name="IC" symbol="DC/DC" x="0" y="0"/>
 </gates>
@@ -1277,7 +1279,8 @@
 </devices>
 </deviceset>
 <deviceset name="IS31BL3506A" prefix="IC">
-<description>ISSI IS31BL3506A Boost Converter for LED Backlight&lt;br&gt;
+<description>ISSI IS31BL3506A
+Boost Converter for LED Backlight&lt;br&gt;
 Input: 2.7...5V&lt;br&gt;
 Output: up to 35V&lt;br&gt;
 300mV Feedback Voltage&lt;br&gt;</description>
@@ -1347,7 +1350,21 @@ Output: up to 35V&lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="INDUCTOR" prefix="L" uservalue="yes">
-<description>Power Inductors&lt;br&gt;
+<description>Power Inductor&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Taiyo Yuden NR4018&lt;/b&gt;&lt;br&gt;
+NR4018T1R0N - 1.0uH, Ir=4.0A&lt;br&gt;
+NR4018T2R2N - 2.2uH, Ir=2.7A&lt;br&gt;
+NR4018T3R3N - 3.3uH, Ir=2.0A&lt;br&gt;
+NR4018T4R5N - 4.7uH, Ir=1.7A&lt;br&gt;
+NR4018T6R8N - 6.8uH, Ir=1.4A&lt;br&gt;
+NR4018T100M - 10uH, Ir=1.2A&lt;br&gt;
+NR4018T150M - 15uH, Ir=0.94A&lt;br&gt;
+NR4018T220M - 22uH, Ir=0.80A&lt;br&gt;
+NR4018T330M - 33uH, Ir=0.65A&lt;br&gt;
+NR4018T470M - 47uH, Ir=0.57A&lt;br&gt;
+NR4018T680M - 68uH, Ir=0.47A&lt;br&gt;
+NR4018T101M - 100uH, Ir=0.40A&lt;br&gt;
 &lt;br&gt;
 &lt;b&gt;Taiyo Yuden NR6028&lt;/b&gt;&lt;br&gt;
 NR6028T0R9N - 0.9uH, Ir=6.6A&lt;br&gt;
@@ -1363,6 +1380,7 @@ NR6028T330M - 33uH, Ir=1.1A&lt;br&gt;
 NR6028T470M - 47uH, Ir=0.95A&lt;br&gt;
 NR6028T680M - 68uH, Ir=0.76A&lt;br&gt;
 NR6028T101M - 100uH, Ir=0.62A&lt;br&gt;
+&lt;br&gt;
 &lt;b&gt;Taiyo Yuden NR6045&lt;/b&gt;&lt;br&gt;
 NR6045T1R0N - 1.0uH, Ir=8.5A&lt;br&gt;
 NR6045T1R3N - 1.3uH, Ir=8.0A&lt;br&gt;
@@ -1484,7 +1502,8 @@ NR6045T101M - 100uH, Ir=0.8A&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="ACT2813" prefix="IC">
-<description>Active Semi ACT2813 Charger (1.1MHz) for Li-Ion/LiPo with Boost Converter (0.55MHz, 2.4A)</description>
+<description>Active Semi ACT2813
+Li-Ion Charger (1.1MHz) with Boost Converter (0.55MHz, 2.4A)</description>
 <gates>
 <gate name="IC" symbol="ACT2813" x="0" y="0"/>
 </gates>
@@ -1516,40 +1535,9 @@ NR6045T101M - 100uH, Ir=0.8A&lt;br&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM2594" prefix="IC">
-<description>TI LM2594 Step-Down (150kHz, 0.5A, 4.5-45V input)</description>
-<gates>
-<gate name="IC" symbol="LM2594" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-5.0" package="SO08">
-<connects>
-<connect gate="IC" pin="!ON!" pad="5"/>
-<connect gate="IC" pin="FB" pad="4"/>
-<connect gate="IC" pin="GND" pad="1 2 3 6"/>
-<connect gate="IC" pin="SW" pad="8"/>
-<connect gate="IC" pin="VIN" pad="7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-3.3" package="SO08">
-<connects>
-<connect gate="IC" pin="!ON!" pad="5"/>
-<connect gate="IC" pin="FB" pad="4"/>
-<connect gate="IC" pin="GND" pad="1 2 3 6"/>
-<connect gate="IC" pin="SW" pad="8"/>
-<connect gate="IC" pin="VIN" pad="7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="AP65200" prefix="IC">
-<description>Diodes AP65200 Step-Down (340kHz, 2A, 4.7-18V input)&lt;br&gt;
+<description>Diodes AP65200
+Step-Down (340kHz, 2A, 4.7-18V input)&lt;br&gt;
 &lt;br&gt;
 5.0V - R1=44.2k, R2=10k or R1=62k, R2=14k&lt;br&gt;
 3.3V - R1=26.1k, R2=10k or R1=39k, R2=15k&lt;br&gt;
@@ -1624,7 +1612,15 @@ AP65503 - 750kHz, 5A, 4.7-17V input&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="LM2585" prefix="IC">
-<description>TI LM2585 Step-Up (100kHz, 3A, 4-40V input)</description>
+<description>TI LM2585
+Step-Up (100kHz, 3A, Vin 4-40V, Vout 0-60V)&lt;br&gt;
+&lt;br&gt;
+LM2585 - 3A&lt;br&gt;
+LM2587 - 5A&lt;br&gt;
+MIC2171 - 2.5A&lt;br&gt;
+LT1170 - 5A&lt;br&gt;
+LT1171 - 2.5A&lt;br&gt;
+LT1172 - 1.25A&lt;br&gt;</description>
 <gates>
 <gate name="IC" symbol="LM2585" x="0" y="0"/>
 </gates>
@@ -1644,7 +1640,8 @@ AP65503 - 750kHz, 5A, 4.7-17V input&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="MCP73831" prefix="IC">
-<description>Microchip MCP73831 Li-Ion/Li-Po Charger&lt;br&gt;
+<description>Microchip MCP73831
+Li-Ion Charger&lt;br&gt;
 &lt;br&gt;
 MCP73831 - Tri-State Status Output&lt;br&gt;
 MCP73832 - Open-Drain Status Output&lt;br&gt;
@@ -1672,7 +1669,8 @@ MCP73832 - Open-Drain Status Output&lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="REG710XX" prefix="IC">
-<description>TI REG710xx Charge Pump with Regulated Output&lt;br&gt;
+<description>TI REG710xx
+Charge Pump with Regulated Output&lt;br&gt;
 &lt;br&gt;
 &lt;u&gt;TI REG710xx (60mA)&lt;/u&gt;&lt;br&gt;
 5.5V - REG71055&lt;br&gt;
@@ -1713,6 +1711,38 @@ MCP73832 - Open-Drain Status Output&lt;br&gt;
 <connect gate="IC" pin="GND" pad="2"/>
 <connect gate="IC" pin="VIN" pad="5"/>
 <connect gate="IC" pin="VOUT" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RT7294" prefix="IC">
+<description>Richtek RT7294
+Step-Down (500kHz, 2.5A, 4.3-18V input)&lt;br&gt;
+&lt;br&gt;
+5.0V - R1=110k, R2=15k, L=10uH, Cin=10uF, Cout=22uF, Cff=29pF&lt;br&gt;
+&lt;br&gt;
+RT7285A/B/C/D - 1.5A&lt;br&gt;
+RT7294A/B/C/ - 2.5A&lt;br&gt;
+RT7295A/B/C/ - 3.5A&lt;br&gt;
+&lt;br&gt;
+A/B = PSM (light load optimization)&lt;br&gt;
+C/D = Force PWM&lt;br&gt;
+B/D = Constant current&lt;br&gt;</description>
+<gates>
+<gate name="IC" symbol="RT7294" x="0" y="0"/>
+</gates>
+<devices>
+<device name="AGJ6F" package="SOT23-6">
+<connects>
+<connect gate="IC" pin="BOOST" pad="1"/>
+<connect gate="IC" pin="EN" pad="4"/>
+<connect gate="IC" pin="FB" pad="3"/>
+<connect gate="IC" pin="GND" pad="2"/>
+<connect gate="IC" pin="SW" pad="6"/>
+<connect gate="IC" pin="VIN" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
