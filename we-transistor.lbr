@@ -420,7 +420,9 @@ TSM3401 (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=30V, Id&amp;gt;=2A + Rds&amp;lt;=0.1Ohm
 </deviceset>
 <deviceset name="BSS138PS" prefix="T">
 <description>BSS138 Dual N-Channel MOSFET&lt;br&gt;
-(Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm @ Vgs=4.5V)&lt;br&gt;</description>
+(Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm @ Vgs=4.5V)&lt;br&gt;
+&lt;br&gt;
+BSS138PS compatible: 2N7002PS, Si1926DL, BSS138BKS (with ESD protection)&lt;br&gt;</description>
 <gates>
 <gate name="T1" symbol="MOSFET_N-CHN" x="0" y="10.16"/>
 <gate name="T2" symbol="MOSFET_N-CHN" x="0" y="-10.16"/>

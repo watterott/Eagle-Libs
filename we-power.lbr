@@ -1722,7 +1722,8 @@ Charge Pump with Regulated Output&lt;br&gt;
 <description>Richtek RT7294
 Step-Down (500kHz, 2.5A, 4.3-18V input)&lt;br&gt;
 &lt;br&gt;
-5.0V - R1=110k, R2=15k, L=10uH, Cin=10uF, Cout=22uF, Cff=29pF&lt;br&gt;
+5.0V - R1=110k, R2=15k, L=10uH, Cin=10uF, Cout=22uF&lt;br&gt;
+3.3V - R1=68k, R2=15k, L=6.8...10uH, Cin=10uF, Cout=22uF&lt;br&gt;
 &lt;br&gt;
 RT7285A/B/C/D - 1.5A&lt;br&gt;
 RT7294A/B/C/D - 2.5A&lt;br&gt;
