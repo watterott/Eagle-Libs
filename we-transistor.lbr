@@ -401,7 +401,7 @@ BTS3018TC (Vin=0...10V, Vds&amp;lt;=60V, Id=6A + Rds=0.02Ohm @ Vin=5V)&lt;br&gt;
 <description>P-Channel MOSFET&lt;br&gt;
 &lt;br&gt;
 &lt;u&gt;SOT23 P-Chn MOSFET&lt;/u&gt;&lt;br&gt;
-TSM3401 (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=30V, Id&amp;gt;=2A + Rds&amp;lt;=0.1Ohm @ Vgs=4.5V)</description>
+TSM3401,TSM650P03 (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=30V, Id&amp;gt;=2A + Rds&amp;lt;=0.1Ohm @ Vgs=4.5V)</description>
 <gates>
 <gate name="T" symbol="MOSFET_P-CHN" x="0" y="0"/>
 </gates>

@@ -91,9 +91,9 @@
 <wire x1="-0.65" y1="-1.6" x2="0.65" y2="-1.6" width="0.127" layer="21"/>
 <wire x1="0.65" y1="-1.6" x2="0.65" y2="1.6" width="0.127" layer="21"/>
 <wire x1="0.65" y1="1.6" x2="-0.65" y2="1.6" width="0.127" layer="21"/>
-<smd name="GND" x="0" y="0" dx="1.8" dy="0.6" layer="1" roundness="20"/>
-<smd name="1" x="0" y="1.2" dx="1.8" dy="0.5" layer="1" roundness="20"/>
-<smd name="2" x="0" y="-1.2" dx="1.8" dy="0.5" layer="1" roundness="20"/>
+<smd name="GND" x="0" y="0" dx="1.8" dy="0.5" layer="1" roundness="20"/>
+<smd name="1" x="0" y="1.1" dx="1.8" dy="0.6" layer="1" roundness="20"/>
+<smd name="2" x="0" y="-1.1" dx="1.8" dy="0.6" layer="1" roundness="20"/>
 <text x="-1.905" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="1.905" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 </package>
@@ -506,12 +506,12 @@
 <smd name="1" x="0" y="0" dx="1.27" dy="2.54" layer="1" roundness="20" cream="no"/>
 <text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
-<package name="PAD-1.00-1.60">
+<package name="PAD-1.0-1.6">
 <description>Through-Hole Pad</description>
 <pad name="1" x="0" y="0" drill="1" diameter="1.6"/>
 <text x="-1.905" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
-<package name="PAD-1.00-2.00">
+<package name="PAD-1.0-2.0">
 <description>Through-Hole Pad</description>
 <pad name="1" x="0" y="0" drill="1" diameter="2"/>
 <text x="-1.905" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
@@ -617,18 +617,18 @@
 <wire x1="-1.9" y1="0" x2="1.9" y2="0" width="0.254" layer="21"/>
 <circle x="0" y="0" radius="2" width="0.127" layer="21"/>
 </package>
-<package name="PAD-0.80X1.60">
+<package name="PAD-0.8X1.6">
 <description>Pad with cream</description>
 <smd name="1" x="0" y="0" dx="0.8" dy="1.6" layer="1" roundness="20"/>
 <text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
-<package name="PAD-0.80X1.60_NC">
+<package name="PAD-0.8X1.6_NC">
 <description>Pad without cream</description>
 <smd name="1" x="0" y="0" dx="0.8" dy="1.6" layer="1" roundness="20" cream="no"/>
 <text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="POT_EVM3Y">
-<description>Panasonic EVM3Y</description>
+<description>Panasonic EVM3Y top adjust, EVM3S top+bot adjust</description>
 <wire x1="-1.65" y1="-1.992" x2="1.65" y2="-1.992" width="0.127" layer="21"/>
 <wire x1="1.65" y1="-1.992" x2="1.65" y2="1.992" width="0.127" layer="21"/>
 <wire x1="1.65" y1="1.992" x2="-1.65" y2="1.992" width="0.127" layer="21"/>
@@ -836,7 +836,7 @@
 <text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="POT_EVM3R">
-<description>Panasonic EVM3R</description>
+<description>Panasonic EVM3R bottom adjust, EVM3S top+bot adjust</description>
 <wire x1="-1.65" y1="-1.992" x2="1.65" y2="-1.992" width="0.127" layer="21"/>
 <wire x1="1.65" y1="-1.992" x2="1.65" y2="1.992" width="0.127" layer="21"/>
 <wire x1="1.65" y1="1.992" x2="-1.65" y2="1.992" width="0.127" layer="21"/>
@@ -1210,7 +1210,7 @@
 <text x="-5.715" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 <text x="-3.175" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center">&gt;VALUE</text>
 </package>
-<package name="E3.5-10">
+<package name="C_E3.5-10">
 <description>grid 3.5mm, diameter 10mm</description>
 <wire x1="1.143" y1="3.429" x2="1.143" y2="2.667" width="0.127" layer="21"/>
 <wire x1="0.762" y1="3.048" x2="1.524" y2="3.048" width="0.127" layer="21"/>
@@ -1228,7 +1228,7 @@
 <text x="-5.715" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="3.175" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 </package>
-<package name="E5-13">
+<package name="C_E5-13">
 <description>grid 5mm, diameter 13mm</description>
 <wire x1="0" y1="0.889" x2="-1.27" y2="0.889" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="0.889" x2="-1.27" y2="0.254" width="0.127" layer="21"/>
@@ -1247,7 +1247,7 @@
 <text x="-6.985" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="3.175" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 </package>
-<package name="E2-4">
+<package name="C_E2-4">
 <description>grid 2mm, diameter 4mm</description>
 <wire x1="0" y1="1.524" x2="0" y2="0.762" width="0.127" layer="21"/>
 <wire x1="0" y1="0.762" x2="-1.016" y2="0.762" width="0.127" layer="21"/>
@@ -1265,7 +1265,7 @@
 <text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="2.54" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 </package>
-<package name="E3.5-8">
+<package name="C_E3.5-8">
 <description>grid 3.5mm, diameter 8mm</description>
 <wire x1="1.143" y1="3.429" x2="1.143" y2="2.667" width="0.127" layer="21"/>
 <wire x1="0.762" y1="3.048" x2="1.524" y2="3.048" width="0.127" layer="21"/>
@@ -1283,7 +1283,7 @@
 <text x="-5.08" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="2.54" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 </package>
-<package name="E5-10">
+<package name="C_E5-10">
 <description>grid 5mm, diameter 10mm</description>
 <wire x1="0" y1="0.889" x2="-1.143" y2="0.889" width="0.127" layer="21"/>
 <wire x1="-1.143" y1="0.889" x2="-1.143" y2="0.254" width="0.127" layer="21"/>
@@ -1301,7 +1301,7 @@
 <text x="-6.35" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="2.54" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 </package>
-<package name="PAD-0.80-1.40">
+<package name="PAD-0.8-1.4">
 <description>Through-Hole Pad</description>
 <pad name="1" x="0" y="0" drill="0.8" diameter="1.4"/>
 <text x="-1.905" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
@@ -1415,6 +1415,7 @@
 <wire x1="-0.35" y1="-0.2" x2="0.35" y2="-0.2" width="0.127" layer="21"/>
 </package>
 <package name="R0207/10-LARGE_PADS">
+<description>10mm</description>
 <pad name="1" x="-5" y="0" drill="0.9" diameter="1.9304" shape="octagon"/>
 <pad name="2" x="5" y="0" drill="0.9" diameter="1.9304" shape="octagon"/>
 <wire x1="-3" y1="-1" x2="-3" y2="1" width="0.1524" layer="21"/>
@@ -1502,6 +1503,111 @@
 <smd name="2" x="0" y="-1.85" dx="1.7" dy="2.4" layer="1" roundness="20" rot="R270"/>
 <text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="2.54" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+</package>
+<package name="C_10MM">
+<wire x1="-2.8" y1="5.1" x2="2.8" y2="5.1" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="2.8" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="2.8" x2="-2.8" y2="5.1" width="0.127" layer="21"/>
+<wire x1="2.8" y1="5.1" x2="5.1" y2="2.8" width="0.127" layer="21"/>
+<wire x1="5.1" y1="2.8" x2="5.1" y2="-5.1" width="0.127" layer="21"/>
+<wire x1="5.1" y1="-5.1" x2="-5.1" y2="-5.1" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="4.95" width="0.127" layer="21"/>
+<smd name="-" x="0" y="-4.1" dx="4" dy="1.6" layer="1" roundness="20" rot="R90"/>
+<smd name="+" x="0" y="4.1" dx="4" dy="1.6" layer="1" roundness="20" rot="R90"/>
+<polygon width="0.127" layer="21">
+<vertex x="-3.6" y="-3.3"/>
+<vertex x="-2.75" y="-4.05"/>
+<vertex x="-1.55" y="-4.65"/>
+<vertex x="-0.45" y="-4.85"/>
+<vertex x="0.45" y="-4.85"/>
+<vertex x="1.55" y="-4.65"/>
+<vertex x="2.75" y="-4.05"/>
+<vertex x="3.6" y="-3.3"/>
+</polygon>
+<text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<text x="2.54" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+</package>
+<package name="C_8MM">
+<wire x1="-1.8" y1="4.1" x2="1.8" y2="4.1" width="0.127" layer="21"/>
+<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="1.8" width="0.127" layer="21"/>
+<wire x1="-4.1" y1="1.8" x2="-1.8" y2="4.1" width="0.127" layer="21"/>
+<wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.127" layer="21"/>
+<wire x1="4.1" y1="1.8" x2="4.1" y2="-4.1" width="0.127" layer="21"/>
+<wire x1="4.1" y1="-4.1" x2="-4.1" y2="-4.1" width="0.127" layer="21"/>
+<wire x1="-3.25" y1="-2.2" x2="3.25" y2="-2.2" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="3.95" width="0.127" layer="21"/>
+<smd name="-" x="0" y="-3.2" dx="3.8" dy="1.6" layer="1" roundness="20" rot="R90"/>
+<smd name="+" x="0" y="3.2" dx="3.8" dy="1.6" layer="1" roundness="20" rot="R90"/>
+<polygon width="0.127" layer="21">
+<vertex x="-3.2" y="-2.25"/>
+<vertex x="-2.5" y="-3"/>
+<vertex x="-1.5" y="-3.6"/>
+<vertex x="-0.65" y="-3.85"/>
+<vertex x="0.65" y="-3.85"/>
+<vertex x="1.6" y="-3.55"/>
+<vertex x="2.55" y="-2.95"/>
+<vertex x="3.2" y="-2.25"/>
+</polygon>
+<text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<text x="2.54" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+</package>
+<package name="C_6.3MM">
+<wire x1="-1.8" y1="4.1" x2="1.8" y2="4.1" width="0.127" layer="21"/>
+<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="1.8" width="0.127" layer="21"/>
+<wire x1="-4.1" y1="1.8" x2="-1.8" y2="4.1" width="0.127" layer="21"/>
+<wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.127" layer="21"/>
+<wire x1="4.1" y1="1.8" x2="4.1" y2="-4.1" width="0.127" layer="21"/>
+<wire x1="4.1" y1="-4.1" x2="-4.1" y2="-4.1" width="0.127" layer="21"/>
+<wire x1="-3.25" y1="-2.2" x2="3.25" y2="-2.2" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="3.95" width="0.127" layer="21"/>
+<smd name="-" x="0" y="-2.8" dx="3.8" dy="1.4" layer="1" roundness="20" rot="R90"/>
+<smd name="+" x="0" y="2.8" dx="3.8" dy="1.4" layer="1" roundness="20" rot="R90"/>
+<polygon width="0.127" layer="21">
+<vertex x="-3.2" y="-2.25"/>
+<vertex x="-2.5" y="-3"/>
+<vertex x="-1.5" y="-3.6"/>
+<vertex x="-0.65" y="-3.85"/>
+<vertex x="0.65" y="-3.85"/>
+<vertex x="1.6" y="-3.55"/>
+<vertex x="2.55" y="-2.95"/>
+<vertex x="3.2" y="-2.25"/>
+<vertex x="-3.15" y="-2.25"/>
+</polygon>
+<text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<text x="2.54" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+</package>
+<package name="C_5MM">
+<wire x1="-1.25" y1="2.6" x2="1.25" y2="2.6" width="0.1016" layer="21"/>
+<wire x1="2.6" y1="-2.6" x2="-2.6" y2="-2.6" width="0.1016" layer="21"/>
+<wire x1="-2.6" y1="-2.6" x2="-2.6" y2="1.25" width="0.1016" layer="21"/>
+<wire x1="-2.6" y1="1.25" x2="-1.25" y2="2.6" width="0.1016" layer="21"/>
+<wire x1="1.25" y1="2.6" x2="2.6" y2="1.25" width="0.1016" layer="21"/>
+<wire x1="2.6" y1="1.25" x2="2.6" y2="-2.6" width="0.1016" layer="21"/>
+<wire x1="-1.85" y1="-1.55" x2="1.85" y2="-1.55" width="0.1016" layer="21"/>
+<circle x="0" y="0" radius="2.45" width="0.1016" layer="21"/>
+<smd name="-" x="0" y="-1.9" dx="2.6" dy="1.4" layer="1" roundness="20" rot="R90"/>
+<smd name="+" x="0" y="1.9" dx="2.6" dy="1.4" layer="1" roundness="20" rot="R90"/>
+<polygon width="0.1016" layer="21">
+<vertex x="-1.8" y="-1.6"/>
+<vertex x="-1.35" y="-2"/>
+<vertex x="-0.75" y="-2.25"/>
+<vertex x="-0.05" y="-2.45"/>
+<vertex x="0.75" y="-2.25"/>
+<vertex x="1.35" y="-1.95"/>
+<vertex x="1.8" y="-1.6"/>
+</polygon>
+<text x="-3.81" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<text x="3.81" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+</package>
+<package name="PAD-0.5-1.0">
+<description>Through-Hole Pad</description>
+<pad name="1" x="0" y="0" drill="0.5" diameter="1"/>
+<text x="-1.905" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+</package>
+<package name="PAD-0.6-1.1">
+<description>Through-Hole Pad</description>
+<pad name="1" x="0" y="0" drill="0.6" diameter="1.1"/>
+<text x="-1.905" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -2360,7 +2466,7 @@ all kinds in 0402 and 0603</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-1.00-1.60" package="PAD-1.00-1.60">
+<device name="-1.0-1.6" package="PAD-1.0-1.6">
 <connects>
 <connect gate="X" pin="P" pad="1"/>
 </connects>
@@ -2368,7 +2474,7 @@ all kinds in 0402 and 0603</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-1.00-2.00" package="PAD-1.00-2.00">
+<device name="-1.0-2.0" package="PAD-1.0-2.0">
 <connects>
 <connect gate="X" pin="P" pad="1"/>
 </connects>
@@ -2392,7 +2498,7 @@ all kinds in 0402 and 0603</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-0.80X1.60" package="PAD-0.80X1.60">
+<device name="-0.8X1.6" package="PAD-0.8X1.6">
 <connects>
 <connect gate="X" pin="P" pad="1"/>
 </connects>
@@ -2400,7 +2506,7 @@ all kinds in 0402 and 0603</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-0.80X1.60_NC" package="PAD-0.80X1.60_NC">
+<device name="-0.8X1.6_NC" package="PAD-0.8X1.6_NC">
 <connects>
 <connect gate="X" pin="P" pad="1"/>
 </connects>
@@ -2456,7 +2562,7 @@ all kinds in 0402 and 0603</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-0.80-1.40" package="PAD-0.80-1.40">
+<device name="-0.8-1.4" package="PAD-0.8-1.4">
 <connects>
 <connect gate="X" pin="P" pad="1"/>
 </connects>
@@ -2483,6 +2589,22 @@ all kinds in 0402 and 0603</description>
 <device name="-WEARABLE" package="PAD-WEARABLE">
 <connects>
 <connect gate="X" pin="P" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0.5-1.0" package="PAD-0.5-1.0">
+<connects>
+<connect gate="X" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0.6-1.1" package="PAD-0.6-1.1">
+<connects>
+<connect gate="X" pin="P" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2592,7 +2714,7 @@ If=50mA, Vf=1.5V, Vr=70V, 2pF@1MHz</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-SOD532" package="SOD523">
+<device name="-SOD523" package="SOD523">
 <connects>
 <connect gate="D" pin="A" pad="A"/>
 <connect gate="D" pin="C" pad="C"/>
@@ -2851,12 +2973,22 @@ Ferrite Bead - Murata BLM18PG&lt;br&gt;
 <technology name=""/>
 </technologies>
 </device>
+<device name="-EVM3S" package="POT_EVM3R">
+<connects>
+<connect gate="R" pin="A" pad="1"/>
+<connect gate="R" pin="E" pad="3"/>
+<connect gate="R" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="D_SCHOTTKY" prefix="D" uservalue="yes">
 <description>Schottky Diode&lt;br&gt;
 &lt;br&gt;
-1A, 30V - SOD323 (BAS3010B or CUS10S40)&lt;br&gt;
+1A, 30V - SOD323 (BAS3010B)&lt;br&gt;
 3A, 100V - SOD123 (S310A)</description>
 <gates>
 <gate name="D" symbol="DIODE_SCHOTTKY" x="0" y="0"/>
@@ -2934,7 +3066,7 @@ Ferrite Bead - Murata BLM18PG&lt;br&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="-SOD532" package="SOD523">
+<device name="-SOD523" package="SOD523">
 <connects>
 <connect gate="D" pin="A" pad="A"/>
 <connect gate="D" pin="C" pad="C"/>
@@ -2996,7 +3128,7 @@ Ferrite Bead - Murata BLM18PG&lt;br&gt;
 <gate name="C" symbol="CAPACITOR_POL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-E2-4" package="E2-4">
+<device name="-E2-4" package="C_E2-4">
 <connects>
 <connect gate="C" pin="+" pad="+"/>
 <connect gate="C" pin="-" pad="-"/>
@@ -3005,7 +3137,7 @@ Ferrite Bead - Murata BLM18PG&lt;br&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="-E3.5-10" package="E3.5-10">
+<device name="-E3.5-10" package="C_E3.5-10">
 <connects>
 <connect gate="C" pin="+" pad="+"/>
 <connect gate="C" pin="-" pad="-"/>
@@ -3014,7 +3146,7 @@ Ferrite Bead - Murata BLM18PG&lt;br&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="-E5-13" package="E5-13">
+<device name="-E5-13" package="C_E5-13">
 <connects>
 <connect gate="C" pin="+" pad="+"/>
 <connect gate="C" pin="-" pad="-"/>
@@ -3023,7 +3155,7 @@ Ferrite Bead - Murata BLM18PG&lt;br&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="-E3.5-8" package="E3.5-8">
+<device name="-E3.5-8" package="C_E3.5-8">
 <connects>
 <connect gate="C" pin="+" pad="+"/>
 <connect gate="C" pin="-" pad="-"/>
@@ -3032,7 +3164,43 @@ Ferrite Bead - Murata BLM18PG&lt;br&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="-E5-10" package="E5-10">
+<device name="-E5-10" package="C_E5-10">
+<connects>
+<connect gate="C" pin="+" pad="+"/>
+<connect gate="C" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-10MM" package="C_10MM">
+<connects>
+<connect gate="C" pin="+" pad="+"/>
+<connect gate="C" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-5MM" package="C_5MM">
+<connects>
+<connect gate="C" pin="+" pad="+"/>
+<connect gate="C" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-6.3MM" package="C_6.3MM">
+<connects>
+<connect gate="C" pin="+" pad="+"/>
+<connect gate="C" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-8MM" package="C_8MM">
 <connects>
 <connect gate="C" pin="+" pad="+"/>
 <connect gate="C" pin="-" pad="-"/>
