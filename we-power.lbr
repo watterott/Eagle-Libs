@@ -1609,7 +1609,7 @@ NR6045T101M - 100uH, Ir=0.8A&lt;br&gt;</description>
 </deviceset>
 <deviceset name="ACT2813" prefix="IC">
 <description>Active Semi ACT2813
-Li-Ion Charger (1.1MHz) with Boost Converter (0.55MHz, 2.4A)</description>
+Li-Ion Charger (1.1MHz) with Boost Converter (550kHz, 2.4A)</description>
 <gates>
 <gate name="IC" symbol="ACT2813" x="0" y="0"/>
 </gates>

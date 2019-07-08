@@ -336,7 +336,7 @@
 </symbols>
 <devicesets>
 <deviceset name="MOSFET-N" prefix="T" uservalue="yes">
-<description>N-Channel MOSFET&lt;br&gt;
+<description>N-Chn MOSFET&lt;br&gt;
 &lt;br&gt;
 &lt;u&gt;SOT23 N-Chn MOSFET&lt;/u&gt;&lt;br&gt;
 TSM3404, TSM240N03 (Vgs&amp;gt;=+/-20V, Vds&amp;lt;=30V, Id&amp;gt;=3A + Rds&amp;lt;=0.05Ohm @ Vgs=4.5V)&lt;br&gt;
@@ -398,7 +398,7 @@ BTS3018TC (Vin=0...10V, Vds&amp;lt;=60V, Id=6A + Rds=0.02Ohm @ Vin=5V)&lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="MOSFET-P" prefix="T" uservalue="yes">
-<description>P-Channel MOSFET&lt;br&gt;
+<description>P-Chn MOSFET&lt;br&gt;
 &lt;br&gt;
 &lt;u&gt;SOT23 P-Chn MOSFET&lt;/u&gt;&lt;br&gt;
 TSM3401,TSM650P03 (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=30V, Id&amp;gt;=2A + Rds&amp;lt;=0.1Ohm @ Vgs=4.5V)</description>
@@ -419,7 +419,7 @@ TSM3401,TSM650P03 (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=30V, Id&amp;gt;=2A + Rds&amp;
 </devices>
 </deviceset>
 <deviceset name="BSS138PS" prefix="T">
-<description>BSS138 Dual N-Channel MOSFET&lt;br&gt;
+<description>BSS138 Dual N-Chn MOSFET&lt;br&gt;
 (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm @ Vgs=4.5V)&lt;br&gt;
 &lt;br&gt;
 BSS138PS compatible: 2N7002PS, Si1926DL, BSS138BKS (with ESD protection)&lt;br&gt;</description>

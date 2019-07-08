@@ -774,6 +774,18 @@ FCI 62684-501100AHLF -&gt; bottom contact&lt;br&gt;</description>
 <text x="0" y="13.79" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="11.25" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 </package>
+<package name="LED_DURIS_E3">
+<description>Osram DURIS E3</description>
+<smd name="C" x="0" y="0.4" dx="1.8" dy="1" layer="1" roundness="10" rot="R270"/>
+<smd name="A" x="0" y="-1.4" dx="1" dy="1" layer="1" roundness="10" rot="R270"/>
+<wire x1="0.7" y1="1.1" x2="0.7" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="0.7" y1="-1.7" x2="-0.7" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="-1.7" x2="-0.7" y2="1.1" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="1.1" x2="0.7" y2="1.1" width="0.127" layer="21"/>
+<text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<text x="1.27" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<circle x="0" y="1.75" radius="0.1" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MI0283QT">
@@ -819,7 +831,7 @@ FCI 62684-501100AHLF -&gt; bottom contact&lt;br&gt;</description>
 <pin name="GND@1" x="17.78" y="33.02" length="middle" direction="pwr" rot="R180"/>
 <pin name="VCC@2" x="17.78" y="43.18" length="middle" direction="pwr" rot="R180"/>
 <pin name="X+" x="17.78" y="-7.62" length="middle" direction="pas" rot="R180"/>
-<pin name="SDO" x="-17.78" y="15.24" length="middle" direction="out"/>
+<pin name="SDO" x="-17.78" y="15.24" length="middle"/>
 <pin name="!RESET" x="-17.78" y="48.26" length="middle" direction="in"/>
 <pin name="D5" x="-17.78" y="-17.78" length="middle" direction="in"/>
 <pin name="D4" x="-17.78" y="-15.24" length="middle" direction="in"/>
@@ -829,8 +841,8 @@ FCI 62684-501100AHLF -&gt; bottom contact&lt;br&gt;</description>
 <pin name="D0" x="-17.78" y="-5.08" length="middle" direction="in"/>
 <pin name="!RD" x="-17.78" y="22.86" length="middle" direction="in"/>
 <pin name="!WR!/D/CX" x="-17.78" y="20.32" length="middle" direction="in"/>
-<pin name="D/CX/SCL" x="-17.78" y="27.94" length="middle" direction="in"/>
-<pin name="SDI/SDA" x="-17.78" y="12.7" length="middle" direction="in"/>
+<pin name="D/CX/SCL" x="-17.78" y="27.94" length="middle"/>
+<pin name="SDI/SDA" x="-17.78" y="12.7" length="middle"/>
 <pin name="A1" x="17.78" y="10.16" length="middle" direction="pwr" rot="R180"/>
 <pin name="C" x="17.78" y="15.24" length="middle" direction="pwr" rot="R180"/>
 <pin name="A2" x="17.78" y="7.62" length="middle" direction="pwr" rot="R180"/>
@@ -1325,6 +1337,24 @@ red, green, blue -&gt; 0603</description>
 </technologies>
 </device>
 <device name="-10MM" package="LED_10MM">
+<connects>
+<connect gate="D" pin="A" pad="A"/>
+<connect gate="D" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-DURIS-E3" package="LED_DURIS_E3">
+<connects>
+<connect gate="D" pin="A" pad="A"/>
+<connect gate="D" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-5MM-BIG" package="LED_5MM_LARGE_PADS">
 <connects>
 <connect gate="D" pin="A" pad="A"/>
 <connect gate="D" pin="C" pad="C"/>
