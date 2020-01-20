@@ -1205,8 +1205,8 @@
 <wire x1="2.5" y1="-4" x2="-2.5" y2="-4" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-4" x2="2.5" y2="4" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="4" x2="2.5" y2="4" width="0.127" layer="21"/>
-<pad name="1" x="0" y="11.2" drill="1.3" diameter="2.54" shape="long"/>
-<pad name="2" x="0" y="-11.2" drill="1.3" diameter="2.54" shape="long"/>
+<pad name="1" x="0" y="11.2" drill="1.4" diameter="2.54" shape="long"/>
+<pad name="2" x="0" y="-11.2" drill="1.4" diameter="2.54" shape="long"/>
 <text x="-5.715" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 <text x="-3.175" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center">&gt;VALUE</text>
 </package>
@@ -2005,17 +2005,17 @@ Tolerance: 0.5%&lt;br&gt;
 Tolerance: 0.1%&lt;br&gt;
  4MHz 39pF CST-CR-4M00-G15&lt;br&gt;
 &lt;br&gt;
-&lt;u&gt;Murata CSTE (Size: 3.2mm x 1.3mm)&lt;/u&gt;&lt;br&gt;
+&lt;u&gt;Murata CSTNE (Size: 3.2mm x 1.3mm)&lt;/u&gt;&lt;br&gt;
 Tolerance: 0.5%&lt;br&gt;
- 8MHz 33pF CST-CE-8M00-G55&lt;br&gt;
-12MHz 33pF CST-CE-12M0-G55&lt;br&gt;
-16MHz 15pF CST-CE-16M0-V53&lt;br&gt;
-20MHz 15pF CST-CE-20M0-V53&lt;br&gt;
+ 8MHz 33pF CST-NE-8M00-G55&lt;br&gt;
+12MHz 33pF CST-NE-12M0-G55&lt;br&gt;
+16MHz 15pF CST-NE-16M0-V53&lt;br&gt;
+20MHz 15pF CST-NE-20M0-V53&lt;br&gt;
 Tolerance: 0.1%&lt;br&gt;
- 8MHz 33pF CST-CE-8M00-G15&lt;br&gt;
-12MHz 33pF CST-CE-12M0-G15&lt;br&gt;
-16MHz 15pF CST-CE-16M0-V13&lt;br&gt;
-20MHz 15pF CST-CE-20M0-V13&lt;br&gt;</description>
+ 8MHz 33pF CST-NE-8M00-G15&lt;br&gt;
+12MHz 33pF CST-NE-12M0-G15&lt;br&gt;
+16MHz 15pF CST-NE-16M0-V13&lt;br&gt;
+20MHz 15pF CST-NE-20M0-V13&lt;br&gt;</description>
 <gates>
 <gate name="Q" symbol="CRYSTAL_RES" x="0" y="0"/>
 </gates>

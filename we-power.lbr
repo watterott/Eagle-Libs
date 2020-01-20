@@ -1458,7 +1458,9 @@ Output: up to 35V&lt;br&gt;
 <deviceset name="INDUCTOR" prefix="L" uservalue="yes">
 <description>Power Inductor&lt;br&gt;
 &lt;br&gt;
-&lt;b&gt;Taiyo Yuden NR4018&lt;/b&gt;&lt;br&gt;
+Taiyo Yuden NRxxxx are compatible with FerroCore DJNRxxxx and YJYCOIN YNRxxxx.&lt;br&gt;
+&lt;br&gt;
+4x4mm - &lt;b&gt;Taiyo Yuden NR4018&lt;/b&gt; / DJNR4018 / YNR4018&lt;br&gt;
 NR4018T1R0N - 1.0uH, Ir=4.0A&lt;br&gt;
 NR4018T2R2N - 2.2uH, Ir=2.7A&lt;br&gt;
 NR4018T3R3N - 3.3uH, Ir=2.0A&lt;br&gt;
@@ -1472,7 +1474,7 @@ NR4018T470M - 47uH, Ir=0.57A&lt;br&gt;
 NR4018T680M - 68uH, Ir=0.47A&lt;br&gt;
 NR4018T101M - 100uH, Ir=0.40A&lt;br&gt;
 &lt;br&gt;
-&lt;b&gt;Taiyo Yuden NR6028&lt;/b&gt;&lt;br&gt;
+6x6mm - &lt;b&gt;Taiyo Yuden NR6028&lt;/b&gt; / DJNR6028 / YNR6028&lt;br&gt;
 NR6028T0R9N - 0.9uH, Ir=6.6A&lt;br&gt;
 NR6028T1R5N - 1.5uH, Ir=5.0A&lt;br&gt;
 NR6028T2R2N - 2.2uH, Ir=4.2A&lt;br&gt;
@@ -1487,7 +1489,7 @@ NR6028T470M - 47uH, Ir=0.95A&lt;br&gt;
 NR6028T680M - 68uH, Ir=0.76A&lt;br&gt;
 NR6028T101M - 100uH, Ir=0.62A&lt;br&gt;
 &lt;br&gt;
-&lt;b&gt;Taiyo Yuden NR6045&lt;/b&gt;&lt;br&gt;
+6x6mm - &lt;b&gt;Taiyo Yuden NR6045&lt;/b&gt; / DJNR6045 / YNR6045&lt;br&gt;
 NR6045T1R0N - 1.0uH, Ir=8.5A&lt;br&gt;
 NR6045T1R3N - 1.3uH, Ir=8.0A&lt;br&gt;
 NR6045T1R8N - 1.8uH, Ir=7.0A&lt;br&gt;
@@ -1501,7 +1503,10 @@ NR6045T220M - 22uH, Ir=1.9A&lt;br&gt;
 NR6045T330M - 33uH, Ir=1.5A&lt;br&gt;
 NR6045T470M - 47uH, Ir=1.3A&lt;br&gt;
 NR6045T680M - 68uH, Ir=1.0A&lt;br&gt;
-NR6045T101M - 100uH, Ir=0.8A&lt;br&gt;</description>
+NR6045T101M - 100uH, Ir=0.8A&lt;br&gt;
+&lt;br&gt;
+8x8mm - &lt;b&gt;Taiyo Yuden NR8040&lt;/b&gt; / DJNR8040 / YNR8040&lt;br&gt;
+&lt;br&gt;</description>
 <gates>
 <gate name="L" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
@@ -1719,14 +1724,14 @@ AP65503 - 750kHz, 5A, 4.7-17V input&lt;br&gt;</description>
 </deviceset>
 <deviceset name="LM2585" prefix="IC">
 <description>TI LM2585
-Step-Up (100kHz, 3A, Vin 4-40V, Vout 0-60V)&lt;br&gt;
+Step-Up (100kHz)&lt;br&gt;
 &lt;br&gt;
-LM2585 - 3A&lt;br&gt;
-LM2587 - 5A&lt;br&gt;
-MIC2171 - 2.5A&lt;br&gt;
-LT1170 - 5A&lt;br&gt;
-LT1171 - 2.5A&lt;br&gt;
-LT1172 - 1.25A&lt;br&gt;</description>
+LM2585 - 3A 60V, 4-40V input&lt;br&gt;
+LM2587 - 5A 60V, 4-40V input&lt;br&gt;
+MIC2171 - 2.5A 60V, 3-40V input&lt;br&gt;
+LT1170 - 5A 60V, 3-40V input&lt;br&gt;
+LT1171 - 2.5A 60V, 3-40V input&lt;br&gt;
+LT1172 - 1.25A 60V, 3-40V input&lt;br&gt;</description>
 <gates>
 <gate name="IC" symbol="LM2585" x="0" y="0"/>
 </gates>
@@ -1774,13 +1779,13 @@ MCP73832 - Open-Drain Status Output&lt;br&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="REG710XX" prefix="IC">
+<deviceset name="REG710NA" prefix="IC">
 <description>TI REG710xx
 Charge Pump with Regulated Output&lt;br&gt;
 &lt;br&gt;
 &lt;u&gt;TI REG710xx (60mA)&lt;/u&gt;&lt;br&gt;
 5.5V - REG71055&lt;br&gt;
-5.0V - REG71050&lt;br&gt;
+5.0V - REG710NA-5 or REG71050&lt;br&gt;
 3.3V - REG710NA-3.3&lt;br&gt;
 3.0V - REG710NA-3&lt;br&gt;
 2.7V - REG710NA-2.7&lt;br&gt;
@@ -1796,7 +1801,7 @@ Charge Pump with Regulated Output&lt;br&gt;
 <gate name="IC" symbol="REG710XX" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-5.0" package="SOT23-6">
+<device name="-5" package="SOT23-6">
 <connects>
 <connect gate="IC" pin="C+" pad="6"/>
 <connect gate="IC" pin="C-" pad="4"/>
