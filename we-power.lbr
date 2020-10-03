@@ -381,8 +381,8 @@
 </package>
 <package name="BAT-SMTU1225LF">
 <description>Renata SMTU1225-LF</description>
-<smd name="+" x="0" y="10.55" dx="2.6" dy="3.5" layer="1" roundness="5" rot="R270"/>
-<smd name="-" x="0" y="-10.55" dx="2.6" dy="3.5" layer="1" roundness="5" rot="R270"/>
+<smd name="+" x="0" y="10.55" dx="3" dy="3.5" layer="1" roundness="5" rot="R270"/>
+<smd name="-" x="0" y="-10.55" dx="3" dy="3.5" layer="1" roundness="5" rot="R270"/>
 <wire x1="1.778" y1="10.414" x2="2.54" y2="10.414" width="0.127" layer="21"/>
 <wire x1="2.54" y1="10.414" x2="2.54" y2="8.382" width="0.127" layer="21"/>
 <wire x1="2.54" y1="8.382" x2="4.318" y2="6.604" width="0.127" layer="21"/>
@@ -1106,6 +1106,22 @@
 <text x="-10.16" y="12.7" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <pin name="SS" x="-12.7" y="-5.08" length="short" direction="pas"/>
 </symbol>
+<symbol name="TP4056">
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<pin name="PROG" x="12.7" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="VIN" x="-12.7" y="7.62" length="short" direction="pwr"/>
+<pin name="GND" x="12.7" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="!STDBY" x="-12.7" y="-7.62" length="short" direction="out"/>
+<text x="-10.16" y="-12.7" size="1.778" layer="95">&gt;VALUE</text>
+<text x="-10.16" y="12.7" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<pin name="VBAT" x="12.7" y="7.62" length="short" direction="pas" rot="R180"/>
+<pin name="!CHRG" x="-12.7" y="-2.54" length="short" direction="out"/>
+<pin name="CE" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="TEMP" x="12.7" y="2.54" length="short" direction="pas" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="VREG" prefix="IC">
@@ -1752,7 +1768,7 @@ LT1172 - 1.25A 60V, 3-40V input&lt;br&gt;</description>
 </deviceset>
 <deviceset name="MCP73831" prefix="IC">
 <description>Microchip MCP73831
-Li-Ion Charger (4.5-6V input)&lt;br&gt;
+Li-Ion Charger (500mA, 4.5-6V input)&lt;br&gt;
 &lt;br&gt;
 MCP73831 - Tri-State Status Output&lt;br&gt;
 MCP73832 - Open-Drain Status Output&lt;br&gt;
@@ -2003,6 +2019,33 @@ AX5204 - 2A 32V, 3-20V input&lt;br&gt;</description>
 <connect gate="IC" pin="SS" pad="4"/>
 <connect gate="IC" pin="SW" pad="5 6 TP"/>
 <connect gate="IC" pin="VIN" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TP4056" prefix="IC">
+<description>TPower TP4056
+Li-Ion Charger (1A, 4.5-6V input)
+&lt;br&gt;&lt;br&gt;
+
+&lt;i&gt;TP4056X is an improved version (below 1uA leakage)&lt;/i&gt;</description>
+<gates>
+<gate name="IC" symbol="TP4056" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO08-PAD">
+<connects>
+<connect gate="IC" pin="!CHRG" pad="7"/>
+<connect gate="IC" pin="!STDBY" pad="6"/>
+<connect gate="IC" pin="CE" pad="8"/>
+<connect gate="IC" pin="GND" pad="3 TP"/>
+<connect gate="IC" pin="PROG" pad="2"/>
+<connect gate="IC" pin="TEMP" pad="1"/>
+<connect gate="IC" pin="VBAT" pad="5"/>
+<connect gate="IC" pin="VIN" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -3341,8 +3341,9 @@
 <description>u-blox SARA-96</description>
 <wire x1="8" y1="13" x2="8" y2="-13" width="0.127" layer="21"/>
 <wire x1="8" y1="-13" x2="-8" y2="-13" width="0.127" layer="21"/>
-<wire x1="-8" y1="-13" x2="-8" y2="13" width="0.127" layer="21"/>
-<wire x1="-8" y1="13" x2="8" y2="13" width="0.127" layer="21"/>
+<wire x1="-8" y1="-13" x2="-8" y2="12.5" width="0.127" layer="21"/>
+<wire x1="-8" y1="12.5" x2="-7.5" y2="13" width="0.127" layer="21"/>
+<wire x1="-7.5" y1="13" x2="8" y2="13" width="0.127" layer="21"/>
 <smd name="1" x="-6.95" y="11" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R90"/>
 <smd name="2" x="-6.95" y="9.9" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R90"/>
 <smd name="3" x="-6.95" y="8.8" dx="0.8" dy="1.5" layer="1" roundness="10" rot="R90"/>
@@ -3441,6 +3442,7 @@
 <smd name="96" x="5.25" y="-10.25" dx="1.1" dy="1.1" layer="1" roundness="10" rot="R180"/>
 <text x="0" y="1.27" size="0.8128" layer="21" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-1.27" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="center">&gt;VALUE</text>
+<circle x="-7.4" y="12.1" radius="0.2" width="0.127" layer="21"/>
 </package>
 <package name="QFN68-PAD">
 <wire x1="-4" y1="-4" x2="4" y2="-4" width="0.127" layer="21"/>
@@ -3605,6 +3607,218 @@
 <circle x="-1.3" y="0.9225" radius="0.2" width="0.127" layer="21"/>
 <text x="0" y="1.905" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-1.905" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+</package>
+<package name="TQFP128">
+<smd name="1" x="-7.6" y="6.2" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="2" x="-7.6" y="5.8" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="3" x="-7.6" y="5.4" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="4" x="-7.6" y="5" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="5" x="-7.6" y="4.6" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="6" x="-7.6" y="4.2" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="7" x="-7.6" y="3.8" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="8" x="-7.6" y="3.4" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="9" x="-7.6" y="3" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="10" x="-7.6" y="2.6" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="11" x="-7.6" y="2.2" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="12" x="-7.6" y="1.8" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="13" x="-7.6" y="1.4" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="14" x="-7.6" y="1" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="15" x="-7.6" y="0.6" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="16" x="-7.6" y="0.2" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="17" x="-7.6" y="-0.2" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="18" x="-7.6" y="-0.6" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="19" x="-7.6" y="-1" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="20" x="-7.6" y="-1.4" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="21" x="-7.6" y="-1.8" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="22" x="-7.6" y="-2.2" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="23" x="-7.6" y="-2.6" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="24" x="-7.6" y="-3" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="25" x="-7.6" y="-3.4" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="26" x="-7.6" y="-3.8" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="27" x="-7.6" y="-4.2" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="28" x="-7.6" y="-4.6" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="29" x="-7.6" y="-5" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="30" x="-7.6" y="-5.4" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="31" x="-7.6" y="-5.8" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="32" x="-7.6" y="-6.2" dx="1.6" dy="0.24" layer="1" roundness="20"/>
+<smd name="33" x="-6.2" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="34" x="-5.8" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="35" x="-5.4" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="36" x="-5" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="37" x="-4.6" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="38" x="-4.2" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="39" x="-3.8" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="40" x="-3.4" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="41" x="-3" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="42" x="-2.6" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="43" x="-2.2" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="44" x="-1.8" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="45" x="-1.4" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="46" x="-1" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="47" x="-0.6" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="48" x="-0.2" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="49" x="0.2" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="50" x="0.6" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="51" x="1" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="52" x="1.4" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="53" x="1.8" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="54" x="2.2" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="55" x="2.6" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="56" x="3" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="57" x="3.4" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="58" x="3.8" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="59" x="4.2" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="60" x="4.6" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="61" x="5" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="62" x="5.4" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="63" x="5.8" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="64" x="6.2" y="-7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="65" x="7.6" y="-6.2" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="66" x="7.6" y="-5.8" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="67" x="7.6" y="-5.4" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="68" x="7.6" y="-5" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="69" x="7.6" y="-4.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="70" x="7.6" y="-4.2" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="71" x="7.6" y="-3.8" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="72" x="7.6" y="-3.4" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="73" x="7.6" y="-3" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="74" x="7.6" y="-2.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="75" x="7.6" y="-2.2" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="76" x="7.6" y="-1.8" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="77" x="7.6" y="-1.4" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="78" x="7.6" y="-1" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="79" x="7.6" y="-0.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="80" x="7.6" y="-0.2" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="81" x="7.6" y="0.2" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="82" x="7.6" y="0.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="83" x="7.6" y="1" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="84" x="7.6" y="1.4" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="85" x="7.6" y="1.8" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="86" x="7.6" y="2.2" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="87" x="7.6" y="2.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="88" x="7.6" y="3" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="89" x="7.6" y="3.4" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="90" x="7.6" y="3.8" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="91" x="7.6" y="4.2" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="92" x="7.6" y="4.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="93" x="7.6" y="5" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="94" x="7.6" y="5.4" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="95" x="7.6" y="5.8" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="96" x="7.6" y="6.2" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="97" x="6.2" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="98" x="5.8" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="99" x="5.4" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="100" x="5" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="101" x="4.6" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="102" x="4.2" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="103" x="3.8" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="104" x="3.4" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="105" x="3" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="106" x="2.6" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="107" x="2.2" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="108" x="1.8" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="109" x="1.4" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="110" x="1" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="111" x="0.6" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="112" x="0.2" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="113" x="-0.2" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="114" x="-0.6" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="115" x="-1" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="116" x="-1.4" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="117" x="-1.8" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="118" x="-2.2" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="119" x="-2.6" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="120" x="-3" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="121" x="-3.4" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="122" x="-3.8" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="123" x="-4.2" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="124" x="-4.6" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="125" x="-5" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="126" x="-5.4" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="127" x="-5.8" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="128" x="-6.2" y="7.6" dx="1.6" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<wire x1="-6.5" y1="6" x2="-6" y2="6.5" width="0.127" layer="21"/>
+<wire x1="-6" y1="6.5" x2="6.5" y2="6.5" width="0.127" layer="21"/>
+<wire x1="6.5" y1="6.5" x2="6.5" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="6.5" y1="-6.5" x2="-6.5" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="6" width="0.127" layer="21"/>
+<circle x="-5.5" y="5.5" radius="0.2" width="0.1524" layer="21"/>
+<text x="0" y="1.27" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+</package>
+<package name="LQFP64">
+<wire x1="-5" y1="4.5" x2="-5" y2="-5" width="0.127" layer="21"/>
+<wire x1="5" y1="5" x2="-4.5" y2="5" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="5" x2="-5" y2="4.5" width="0.127" layer="21"/>
+<wire x1="-5" y1="-5" x2="5" y2="-5" width="0.127" layer="21"/>
+<wire x1="5" y1="-5" x2="5" y2="5" width="0.127" layer="21"/>
+<smd name="64" x="-3.75" y="5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="63" x="-3.25" y="5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="62" x="-2.75" y="5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="61" x="-2.25" y="5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="60" x="-1.75" y="5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="59" x="-1.25" y="5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="58" x="-0.75" y="5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="57" x="-0.25" y="5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="56" x="0.25" y="5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="55" x="0.75" y="5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="54" x="1.25" y="5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="53" x="1.75" y="5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="52" x="2.25" y="5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="51" x="2.75" y="5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="50" x="3.25" y="5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="18" x="-3.25" y="-5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="19" x="-2.75" y="-5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="20" x="-2.25" y="-5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="21" x="-1.75" y="-5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="22" x="-1.25" y="-5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="23" x="-0.75" y="-5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="24" x="-0.25" y="-5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="25" x="0.25" y="-5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="26" x="0.75" y="-5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="27" x="1.25" y="-5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="28" x="1.75" y="-5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="29" x="2.25" y="-5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="30" x="2.75" y="-5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="31" x="3.25" y="-5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="32" x="3.75" y="-5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="16" x="-5.75" y="-3.75" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R90"/>
+<smd name="15" x="-5.75" y="-3.25" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R90"/>
+<smd name="14" x="-5.75" y="-2.75" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R90"/>
+<smd name="13" x="-5.75" y="-2.25" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R90"/>
+<smd name="12" x="-5.75" y="-1.75" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R90"/>
+<smd name="11" x="-5.75" y="-1.25" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R90"/>
+<smd name="10" x="-5.75" y="-0.75" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R90"/>
+<smd name="9" x="-5.75" y="-0.25" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R90"/>
+<smd name="8" x="-5.75" y="0.25" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R90"/>
+<smd name="7" x="-5.75" y="0.75" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R90"/>
+<smd name="6" x="-5.75" y="1.25" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R90"/>
+<smd name="5" x="-5.75" y="1.75" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R90"/>
+<smd name="4" x="-5.75" y="2.25" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R90"/>
+<smd name="3" x="-5.75" y="2.75" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R90"/>
+<smd name="2" x="-5.75" y="3.25" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R90"/>
+<smd name="48" x="5.75" y="3.75" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="47" x="5.75" y="3.25" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="46" x="5.75" y="2.75" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="45" x="5.75" y="2.25" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="44" x="5.75" y="1.75" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="43" x="5.75" y="1.25" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="42" x="5.75" y="0.75" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="41" x="5.75" y="0.25" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="40" x="5.75" y="-0.25" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="39" x="5.75" y="-0.75" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="38" x="5.75" y="-1.25" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="37" x="5.75" y="-1.75" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="36" x="5.75" y="-2.25" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="35" x="5.75" y="-2.75" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="34" x="5.75" y="-3.25" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<smd name="49" x="3.75" y="5.75" dx="0.3" dy="1.2" layer="1" roundness="20"/>
+<smd name="1" x="-5.75" y="3.75" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R90"/>
+<smd name="17" x="-3.75" y="-5.75" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R180"/>
+<smd name="33" x="5.75" y="-3.75" dx="0.3" dy="1.2" layer="1" roundness="20" rot="R270"/>
+<circle x="-4.25" y="4.25" radius="0.2" width="0.127" layer="21"/>
+<text x="0" y="1.27" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -3828,25 +4042,24 @@
 <text x="-12.7" y="20.32" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-12.7" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="I2C_EEPROM">
+<symbol name="EEPROM_I2C">
 <pin name="VCC" x="-15.24" y="5.08" length="middle" direction="pwr"/>
 <pin name="GND" x="-15.24" y="-5.08" length="middle" direction="pwr"/>
 <pin name="WP" x="17.78" y="-5.08" length="middle" rot="R180"/>
 <pin name="SCL" x="17.78" y="0" length="middle" rot="R180"/>
 <pin name="SDA" x="17.78" y="5.08" length="middle" rot="R180"/>
 <wire x1="-10.16" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="7.62" x2="12.7" y2="0" width="0.254" layer="94"/>
-<wire x1="12.7" y1="0" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="6.35" x2="4.826" y2="6.35" width="0.1524" layer="94"/>
-<wire x1="4.826" y1="6.35" x2="4.826" y2="-6.604" width="0.1524" layer="94"/>
-<wire x1="4.826" y1="-6.604" x2="-2.54" y2="-6.604" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-6.604" x2="-2.54" y2="6.35" width="0.1524" layer="94"/>
-<text x="3.302" y="-5.08" size="1.778" layer="94" rot="R90">Array</text>
+<wire x1="-2.54" y1="6.35" x2="4.445" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="6.35" x2="4.445" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="-6.35" x2="-2.54" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="6.35" width="0.1524" layer="94"/>
+<text x="1.905" y="0" size="1.778" layer="94" rot="R90" align="center">Array</text>
 <text x="-10.16" y="10.16" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<text x="0.762" y="-5.08" size="1.778" layer="94" rot="R90">EEPROM</text>
+<text x="-0.635" y="0" size="1.778" layer="94" rot="R90" align="center">EEPROM</text>
 </symbol>
 <symbol name="ADUM3160">
 <wire x1="-12.7" y1="15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
@@ -3873,38 +4086,6 @@
 <pin name="VBUS2" x="17.78" y="-2.54" length="middle" direction="pwr" rot="R180"/>
 <wire x1="-0.635" y1="-14.605" x2="-0.635" y2="14.605" width="0.2032" layer="94" style="longdash"/>
 <wire x1="0.635" y1="14.605" x2="0.635" y2="-14.605" width="0.2032" layer="94" style="longdash"/>
-</symbol>
-<symbol name="ADS1147">
-<wire x1="-17.78" y1="12.7" x2="17.78" y2="12.7" width="0.254" layer="94"/>
-<wire x1="17.78" y1="12.7" x2="17.78" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-15.24" x2="-17.78" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-15.24" x2="-17.78" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="3.81" x2="-8.255" y2="3.81" width="0.254" layer="95"/>
-<wire x1="9.525" y1="6.35" x2="15.24" y2="6.35" width="0.254" layer="95"/>
-<wire x1="9.525" y1="3.81" x2="15.24" y2="3.81" width="0.254" layer="95"/>
-<wire x1="12.7" y1="1.27" x2="15.24" y2="1.27" width="0.254" layer="95"/>
-<pin name="AIN0/IEXC" x="-22.86" y="-10.16" length="middle"/>
-<pin name="AIN1/IEXC" x="-22.86" y="-12.7" length="middle"/>
-<pin name="AIN2/IEXC/GPIO2" x="22.86" y="-12.7" length="middle" rot="R180"/>
-<pin name="AIN3/IEXC/GPIO3" x="22.86" y="-10.16" length="middle" rot="R180"/>
-<pin name="AVDD" x="22.86" y="-5.08" length="middle" direction="pwr" rot="R180"/>
-<pin name="AVSS" x="22.86" y="-7.62" length="middle" direction="pwr" rot="R180"/>
-<pin name="CLK" x="-22.86" y="5.08" length="middle"/>
-<pin name="CS" x="22.86" y="0" length="middle" direction="in" rot="R180"/>
-<pin name="DGND" x="-22.86" y="7.62" length="middle" direction="pwr"/>
-<pin name="DIN" x="22.86" y="7.62" length="middle" direction="in" rot="R180"/>
-<pin name="DOUT/DRDY" x="22.86" y="5.08" length="middle" direction="out" rot="R180"/>
-<pin name="DRDY" x="22.86" y="2.54" length="middle" rot="R180"/>
-<pin name="DVDD" x="-22.86" y="10.16" length="middle" direction="pwr"/>
-<pin name="REFN0/GPO1" x="-22.86" y="-2.54" length="middle" direction="pas"/>
-<pin name="REFP0/GPIO0" x="-22.86" y="0" length="middle" direction="pas"/>
-<pin name="RESET" x="-22.86" y="2.54" length="middle"/>
-<pin name="SCLK" x="22.86" y="10.16" length="middle" direction="in" rot="R180"/>
-<pin name="START" x="22.86" y="-2.54" length="middle" direction="in" rot="R180"/>
-<pin name="VREFCOM" x="-22.86" y="-7.62" length="middle" direction="pwr"/>
-<pin name="VREFOUT" x="-22.86" y="-5.08" length="middle" direction="pwr"/>
-<text x="-17.78" y="15.24" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="-17.78" y="-17.78" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
 <symbol name="SN75LVDS83B">
 <description>RGB Format 1</description>
@@ -4261,6 +4442,7 @@ B7</text>
 <pin name="!SUSPEND" x="17.78" y="-15.24" length="middle" rot="R180"/>
 <pin name="SUSPEND" x="17.78" y="-17.78" length="middle" rot="R180"/>
 <pin name="VBUS" x="-17.78" y="2.54" length="middle" direction="pwr"/>
+<text x="-10.16" y="0.508" size="1.016" layer="97" align="center-left">(ext. resistor)</text>
 </symbol>
 <symbol name="TCA9535">
 <pin name="GND" x="-15.24" y="-20.32" length="middle" direction="pwr"/>
@@ -5653,7 +5835,7 @@ Upstream</text>
 <wire x1="-20.32" y1="-60.96" x2="-20.32" y2="60.96" width="0.254" layer="94"/>
 <text x="-20.32" y="63.5" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-20.32" y="-63.5" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="VCC" x="-25.4" y="-20.32" length="middle" direction="pwr"/>
+<pin name="VCC" x="-25.4" y="-15.24" length="middle" direction="pwr"/>
 <pin name="GND" x="-25.4" y="-58.42" length="middle" direction="pwr"/>
 <pin name="VOUT" x="-25.4" y="-43.18" length="middle" direction="pwr"/>
 <pin name="(EXTREF0/GPIO)P0.3" x="25.4" y="50.8" length="middle" rot="R180"/>
@@ -5664,18 +5846,18 @@ Upstream</text>
 <pin name="(GPIO)P0.4" x="25.4" y="48.26" length="middle" rot="R180"/>
 <pin name="(GPIO)P0.5" x="25.4" y="45.72" length="middle" rot="R180"/>
 <pin name="VBAT" x="-25.4" y="5.08" length="middle" direction="pwr"/>
-<pin name="VBOOST" x="-25.4" y="-10.16" length="middle" direction="pwr"/>
-<pin name="IND" x="-25.4" y="-2.54" length="middle" direction="pwr"/>
-<pin name="VCCA" x="-25.4" y="-25.4" length="middle" direction="pwr"/>
+<pin name="VBOOST" x="-25.4" y="-5.08" length="middle" direction="pwr"/>
+<pin name="IND" x="-25.4" y="0" length="middle" direction="pas"/>
+<pin name="VCCA" x="-25.4" y="-20.32" length="middle" direction="pwr"/>
 <wire x1="-20.32" y1="7.62" x2="-7.62" y2="7.62" width="0.127" layer="95"/>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-12.7" width="0.127" layer="95"/>
-<wire x1="-7.62" y1="-12.7" x2="-20.32" y2="-12.7" width="0.127" layer="95"/>
-<text x="-10.16" y="-2.54" size="1.778" layer="95" rot="R90" align="center">Boost</text>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.127" layer="95"/>
+<wire x1="-7.62" y1="-7.62" x2="-20.32" y2="-7.62" width="0.127" layer="95"/>
+<text x="-10.16" y="0" size="1.778" layer="95" rot="R90" align="center">Boost</text>
 <pin name="(IDAC0/GPIO)P0.6" x="25.4" y="43.18" length="middle" rot="R180"/>
 <pin name="(GPIO)P0.7" x="25.4" y="40.64" length="middle" rot="R180"/>
 <pin name="(SWDIO/GPIO)P1.0" x="25.4" y="35.56" length="middle" rot="R180"/>
 <pin name="(SWDCK/GPIO)P1.1" x="25.4" y="33.02" length="middle" rot="R180"/>
-<pin name="(GPIO)P1.2" x="25.4" y="30.48" length="middle" rot="R180"/>
+<pin name="(XRES/GPIO)P1.2" x="25.4" y="30.48" length="middle" rot="R180"/>
 <pin name="(SWV/GPIO)P1.3" x="25.4" y="27.94" length="middle" rot="R180"/>
 <pin name="(GPIO)P1.4" x="25.4" y="25.4" length="middle" rot="R180"/>
 <pin name="(GPIO)P1.5" x="25.4" y="22.86" length="middle" rot="R180"/>
@@ -5711,16 +5893,23 @@ Upstream</text>
 <pin name="P15.3(XTAL)" x="-25.4" y="33.02" length="middle"/>
 <pin name="P15.7(USB_D-/SWDCK)" x="-25.4" y="17.78" length="middle"/>
 <pin name="P15.6(USB_D+/SWDIO)" x="-25.4" y="22.86" length="middle"/>
-<text x="-11.43" y="45.72" size="1.27" layer="97" align="center-left">MHz</text>
-<text x="-11.43" y="35.56" size="1.27" layer="97" align="center-left">kHz</text>
-<pin name="VCCIO1" x="-25.4" y="-33.02" length="middle" direction="pwr"/>
-<pin name="VCCIO2" x="-25.4" y="-35.56" length="middle" direction="pwr"/>
-<pin name="VCCIO3" x="-25.4" y="-38.1" length="middle" direction="pwr"/>
-<pin name="VCCIO0" x="-25.4" y="-30.48" length="middle" direction="pwr"/>
+<text x="-13.97" y="45.72" size="1.016" layer="97" align="center-left">4-25 MHz</text>
+<text x="-13.97" y="35.56" size="1.016" layer="97" align="center-left">32 kHz</text>
+<pin name="VCCIO1" x="-25.4" y="-27.94" length="middle" direction="pwr"/>
+<pin name="VCCIO2" x="-25.4" y="-30.48" length="middle" direction="pwr"/>
+<pin name="VCCIO3" x="-25.4" y="-33.02" length="middle" direction="pwr"/>
+<pin name="VCCIO0" x="-25.4" y="-25.4" length="middle" direction="pwr"/>
 <pin name="VOUTA" x="-25.4" y="-48.26" length="middle" direction="pwr"/>
 <pin name="(GPIO)P15.4" x="25.4" y="-55.88" length="middle" rot="R180"/>
 <pin name="(GPIO)P15.5" x="25.4" y="-58.42" length="middle" rot="R180"/>
-<text x="-17.78" y="55.88" size="1.27" layer="97" align="center-left">int. 5k6 pull-up</text>
+<text x="-17.78" y="56.388" size="1.016" layer="97" align="center-left">int. 5k6 pull-up</text>
+<text x="-8.89" y="-29.21" size="1.016" layer="97" rot="R90" align="center">(&lt;=VCCA)</text>
+<text x="-17.78" y="-17.272" size="1.016" layer="97" align="center-left">(&lt;=VCCA)</text>
+<text x="-17.78" y="-35.56" size="0.6096" layer="97" align="top-left">VIO0: P0[7:0], P4[7:0], P12[3:2]
+VIO1: P1[7:0], P5[7:0], P12[7:6]
+VIO2: P2[7:0], P6[7:0], P12[5:4], P15[5:4]
+VIO3: P3[7:0], P12[1:0], P15[3:0]
+VCC: P15[7:6]</text>
 </symbol>
 <symbol name="TMC2209">
 <pin name="CLK" x="-20.32" y="-20.32" length="middle"/>
@@ -5848,43 +6037,6 @@ Upstream</text>
 <text x="-17.78" y="24.384" size="1.27" layer="97" align="center-left">int. 5k6
 pull-up</text>
 </symbol>
-<symbol name="CY8C424XPVI">
-<wire x1="-20.32" y1="35.56" x2="20.32" y2="35.56" width="0.254" layer="94"/>
-<wire x1="20.32" y1="35.56" x2="20.32" y2="-38.1" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-38.1" x2="-20.32" y2="-38.1" width="0.254" layer="94"/>
-<wire x1="-20.32" y1="-38.1" x2="-20.32" y2="35.56" width="0.254" layer="94"/>
-<text x="-20.32" y="38.1" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="-20.32" y="-40.64" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="VCC" x="-25.4" y="-20.32" length="middle" direction="pwr"/>
-<pin name="GND" x="-25.4" y="-35.56" length="middle" direction="pwr"/>
-<pin name="VOUT" x="-25.4" y="-25.4" length="middle" direction="pwr"/>
-<pin name="(COMP2)P0.3" x="25.4" y="25.4" length="middle" rot="R180"/>
-<pin name="(COMP2/SCB0)P0.2" x="25.4" y="27.94" length="middle" rot="R180"/>
-<pin name="(COMP1/SCB0)P0.1" x="25.4" y="30.48" length="middle" rot="R180"/>
-<pin name="(COMP1/SCB0)P0.0" x="25.4" y="33.02" length="middle" rot="R180"/>
-<pin name="(TCPWM1/SARMUX)P2.7" x="25.4" y="-10.16" length="middle" rot="R180"/>
-<pin name="(TCPWM1/SARMUX)P2.6" x="25.4" y="-7.62" length="middle" rot="R180"/>
-<pin name="(TCPWM0/SARMUX)P2.5" x="25.4" y="-5.08" length="middle" rot="R180"/>
-<pin name="(TCPWM0/SARMUX)P2.4" x="25.4" y="-2.54" length="middle" rot="R180"/>
-<pin name="(SARMUX)P2.3" x="25.4" y="0" length="middle" rot="R180"/>
-<pin name="(SARMUX)P2.2" x="25.4" y="2.54" length="middle" rot="R180"/>
-<pin name="(VREF)P1.7" x="25.4" y="7.62" length="middle" rot="R180"/>
-<pin name="(TCPWM3/CTB)P1.2" x="25.4" y="10.16" length="middle" rot="R180"/>
-<pin name="(TCPWM2/CTB)P1.1" x="25.4" y="12.7" length="middle" rot="R180"/>
-<pin name="(TCPWM2/CTB)P1.0" x="25.4" y="15.24" length="middle" rot="R180"/>
-<pin name="!XRES" x="-25.4" y="33.02" length="middle"/>
-<pin name="(TCPWM0/SCB1)P3.0" x="25.4" y="-15.24" length="middle" rot="R180"/>
-<pin name="(TCPWM0/SCB1)P3.1" x="25.4" y="-17.78" length="middle" rot="R180"/>
-<pin name="(SWDIO/TCPWM1/SCB1)P3.2" x="25.4" y="-20.32" length="middle" rot="R180"/>
-<pin name="(SWDCLK/TCPWM1/SCB1)P3.3" x="25.4" y="-22.86" length="middle" rot="R180"/>
-<pin name="(SCB0)P4.0" x="25.4" y="-27.94" length="middle" rot="R180"/>
-<pin name="(SCB0)P4.1" x="25.4" y="-30.48" length="middle" rot="R180"/>
-<pin name="(SCB0)P4.2" x="25.4" y="-33.02" length="middle" rot="R180"/>
-<pin name="(SCB0)P4.3" x="25.4" y="-35.56" length="middle" rot="R180"/>
-<pin name="(CLK/SCB1)P0.6" x="25.4" y="22.86" length="middle" rot="R180"/>
-<pin name="(WAKEUP/SCB1)P0.7" x="25.4" y="20.32" length="middle" rot="R180"/>
-<text x="-17.78" y="30.48" size="1.27" layer="97" align="center-left">int. 5k6 pull-up</text>
-</symbol>
 <symbol name="MS9288A">
 <wire x1="-15.24" y1="35.56" x2="-15.24" y2="-35.56" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-35.56" x2="15.24" y2="-35.56" width="0.254" layer="94"/>
@@ -5933,6 +6085,132 @@ pull-up</text>
 <wire x1="-2.54" y1="35.56" x2="-2.54" y2="15.24" width="0.127" layer="95"/>
 <pin name="DDCSDA" x="20.32" y="-2.54" length="middle" rot="R180"/>
 <pin name="DDCSCL" x="20.32" y="-7.62" length="middle" rot="R180"/>
+</symbol>
+<symbol name="SAM2695">
+<wire x1="-20.32" y1="33.02" x2="20.32" y2="33.02" width="0.254" layer="94"/>
+<wire x1="20.32" y1="33.02" x2="20.32" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-33.02" x2="-20.32" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-33.02" x2="-20.32" y2="33.02" width="0.254" layer="94"/>
+<text x="-20.32" y="35.56" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-20.32" y="-35.56" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A0" x="25.4" y="17.78" length="middle" direction="in" rot="R180"/>
+<pin name="XTAL2" x="-25.4" y="15.24" length="middle"/>
+<pin name="XTAL1" x="-25.4" y="20.32" length="middle"/>
+<pin name="VCC" x="-25.4" y="-20.32" length="middle" direction="pwr"/>
+<pin name="GND" x="-25.4" y="-30.48" length="middle" direction="pwr"/>
+<pin name="OUTVCC" x="-25.4" y="-25.4" length="middle" direction="pas"/>
+<pin name="AVCC" x="-25.4" y="-10.16" length="middle" direction="pwr"/>
+<pin name="WR" x="25.4" y="20.32" length="middle" direction="in" rot="R180"/>
+<pin name="RD" x="25.4" y="22.86" length="middle" direction="in" rot="R180"/>
+<pin name="CS" x="25.4" y="25.4" length="middle" direction="in" rot="R180"/>
+<pin name="MIDI_IN" x="25.4" y="30.48" length="middle" rot="R180"/>
+<pin name="MICIN" x="25.4" y="-30.48" length="middle" rot="R180"/>
+<pin name="VCMHPOUT" x="25.4" y="-25.4" length="middle" rot="R180"/>
+<pin name="AOUTR" x="25.4" y="-20.32" length="middle" rot="R180"/>
+<pin name="AOUTL" x="25.4" y="-15.24" length="middle" rot="R180"/>
+<pin name="IRQ" x="25.4" y="-10.16" length="middle" rot="R180"/>
+<pin name="D7" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="D6" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="D5" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="D4" x="25.4" y="2.54" length="middle" rot="R180"/>
+<pin name="D3" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="D2" x="25.4" y="7.62" length="middle" rot="R180"/>
+<pin name="D1" x="25.4" y="10.16" length="middle" rot="R180"/>
+<pin name="D0" x="25.4" y="12.7" length="middle" rot="R180"/>
+<pin name="!RSTPDN" x="-25.4" y="30.48" length="middle"/>
+<pin name="XDIV" x="-25.4" y="10.16" length="middle"/>
+<pin name="TEST" x="-25.4" y="5.08" length="middle" direction="in"/>
+<pin name="VCM" x="-25.4" y="-5.08" length="middle" direction="pwr"/>
+<pin name="AGND" x="-25.4" y="-15.24" length="middle" direction="pwr"/>
+</symbol>
+<symbol name="PSRAM">
+<pin name="VCC" x="-15.24" y="5.08" length="middle" direction="pwr"/>
+<pin name="GND" x="-15.24" y="-7.62" length="middle" direction="pwr"/>
+<pin name="SO/SIO[1]" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="!CE" x="17.78" y="5.08" length="middle" direction="in" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="10.16" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-10.16" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="SIO[2]" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="SI/SIO[0]" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="SCLK" x="17.78" y="2.54" length="middle" direction="in" rot="R180"/>
+<pin name="SIO[3]" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<wire x1="-6.35" y1="3.175" x2="-1.27" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="3.175" x2="-1.27" y2="-5.715" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-5.715" x2="-6.35" y2="-5.715" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="-5.715" x2="-6.35" y2="3.175" width="0.1524" layer="94"/>
+<text x="-3.81" y="-1.27" size="1.6764" layer="94" rot="R90" align="center">PSRAM</text>
+</symbol>
+<symbol name="STM32F205R">
+<wire x1="-20.32" y1="-68.58" x2="-20.32" y2="66.04" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-68.58" x2="20.32" y2="-68.58" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="66.04" x2="20.32" y2="66.04" width="0.254" layer="94"/>
+<wire x1="20.32" y1="66.04" x2="20.32" y2="-68.58" width="0.254" layer="94"/>
+<pin name="VBAT" x="-25.4" y="-35.56" length="middle" direction="pwr"/>
+<pin name="VCCA" x="-25.4" y="-20.32" length="middle" direction="pwr"/>
+<pin name="VCC" x="-25.4" y="-43.18" length="middle" direction="pwr"/>
+<pin name="GNDA" x="-25.4" y="-27.94" length="middle" direction="pwr"/>
+<pin name="GND" x="-25.4" y="-66.04" length="middle" direction="pwr"/>
+<pin name="VCAP1" x="-25.4" y="-50.8" length="middle" direction="pwr"/>
+<pin name="VCAP2" x="-25.4" y="-58.42" length="middle" direction="pwr"/>
+<pin name="PA1" x="25.4" y="60.96" length="middle" rot="R180"/>
+<pin name="PA2" x="25.4" y="58.42" length="middle" rot="R180"/>
+<pin name="PA3" x="25.4" y="55.88" length="middle" rot="R180"/>
+<pin name="PA4" x="25.4" y="53.34" length="middle" rot="R180"/>
+<pin name="PA5" x="25.4" y="50.8" length="middle" rot="R180"/>
+<pin name="PA6" x="25.4" y="48.26" length="middle" rot="R180"/>
+<pin name="PA7" x="25.4" y="45.72" length="middle" rot="R180"/>
+<pin name="PA8" x="25.4" y="43.18" length="middle" rot="R180"/>
+<pin name="PA9" x="25.4" y="40.64" length="middle" rot="R180"/>
+<pin name="PA10" x="25.4" y="38.1" length="middle" rot="R180"/>
+<pin name="PA11" x="25.4" y="35.56" length="middle" rot="R180"/>
+<pin name="PA12" x="25.4" y="33.02" length="middle" rot="R180"/>
+<pin name="SWDIO/JTMS/PA13" x="25.4" y="30.48" length="middle" rot="R180"/>
+<pin name="SWCLK/JTCK/PA14" x="25.4" y="27.94" length="middle" rot="R180"/>
+<pin name="JTDI/PA15" x="25.4" y="25.4" length="middle" rot="R180"/>
+<pin name="PB0" x="25.4" y="20.32" length="middle" rot="R180"/>
+<pin name="PB1" x="25.4" y="17.78" length="middle" rot="R180"/>
+<pin name="BOOT1/PB2" x="25.4" y="15.24" length="middle" rot="R180"/>
+<pin name="JTDO/PB3" x="25.4" y="12.7" length="middle" rot="R180"/>
+<pin name="JTRST/PB4" x="25.4" y="10.16" length="middle" rot="R180"/>
+<pin name="PB5" x="25.4" y="7.62" length="middle" rot="R180"/>
+<pin name="PB6" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="PB7" x="25.4" y="2.54" length="middle" rot="R180"/>
+<pin name="PB8" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="PB9" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="PB10" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="PB11" x="25.4" y="-7.62" length="middle" rot="R180"/>
+<pin name="PB12" x="25.4" y="-10.16" length="middle" rot="R180"/>
+<pin name="PB13" x="25.4" y="-12.7" length="middle" rot="R180"/>
+<pin name="PB14" x="25.4" y="-15.24" length="middle" rot="R180"/>
+<pin name="PB15" x="25.4" y="-17.78" length="middle" rot="R180"/>
+<pin name="PC0" x="25.4" y="-22.86" length="middle" rot="R180"/>
+<pin name="PC1" x="25.4" y="-25.4" length="middle" rot="R180"/>
+<pin name="PC2" x="25.4" y="-27.94" length="middle" rot="R180"/>
+<pin name="PC3" x="25.4" y="-30.48" length="middle" rot="R180"/>
+<pin name="PC4" x="25.4" y="-33.02" length="middle" rot="R180"/>
+<pin name="PC5" x="25.4" y="-35.56" length="middle" rot="R180"/>
+<pin name="PC6" x="25.4" y="-38.1" length="middle" rot="R180"/>
+<pin name="PC7" x="25.4" y="-40.64" length="middle" rot="R180"/>
+<pin name="PC8" x="25.4" y="-43.18" length="middle" rot="R180"/>
+<pin name="PC9" x="25.4" y="-45.72" length="middle" rot="R180"/>
+<pin name="PC10" x="25.4" y="-48.26" length="middle" rot="R180"/>
+<pin name="PC11" x="25.4" y="-50.8" length="middle" rot="R180"/>
+<pin name="PC12" x="25.4" y="-53.34" length="middle" rot="R180"/>
+<pin name="WKUP/PA0" x="25.4" y="63.5" length="middle" rot="R180"/>
+<pin name="!RESET" x="-25.4" y="63.5" length="middle" direction="in"/>
+<pin name="PC13" x="25.4" y="-55.88" length="middle" rot="R180"/>
+<pin name="OSC32_IN/PC14" x="25.4" y="-58.42" length="middle" rot="R180"/>
+<pin name="OSC32_OUT/PC15" x="25.4" y="-60.96" length="middle" rot="R180"/>
+<pin name="PD2" x="25.4" y="-66.04" length="middle" rot="R180"/>
+<pin name="PH0/OSC_IN" x="-25.4" y="53.34" length="middle"/>
+<pin name="PH1/OSC_OUT" x="-25.4" y="48.26" length="middle"/>
+<pin name="BOOT0" x="-25.4" y="38.1" length="middle"/>
+<text x="-20.32" y="68.58" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-20.32" y="-71.12" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -6001,7 +6279,10 @@ LVC  - VCC: 1.65-3.6V - Input: 5V tolerant, High 2V @ 3V&lt;br&gt;</description>
 <connect gate="P" pin="VCC" pad="20"/>
 </connects>
 <technologies>
-<technology name="HC">
+<technology name="AHC">
+<attribute name="DIGIKEY" value="" constant="no"/>
+</technology>
+<technology name="AHCT">
 <attribute name="DIGIKEY" value="" constant="no"/>
 </technology>
 <technology name="LVC">
@@ -6337,7 +6618,7 @@ DAC (0-10V, 0-20mA)</description>
 2 Kbit - 24LC02B - 24LC02BT-I/OTDKR-ND&lt;br&gt;
 32 Kbit - 24LC32A - 24LC32AT-I/OTDKR-ND&lt;br&gt;</description>
 <gates>
-<gate name="IC" symbol="I2C_EEPROM" x="0" y="0"/>
+<gate name="IC" symbol="EEPROM_I2C" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-I/OT" package="SOT23-5">
@@ -6381,42 +6662,6 @@ USB port isolator (pin compatible with ADuM4160)</description>
 <connect gate="IC" pin="VBUS2" pad="16"/>
 <connect gate="IC" pin="VDD1" pad="3"/>
 <connect gate="IC" pin="VDD2" pad="14"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ADS1147" prefix="IC">
-<description>TI ADS1147 ADC
-for Temperature Sensors</description>
-<gates>
-<gate name="IC" symbol="ADS1147" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="-PW" package="TSSOP20">
-<connects>
-<connect gate="IC" pin="AIN0/IEXC" pad="9"/>
-<connect gate="IC" pin="AIN1/IEXC" pad="10"/>
-<connect gate="IC" pin="AIN2/IEXC/GPIO2" pad="11"/>
-<connect gate="IC" pin="AIN3/IEXC/GPIO3" pad="12"/>
-<connect gate="IC" pin="AVDD" pad="14"/>
-<connect gate="IC" pin="AVSS" pad="13"/>
-<connect gate="IC" pin="CLK" pad="3"/>
-<connect gate="IC" pin="CS" pad="16"/>
-<connect gate="IC" pin="DGND" pad="2"/>
-<connect gate="IC" pin="DIN" pad="19"/>
-<connect gate="IC" pin="DOUT/DRDY" pad="18"/>
-<connect gate="IC" pin="DRDY" pad="17"/>
-<connect gate="IC" pin="DVDD" pad="1"/>
-<connect gate="IC" pin="REFN0/GPO1" pad="6"/>
-<connect gate="IC" pin="REFP0/GPIO0" pad="5"/>
-<connect gate="IC" pin="RESET" pad="4"/>
-<connect gate="IC" pin="SCLK" pad="20"/>
-<connect gate="IC" pin="START" pad="15"/>
-<connect gate="IC" pin="VREFCOM" pad="8"/>
-<connect gate="IC" pin="VREFOUT" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9290,7 +9535,6 @@ CY8C5288... - 80MHz, 256KB Flash, 64KB RAM&lt;br&gt;</description>
 <connect gate="IC" pin="(GPIO)P0.4" pad="53"/>
 <connect gate="IC" pin="(GPIO)P0.5" pad="54"/>
 <connect gate="IC" pin="(GPIO)P0.7" pad="56"/>
-<connect gate="IC" pin="(GPIO)P1.2" pad="13"/>
 <connect gate="IC" pin="(GPIO)P1.4" pad="15"/>
 <connect gate="IC" pin="(GPIO)P1.5" pad="16"/>
 <connect gate="IC" pin="(GPIO)P1.6" pad="18"/>
@@ -9324,6 +9568,7 @@ CY8C5288... - 80MHz, 256KB Flash, 64KB RAM&lt;br&gt;</description>
 <connect gate="IC" pin="(SWDCK/GPIO)P1.1" pad="12"/>
 <connect gate="IC" pin="(SWDIO/GPIO)P1.0" pad="11"/>
 <connect gate="IC" pin="(SWV/GPIO)P1.3" pad="14"/>
+<connect gate="IC" pin="(XRES/GPIO)P1.2" pad="13"/>
 <connect gate="IC" pin="GND" pad="5 9 25 43 45 58 TP"/>
 <connect gate="IC" pin="IND" pad="6"/>
 <connect gate="IC" pin="P15.0(XTAL)" pad="27"/>
@@ -9353,9 +9598,41 @@ CY8C5288... - 80MHz, 256KB Flash, 64KB RAM&lt;br&gt;</description>
 <description>Dream SAM2695
 MIDI Synthesizer</description>
 <gates>
+<gate name="IC" symbol="SAM2695" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="QFN48-PAD">
+<connects>
+<connect gate="IC" pin="!RSTPDN" pad="38"/>
+<connect gate="IC" pin="A0" pad="10"/>
+<connect gate="IC" pin="AGND" pad="4"/>
+<connect gate="IC" pin="AOUTL" pad="1"/>
+<connect gate="IC" pin="AOUTR" pad="2"/>
+<connect gate="IC" pin="AVCC" pad="6"/>
+<connect gate="IC" pin="CS" pad="14"/>
+<connect gate="IC" pin="D0" pad="24"/>
+<connect gate="IC" pin="D1" pad="26"/>
+<connect gate="IC" pin="D2" pad="27"/>
+<connect gate="IC" pin="D3" pad="28"/>
+<connect gate="IC" pin="D4" pad="29"/>
+<connect gate="IC" pin="D5" pad="30"/>
+<connect gate="IC" pin="D6" pad="32"/>
+<connect gate="IC" pin="D7" pad="33"/>
+<connect gate="IC" pin="GND" pad="9 13 18 25 36 45 48 TP"/>
+<connect gate="IC" pin="IRQ" pad="42"/>
+<connect gate="IC" pin="MICIN" pad="7"/>
+<connect gate="IC" pin="MIDI_IN" pad="16"/>
+<connect gate="IC" pin="OUTVCC" pad="34"/>
+<connect gate="IC" pin="RD" pad="15"/>
+<connect gate="IC" pin="TEST" pad="37"/>
+<connect gate="IC" pin="VCC" pad="8 11 20 31 35 41 46"/>
+<connect gate="IC" pin="VCM" pad="5"/>
+<connect gate="IC" pin="VCMHPOUT" pad="3"/>
+<connect gate="IC" pin="WR" pad="12"/>
+<connect gate="IC" pin="XDIV" pad="47"/>
+<connect gate="IC" pin="XTAL1" pad="39"/>
+<connect gate="IC" pin="XTAL2" pad="40"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -9582,52 +9859,6 @@ CY8C4246... - 48MHz, 64KB Flash, 8KB RAM&lt;br&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CY8C4245PVI" prefix="IC">
-<description>Cypress PSoC 4200
-ARM Cortex-M0 Microcontroller&lt;br&gt;
-&lt;br&gt;
-CY8C4245... - 48MHz, 32KB Flash, 4KB RAM&lt;br&gt;</description>
-<gates>
-<gate name="IC" symbol="CY8C424XPVI" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SSOP28">
-<connects>
-<connect gate="IC" pin="!XRES" pad="25"/>
-<connect gate="IC" pin="(CLK/SCB1)P0.6" pad="23"/>
-<connect gate="IC" pin="(COMP1/SCB0)P0.0" pad="19"/>
-<connect gate="IC" pin="(COMP1/SCB0)P0.1" pad="20"/>
-<connect gate="IC" pin="(COMP2)P0.3" pad="22"/>
-<connect gate="IC" pin="(COMP2/SCB0)P0.2" pad="21"/>
-<connect gate="IC" pin="(SARMUX)P2.2" pad="5"/>
-<connect gate="IC" pin="(SARMUX)P2.3" pad="6"/>
-<connect gate="IC" pin="(SCB0)P4.0" pad="15"/>
-<connect gate="IC" pin="(SCB0)P4.1" pad="16"/>
-<connect gate="IC" pin="(SCB0)P4.2" pad="17"/>
-<connect gate="IC" pin="(SCB0)P4.3" pad="18"/>
-<connect gate="IC" pin="(SWDCLK/TCPWM1/SCB1)P3.3" pad="14"/>
-<connect gate="IC" pin="(SWDIO/TCPWM1/SCB1)P3.2" pad="13"/>
-<connect gate="IC" pin="(TCPWM0/SARMUX)P2.4" pad="7"/>
-<connect gate="IC" pin="(TCPWM0/SARMUX)P2.5" pad="8"/>
-<connect gate="IC" pin="(TCPWM0/SCB1)P3.0" pad="11"/>
-<connect gate="IC" pin="(TCPWM0/SCB1)P3.1" pad="12"/>
-<connect gate="IC" pin="(TCPWM1/SARMUX)P2.6" pad="9"/>
-<connect gate="IC" pin="(TCPWM1/SARMUX)P2.7" pad="10"/>
-<connect gate="IC" pin="(TCPWM2/CTB)P1.0" pad="1"/>
-<connect gate="IC" pin="(TCPWM2/CTB)P1.1" pad="2"/>
-<connect gate="IC" pin="(TCPWM3/CTB)P1.2" pad="3"/>
-<connect gate="IC" pin="(VREF)P1.7" pad="4"/>
-<connect gate="IC" pin="(WAKEUP/SCB1)P0.7" pad="24"/>
-<connect gate="IC" pin="GND" pad="28"/>
-<connect gate="IC" pin="VCC" pad="27"/>
-<connect gate="IC" pin="VOUT" pad="26"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MS9288A" prefix="IC">
 <description>MacroSilicon MS9288A
 VGA to HDMI Converter</description>
@@ -9669,6 +9900,267 @@ VGA to HDMI Converter</description>
 <connect gate="IC" pin="VSYNC" pad="35"/>
 <connect gate="IC" pin="XTALI" pad="25"/>
 <connect gate="IC" pin="XTALO" pad="26"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ESP-PSRAM">
+<description>Espressif ESP-PSRAM 
+Pseudo-SRAM&lt;br&gt;
+&lt;br&gt;
+16 - 16MBit, 1.8V&lt;br&gt;
+16H - 16MBit, 3.3V&lt;br&gt;
+64 - 64MBit, 1.8V&lt;br&gt;
+64H - 64MBit, 3.3V&lt;br&gt;</description>
+<gates>
+<gate name="IC" symbol="PSRAM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="64H" package="SO08">
+<connects>
+<connect gate="IC" pin="!CE" pad="1"/>
+<connect gate="IC" pin="GND" pad="4"/>
+<connect gate="IC" pin="SCLK" pad="6"/>
+<connect gate="IC" pin="SI/SIO[0]" pad="5"/>
+<connect gate="IC" pin="SIO[2]" pad="3"/>
+<connect gate="IC" pin="SIO[3]" pad="7"/>
+<connect gate="IC" pin="SO/SIO[1]" pad="2"/>
+<connect gate="IC" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="16H" package="SO08">
+<connects>
+<connect gate="IC" pin="!CE" pad="1"/>
+<connect gate="IC" pin="GND" pad="4"/>
+<connect gate="IC" pin="SCLK" pad="6"/>
+<connect gate="IC" pin="SI/SIO[0]" pad="5"/>
+<connect gate="IC" pin="SIO[2]" pad="3"/>
+<connect gate="IC" pin="SIO[3]" pad="7"/>
+<connect gate="IC" pin="SO/SIO[1]" pad="2"/>
+<connect gate="IC" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STM32F205R" prefix="IC">
+<description>ST STM32F205
+ARM Microcontroller
+&lt;br&gt;
+&lt;br&gt;
+B = 128 KB Flash / 64 KB RAM&lt;br&gt;
+C = 256 KB Flash / 96 KB RAM&lt;br&gt;
+E = 512 KB Flash / 128 KB RAM&lt;br&gt;
+F = 768 KB Flash / 128 KB RAM&lt;br&gt;
+G = 1024 KB Flash / 128 KB RAM&lt;br&gt;</description>
+<gates>
+<gate name="IC" symbol="STM32F205R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="BT" package="LQFP64">
+<connects>
+<connect gate="IC" pin="!RESET" pad="7"/>
+<connect gate="IC" pin="BOOT0" pad="60"/>
+<connect gate="IC" pin="BOOT1/PB2" pad="28"/>
+<connect gate="IC" pin="GND" pad="18 63"/>
+<connect gate="IC" pin="GNDA" pad="12"/>
+<connect gate="IC" pin="JTDI/PA15" pad="50"/>
+<connect gate="IC" pin="JTDO/PB3" pad="55"/>
+<connect gate="IC" pin="JTRST/PB4" pad="56"/>
+<connect gate="IC" pin="OSC32_IN/PC14" pad="3"/>
+<connect gate="IC" pin="OSC32_OUT/PC15" pad="4"/>
+<connect gate="IC" pin="PA1" pad="15"/>
+<connect gate="IC" pin="PA10" pad="43"/>
+<connect gate="IC" pin="PA11" pad="44"/>
+<connect gate="IC" pin="PA12" pad="45"/>
+<connect gate="IC" pin="PA2" pad="16"/>
+<connect gate="IC" pin="PA3" pad="17"/>
+<connect gate="IC" pin="PA4" pad="20"/>
+<connect gate="IC" pin="PA5" pad="21"/>
+<connect gate="IC" pin="PA6" pad="22"/>
+<connect gate="IC" pin="PA7" pad="23"/>
+<connect gate="IC" pin="PA8" pad="41"/>
+<connect gate="IC" pin="PA9" pad="42"/>
+<connect gate="IC" pin="PB0" pad="26"/>
+<connect gate="IC" pin="PB1" pad="27"/>
+<connect gate="IC" pin="PB10" pad="29"/>
+<connect gate="IC" pin="PB11" pad="30"/>
+<connect gate="IC" pin="PB12" pad="33"/>
+<connect gate="IC" pin="PB13" pad="34"/>
+<connect gate="IC" pin="PB14" pad="35"/>
+<connect gate="IC" pin="PB15" pad="36"/>
+<connect gate="IC" pin="PB5" pad="57"/>
+<connect gate="IC" pin="PB6" pad="58"/>
+<connect gate="IC" pin="PB7" pad="59"/>
+<connect gate="IC" pin="PB8" pad="61"/>
+<connect gate="IC" pin="PB9" pad="62"/>
+<connect gate="IC" pin="PC0" pad="8"/>
+<connect gate="IC" pin="PC1" pad="9"/>
+<connect gate="IC" pin="PC10" pad="51"/>
+<connect gate="IC" pin="PC11" pad="52"/>
+<connect gate="IC" pin="PC12" pad="53"/>
+<connect gate="IC" pin="PC13" pad="2"/>
+<connect gate="IC" pin="PC2" pad="10"/>
+<connect gate="IC" pin="PC3" pad="11"/>
+<connect gate="IC" pin="PC4" pad="24"/>
+<connect gate="IC" pin="PC5" pad="25"/>
+<connect gate="IC" pin="PC6" pad="37"/>
+<connect gate="IC" pin="PC7" pad="38"/>
+<connect gate="IC" pin="PC8" pad="39"/>
+<connect gate="IC" pin="PC9" pad="40"/>
+<connect gate="IC" pin="PD2" pad="54"/>
+<connect gate="IC" pin="PH0/OSC_IN" pad="5"/>
+<connect gate="IC" pin="PH1/OSC_OUT" pad="6"/>
+<connect gate="IC" pin="SWCLK/JTCK/PA14" pad="49"/>
+<connect gate="IC" pin="SWDIO/JTMS/PA13" pad="46"/>
+<connect gate="IC" pin="VBAT" pad="1"/>
+<connect gate="IC" pin="VCAP1" pad="31"/>
+<connect gate="IC" pin="VCAP2" pad="47"/>
+<connect gate="IC" pin="VCC" pad="19 32 48 64"/>
+<connect gate="IC" pin="VCCA" pad="13"/>
+<connect gate="IC" pin="WKUP/PA0" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CT" package="LQFP64">
+<connects>
+<connect gate="IC" pin="!RESET" pad="7"/>
+<connect gate="IC" pin="BOOT0" pad="60"/>
+<connect gate="IC" pin="BOOT1/PB2" pad="28"/>
+<connect gate="IC" pin="GND" pad="18 63"/>
+<connect gate="IC" pin="GNDA" pad="12"/>
+<connect gate="IC" pin="JTDI/PA15" pad="50"/>
+<connect gate="IC" pin="JTDO/PB3" pad="55"/>
+<connect gate="IC" pin="JTRST/PB4" pad="56"/>
+<connect gate="IC" pin="OSC32_IN/PC14" pad="3"/>
+<connect gate="IC" pin="OSC32_OUT/PC15" pad="4"/>
+<connect gate="IC" pin="PA1" pad="15"/>
+<connect gate="IC" pin="PA10" pad="43"/>
+<connect gate="IC" pin="PA11" pad="44"/>
+<connect gate="IC" pin="PA12" pad="45"/>
+<connect gate="IC" pin="PA2" pad="16"/>
+<connect gate="IC" pin="PA3" pad="17"/>
+<connect gate="IC" pin="PA4" pad="20"/>
+<connect gate="IC" pin="PA5" pad="21"/>
+<connect gate="IC" pin="PA6" pad="22"/>
+<connect gate="IC" pin="PA7" pad="23"/>
+<connect gate="IC" pin="PA8" pad="41"/>
+<connect gate="IC" pin="PA9" pad="42"/>
+<connect gate="IC" pin="PB0" pad="26"/>
+<connect gate="IC" pin="PB1" pad="27"/>
+<connect gate="IC" pin="PB10" pad="29"/>
+<connect gate="IC" pin="PB11" pad="30"/>
+<connect gate="IC" pin="PB12" pad="33"/>
+<connect gate="IC" pin="PB13" pad="34"/>
+<connect gate="IC" pin="PB14" pad="35"/>
+<connect gate="IC" pin="PB15" pad="36"/>
+<connect gate="IC" pin="PB5" pad="57"/>
+<connect gate="IC" pin="PB6" pad="58"/>
+<connect gate="IC" pin="PB7" pad="59"/>
+<connect gate="IC" pin="PB8" pad="61"/>
+<connect gate="IC" pin="PB9" pad="62"/>
+<connect gate="IC" pin="PC0" pad="8"/>
+<connect gate="IC" pin="PC1" pad="9"/>
+<connect gate="IC" pin="PC10" pad="51"/>
+<connect gate="IC" pin="PC11" pad="52"/>
+<connect gate="IC" pin="PC12" pad="53"/>
+<connect gate="IC" pin="PC13" pad="2"/>
+<connect gate="IC" pin="PC2" pad="10"/>
+<connect gate="IC" pin="PC3" pad="11"/>
+<connect gate="IC" pin="PC4" pad="24"/>
+<connect gate="IC" pin="PC5" pad="25"/>
+<connect gate="IC" pin="PC6" pad="37"/>
+<connect gate="IC" pin="PC7" pad="38"/>
+<connect gate="IC" pin="PC8" pad="39"/>
+<connect gate="IC" pin="PC9" pad="40"/>
+<connect gate="IC" pin="PD2" pad="54"/>
+<connect gate="IC" pin="PH0/OSC_IN" pad="5"/>
+<connect gate="IC" pin="PH1/OSC_OUT" pad="6"/>
+<connect gate="IC" pin="SWCLK/JTCK/PA14" pad="49"/>
+<connect gate="IC" pin="SWDIO/JTMS/PA13" pad="46"/>
+<connect gate="IC" pin="VBAT" pad="1"/>
+<connect gate="IC" pin="VCAP1" pad="31"/>
+<connect gate="IC" pin="VCAP2" pad="47"/>
+<connect gate="IC" pin="VCC" pad="19 32 48 64"/>
+<connect gate="IC" pin="VCCA" pad="13"/>
+<connect gate="IC" pin="WKUP/PA0" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ET" package="LQFP64">
+<connects>
+<connect gate="IC" pin="!RESET" pad="7"/>
+<connect gate="IC" pin="BOOT0" pad="60"/>
+<connect gate="IC" pin="BOOT1/PB2" pad="28"/>
+<connect gate="IC" pin="GND" pad="18 63"/>
+<connect gate="IC" pin="GNDA" pad="12"/>
+<connect gate="IC" pin="JTDI/PA15" pad="50"/>
+<connect gate="IC" pin="JTDO/PB3" pad="55"/>
+<connect gate="IC" pin="JTRST/PB4" pad="56"/>
+<connect gate="IC" pin="OSC32_IN/PC14" pad="3"/>
+<connect gate="IC" pin="OSC32_OUT/PC15" pad="4"/>
+<connect gate="IC" pin="PA1" pad="15"/>
+<connect gate="IC" pin="PA10" pad="43"/>
+<connect gate="IC" pin="PA11" pad="44"/>
+<connect gate="IC" pin="PA12" pad="45"/>
+<connect gate="IC" pin="PA2" pad="16"/>
+<connect gate="IC" pin="PA3" pad="17"/>
+<connect gate="IC" pin="PA4" pad="20"/>
+<connect gate="IC" pin="PA5" pad="21"/>
+<connect gate="IC" pin="PA6" pad="22"/>
+<connect gate="IC" pin="PA7" pad="23"/>
+<connect gate="IC" pin="PA8" pad="41"/>
+<connect gate="IC" pin="PA9" pad="42"/>
+<connect gate="IC" pin="PB0" pad="26"/>
+<connect gate="IC" pin="PB1" pad="27"/>
+<connect gate="IC" pin="PB10" pad="29"/>
+<connect gate="IC" pin="PB11" pad="30"/>
+<connect gate="IC" pin="PB12" pad="33"/>
+<connect gate="IC" pin="PB13" pad="34"/>
+<connect gate="IC" pin="PB14" pad="35"/>
+<connect gate="IC" pin="PB15" pad="36"/>
+<connect gate="IC" pin="PB5" pad="57"/>
+<connect gate="IC" pin="PB6" pad="58"/>
+<connect gate="IC" pin="PB7" pad="59"/>
+<connect gate="IC" pin="PB8" pad="61"/>
+<connect gate="IC" pin="PB9" pad="62"/>
+<connect gate="IC" pin="PC0" pad="8"/>
+<connect gate="IC" pin="PC1" pad="9"/>
+<connect gate="IC" pin="PC10" pad="51"/>
+<connect gate="IC" pin="PC11" pad="52"/>
+<connect gate="IC" pin="PC12" pad="53"/>
+<connect gate="IC" pin="PC13" pad="2"/>
+<connect gate="IC" pin="PC2" pad="10"/>
+<connect gate="IC" pin="PC3" pad="11"/>
+<connect gate="IC" pin="PC4" pad="24"/>
+<connect gate="IC" pin="PC5" pad="25"/>
+<connect gate="IC" pin="PC6" pad="37"/>
+<connect gate="IC" pin="PC7" pad="38"/>
+<connect gate="IC" pin="PC8" pad="39"/>
+<connect gate="IC" pin="PC9" pad="40"/>
+<connect gate="IC" pin="PD2" pad="54"/>
+<connect gate="IC" pin="PH0/OSC_IN" pad="5"/>
+<connect gate="IC" pin="PH1/OSC_OUT" pad="6"/>
+<connect gate="IC" pin="SWCLK/JTCK/PA14" pad="49"/>
+<connect gate="IC" pin="SWDIO/JTMS/PA13" pad="46"/>
+<connect gate="IC" pin="VBAT" pad="1"/>
+<connect gate="IC" pin="VCAP1" pad="31"/>
+<connect gate="IC" pin="VCAP2" pad="47"/>
+<connect gate="IC" pin="VCC" pad="19 32 48 64"/>
+<connect gate="IC" pin="VCCA" pad="13"/>
+<connect gate="IC" pin="WKUP/PA0" pad="14"/>
 </connects>
 <technologies>
 <technology name=""/>
