@@ -984,7 +984,7 @@
 <pin name="VIN" x="-12.7" y="5.08" length="short" direction="pwr"/>
 <pin name="GND" x="0" y="-10.16" length="short" direction="pwr" rot="R90"/>
 <pin name="FB" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
-<pin name="EN" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="EN" x="-12.7" y="-5.08" length="short" direction="pas"/>
 <text x="-10.16" y="10.16" size="1.778" layer="95" align="top-left">&gt;VALUE</text>
 <text x="-10.16" y="12.7" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <pin name="BOOST" x="12.7" y="5.08" length="short" direction="pas" rot="R180"/>
@@ -998,7 +998,7 @@
 <pin name="VIN" x="-12.7" y="7.62" length="short" direction="pwr"/>
 <pin name="GND" x="0" y="-12.7" length="short" direction="pwr" rot="R90"/>
 <pin name="FB" x="12.7" y="-2.54" length="short" direction="pas" rot="R180"/>
-<pin name="EN" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="EN" x="-12.7" y="0" length="short" direction="pas"/>
 <text x="-10.16" y="12.7" size="1.778" layer="95" align="top-left">&gt;VALUE</text>
 <text x="-10.16" y="15.24" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <pin name="SS" x="-12.7" y="-7.62" length="short" direction="pas"/>
@@ -1121,6 +1121,22 @@
 <pin name="!CHRG" x="-12.7" y="-2.54" length="short" direction="out"/>
 <pin name="CE" x="-12.7" y="2.54" length="short" direction="in"/>
 <pin name="TEMP" x="12.7" y="2.54" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="TPS54360">
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<pin name="SW" x="15.24" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="VIN" x="-15.24" y="7.62" length="short" direction="pwr"/>
+<pin name="GND" x="0" y="-12.7" length="short" direction="pwr" rot="R90"/>
+<pin name="FB" x="15.24" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="EN" x="-15.24" y="2.54" length="short" direction="pas"/>
+<text x="-12.7" y="12.7" size="1.778" layer="95" align="top-left">&gt;VALUE</text>
+<text x="-12.7" y="15.24" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<pin name="COMP" x="-15.24" y="-2.54" length="short" direction="pas"/>
+<pin name="BOOT" x="15.24" y="7.62" length="short" direction="pas" rot="R180"/>
+<pin name="RT_CLK" x="-15.24" y="-7.62" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2046,6 +2062,30 @@ Li-Ion Charger (1A, 4.5-6V input)
 <connect gate="IC" pin="TEMP" pad="1"/>
 <connect gate="IC" pin="VBAT" pad="5"/>
 <connect gate="IC" pin="VIN" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS54360" prefix="IC">
+<description>TI TPS54360
+Step-Down (100kHz-2.5MHz, 3.5A, 4.5-60V input)&lt;br&gt;</description>
+<gates>
+<gate name="IC1" symbol="TPS54360" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO08-PAD">
+<connects>
+<connect gate="IC1" pin="BOOT" pad="1"/>
+<connect gate="IC1" pin="COMP" pad="6"/>
+<connect gate="IC1" pin="EN" pad="3"/>
+<connect gate="IC1" pin="FB" pad="5"/>
+<connect gate="IC1" pin="GND" pad="7 TP"/>
+<connect gate="IC1" pin="RT_CLK" pad="4"/>
+<connect gate="IC1" pin="SW" pad="8"/>
+<connect gate="IC1" pin="VIN" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>

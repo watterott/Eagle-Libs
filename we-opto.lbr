@@ -786,6 +786,76 @@ FCI 62684-501100AHLF -&gt; bottom contact&lt;br&gt;</description>
 <text x="1.27" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <circle x="0" y="1.75" radius="0.1" width="0.127" layer="21"/>
 </package>
+<package name="FPC30">
+<smd name="30" x="-2.54" y="-7.25" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="29" x="-2.54" y="-6.75" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="28" x="-2.54" y="-6.25" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="27" x="-2.54" y="-5.75" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="26" x="-2.54" y="-5.25" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="25" x="-2.54" y="-4.75" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="24" x="-2.54" y="-4.25" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="23" x="-2.54" y="-3.75" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="22" x="-2.54" y="-3.25" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="21" x="-2.54" y="-2.75" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="20" x="-2.54" y="-2.25" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="19" x="-2.54" y="-1.75" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="18" x="-2.54" y="-1.25" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="17" x="-2.54" y="-0.75" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="16" x="-2.54" y="-0.25" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="15" x="-2.54" y="0.25" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="14" x="-2.54" y="0.75" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="13" x="-2.54" y="1.25" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="12" x="-2.54" y="1.75" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="11" x="-2.54" y="2.25" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="10" x="-2.54" y="2.75" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="9" x="-2.54" y="3.25" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="8" x="-2.54" y="3.75" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="7" x="-2.54" y="4.25" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="6" x="-2.54" y="4.75" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="5" x="-2.54" y="5.25" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="4" x="-2.54" y="5.75" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="3" x="-2.54" y="6.25" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="2" x="-2.54" y="6.75" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<smd name="1" x="-2.54" y="7.25" dx="1.27" dy="0.2794" layer="1" roundness="10" rot="R180"/>
+<rectangle x1="-1.39" y1="7.61" x2="1.11" y2="10.81" layer="1" rot="R270"/>
+<rectangle x1="-1.39" y1="-10.81" x2="1.11" y2="-7.61" layer="1" rot="R270"/>
+<rectangle x1="-0.39" y1="8.61" x2="2.11" y2="9.81" layer="31" rot="R270"/>
+<rectangle x1="-0.39" y1="-9.81" x2="2.11" y2="-8.61" layer="31" rot="R270"/>
+<rectangle x1="-1.39" y1="7.61" x2="1.11" y2="10.81" layer="29" rot="R270"/>
+<rectangle x1="-1.39" y1="-10.81" x2="1.11" y2="-7.61" layer="29" rot="R270"/>
+<wire x1="-2.54" y1="9.5" x2="1.96" y2="9.5" width="0.127" layer="21"/>
+<wire x1="1.96" y1="9.5" x2="1.96" y2="-9.5" width="0.127" layer="21"/>
+<wire x1="1.96" y1="-9.5" x2="-2.54" y2="-9.5" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="9.5" x2="-2.54" y2="-9.5" width="0.127" layer="21"/>
+<wire x1="3.46" y1="10.25" x2="3.46" y2="-10.25" width="0.127" layer="21"/>
+<wire x1="3.46" y1="-10.25" x2="1.96" y2="-10.25" width="0.127" layer="21"/>
+<wire x1="3.46" y1="10.25" x2="1.96" y2="10.25" width="0.127" layer="21"/>
+<wire x1="1.96" y1="10.25" x2="1.96" y2="9.5" width="0.127" layer="21"/>
+<wire x1="1.96" y1="-9.5" x2="1.96" y2="-10.25" width="0.127" layer="21"/>
+<text x="-0.635" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+</package>
+<package name="C0603T">
+<wire x1="-0.3" y1="0.8" x2="0.3" y2="0.8" width="0.1016" layer="21" curve="170.055574"/>
+<wire x1="-0.275" y1="-0.825" x2="0.275" y2="-0.825" width="0.0508" layer="21" curve="-180"/>
+<wire x1="-0.4" y1="0.375" x2="-0.4" y2="-0.35" width="0.1016" layer="21"/>
+<wire x1="0.4" y1="0.35" x2="0.4" y2="-0.35" width="0.1016" layer="21"/>
+<circle x="-0.35" y="0.625" radius="0.075" width="0.0508" layer="21"/>
+<smd name="C" x="0" y="0.75" dx="0.9" dy="0.8" layer="1" roundness="20"/>
+<smd name="E" x="0" y="-0.75" dx="0.9" dy="0.8" layer="1" roundness="20"/>
+<text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<text x="1.27" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<rectangle x1="-0.45" y1="0.7" x2="-0.25" y2="0.85" layer="21"/>
+<rectangle x1="-0.275" y1="0.55" x2="-0.225" y2="0.6" layer="21"/>
+<rectangle x1="-0.45" y1="0.35" x2="-0.4" y2="0.725" layer="21"/>
+<rectangle x1="0.25" y1="0.55" x2="0.45" y2="0.85" layer="21"/>
+<rectangle x1="-0.45" y1="0.35" x2="0.45" y2="0.575" layer="21"/>
+<rectangle x1="-0.45" y1="-0.85" x2="-0.25" y2="-0.35" layer="21"/>
+<rectangle x1="0.25" y1="-0.85" x2="0.45" y2="-0.35" layer="21"/>
+<rectangle x1="-0.275" y1="-0.575" x2="0.275" y2="-0.35" layer="21"/>
+<rectangle x1="-0.275" y1="-0.65" x2="-0.175" y2="-0.55" layer="21"/>
+<rectangle x1="0.175" y1="-0.65" x2="0.275" y2="-0.55" layer="21"/>
+<rectangle x1="-0.125" y1="0" x2="0.125" y2="0.25" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MI0283QT">
@@ -1157,6 +1227,29 @@ FCI 62684-501100AHLF -&gt; bottom contact&lt;br&gt;</description>
 <text x="3.81" y="17.018" size="1.27" layer="95">0</text>
 <text x="3.81" y="14.478" size="1.27" layer="95">0</text>
 <text x="3.81" y="11.938" size="1.27" layer="95">0</text>
+</symbol>
+<symbol name="PHOTOTRANSISTOR">
+<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.302" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="1.524" x2="-3.048" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="-1.016" x2="-3.048" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-3.048" y1="-1.016" x2="-3.048" y2="-0.254" width="0.1524" layer="94"/>
+<text x="3.81" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="3.81" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
+<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1613,6 +1706,26 @@ TFT070-4 - 7.0" 800x480 (LED @ 40mA @ 20.4V)&lt;br&gt;</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="QRE1113GR" prefix="OC">
+<description>Fairchild QRE1113GR
+Reflective Object Sensor</description>
+<gates>
+<gate name="OC" symbol="PHOTOCOUPLER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMT_GULLWING_4">
+<connects>
+<connect gate="OC" pin="A" pad="1"/>
+<connect gate="OC" pin="C" pad="2"/>
+<connect gate="OC" pin="TC" pad="3"/>
+<connect gate="OC" pin="TE" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="UG2864" prefix="LCD">
 <description>WiseChip UG-2864 OLED
 128x64  with SSD1306&lt;br&gt;
@@ -1731,21 +1844,54 @@ TFT070-4 - 7.0" 800x480 (LED @ 40mA @ 20.4V)&lt;br&gt;</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="FFC" package="FPC30">
+<connects>
+<connect gate="LCD" pin="!CS" pad="13"/>
+<connect gate="LCD" pin="!RESET" pad="14"/>
+<connect gate="LCD" pin="AGND" pad="29"/>
+<connect gate="LCD" pin="BS0" pad="10"/>
+<connect gate="LCD" pin="BS1" pad="11"/>
+<connect gate="LCD" pin="BS2" pad="12"/>
+<connect gate="LCD" pin="C1N" pad="5"/>
+<connect gate="LCD" pin="C1P" pad="4"/>
+<connect gate="LCD" pin="C2N" pad="3"/>
+<connect gate="LCD" pin="C2P" pad="2"/>
+<connect gate="LCD" pin="D0/SCK" pad="18"/>
+<connect gate="LCD" pin="D1/DIN/SDA" pad="19"/>
+<connect gate="LCD" pin="D2/SDA" pad="20"/>
+<connect gate="LCD" pin="D3" pad="21"/>
+<connect gate="LCD" pin="D4" pad="22"/>
+<connect gate="LCD" pin="D5" pad="23"/>
+<connect gate="LCD" pin="D6" pad="24"/>
+<connect gate="LCD" pin="D7" pad="25"/>
+<connect gate="LCD" pin="DC/I2C_SA0" pad="15"/>
+<connect gate="LCD" pin="E/!RD" pad="17"/>
+<connect gate="LCD" pin="GND@1" pad="8"/>
+<connect gate="LCD" pin="GND@2" pad="1"/>
+<connect gate="LCD" pin="GND@3" pad="30"/>
+<connect gate="LCD" pin="IREF" pad="26"/>
+<connect gate="LCD" pin="RW" pad="16"/>
+<connect gate="LCD" pin="VBAT" pad="6"/>
+<connect gate="LCD" pin="VCC" pad="28"/>
+<connect gate="LCD" pin="VCOMH" pad="27"/>
+<connect gate="LCD" pin="VDD" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
-<deviceset name="QRE1113GR" prefix="OC">
-<description>Fairchild QRE1113GR
-Reflective Object Sensor</description>
+<deviceset name="PT" prefix="T">
+<description>Phototransistor</description>
 <gates>
-<gate name="OC" symbol="PHOTOCOUPLER" x="0" y="0"/>
+<gate name="T" symbol="PHOTOTRANSISTOR" x="-2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="SMT_GULLWING_4">
+<device name="-IN-S63DTLS" package="C0603T">
 <connects>
-<connect gate="OC" pin="A" pad="1"/>
-<connect gate="OC" pin="C" pad="2"/>
-<connect gate="OC" pin="TC" pad="3"/>
-<connect gate="OC" pin="TE" pad="4"/>
+<connect gate="T" pin="C" pad="C"/>
+<connect gate="T" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2955,11 +2955,11 @@ Vrwm=5.3V, 0.4pF@1MHz</description>
 <description>Inductor&lt;br&gt;
 &lt;br&gt;
 Ferrite Bead - Murata BLM18PG&lt;br&gt;
-0603 3.0A 33Ohm @ 100MH -&gt; BLM18PG330SN1D&lt;br&gt;
-0603 2.0A 120Ohm @ 100MH  -&gt; BLM18PG121SN1D&lt;br&gt;
-0603 1.4A 220Ohm @ 100MH  -&gt; BLM18PG221SH1D&lt;br&gt;
-0603 1.2A 330Ohm @ 100MH  -&gt; BLM18PG331SN1D&lt;br&gt;
-0603 1.0A 470Ohm @ 100MH  -&gt; BLM18PG471SN1D&lt;br&gt;</description>
+0603 3.0A 33Ohm @ 100MHz -&gt; BLM18PG330SN1D&lt;br&gt;
+0603 2.0A 120Ohm @ 100MHz  -&gt; BLM18PG121SN1D&lt;br&gt;
+0603 1.4A 220Ohm @ 100MHz  -&gt; BLM18PG221SN1D&lt;br&gt;
+0603 1.2A 330Ohm @ 100MHz  -&gt; BLM18PG331SN1D&lt;br&gt;
+0603 1.0A 470Ohm @ 100MHz  -&gt; BLM18PG471SN1D&lt;br&gt;</description>
 <gates>
 <gate name="L" symbol="INDUCTOR" x="0" y="0"/>
 </gates>

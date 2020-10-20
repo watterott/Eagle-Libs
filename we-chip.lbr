@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -4052,10 +4052,10 @@
 <wire x1="12.7" y1="7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="6.35" x2="4.445" y2="6.35" width="0.1524" layer="94"/>
-<wire x1="4.445" y1="6.35" x2="4.445" y2="-6.35" width="0.1524" layer="94"/>
-<wire x1="4.445" y1="-6.35" x2="-2.54" y2="-6.35" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.842" x2="4.445" y2="5.842" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="5.842" x2="4.445" y2="-5.842" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="-5.842" x2="-2.54" y2="-5.842" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-5.842" x2="-2.54" y2="5.842" width="0.1524" layer="94"/>
 <text x="1.905" y="0" size="1.778" layer="94" rot="R90" align="center">Array</text>
 <text x="-10.16" y="10.16" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
@@ -6126,7 +6126,7 @@ pull-up</text>
 <symbol name="PSRAM">
 <pin name="VCC" x="-15.24" y="5.08" length="middle" direction="pwr"/>
 <pin name="GND" x="-15.24" y="-7.62" length="middle" direction="pwr"/>
-<pin name="SO/SIO[1]" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="SO/SIO1" x="17.78" y="-2.54" length="middle" rot="R180"/>
 <pin name="!CE" x="17.78" y="5.08" length="middle" direction="in" rot="R180"/>
 <wire x1="-10.16" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
 <wire x1="12.7" y1="7.62" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
@@ -6134,15 +6134,15 @@ pull-up</text>
 <wire x1="-10.16" y1="-10.16" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
 <text x="-10.16" y="10.16" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-10.16" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="SIO[2]" x="17.78" y="-5.08" length="middle" rot="R180"/>
-<pin name="SI/SIO[0]" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="SIO2" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="SI/SIO0" x="17.78" y="0" length="middle" rot="R180"/>
 <pin name="SCLK" x="17.78" y="2.54" length="middle" direction="in" rot="R180"/>
-<pin name="SIO[3]" x="17.78" y="-7.62" length="middle" rot="R180"/>
-<wire x1="-6.35" y1="3.175" x2="-1.27" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="3.175" x2="-1.27" y2="-5.715" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="-5.715" x2="-6.35" y2="-5.715" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="-5.715" x2="-6.35" y2="3.175" width="0.1524" layer="94"/>
-<text x="-3.81" y="-1.27" size="1.6764" layer="94" rot="R90" align="center">PSRAM</text>
+<pin name="SIO3" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<wire x1="-5.08" y1="3.175" x2="0" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.175" x2="0" y2="-5.715" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.715" x2="-5.08" y2="-5.715" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-5.715" x2="-5.08" y2="3.175" width="0.1524" layer="94"/>
+<text x="-2.54" y="-1.27" size="1.6764" layer="94" rot="R90" align="center">SRAM</text>
 </symbol>
 <symbol name="STM32F205R">
 <wire x1="-20.32" y1="-68.58" x2="-20.32" y2="66.04" width="0.254" layer="94"/>
@@ -9907,7 +9907,7 @@ VGA to HDMI Converter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP-PSRAM">
+<deviceset name="ESP-PSRAM" prefix="IC">
 <description>Espressif ESP-PSRAM 
 Pseudo-SRAM&lt;br&gt;
 &lt;br&gt;
@@ -9924,10 +9924,10 @@ Pseudo-SRAM&lt;br&gt;
 <connect gate="IC" pin="!CE" pad="1"/>
 <connect gate="IC" pin="GND" pad="4"/>
 <connect gate="IC" pin="SCLK" pad="6"/>
-<connect gate="IC" pin="SI/SIO[0]" pad="5"/>
-<connect gate="IC" pin="SIO[2]" pad="3"/>
-<connect gate="IC" pin="SIO[3]" pad="7"/>
-<connect gate="IC" pin="SO/SIO[1]" pad="2"/>
+<connect gate="IC" pin="SI/SIO0" pad="5"/>
+<connect gate="IC" pin="SIO2" pad="3"/>
+<connect gate="IC" pin="SIO3" pad="7"/>
+<connect gate="IC" pin="SO/SIO1" pad="2"/>
 <connect gate="IC" pin="VCC" pad="8"/>
 </connects>
 <technologies>
@@ -9939,10 +9939,10 @@ Pseudo-SRAM&lt;br&gt;
 <connect gate="IC" pin="!CE" pad="1"/>
 <connect gate="IC" pin="GND" pad="4"/>
 <connect gate="IC" pin="SCLK" pad="6"/>
-<connect gate="IC" pin="SI/SIO[0]" pad="5"/>
-<connect gate="IC" pin="SIO[2]" pad="3"/>
-<connect gate="IC" pin="SIO[3]" pad="7"/>
-<connect gate="IC" pin="SO/SIO[1]" pad="2"/>
+<connect gate="IC" pin="SI/SIO0" pad="5"/>
+<connect gate="IC" pin="SIO2" pad="3"/>
+<connect gate="IC" pin="SIO3" pad="7"/>
+<connect gate="IC" pin="SO/SIO1" pad="2"/>
 <connect gate="IC" pin="VCC" pad="8"/>
 </connects>
 <technologies>
