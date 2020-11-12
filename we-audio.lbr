@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -71,25 +71,29 @@
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>Audio: Speaker, Microphone</description>
 <packages>
 <package name="CUI_CSS-0575A-SMT">
-<wire x1="-0.66" y1="2.5" x2="1.5" y2="2.5" width="0.127" layer="21"/>
 <wire x1="0.66" y1="-2.5" x2="-0.65" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="1.5" y1="2.5" x2="2.5" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="0.71" x2="-2.5" y2="-0.71" width="0.127" layer="21"/>
-<wire x1="2.5" y1="1.5" x2="2.5" y2="-0.7" width="0.127" layer="21"/>
-<wire x1="2.5" y1="1.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="2.5" x2="1.5" y2="2.5" width="0.127" layer="51"/>
-<wire x1="1.5" y1="2.5" x2="2.5" y2="1.5" width="0.127" layer="51"/>
-<smd name="+" x="-1.9" y="-1.75" dx="2.1" dy="1.7" layer="1"/>
-<smd name="-" x="1.9" y="-1.75" dx="2.1" dy="1.7" layer="1"/>
-<smd name="NC" x="-1.9" y="1.75" dx="2.1" dy="1.7" layer="1"/>
-<text x="-4.53026875" y="3.35203125" size="1.784409375" layer="25">&gt;NAME</text>
-<text x="-4.715890625" y="-4.892709375" size="1.7863" layer="27">&gt;VALUE</text>
-<text x="-4.45705" y="-2.54688125" size="1.27345" layer="21">+</text>
-<text x="3.564659375" y="-2.29156875" size="1.273090625" layer="21">-</text>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="1.5" y2="2.5" width="0.127" layer="21"/>
+<smd name="+" x="-1.9" y="-1.75" dx="2.1" dy="1.7" layer="1" roundness="10"/>
+<smd name="-" x="1.9" y="-1.75" dx="2.1" dy="1.7" layer="1" roundness="10"/>
+<smd name="NC" x="-1.9" y="1.75" dx="2.1" dy="1.7" layer="1" roundness="10"/>
+<text x="-0.8" y="-0.5" size="0.6096" layer="21" font="vector" ratio="15" align="center">+</text>
+<text x="0.8" y="-0.5" size="0.6096" layer="21" font="vector" ratio="15" align="center">-</text>
+<text x="0" y="3.175" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-3.175" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="center">&gt;VALUE</text>
+</package>
+<package name="CMA-4544PF">
+<pad name="1" x="0" y="1.27" drill="0.8" shape="octagon"/>
+<pad name="2" x="0" y="-1.27" drill="0.8" shape="octagon"/>
+<circle x="2" y="0" radius="5" width="0.127" layer="21"/>
+<text x="3.81" y="1.905" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="3.81" y="-1.905" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -105,14 +109,28 @@
 <wire x1="1.905" y1="-3.175" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<pin name="N" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="P" x="-5.08" y="2.54" visible="off" length="short" direction="pas"/>
+<pin name="N" x="-2.54" y="-2.54" visible="off" length="point" direction="pas"/>
+<pin name="P" x="-2.54" y="2.54" visible="off" length="point" direction="pas"/>
 <text x="-0.880690625" y="2.534459375" size="1.78575" layer="95" rot="R180">+</text>
 <text x="-2.15915" y="-2.413240625" size="1.778140625" layer="95">-</text>
 <wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
 <text x="3.81" y="0" size="1.778" layer="96" rot="R90" align="top-center">&gt;VALUE</text>
 <text x="-3.81" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="CONDENSER-MIRCOPHONE">
+<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="1" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<circle x="0" y="1.27" radius="2.794" width="0.254" layer="94"/>
+<rectangle x1="-3.302" y1="-1.524" x2="-2.794" y2="4.064" layer="94" rot="R180"/>
+<wire x1="0.254" y1="0" x2="0.254" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0.254" y1="1.27" x2="0.254" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="0" x2="-0.254" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="1.27" x2="-0.254" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.254" y1="1.27" x2="1.524" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="1.27" x2="-1.524" y2="1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -134,6 +152,26 @@ CUI CSS-0575A-SMT (3V, 75dB)</description>
 <attribute name="MF" value="CUI"/>
 <attribute name="MPN" value="CSS-0575A-SMT"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CMA-4544PF" prefix="MIC">
+<description>CUI CMA-4544PF-W
+Electret Condenser Microphone&lt;br&gt;
+- VDC 3V&lt;br&gt;
+- 20Hz - 20kHz&lt;br&gt;</description>
+<gates>
+<gate name="MIC" symbol="CONDENSER-MIRCOPHONE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CMA-4544PF">
+<connects>
+<connect gate="MIC" pin="1" pad="1"/>
+<connect gate="MIC" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

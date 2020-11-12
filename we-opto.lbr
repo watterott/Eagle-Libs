@@ -506,20 +506,23 @@ FCI 62684-401100AHLF -&gt; bottom contact&lt;br&gt;</description>
 <text x="1.905" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 </package>
 <package name="WS2812B">
-<circle x="0" y="0" radius="1.9" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
 <wire x1="2.5" y1="2.5" x2="2.5" y2="-1.5" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-1.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="1.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
-<smd name="1" x="-2.4" y="1.6" dx="1.8" dy="1.1" layer="1" roundness="30"/>
+<smd name="1" x="-2.4" y="1.6" dx="1.8" dy="1.1" layer="1" roundness="10"/>
 <smd name="2" x="-2.4" y="-1.6" dx="1.8" dy="1.1" layer="1" roundness="30"/>
 <smd name="3" x="2.4" y="-1.6" dx="1.8" dy="1.1" layer="1" roundness="30"/>
 <smd name="4" x="2.4" y="1.6" dx="1.8" dy="1.1" layer="1" roundness="30"/>
 <text x="0" y="0" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;Name</text>
-<text x="-2.2" y="1.5" size="0.6096" layer="21" font="vector" ratio="10">1</text>
+<text x="-1" y="1.9" size="0.4064" layer="51" font="vector" ratio="15" align="center">1</text>
 <wire x1="1.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-2.5" x2="2.5" y2="-1.5" width="0.127" layer="21"/>
+<text x="-1" y="-1.9" size="0.4064" layer="51" font="vector" ratio="15" align="center">2</text>
+<text x="1" y="-1.9" size="0.4064" layer="51" font="vector" ratio="15" align="center">3</text>
+<text x="1" y="1.9" size="0.4064" layer="51" font="vector" ratio="15" align="center">4</text>
+<circle x="0" y="0" radius="1.5" width="0.127" layer="21"/>
 </package>
 <package name="UG2864HSWEG01_BOT">
 <smd name="1" x="-10.15" y="3.75" dx="2.5" dy="0.35" layer="16" roundness="20" rot="R270"/>

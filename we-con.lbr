@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -5929,32 +5929,32 @@ Side Entry</description>
 <package name="USB-C-S">
 <description>USB C Surface Mounted&lt;br&gt;
  Hroparts TYPE-C-31-M-12 or Jing C167321 or XKB U262-161N-4BVC11</description>
-<smd name="B6" x="-1.105" y="0.75" dx="0.3" dy="1.1" layer="1" roundness="10" rot="R90"/>
-<smd name="A7" x="-1.105" y="0.25" dx="0.3" dy="1.1" layer="1" roundness="10" rot="R90"/>
-<smd name="GND" x="-1.155" y="3.25" dx="0.6" dy="1" layer="1" roundness="10" rot="R90"/>
-<smd name="VBUS" x="-1.155" y="2.45" dx="0.6" dy="1" layer="1" roundness="10" rot="R90"/>
-<smd name="B5" x="-1.105" y="1.75" dx="0.3" dy="1.1" layer="1" roundness="10" rot="R90"/>
-<smd name="A8" x="-1.105" y="1.25" dx="0.3" dy="1.1" layer="1" roundness="10" rot="R90"/>
-<smd name="B7" x="-1.105" y="-0.75" dx="0.3" dy="1.1" layer="1" roundness="10" rot="R270"/>
-<smd name="A6" x="-1.105" y="-0.25" dx="0.3" dy="1.1" layer="1" roundness="10" rot="R270"/>
-<smd name="GND2" x="-1.155" y="-3.25" dx="0.6" dy="1" layer="1" roundness="10" rot="R270"/>
-<smd name="VBUS2" x="-1.155" y="-2.45" dx="0.6" dy="1" layer="1" roundness="10" rot="R270"/>
-<smd name="B8" x="-1.105" y="-1.75" dx="0.3" dy="1.1" layer="1" roundness="10" rot="R270"/>
-<smd name="A5" x="-1.105" y="-1.25" dx="0.3" dy="1.1" layer="1" roundness="10" rot="R270"/>
+<smd name="B6" x="-1.155" y="0.75" dx="0.3" dy="1.1" layer="1" roundness="10" rot="R90"/>
+<smd name="A7" x="-1.155" y="0.25" dx="0.3" dy="1.1" layer="1" roundness="10" rot="R90"/>
+<smd name="GND" x="-1.175" y="3.25" dx="0.6" dy="1.05" layer="1" roundness="10" rot="R90"/>
+<smd name="VBUS" x="-1.175" y="2.45" dx="0.6" dy="1.05" layer="1" roundness="10" rot="R90"/>
+<smd name="B5" x="-1.155" y="1.75" dx="0.3" dy="1.1" layer="1" roundness="10" rot="R90"/>
+<smd name="A8" x="-1.155" y="1.25" dx="0.3" dy="1.1" layer="1" roundness="10" rot="R90"/>
+<smd name="B7" x="-1.155" y="-0.75" dx="0.3" dy="1.1" layer="1" roundness="10" rot="R270"/>
+<smd name="A6" x="-1.155" y="-0.25" dx="0.3" dy="1.1" layer="1" roundness="10" rot="R270"/>
+<smd name="GND2" x="-1.175" y="-3.25" dx="0.6" dy="1.05" layer="1" roundness="10" rot="R270"/>
+<smd name="VBUS2" x="-1.175" y="-2.45" dx="0.6" dy="1.05" layer="1" roundness="10" rot="R270"/>
+<smd name="B8" x="-1.155" y="-1.75" dx="0.3" dy="1.1" layer="1" roundness="10" rot="R270"/>
+<smd name="A5" x="-1.155" y="-1.25" dx="0.3" dy="1.1" layer="1" roundness="10" rot="R270"/>
 <hole x="0" y="-2.89" drill="0.65"/>
 <hole x="0" y="2.89" drill="0.65"/>
 <wire x1="6.25" y1="-4.47" x2="6.25" y2="4.47" width="0.127" layer="21"/>
 <wire x1="6.25" y1="-4.47" x2="-1.1" y2="-4.47" width="0.127" layer="21"/>
 <wire x1="-1.1" y1="-4.47" x2="-1.1" y2="4.47" width="0.127" layer="21"/>
 <wire x1="-1.1" y1="4.47" x2="6.25" y2="4.47" width="0.127" layer="21"/>
-<smd name="S@5" x="-0.53" y="-4.32" dx="1" dy="2.1" layer="1" roundness="100" rot="R270" stop="no" cream="no"/>
-<smd name="S@1" x="-0.53" y="4.32" dx="1" dy="2.1" layer="1" roundness="100" rot="R270" stop="no" cream="no"/>
-<smd name="S@6" x="-0.53" y="-4.32" dx="1" dy="2.1" layer="16" roundness="100" rot="R90" stop="no" cream="no"/>
-<smd name="S@2" x="-0.53" y="4.32" dx="1" dy="2.1" layer="16" roundness="100" rot="R90" stop="no" cream="no"/>
-<smd name="S@7" x="3.65" y="-4.32" dx="1" dy="1.6" layer="1" roundness="100" rot="R270" stop="no" cream="no"/>
-<smd name="S@8" x="3.65" y="-4.32" dx="1" dy="1.6" layer="16" roundness="100" rot="R90" stop="no" cream="no"/>
-<smd name="S@4" x="3.65" y="4.32" dx="1" dy="1.6" layer="16" roundness="100" rot="R90" stop="no" cream="no"/>
-<smd name="S@3" x="3.65" y="4.32" dx="1" dy="1.6" layer="1" roundness="100" rot="R270" stop="no" cream="no"/>
+<smd name="S@5" x="-0.53" y="-4.32" dx="1" dy="2.1" layer="1" roundness="100" rot="R270" cream="no"/>
+<smd name="S@1" x="-0.53" y="4.32" dx="1" dy="2.1" layer="1" roundness="100" rot="R270" cream="no"/>
+<smd name="S@6" x="-0.53" y="-4.32" dx="1" dy="2.1" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="S@2" x="-0.53" y="4.32" dx="1" dy="2.1" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="S@7" x="3.65" y="-4.32" dx="1" dy="1.6" layer="1" roundness="100" rot="R270" cream="no"/>
+<smd name="S@8" x="3.65" y="-4.32" dx="1" dy="1.6" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="S@4" x="3.65" y="4.32" dx="1" dy="1.6" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="S@3" x="3.65" y="4.32" dx="1" dy="1.6" layer="1" roundness="100" rot="R270" cream="no"/>
 <wire x1="3.955" y1="-4.62" x2="3.335" y2="-4.62" width="0" layer="20"/>
 <wire x1="3.955" y1="-4.02" x2="3.335" y2="-4.02" width="0" layer="20"/>
 <wire x1="3.335" y1="-4.62" x2="3.335" y2="-4.02" width="0" layer="20" curve="-180"/>
@@ -5971,7 +5971,7 @@ Side Entry</description>
 <wire x1="0.02" y1="4.62" x2="-1.08" y2="4.62" width="0" layer="20"/>
 <wire x1="0.02" y1="4.62" x2="0.02" y2="4.02" width="0" layer="20" curve="-180"/>
 <wire x1="-1.08" y1="4.02" x2="-1.08" y2="4.62" width="0" layer="20" curve="-180"/>
-<text x="2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<text x="5.08" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <wire x1="3.955" y1="4.02" x2="3.335" y2="4.02" width="0" layer="46"/>
 <wire x1="3.955" y1="4.62" x2="3.335" y2="4.62" width="0" layer="46"/>
 <wire x1="3.335" y1="4.02" x2="3.335" y2="4.62" width="0" layer="46" curve="-180"/>
@@ -5988,6 +5988,24 @@ Side Entry</description>
 <wire x1="0.02" y1="-4.02" x2="-1.08" y2="-4.02" width="0" layer="46"/>
 <wire x1="0.02" y1="-4.02" x2="0.02" y2="-4.62" width="0" layer="46" curve="-180"/>
 <wire x1="-1.08" y1="-4.62" x2="-1.08" y2="-4.02" width="0" layer="46" curve="-180"/>
+<smd name="S@9" x="3.6" y="0" dx="2" dy="1.5" layer="1" roundness="10" rot="R90" cream="no"/>
+<rectangle x1="3.1" y1="-0.5" x2="4.1" y2="0.5" layer="31"/>
+<rectangle x1="-1.3" y1="4.525" x2="0.25" y2="4.825" layer="31"/>
+<rectangle x1="-1.3" y1="3.825" x2="0.25" y2="4.125" layer="31"/>
+<rectangle x1="-1.5" y1="3.925" x2="-1.3" y2="4.725" layer="31"/>
+<rectangle x1="-1.3" y1="-4.125" x2="0.25" y2="-3.825" layer="31"/>
+<rectangle x1="-1.3" y1="-4.825" x2="0.25" y2="-4.525" layer="31"/>
+<rectangle x1="-1.5" y1="-4.725" x2="-1.3" y2="-3.925" layer="31"/>
+<rectangle x1="3.075" y1="4.525" x2="4.225" y2="4.825" layer="31"/>
+<rectangle x1="3.075" y1="3.825" x2="4.225" y2="4.125" layer="31"/>
+<rectangle x1="3.075" y1="-4.125" x2="4.225" y2="-3.825" layer="31"/>
+<rectangle x1="3.075" y1="-4.825" x2="4.225" y2="-4.525" layer="31"/>
+<rectangle x1="4.225" y1="3.975" x2="4.425" y2="4.675" layer="31"/>
+<rectangle x1="4.225" y1="-4.675" x2="4.425" y2="-3.975" layer="31"/>
+<rectangle x1="2.875" y1="-4.675" x2="3.075" y2="-3.975" layer="31"/>
+<rectangle x1="2.875" y1="3.975" x2="3.075" y2="4.675" layer="31"/>
+<rectangle x1="0.25" y1="-4.725" x2="0.45" y2="-3.925" layer="31"/>
+<rectangle x1="0.25" y1="3.9" x2="0.45" y2="4.7" layer="31"/>
 </package>
 <package name="USB-C-UP">
 <description>USB C Surface Mounted Up&lt;br&gt;
@@ -10740,7 +10758,7 @@ Up: XKB U263-241N-4BQC11-1 or Wuerth 632722110112&lt;br&gt;</description>
 <connect gate="J1" pin="D+" pad="A6 B6"/>
 <connect gate="J1" pin="D-" pad="A7 B7"/>
 <connect gate="J1" pin="GND" pad="GND GND2"/>
-<connect gate="J1" pin="SHIELD" pad="S@1 S@2 S@3 S@4 S@5 S@6 S@7 S@8"/>
+<connect gate="J1" pin="SHIELD" pad="S@1 S@2 S@3 S@4 S@5 S@6 S@7 S@8 S@9"/>
 <connect gate="J1" pin="VBUS" pad="VBUS VBUS2"/>
 </connects>
 <technologies>

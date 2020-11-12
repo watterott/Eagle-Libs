@@ -7804,12 +7804,9 @@ ESP8266 WiFi/WLAN Module</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATECC608A" prefix="IC">
-<description>Microchip ATECC508A/ATECC608A
-Crypto-Authentication Device&lt;br&gt;
-&lt;br&gt;
-ATECC508A - RNG, ECC P256 (ECDH and ECDSA), SHA256&lt;br&gt;
-ATECC608A - RNG, ECC P256 (ECDH and ECDSA), SHA256, AES-CCM&lt;br&gt;</description>
+<deviceset name="ATECC608" prefix="IC">
+<description>Microchip ATECC608
+Crypto-Authentication Device</description>
 <gates>
 <gate name="IC" symbol="ATECC608A" x="0" y="0"/>
 </gates>

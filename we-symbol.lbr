@@ -11090,7 +11090,7 @@ HW</text>
 <deviceset name="LOGO_CE" prefix="LOGO">
 <description>CE Logo</description>
 <gates>
-<gate name="G$1" symbol="LOGO_CE" x="0" y="0"/>
+<gate name="L" symbol="LOGO_CE" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-4" package="CE_4MM">
@@ -11113,7 +11113,7 @@ HW</text>
 <deviceset name="LOGO_PB" prefix="LOGO">
 <description>PB free Logo</description>
 <gates>
-<gate name="G$1" symbol="LOGO_PB" x="0" y="0"/>
+<gate name="L" symbol="LOGO_PB" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-4" package="PB_4MM">
@@ -11131,7 +11131,7 @@ HW</text>
 <deviceset name="LOGO_ROHS" prefix="LOGO">
 <description>RoHS Logo</description>
 <gates>
-<gate name="G$1" symbol="LOGO_ROHS" x="0" y="0"/>
+<gate name="L" symbol="LOGO_ROHS" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-4" package="ROHS_4MM">
@@ -11154,7 +11154,7 @@ HW</text>
 <deviceset name="LOGO_SENSEBOX" prefix="LOGO">
 <description>senseBox Logo</description>
 <gates>
-<gate name="G$1" symbol="LOGO_SENSEBOX" x="0" y="0"/>
+<gate name="L" symbol="LOGO_SENSEBOX" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-12" package="SB_12MM">
@@ -11172,7 +11172,7 @@ HW</text>
 <deviceset name="LOGO_SPARK" prefix="LOGO">
 <description>Watterott electronic Logo</description>
 <gates>
-<gate name="G$1" symbol="LOGO" x="0" y="0"/>
+<gate name="L" symbol="LOGO" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-2" package="SPARK_2MM">

@@ -339,18 +339,18 @@
 <description>N-Chn MOSFET&lt;br&gt;
 &lt;br&gt;
 &lt;u&gt;SOT23 N-Chn MOSFET&lt;/u&gt;&lt;br&gt;
-TSM3404, TSM240N03 (Vgs&amp;gt;=+/-20V, Vds&amp;lt;=30V, Id&amp;gt;=3A + Rds&amp;lt;=0.05Ohm @ Vgs=4.5V)&lt;br&gt;
-BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;lt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm @ Vgs=4.5V)&lt;br&gt;
+TSM3404, TSM240N03 (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=30V, Id&amp;gt;=3A + Rds&amp;lt;=0.05Ohm @ Vgs=4.5V)&lt;br&gt;
+BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm @ Vgs=4.5V)&lt;br&gt;
 &lt;br&gt;
 &lt;u&gt;SOT223 Low Side Switch with Protection (Infineon)&lt;/u&gt;&lt;br&gt;
-BSP76 (Vin=0...10V, Vds&amp;lt;=42V, Id=1.4A + Rds=0.2Ohm @ Vin=5V)&lt;br&gt;
-BSP77 (Vin=0...10V, Vds&amp;lt;=42V, Id=2.2A + Rds=0.1Ohm @ Vin=5V)&lt;br&gt;
+BSP76 (Vin=0...10V, Vds=42V, Id=1.4A + Rds=0.2Ohm @ Vin=5V)&lt;br&gt;
+BSP77 (Vin=0...10V, Vds=42V, Id=2.2A + Rds=0.1Ohm @ Vin=5V)&lt;br&gt;
 &lt;br&gt;
 &lt;u&gt;D²Pak Low Side Switch with Protection (Infineon)&lt;/u&gt;&lt;br&gt;
-BTS117TC (Vin=0...10V, Vds&amp;lt;=60V, Id=3.5A + Rds=0.12Ohm @ Vin=5V)&lt;br&gt;
-BTS133TC (Vin=0...10V, Vds&amp;lt;=60V, Id=7A + Rds=0.06Ohm @ Vin=5V)&lt;br&gt;
-BTS141TC (Vin=0...10V, Vds&amp;lt;=60V, Id=12A + Rds=0.03Ohm @ Vin=5V)&lt;br&gt;
-BTS3018TC (Vin=0...10V, Vds&amp;lt;=60V, Id=6A + Rds=0.02Ohm @ Vin=5V)&lt;br&gt;</description>
+BTS117TC (Vin=0...10V, Vds=60V, Id=3.5A + Rds=0.12Ohm @ Vin=5V)&lt;br&gt;
+BTS133TC (Vin=0...10V, Vds=60V, Id=7A + Rds=0.06Ohm @ Vin=5V)&lt;br&gt;
+BTS141TC (Vin=0...10V, Vds=60V, Id=12A + Rds=0.03Ohm @ Vin=5V)&lt;br&gt;
+BTS3018TC (Vin=0...10V, Vds=60V, Id=6A + Rds=0.02Ohm @ Vin=5V)&lt;br&gt;</description>
 <gates>
 <gate name="T" symbol="MOSFET_N-CHN" x="0" y="0"/>
 </gates>
